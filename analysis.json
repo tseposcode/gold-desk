@@ -1,0 +1,171 @@
+{
+  "updated": "2026-11-05T07:00:00Z",
+  "asof": "2026-11-05T07:00:00Z",
+  "price": 4135,
+  "bias": {
+    "direction": "up",
+    "label": "Leaning up above 4,075"
+  },
+  "event": "US jobs report Fri 6 Nov, 15:30 SAST",
+  "bullets": [
+    {
+      "title": "Dollar weak",
+      "text": "DXY near 101.3, a one-month low after Democrats won Congress. A weaker dollar helps gold."
+    },
+    {
+      "title": "Yields eased",
+      "text": "after the vote (10-year about 4.88%), which lowers the cost of holding gold."
+    },
+    {
+      "title": "Headwind",
+      "text": "markets price about 80% odds of a Fed hike on 8-9 Dec. That caps rallies."
+    },
+    {
+      "title": "Big buyers",
+      "text": "central banks bought 321 t in Q3 (+42% y/y); gold ETFs at record holdings."
+    },
+    {
+      "title": "Oil fell ~9%",
+      "text": "on US-Iran deal hopes, which cools inflation fears."
+    },
+    {
+      "title": "Price",
+      "text": "biggest one-day jump since August on Wed (+3.5%), now at the highest since 22 Oct, testing 4,146."
+    },
+    {
+      "title": "Friday payrolls",
+      "text": "decides it: strong jobs = dollar up, gold toward 4,000. Weak jobs = gold toward 4,225."
+    }
+  ],
+  "levels": [
+    {
+      "price": "4,225",
+      "type": "resistance",
+      "note": "Bull target / top of 4,187-4,227 resistance zone"
+    },
+    {
+      "price": "4,212",
+      "type": "resistance",
+      "note": "Resistance (FXEmpire)"
+    },
+    {
+      "price": "4,187",
+      "type": "resistance",
+      "note": "Bottom of the main resistance zone"
+    },
+    {
+      "price": "4,146",
+      "type": "resistance",
+      "note": "Immediate resistance, rejected on the 4H today"
+    },
+    {
+      "price": "~4,135",
+      "type": "now",
+      "note": "Price this morning"
+    },
+    {
+      "price": "4,104-4,115",
+      "type": "support",
+      "note": "Old resistance, now first support (breakout retest)"
+    },
+    {
+      "price": "4,075",
+      "type": "support",
+      "note": "Key support. A 4H close below it cancels the bullish view"
+    },
+    {
+      "price": "4,000-4,019",
+      "type": "support",
+      "note": "Round number and Wed pivot. Bear target"
+    },
+    {
+      "price": "3,921",
+      "type": "support",
+      "note": "Tuesday low (UNVERIFIED, from a headline only)"
+    }
+  ],
+  "buy": {
+    "title": "Buy plan: with the trend",
+    "entry": 4110,
+    "stop": 4068,
+    "target": 4225,
+    "keys": [
+      {
+        "label": "Buy zone",
+        "value": "4,104-4,115 retest, or 4,075 hold"
+      },
+      {
+        "label": "Stop",
+        "value": "Below 4,068 (under 4,075 support)"
+      },
+      {
+        "label": "Targets",
+        "value": "4,146, then 4,187, then 4,225"
+      },
+      {
+        "label": "Cancelled if",
+        "value": "4H candle closes below 4,075"
+      }
+    ],
+    "look": [
+      "Price pulls back into 4,104-4,115 instead of you chasing at 4,140+.",
+      "A sweep below a session low (Asia or London) that closes back above it on the 15M: your reclaim candle.",
+      "A 1H higher low at the retest, so buyers are still in control.",
+      "DXY staying weak (under about 101.5).",
+      "A clean 4H close above 4,146 opens 4,187."
+    ],
+    "watch": [
+      "Friday 15:30 SAST jobs report. A strong number lifts the dollar and can drop gold fast toward 4,000.",
+      "Fed hike bets climbing above today's ~80%.",
+      "Buying into 4,146-4,187 resistance: poor reward for the risk.",
+      "Moving your stop lower when it gets close. That is how a small loss becomes a big one."
+    ]
+  },
+  "sell": {
+    "title": "Sell plan: against the trend",
+    "entry": 4185,
+    "stop": 4232,
+    "target": 4075,
+    "keys": [
+      {
+        "label": "Sell zone",
+        "value": "Rejection at 4,146, or at 4,187-4,227"
+      },
+      {
+        "label": "Stop",
+        "value": "Above 4,232 (over the resistance zone)"
+      },
+      {
+        "label": "Targets",
+        "value": "4,115, then 4,075, then 4,000"
+      },
+      {
+        "label": "Cancelled if",
+        "value": "4H candle closes above 4,227"
+      }
+    ],
+    "look": [
+      "A sweep above a session high that closes back below it on the 15M.",
+      "A 1H lower high at resistance.",
+      "DXY bouncing back above 101.9 (its pre-election level).",
+      "A strong jobs report on Friday (above the 65k forecast).",
+      "A 4H close back below 4,075, which flips the picture bearish."
+    ],
+    "watch": [
+      "This sells against the weak dollar and central-bank buying, so treat it as a counter-trend trade. Consider half size.",
+      "Selling in the middle of the range near 4,135, with no level to lean on.",
+      "A weak jobs report, which can spike gold through 4,187 toward 4,225.",
+      "Shorting just because price is 'too high'. Wait for the rejection candle."
+    ]
+  },
+  "sources": [
+    {
+      "name": "FinanceFeeds",
+      "url": "https://financefeeds.com/gold-price-today-4135-thursday-before-6-november-jobs-report-dollar-near-one-month-low-bull-4225-bear-4000/"
+    },
+    {
+      "name": "FXEmpire",
+      "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-can-gold-clear-4146-ahead-of-us-payrolls-1642640"
+    }
+  ]
+}
