@@ -1,52 +1,52 @@
 {
-  "updated": "2026-11-05T07:00:00Z",
-  "asof": "2026-11-05T07:00:00Z",
-  "price": 4135,
+  "updated": "2026-11-05T12:07:59Z",
+  "asof": "2026-11-05T08:10:00Z",
+  "price": 4128,
   "bias": {
     "direction": "up",
     "label": "Leaning up above 4,075"
   },
-  "event": "US jobs report Fri 6 Nov, 15:30 SAST",
+  "event": "US jobless claims today 15:30 SAST; US jobs report Fri 15:30 SAST",
   "bullets": [
     {
-      "title": "Dollar weak",
-      "text": "DXY near 101.3, a one-month low after Democrats won Congress. A weaker dollar helps gold."
+      "title": "Holding gains",
+      "text": "Gold is near 4,128, keeping most of Wednesday's 3%+ jump, but it has not broken 4,146 yet."
     },
     {
-      "title": "Yields eased",
-      "text": "after the vote (10-year about 4.88%), which lowers the cost of holding gold."
+      "title": "Dollar weak",
+      "text": "DXY is near 101.3, a one-month low after Democrats won Congress. A weaker dollar helps gold."
     },
     {
       "title": "Headwind",
-      "text": "markets price about 80% odds of a Fed hike on 8-9 Dec. That caps rallies."
+      "text": "Markets still price roughly 70-80% odds of a Fed hike on 9 Dec (sources differ). That caps rallies."
+    },
+    {
+      "title": "Oil drop",
+      "text": "Oil fell about 8-9% on US-Iran peace hopes, which cools inflation fears."
     },
     {
       "title": "Big buyers",
-      "text": "central banks bought 321 t in Q3 (+42% y/y); gold ETFs at record holdings."
+      "text": "Central banks bought 321 t in Q3 (+42% y/y), and gold ETFs hold a record amount."
     },
     {
-      "title": "Oil fell ~9%",
-      "text": "on US-Iran deal hopes, which cools inflation fears."
+      "title": "BoE today",
+      "text": "The Bank of England decides at 14:00 SAST; a hike to 4.00% was expected (result not checked, UNVERIFIED)."
     },
     {
-      "title": "Price",
-      "text": "biggest one-day jump since August on Wed (+3.5%), now at the highest since 22 Oct, testing 4,146."
-    },
-    {
-      "title": "Friday payrolls",
-      "text": "decides it: strong jobs = dollar up, gold toward 4,000. Weak jobs = gold toward 4,225."
+      "title": "Data next",
+      "text": "US jobless claims at 15:30 SAST today, then Friday's jobs report: strong numbers lift the dollar and can pull gold toward 4,000."
     }
   ],
   "levels": [
     {
       "price": "4,225",
       "type": "resistance",
-      "note": "Bull target / top of 4,187-4,227 resistance zone"
+      "note": "Top of the 4,187-4,227 resistance zone, bull target"
     },
     {
-      "price": "4,212",
+      "price": "4,202",
       "type": "resistance",
-      "note": "Resistance (FXEmpire)"
+      "note": "Resistance (LiteFinance)"
     },
     {
       "price": "4,187",
@@ -54,34 +54,34 @@
       "note": "Bottom of the main resistance zone"
     },
     {
-      "price": "4,146",
+      "price": "4,146-4,157",
       "type": "resistance",
-      "note": "Immediate resistance, rejected on the 4H today"
+      "note": "Immediate resistance, rejected on the 4H this morning"
     },
     {
-      "price": "~4,135",
+      "price": "~4,128",
       "type": "now",
-      "note": "Price this morning"
+      "note": "Latest price (10:10 SAST)"
     },
     {
       "price": "4,104-4,115",
       "type": "support",
-      "note": "Old resistance, now first support (breakout retest)"
+      "note": "First support, old resistance (breakout retest)"
     },
     {
-      "price": "4,075",
+      "price": "4,068-4,075",
       "type": "support",
-      "note": "Key support. A 4H close below it cancels the bullish view"
+      "note": "Key support. A 4H close below 4,075 cancels the bullish view"
     },
     {
-      "price": "4,000-4,019",
+      "price": "4,000-4,008",
       "type": "support",
-      "note": "Round number and Wed pivot. Bear target"
+      "note": "Round number, bear target"
     },
     {
-      "price": "3,921",
+      "price": "3,975",
       "type": "support",
-      "note": "Tuesday low (UNVERIFIED, from a headline only)"
+      "note": "Deeper support (Kitco)"
     }
   ],
   "buy": {
@@ -115,7 +115,7 @@
       "A clean 4H close above 4,146 opens 4,187."
     ],
     "watch": [
-      "Friday 15:30 SAST jobs report. A strong number lifts the dollar and can drop gold fast toward 4,000.",
+      "US jobless claims today 15:30 SAST and the jobs report Fri 15:30 SAST. Strong numbers lift the dollar and can drop gold fast toward 4,000.",
       "Fed hike bets climbing above today's ~80%.",
       "Buying into 4,146-4,187 resistance: poor reward for the risk.",
       "Moving your stop lower when it gets close. That is how a small loss becomes a big one."
@@ -148,24 +148,32 @@
       "A sweep above a session high that closes back below it on the 15M.",
       "A 1H lower high at resistance.",
       "DXY bouncing back above 101.9 (its pre-election level).",
-      "A strong jobs report on Friday (above the 65k forecast).",
+      "Strong US jobless claims today or a strong jobs report Friday (above the 65k forecast).",
       "A 4H close back below 4,075, which flips the picture bearish."
     ],
     "watch": [
       "This sells against the weak dollar and central-bank buying, so treat it as a counter-trend trade. Consider half size.",
-      "Selling in the middle of the range near 4,135, with no level to lean on.",
+      "Selling in the middle of the range near 4,128, with no level to lean on.",
       "A weak jobs report, which can spike gold through 4,187 toward 4,225.",
       "Shorting just because price is 'too high'. Wait for the rejection candle."
     ]
   },
   "sources": [
     {
-      "name": "FinanceFeeds",
-      "url": "https://financefeeds.com/gold-price-today-4135-thursday-before-6-november-jobs-report-dollar-near-one-month-low-bull-4225-bear-4000/"
+      "name": "1Trader",
+      "url": "https://1trader.com/en/gold-price-2026-11-05/"
     },
     {
       "name": "FXEmpire",
-      "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-can-gold-clear-4146-ahead-of-us-payrolls-1642640"
+      "url": "https://www.fxempire.com/commodities/gold"
+    },
+    {
+      "name": "LiteFinance",
+      "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/"
+    },
+    {
+      "name": "FinanceFeeds",
+      "url": "https://financefeeds.com/gold-price-today-4135-thursday-before-6-november-jobs-report-dollar-near-one-month-low-bull-4225-bear-4000/"
     }
   ]
 }
