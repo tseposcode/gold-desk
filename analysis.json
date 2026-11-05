@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-05T17:36:00Z",
+  "updated": "2026-11-05T21:40:00Z",
   "asof": "2026-11-05T17:35:00Z",
   "price": 4121,
   "bias": {
     "direction": "up",
     "label": "Leaning up above 4,075"
   },
-  "event": "US jobs report Fri 6 Nov 15:30 SAST (65k expected, UNVERIFIED this run)",
+  "event": "US jobs report Fri 6 Nov 15:30 SAST (65k expected, unemployment 4.2%)",
   "bullets": [
     {
       "title": "Holding gains",
-      "text": "Gold is near 4,121 this evening (USAGOLD report), still under the 4,135-4,146 resistance it has not broken."
+      "text": "Gold was last seen near 4,121 this evening (USAGOLD), after a high of 4,146.63, its best since 20 October; no later USD quote found (UNVERIFIED)."
     },
     {
       "title": "Dollar weak",
@@ -26,7 +26,7 @@
     },
     {
       "title": "Hike risk",
-      "text": "Markets were pricing roughly 77-85% odds of a December Fed hike earlier this week; no fresh figure found today (UNVERIFIED)."
+      "text": "CME FedWatch shows about 79-82% odds of a December Fed hike (meeting 8-9 Dec), which caps how far gold can run."
     },
     {
       "title": "BoE hiked",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Friday's test",
-      "text": "The jobs report is Friday 15:30 SAST. After strong claims and ADP, a beat could pull gold back toward 4,075 or 4,000."
+      "text": "The jobs report is Friday 15:30 SAST, expected 65k after 29k, with unemployment at 4.2%; a beat could pull gold back toward 4,075 or 4,000."
     }
   ],
   "levels": [
@@ -61,7 +61,7 @@
     {
       "price": "~4,121",
       "type": "now",
-      "note": "Latest price found (USAGOLD, evening; exact quote time UNVERIFIED)"
+      "note": "Latest USD price found (USAGOLD, evening 5 Nov; exact quote time UNVERIFIED)"
     },
     {
       "price": "4,104-4,115",
@@ -116,7 +116,7 @@
     ],
     "watch": [
       "Friday's jobs report at 15:30 SAST. Claims and ADP were strong today, so a beat can lift the dollar and drop gold fast.",
-      "Fed hike bets rising; the latest odds were not confirmed today.",
+      "Fed December hike odds near 80%. A strong jobs number can push them higher.",
       "Buying into 4,146-4,187 resistance: poor reward for the risk.",
       "Moving your stop lower when it gets close. That is how a small loss becomes a big one."
     ]
@@ -168,20 +168,24 @@
       "url": "https://www.actionforex.com/live-comments/659958-us-jobless-claims-fall-to-189k-as-layoffs-stay-subdued-but-continuing-claims-edge-higher/"
     },
     {
-      "name": "Mitrade",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/democrats-sweep-congress-gold-above-4000"
-    },
-    {
-      "name": "RoboForex",
-      "url": "https://roboforex.com/beginners/analytics/forex-forecast/gold/xau-usd-gold-forecast-2026-11-05/"
-    },
-    {
       "name": "LiteFinance",
       "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/"
     },
     {
-      "name": "Forex Fundamentals (BoE)",
-      "url": "https://forexfundamentals.com/economic-calendar/boe/2026-11-05"
+      "name": "FinanceFeeds (5 Nov)",
+      "url": "https://financefeeds.com/gold-price-today-4135-thursday-before-6-november-jobs-report-dollar-near-one-month-low-bull-4225-bear-4000/"
+    },
+    {
+      "name": "Rallies (Reuters wire)",
+      "url": "https://rallies.ai/news/gold-at-over-two-week-high-as-dollar-yields-weaken-us-payrolls-data-awaited-bf90a18dcf60aed1"
+    },
+    {
+      "name": "1Trader (5 Nov)",
+      "url": "https://1trader.com/en/gold-price-2026-11-05/"
+    },
+    {
+      "name": "RoboForex",
+      "url": "https://roboforex.com/beginners/analytics/forex-forecast/gold/xau-usd-gold-forecast-2026-11-05/"
     }
   ]
 }
