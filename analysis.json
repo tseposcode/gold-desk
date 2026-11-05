@@ -1,40 +1,40 @@
 {
-  "updated": "2026-11-05T12:07:59Z",
-  "asof": "2026-11-05T08:10:00Z",
-  "price": 4128,
+  "updated": "2026-11-05T13:34:58Z",
+  "asof": "2026-11-05T10:15:00Z",
+  "price": 4125,
   "bias": {
     "direction": "up",
     "label": "Leaning up above 4,075"
   },
-  "event": "US jobless claims today 15:30 SAST; US jobs report Fri 15:30 SAST",
+  "event": "US jobs report Fri 6 Nov 15:30 SAST (65k expected vs 29k)",
   "bullets": [
     {
       "title": "Holding gains",
-      "text": "Gold is near 4,128, keeping most of Wednesday's 3%+ jump, but it has not broken 4,146 yet."
+      "text": "Gold is near 4,125, a two-week high, keeping most of Wednesday's 3%+ jump, but it has not broken 4,135-4,146 yet."
     },
     {
       "title": "Dollar weak",
-      "text": "DXY is near 101.3, a one-month low after Democrats won Congress. A weaker dollar helps gold."
+      "text": "DXY is near 101.3 and the US 10-year yield near 4.87% after Democrats won Congress. That helps gold."
     },
     {
       "title": "Headwind",
-      "text": "Markets still price roughly 70-80% odds of a Fed hike on 9 Dec (sources differ). That caps rallies."
+      "text": "Markets still price about 79-82% odds of a Fed hike in December (sources differ). That caps rallies."
     },
     {
-      "title": "Oil drop",
-      "text": "Oil fell about 8-9% on US-Iran peace hopes, which cools inflation fears."
+      "title": "BoE hiked",
+      "text": "The Bank of England raised rates to 4.00% at 14:00 SAST, as expected; gold showed no big reaction in the reports found."
     },
     {
-      "title": "Big buyers",
-      "text": "Central banks bought 321 t in Q3 (+42% y/y), and gold ETFs hold a record amount."
+      "title": "Oil steadier",
+      "text": "Brent is near $94-95 after Wednesday's ~9% drop on US-Iran peace hopes, so the inflation relief has paused."
     },
     {
-      "title": "BoE today",
-      "text": "The Bank of England decides at 14:00 SAST; a hike to 4.00% was expected (result not checked, UNVERIFIED)."
+      "title": "Claims unknown",
+      "text": "US jobless claims came out at 15:30 SAST today; the result was not in any source found (UNVERIFIED)."
     },
     {
-      "title": "Data next",
-      "text": "US jobless claims at 15:30 SAST today, then Friday's jobs report: strong numbers lift the dollar and can pull gold toward 4,000."
+      "title": "Friday's test",
+      "text": "The jobs report is Friday 15:30 SAST: 65k jobs and 4.2% unemployment expected. Strong numbers can pull gold toward 4,000."
     }
   ],
   "levels": [
@@ -54,14 +54,14 @@
       "note": "Bottom of the main resistance zone"
     },
     {
-      "price": "4,146-4,157",
+      "price": "4,135-4,157",
       "type": "resistance",
-      "note": "Immediate resistance, rejected on the 4H this morning"
+      "note": "Immediate resistance; a break above 4,135 opens 4,230 (RoboForex)"
     },
     {
-      "price": "~4,128",
+      "price": "~4,125",
       "type": "now",
-      "note": "Latest price (10:10 SAST)"
+      "note": "Latest price found (about 12:15 SAST)"
     },
     {
       "price": "4,104-4,115",
@@ -111,12 +111,12 @@
       "Price pulls back into 4,104-4,115 instead of you chasing at 4,140+.",
       "A sweep below a session low (Asia or London) that closes back above it on the 15M: your reclaim candle.",
       "A 1H higher low at the retest, so buyers are still in control.",
-      "DXY staying weak (under about 101.5).",
+      "DXY staying weak (under about 101.5) and yields under 4.9%.",
       "A clean 4H close above 4,146 opens 4,187."
     ],
     "watch": [
-      "US jobless claims today 15:30 SAST and the jobs report Fri 15:30 SAST. Strong numbers lift the dollar and can drop gold fast toward 4,000.",
-      "Fed hike bets climbing above today's ~80%.",
+      "Friday's jobs report at 15:30 SAST. A strong number lifts the dollar and can drop gold fast toward 4,000.",
+      "Fed hike bets climbing above today's ~79-82%.",
       "Buying into 4,146-4,187 resistance: poor reward for the risk.",
       "Moving your stop lower when it gets close. That is how a small loss becomes a big one."
     ]
@@ -148,7 +148,7 @@
       "A sweep above a session high that closes back below it on the 15M.",
       "A 1H lower high at resistance.",
       "DXY bouncing back above 101.9 (its pre-election level).",
-      "Strong US jobless claims today or a strong jobs report Friday (above the 65k forecast).",
+      "A strong jobs report Friday (above the 65k forecast).",
       "A 4H close back below 4,075, which flips the picture bearish."
     ],
     "watch": [
@@ -160,20 +160,32 @@
   },
   "sources": [
     {
-      "name": "1Trader",
-      "url": "https://1trader.com/en/gold-price-2026-11-05/"
-    },
-    {
       "name": "FXEmpire",
       "url": "https://www.fxempire.com/commodities/gold"
     },
     {
-      "name": "LiteFinance",
-      "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/"
+      "name": "RoboForex",
+      "url": "https://roboforex.com/beginners/analytics/forex-forecast/gold/xau-usd-gold-forecast-2026-11-05/"
     },
     {
-      "name": "FinanceFeeds",
-      "url": "https://financefeeds.com/gold-price-today-4135-thursday-before-6-november-jobs-report-dollar-near-one-month-low-bull-4225-bear-4000/"
+      "name": "1Trader",
+      "url": "https://1trader.com/en/gold-price-2026-11-05/"
+    },
+    {
+      "name": "Pantheon Group",
+      "url": "https://www.pantheregroup.com/2026/11/05/gold-extends-gains-to-two-week-high/"
+    },
+    {
+      "name": "Discovery Alert",
+      "url": "https://discoveryalert.com/news/gold-price-dollar-yields-fed-hike-november-2026/"
+    },
+    {
+      "name": "Goodreturns",
+      "url": "https://goodreturns.in/news/gold-rates-silver-rates-today-5-11-2026-live-spot-gold-mcx-gold-silver-price-24k-22k-18k-gold-prices-1545383.html"
+    },
+    {
+      "name": "Forex Fundamentals (BoE)",
+      "url": "https://forexfundamentals.com/economic-calendar/boe/2026-11-05"
     }
   ]
 }
