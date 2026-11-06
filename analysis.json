@@ -1,77 +1,73 @@
 {
-  "updated": "2026-11-05T21:40:00Z",
-  "asof": "2026-11-05T17:35:00Z",
-  "price": 4121,
+  "updated": "2026-11-06T01:50:00Z",
+  "asof": "2026-11-06T01:30:00Z",
+  "price": 4085,
   "bias": {
-    "direction": "up",
-    "label": "Leaning up above 4,075"
+    "direction": "neutral",
+    "label": "Neutral on 4,075 support before jobs data"
   },
   "event": "US jobs report Fri 6 Nov 15:30 SAST (65k expected, unemployment 4.2%)",
   "bullets": [
     {
-      "title": "Holding gains",
-      "text": "Gold was last seen near 4,121 this evening (USAGOLD), after a high of 4,146.63, its best since 20 October; no later USD quote found (UNVERIFIED)."
+      "title": "Gave back gains",
+      "text": "Gold is near 4,081-4,088 in early Friday trade (Trading Economics), down from Thursday's high near 4,147; exact quote time UNVERIFIED."
     },
     {
-      "title": "Dollar weak",
-      "text": "The dollar kept sliding after Democrats won Congress, and the US 10-year yield is near 4.88%, its lowest in about two months."
+      "title": "Lost 4,100",
+      "text": "Spot gold slipped back under the 4,100 round number on Thursday afternoon, and Thursday's low was about 4,057."
     },
     {
-      "title": "Claims strong",
-      "text": "US jobless claims fell to 189k against 197k expected (15:30 SAST), a firm jobs sign that can support the dollar."
-    },
-    {
-      "title": "Mixed data",
-      "text": "ADP private jobs rose 86k (67k expected) while ISM services slipped to 54.5 (54.8 expected)."
+      "title": "Dollar still soft",
+      "text": "The dollar index is near 101.6, close to a one-month low, and the US 10-year yield is about 4.84%."
     },
     {
       "title": "Hike risk",
-      "text": "CME FedWatch shows about 79-82% odds of a December Fed hike (meeting 8-9 Dec), which caps how far gold can run."
+      "text": "CME FedWatch shows about 80% odds of a December Fed hike, which caps how far gold can run."
     },
     {
-      "title": "BoE hiked",
-      "text": "The Bank of England raised rates to 4.00% at 14:00 SAST, as expected, with no big gold reaction reported."
+      "title": "Risk-off selling",
+      "text": "A global stock selloff led some traders to sell gold for cash, though gold is still on track for a weekly gain of over 5%."
     },
     {
       "title": "Friday's test",
-      "text": "The jobs report is Friday 15:30 SAST, expected 65k after 29k, with unemployment at 4.2%; a beat could pull gold back toward 4,075 or 4,000."
+      "text": "The jobs report is today at 15:30 SAST, expected 65k with unemployment at 4.2%; a beat can push gold through 4,075 toward 4,000."
     }
   ],
   "levels": [
-    {
-      "price": "4,225",
-      "type": "resistance",
-      "note": "Top of the 4,187-4,227 resistance zone, bull target"
-    },
     {
       "price": "4,202",
       "type": "resistance",
       "note": "Resistance (LiteFinance)"
     },
     {
-      "price": "4,187",
+      "price": "4,157",
       "type": "resistance",
-      "note": "Bottom of the main resistance zone"
+      "note": "Resistance (LiteFinance)"
     },
     {
-      "price": "4,135-4,157",
+      "price": "4,135-4,147",
       "type": "resistance",
-      "note": "Immediate resistance; a break above 4,135 opens 4,230 (RoboForex)"
+      "note": "Thursday's high zone, best since 20 October"
     },
     {
-      "price": "~4,121",
+      "price": "4,100",
+      "type": "resistance",
+      "note": "Round number lost on Thursday afternoon"
+    },
+    {
+      "price": "~4,085",
       "type": "now",
-      "note": "Latest USD price found (USAGOLD, evening 5 Nov; exact quote time UNVERIFIED)"
-    },
-    {
-      "price": "4,104-4,115",
-      "type": "support",
-      "note": "First support, old resistance (breakout retest)"
+      "note": "Latest price found (Trading Economics, 6 Nov; exact time UNVERIFIED)"
     },
     {
       "price": "4,068-4,075",
       "type": "support",
-      "note": "Key support. A 4H close below 4,075 cancels the bullish view"
+      "note": "Key support. A 4H close below 4,075 turns the picture bearish"
+    },
+    {
+      "price": "4,057",
+      "type": "support",
+      "note": "Thursday's low, support (LiteFinance)"
     },
     {
       "price": "4,000-4,008",
@@ -79,113 +75,109 @@
       "note": "Round number, bear target"
     },
     {
-      "price": "3,975",
+      "price": "3,951",
       "type": "support",
-      "note": "Deeper support (Kitco)"
+      "note": "Deeper support (LiteFinance)"
     }
   ],
   "buy": {
-    "title": "Buy plan: with the trend",
-    "entry": 4110,
-    "stop": 4068,
-    "target": 4225,
+    "title": "Buy plan: with the bigger trend",
+    "entry": 4078,
+    "stop": 4050,
+    "target": 4146,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "4,104-4,115 retest, or 4,075 hold"
+        "value": "4,068-4,080 hold, after a reclaim"
       },
       {
         "label": "Stop",
-        "value": "Below 4,068 (under 4,075 support)"
+        "value": "Below 4,050 (under Thursday's 4,057 low)"
       },
       {
         "label": "Targets",
-        "value": "4,146, then 4,187, then 4,225"
+        "value": "4,100, then 4,135-4,146"
       },
       {
         "label": "Cancelled if",
-        "value": "4H candle closes below 4,075"
+        "value": "4H candle closes below 4,057"
       }
     ],
     "look": [
-      "Price pulls back into 4,104-4,115 instead of you chasing at 4,140+.",
-      "A sweep below a session low (Asia or London) that closes back above it on the 15M: your reclaim candle.",
-      "A 1H higher low at the retest, so buyers are still in control.",
-      "DXY staying weak (under about 101.5) and yields under 4.9%.",
-      "A clean 4H close above 4,146 opens 4,187."
+      "A sweep below the Asia or London low that closes back above 4,068 on the 15M: your reclaim candle.",
+      "A 1H higher low above 4,068, so buyers are still defending support.",
+      "A clean 1H close back above 4,100.",
+      "DXY staying near or under 101.6 and the 10-year yield under 4.9%.",
+      "Waiting until after 15:30 SAST if you are not already in, so the jobs data does not decide your trade."
     ],
     "watch": [
-      "Friday's jobs report at 15:30 SAST. Claims and ADP were strong today, so a beat can lift the dollar and drop gold fast.",
+      "The jobs report at 15:30 SAST. A strong number can lift the dollar and break 4,057 fast.",
       "Fed December hike odds near 80%. A strong jobs number can push them higher.",
-      "Buying into 4,146-4,187 resistance: poor reward for the risk.",
+      "Buying just because price is 'cheap' after the drop. Wait for the reclaim candle.",
       "Moving your stop lower when it gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: against the trend",
-    "entry": 4185,
-    "stop": 4232,
+    "title": "Sell plan: counter-trend",
+    "entry": 4135,
+    "stop": 4162,
     "target": 4075,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 4,146, or at 4,187-4,227"
+        "value": "Rejection at 4,135-4,147"
       },
       {
         "label": "Stop",
-        "value": "Above 4,232 (over the resistance zone)"
+        "value": "Above 4,162 (over 4,157 resistance)"
       },
       {
         "label": "Targets",
-        "value": "4,115, then 4,075, then 4,000"
+        "value": "4,100, then 4,075, then 4,057"
       },
       {
         "label": "Cancelled if",
-        "value": "4H candle closes above 4,227"
+        "value": "4H candle closes above 4,157"
       }
     ],
     "look": [
-      "A sweep above a session high that closes back below it on the 15M.",
-      "A 1H lower high at resistance.",
-      "DXY bouncing back above 101.9 (its pre-election level).",
-      "A strong jobs report Friday, following today's strong claims (189k) and ADP (86k).",
-      "A 4H close back below 4,075, which flips the picture bearish."
+      "A sweep above a session high near 4,135-4,147 that closes back below it on the 15M.",
+      "A 1H lower high under Thursday's 4,147 high.",
+      "DXY bouncing back above 101.9.",
+      "A strong jobs report at 15:30 SAST.",
+      "A 4H close below 4,068 adds weight to the sell side, with 4,000 next."
     ],
     "watch": [
-      "This sells against the weak dollar and central-bank buying, so treat it as a counter-trend trade. Consider half size.",
-      "Selling in the middle of the range near 4,128, with no level to lean on.",
-      "A weak jobs report, which can spike gold through 4,187 toward 4,225.",
-      "Shorting just because price is 'too high'. Wait for the rejection candle."
+      "This sells against the bigger uptrend and a weekly gain of over 5%, so treat it as counter-trend. Consider half size.",
+      "Selling in the middle near 4,085-4,100, with no level to lean on.",
+      "A weak jobs report, which can spike gold through 4,147 toward 4,200.",
+      "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
+    {
+      "name": "Trading Economics (gold, 6 Nov)",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "name": "PANews (gold below 4,100, 5 Nov)",
+      "url": "https://panews.io/articles/01a1ac2b-9b45-725b-a82e-ea335e54ba4e"
+    },
+    {
+      "name": "MetalCharts (24h range)",
+      "url": "https://metalcharts.org/gold-price"
+    },
+    {
+      "name": "LiteFinance (6 Nov levels)",
+      "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/"
+    },
     {
       "name": "USAGOLD (5 Nov report)",
       "url": "https://www.usagold.com/daily-precious-metals-market-report-november-5-2026/"
     },
     {
-      "name": "ActionForex (jobless claims)",
-      "url": "https://www.actionforex.com/live-comments/659958-us-jobless-claims-fall-to-189k-as-layoffs-stay-subdued-but-continuing-claims-edge-higher/"
-    },
-    {
-      "name": "LiteFinance",
-      "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/"
-    },
-    {
-      "name": "FinanceFeeds (5 Nov)",
-      "url": "https://financefeeds.com/gold-price-today-4135-thursday-before-6-november-jobs-report-dollar-near-one-month-low-bull-4225-bear-4000/"
-    },
-    {
-      "name": "Rallies (Reuters wire)",
-      "url": "https://rallies.ai/news/gold-at-over-two-week-high-as-dollar-yields-weaken-us-payrolls-data-awaited-bf90a18dcf60aed1"
-    },
-    {
-      "name": "1Trader (5 Nov)",
-      "url": "https://1trader.com/en/gold-price-2026-11-05/"
-    },
-    {
-      "name": "RoboForex",
-      "url": "https://roboforex.com/beginners/analytics/forex-forecast/gold/xau-usd-gold-forecast-2026-11-05/"
+      "name": "Forexuro (week outlook, payrolls date)",
+      "url": "https://forexuro.com/forecasts/xauusd-week-2-november-2026"
     }
   ]
 }
