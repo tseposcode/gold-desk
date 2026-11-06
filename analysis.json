@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-06T17:45:00Z",
-  "asof": "2026-11-06T13:46:00Z",
-  "price": 4047,
+  "updated": "2026-11-06T21:40:00Z",
+  "asof": "2026-11-06T19:59:00Z",
+  "price": 4063,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 4,088 after strong jobs data"
+    "label": "Leaning down below 4,088 into the weekend"
   },
-  "event": "US October CPI, Tue 10 Nov 15:30 SAST. Market closes for the weekend tonight, so watch for a gap at Monday's open.",
+  "event": "US October CPI, Tue 10 Nov 15:30 SAST. The market closes for the weekend at midnight SAST, so watch for a gap at Monday's open.",
   "bullets": [
     {
       "title": "Jobs beat big",
-      "text": "US payrolls rose 165,000 in October against about 65,000 expected, unemployment fell to 4.1% and wages rose 0.4% (Kitco, Trading Economics)."
+      "text": "US payrolls rose 165,000 in October against about 65,000 expected, unemployment fell to 4.1% and wages rose 0.4% (Trading Economics)."
     },
     {
-      "title": "Gold down 1%",
-      "text": "Spot gold was 4,047 at 15:46 SAST, down about 1%, after a low of 4,033; Trading Economics later showed about 4,060 (time UNVERIFIED)."
+      "title": "Gold off lows",
+      "text": "Spot gold was about 4,063 at 21:59 SAST, down about 0.6% on the day, after an earlier low near 4,033."
     },
     {
-      "title": "Dollar and yields",
-      "text": "The dollar rose about 0.7% to its highest since 29 Oct, the dollar index is near 102.2 and the 2-year yield rose to about 4.53%."
+      "title": "Dollar stronger",
+      "text": "The dollar index rose about 0.7% to near 102.3 and the 10-year yield is near 4.87% (Trading Economics)."
     },
     {
-      "title": "Hike odds up",
-      "text": "Odds of a December Fed hike rose to roughly 75-77% after the report, but sources differ, so the exact number is UNVERIFIED."
+      "title": "Fed sounds hawkish",
+      "text": "Fed's Daly said on Friday afternoon that more rate hikes are needed, and December hike odds were about 80% on Thursday (CME, via Trading Economics); Friday's number is UNVERIFIED."
     },
     {
       "title": "Still a strong week",
-      "text": "Gold is still up about 4.5% this week, its best week since late August, so buyers have not left."
+      "text": "Gold is still up about 4.6% this week, so buyers have not left (150currency, Trading Economics)."
     },
     {
-      "title": "Some buying support",
-      "text": "Poland's central bank reached its 700-ton gold target and left room for more, and Indian buying picked up before Diwali (ADM)."
+      "title": "Below the averages",
+      "text": "Gold sits below its 50-day and 200-day moving averages, so the bigger trend is still down (Gold Stock Canada)."
     }
   ],
   "levels": [
@@ -50,9 +50,9 @@
       "note": "Kitco first resistance 4,088.5; Thursday close about 4,087.7"
     },
     {
-      "price": "~4,047-4,060",
+      "price": "~4,063",
       "type": "now",
-      "note": "4,047 at 15:46 SAST (Rallies); Trading Economics ~4,060 later (time UNVERIFIED)"
+      "note": "About 4,063 at 21:59 SAST (150currency, Trading Economics)"
     },
     {
       "price": "4,033",
@@ -81,17 +81,29 @@
     "stop": 4008,
     "target": 4060,
     "keys": [
-      { "label": "Buy zone", "value": "4,022-4,033, after a sweep below 4,022 and a reclaim" },
-      { "label": "Stop", "value": "Below 4,008 (under 4,022 support)" },
-      { "label": "Targets", "value": "4,047, then 4,060" },
-      { "label": "Cancelled if", "value": "4H candle closes below 4,008" }
+      {
+        "label": "Buy zone",
+        "value": "4,022-4,033, after a sweep below 4,022 and a reclaim"
+      },
+      {
+        "label": "Stop",
+        "value": "Below 4,008 (under 4,022 support)"
+      },
+      {
+        "label": "Targets",
+        "value": "4,047, then 4,060"
+      },
+      {
+        "label": "Cancelled if",
+        "value": "4H candle closes below 4,008"
+      }
     ],
     "look": [
       "This is counter-trend. The bias is down after the jobs beat, so use half size or skip it.",
       "A dip under 4,022 that closes back above it on the 15M: your reclaim candle.",
       "A 1H higher low above 4,022.",
       "The dollar index slipping back under 102.",
-      "Wait for Monday's open to settle if price gaps."
+      "Wait for Monday's open to settle before acting on any gap."
     ],
     "watch": [
       "Strong jobs data and higher hike odds favour sellers. You are fighting the move.",
@@ -106,10 +118,22 @@
     "stop": 4100,
     "target": 4033,
     "keys": [
-      { "label": "Sell zone", "value": "Rejection at 4,075-4,088" },
-      { "label": "Stop", "value": "Above 4,100 (over the pivot)" },
-      { "label": "Targets", "value": "4,047, then 4,033 and 4,022" },
-      { "label": "Cancelled if", "value": "4H candle closes above 4,100" }
+      {
+        "label": "Sell zone",
+        "value": "Rejection at 4,075-4,088"
+      },
+      {
+        "label": "Stop",
+        "value": "Above 4,100 (over the pivot)"
+      },
+      {
+        "label": "Targets",
+        "value": "4,047, then 4,033 and 4,022"
+      },
+      {
+        "label": "Cancelled if",
+        "value": "4H candle closes above 4,100"
+      }
     ],
     "look": [
       "A bounce into 4,075-4,088 that stalls with a 15M rejection wick or bearish close.",
@@ -119,17 +143,32 @@
       "Hot CPI on Tuesday 15:30 SAST would support the sell case; wait for it to print."
     ],
     "watch": [
-      "Gold is still up about 4.5% this week, so dip buyers can step in hard.",
-      "Selling low near 4,033-4,047 with no level to lean on.",
+      "Gold is still up about 4.6% this week, so dip buyers can step in hard.",
+      "Selling low near 4,033-4,063 with no level to lean on.",
       "A soft CPI on Tuesday can push gold back through 4,100.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
-    { "name": "Kitco (gold falls as payrolls surge 165,000, 6 Nov 13:55 UTC)", "url": "https://www.kitco.com/news/article/2026-11-06/gold-falls-us-payrolls-surge-165000-strengthening-december-fed-hike-case" },
-    { "name": "Rallies (gold drops 1% on strong payrolls, 6 Nov)", "url": "https://rallies.ai/news/gold-drops-1-as-strong-us-payrolls-boost-dollar-yields-f5ded8e4a8d97f2c" },
-    { "name": "ADM Investor Services (gold pressured by strong hiring, 6 Nov 15:14 UTC)", "url": "https://www.admis.com/gold-pressured-by-strong-hiring-data/" },
-    { "name": "Trading Economics (gold, 6 Nov)", "url": "https://tradingeconomics.com/commodity/gold" },
-    { "name": "FXEmpire (gold before NFP, 6 Nov 12:06 UTC)", "url": "https://fxempire.com/forecasts/article/gold-pulls-back-before-nfp-after-its-strongest-week-in-two-months-1642913" }
+    {
+      "name": "Trading Economics (gold, 6 Nov)",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "name": "150currency (gold in USD, 6 Nov 19:59 UTC)",
+      "url": "https://www.150currency.com/"
+    },
+    {
+      "name": "Gold Stock Canada (post-market summary, 6 Nov 15:59 EST)",
+      "url": "https://goldstockcanada.com/news/post-market-summary-for-precious-metals-november-6-2026-3404"
+    },
+    {
+      "name": "Kitco (gold falls as payrolls surge 165,000, 6 Nov)",
+      "url": "https://www.kitco.com/news/article/2026-11-06/gold-falls-us-payrolls-surge-165000-strengthening-december-fed-hike-case"
+    },
+    {
+      "name": "FXEmpire (gold before NFP, 6 Nov)",
+      "url": "https://fxempire.com/forecasts/article/gold-pulls-back-before-nfp-after-its-strongest-week-in-two-months-1642913"
+    }
   ]
 }
