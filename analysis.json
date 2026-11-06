@@ -1,134 +1,135 @@
 {
-  "updated": "2026-11-06T13:40:00Z",
-  "asof": "2026-11-06T12:07:00Z",
-  "price": 4066,
+  "updated": "2026-11-06T17:45:00Z",
+  "asof": "2026-11-06T13:46:00Z",
+  "price": 4047,
   "bias": {
-    "direction": "neutral",
-    "label": "Neutral: 4,050-4,100 range, jobs data just out"
+    "direction": "down",
+    "label": "Leaning down below 4,088 after strong jobs data"
   },
-  "event": "US jobs report out Fri 6 Nov 15:30 SAST; result not confirmed at this refresh (UNVERIFIED). Let the first candles settle.",
+  "event": "US October CPI, Tue 10 Nov 15:30 SAST. Market closes for the weekend tonight, so watch for a gap at Monday's open.",
   "bullets": [
     {
-      "title": "Flat before NFP",
-      "text": "FXEmpire showed gold at 4,066 at 14:07 SAST, flat on the day, while Trading Economics shows about 4,045, down 1% (time UNVERIFIED)."
+      "title": "Jobs beat big",
+      "text": "US payrolls rose 165,000 in October against about 65,000 expected, unemployment fell to 4.1% and wages rose 0.4% (Kitco, Trading Economics)."
     },
     {
-      "title": "Still in range",
-      "text": "Price sits between 4,049-4,057 support and the 4,098 pivot, after Thursday's high of 4,147."
+      "title": "Gold down 1%",
+      "text": "Spot gold was 4,047 at 15:46 SAST, down about 1%, after a low of 4,033; Trading Economics later showed about 4,060 (time UNVERIFIED)."
     },
     {
-      "title": "Dollar firmer",
-      "text": "The dollar index is about 102.2, up 0.65%, and the US yield shown is about 4.87% (Trading Economics, tenor and time UNVERIFIED)."
+      "title": "Dollar and yields",
+      "text": "The dollar rose about 0.7% to its highest since 29 Oct, the dollar index is near 102.2 and the 2-year yield rose to about 4.53%."
     },
     {
-      "title": "Hike odds split",
-      "text": "December Fed hike odds are 69.1% per FXEmpire and 79-80% per Trading Economics citing CME FedWatch, so treat the exact number as UNVERIFIED."
+      "title": "Hike odds up",
+      "text": "Odds of a December Fed hike rose to roughly 75-77% after the report, but sources differ, so the exact number is UNVERIFIED."
     },
     {
-      "title": "Forecast cut",
-      "text": "FXEmpire reports Goldman Sachs cut its year-end gold forecast to 4,150 from 4,650, and higher oil is reviving inflation worries."
+      "title": "Still a strong week",
+      "text": "Gold is still up about 4.5% this week, its best week since late August, so buyers have not left."
     },
     {
-      "title": "Jobs report now",
-      "text": "A strong jobs number can lift the dollar and push gold toward 4,022 or 4,009, while a weak one can lift it through 4,100."
+      "title": "Some buying support",
+      "text": "Poland's central bank reached its 700-ton gold target and left room for more, and Indian buying picked up before Diwali (ADM)."
     }
   ],
   "levels": [
     {
       "price": "4,135-4,147",
       "type": "resistance",
-      "note": "FXEmpire R1 4,134.8 and Thursday's high 4,146.9"
+      "note": "Thursday's high near 4,146.6 (FXEmpire, Mitrade)"
     },
     {
       "price": "4,098-4,100",
       "type": "resistance",
-      "note": "Daily pivot 4,098.1 and round number (FXEmpire)"
+      "note": "Daily pivot 4,098 and round number (FXEmpire, earlier today)"
     },
     {
       "price": "4,088",
       "type": "resistance",
-      "note": "Earlier FXEmpire bearish invalidation level"
+      "note": "Kitco first resistance 4,088.5; Thursday close about 4,087.7"
     },
     {
-      "price": "~4,066",
+      "price": "~4,047-4,060",
       "type": "now",
-      "note": "FXEmpire 4,066.33 at 14:07 SAST; Trading Economics ~4,045 (time UNVERIFIED)"
+      "note": "4,047 at 15:46 SAST (Rallies); Trading Economics ~4,060 later (time UNVERIFIED)"
     },
     {
-      "price": "4,049-4,057",
+      "price": "4,033",
       "type": "support",
-      "note": "FXEmpire S1 4,049.2 and Thursday's low 4,057"
+      "note": "Intraday low after the jobs report (Rallies)"
     },
     {
-      "price": "4,022-4,030",
+      "price": "4,022",
       "type": "support",
-      "note": "50% Fibonacci 4,021.9 (FXEmpire), TradingKey 4,030"
+      "note": "Kitco support 4,021.95 and 50% Fibonacci (FXEmpire)"
     },
     {
-      "price": "3,976-4,009",
+      "price": "3,976-3,992",
       "type": "support",
-      "note": "FXEmpire retracement zone 4,008.6-3,976.0"
+      "note": "Kitco 3,991.6 and FXEmpire retracement low 3,976"
     },
     {
       "price": "3,870",
       "type": "support",
-      "note": "Main bottom 3,870.3; trend turns down below it (FXEmpire)"
+      "note": "Main bottom 3,870; trend turns fully down below it (FXEmpire)"
     }
   ],
   "buy": {
-    "title": "Buy plan: dip into support",
-    "entry": 4052,
-    "stop": 4035,
-    "target": 4098,
+    "title": "Buy plan: counter-trend bounce at 4,022",
+    "entry": 4025,
+    "stop": 4008,
+    "target": 4060,
     "keys": [
-      { "label": "Buy zone", "value": "4,049-4,057 hold, after a sweep and reclaim" },
-      { "label": "Stop", "value": "Below 4,035 (under 4,049 support)" },
-      { "label": "Targets", "value": "4,066-4,088, then 4,098" },
-      { "label": "Cancelled if", "value": "4H candle closes below 4,022" }
+      { "label": "Buy zone", "value": "4,022-4,033, after a sweep below 4,022 and a reclaim" },
+      { "label": "Stop", "value": "Below 4,008 (under 4,022 support)" },
+      { "label": "Targets", "value": "4,047, then 4,060" },
+      { "label": "Cancelled if", "value": "4H candle closes below 4,008" }
     ],
     "look": [
-      "A dip into 4,049-4,057 that closes back above 4,057 on the 15M: your reclaim candle.",
-      "A 1H higher low above 4,049 after the jobs candle.",
-      "DXY slipping back under 102.",
-      "A weak jobs report confirmed by the news, not by guessing.",
-      "Wait at least for the first 15M jobs candle to close before entering."
+      "This is counter-trend. The bias is down after the jobs beat, so use half size or skip it.",
+      "A dip under 4,022 that closes back above it on the 15M: your reclaim candle.",
+      "A 1H higher low above 4,022.",
+      "The dollar index slipping back under 102.",
+      "Wait for Monday's open to settle if price gaps."
     ],
     "watch": [
-      "The bias is neutral, not up, and the dollar is firmer. Consider half size.",
-      "Chasing the first jobs spike. Spreads widen and price often reverses.",
-      "A strong jobs report, which can drop gold through 4,049 fast toward 4,022.",
+      "Strong jobs data and higher hike odds favour sellers. You are fighting the move.",
+      "A weekend headline (Iran, Hormuz) can gap price either way on Monday.",
+      "Buying Friday's last hour with thin liquidity and wider spreads.",
       "Moving your stop lower when it gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at resistance",
-    "entry": 4095,
-    "stop": 4112,
-    "target": 4052,
+    "title": "Sell plan: rejection under 4,088",
+    "entry": 4080,
+    "stop": 4100,
+    "target": 4033,
     "keys": [
-      { "label": "Sell zone", "value": "Rejection at 4,088-4,100" },
-      { "label": "Stop", "value": "Above 4,112 (over 4,100)" },
-      { "label": "Targets", "value": "4,066, then 4,049-4,057" },
+      { "label": "Sell zone", "value": "Rejection at 4,075-4,088" },
+      { "label": "Stop", "value": "Above 4,100 (over the pivot)" },
+      { "label": "Targets", "value": "4,047, then 4,033 and 4,022" },
       { "label": "Cancelled if", "value": "4H candle closes above 4,100" }
     ],
     "look": [
-      "A push into 4,088-4,100 that stalls with a 15M rejection wick or bearish close.",
-      "A 1H lower high under 4,100.",
-      "DXY holding above 102.",
-      "A strong jobs report confirmed by the news.",
-      "A 1H close below 4,049 adds weight, with 4,022 next."
+      "A bounce into 4,075-4,088 that stalls with a 15M rejection wick or bearish close.",
+      "A 1H lower high under 4,088.",
+      "The dollar index holding above 102 and the 2-year yield firm.",
+      "A 1H close below 4,033 adds weight, with 4,022 next.",
+      "Hot CPI on Tuesday 15:30 SAST would support the sell case; wait for it to print."
     ],
     "watch": [
-      "Gold is still up about 4-5% this week, so buyers can step in hard.",
-      "Selling in the middle of the range near 4,066 with no level to lean on.",
-      "A weak jobs report, which can spike gold through 4,100 toward 4,135-4,147.",
+      "Gold is still up about 4.5% this week, so dip buyers can step in hard.",
+      "Selling low near 4,033-4,047 with no level to lean on.",
+      "A soft CPI on Tuesday can push gold back through 4,100.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
-    { "name": "FXEmpire (gold pulls back before NFP, 6 Nov 12:06 UTC)", "url": "https://fxempire.com/forecasts/article/gold-pulls-back-before-nfp-after-its-strongest-week-in-two-months-1642913" },
+    { "name": "Kitco (gold falls as payrolls surge 165,000, 6 Nov 13:55 UTC)", "url": "https://www.kitco.com/news/article/2026-11-06/gold-falls-us-payrolls-surge-165000-strengthening-december-fed-hike-case" },
+    { "name": "Rallies (gold drops 1% on strong payrolls, 6 Nov)", "url": "https://rallies.ai/news/gold-drops-1-as-strong-us-payrolls-boost-dollar-yields-f5ded8e4a8d97f2c" },
+    { "name": "ADM Investor Services (gold pressured by strong hiring, 6 Nov 15:14 UTC)", "url": "https://www.admis.com/gold-pressured-by-strong-hiring-data/" },
     { "name": "Trading Economics (gold, 6 Nov)", "url": "https://tradingeconomics.com/commodity/gold" },
-    { "name": "FXStreet (gold below 4,100 as NFP takes centre stage, 6 Nov)", "url": "https://www.fxstreet.com/news/gold-struggles-below-4-100-as-us-nonfarm-payrolls-takes-centre-stage-202611061118" },
-    { "name": "TradingKey (below 4,100, NFP preview, 6 Nov)", "url": "https://www.tradingkey.com/analysis/commodities/metal/262288192-gold-forecast-falls-below-4100-nfp-surge-tradingkey" }
+    { "name": "FXEmpire (gold before NFP, 6 Nov 12:06 UTC)", "url": "https://fxempire.com/forecasts/article/gold-pulls-back-before-nfp-after-its-strongest-week-in-two-months-1642913" }
   ]
 }
