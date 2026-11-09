@@ -1,174 +1,184 @@
 {
-  "updated": "2026-11-06T21:40:00Z",
-  "asof": "2026-11-06T19:59:00Z",
-  "price": 4063,
+  "updated": "2026-11-09T01:37:00Z",
+  "asof": "2026-11-09T01:32:00Z",
+  "price": 4103,
   "bias": {
-    "direction": "down",
-    "label": "Leaning down below 4,088 into the weekend"
+    "direction": "neutral",
+    "label": "Neutral: holding above 4,098 pivot before CPI"
   },
-  "event": "US October CPI, Tue 10 Nov 15:30 SAST. The market closes for the weekend at midnight SAST, so watch for a gap at Monday's open.",
+  "event": "US October CPI, Tue 10 Nov 15:30 SAST (headline forecast 0.3% m/m). US PPI Fri 13 Nov 15:30 SAST.",
   "bullets": [
     {
-      "title": "Jobs beat big",
-      "text": "US payrolls rose 165,000 in October against about 65,000 expected, unemployment fell to 4.1% and wages rose 0.4% (Trading Economics)."
+      "title": "Strong Monday open",
+      "text": "Spot gold was about 4,103 at 03:32 SAST, up about 0.8% from Friday's 4,070, with an Asian range of 4,053-4,113 (Kitco)."
     },
     {
-      "title": "Gold off lows",
-      "text": "Spot gold was about 4,063 at 21:59 SAST, down about 0.6% on the day, after an earlier low near 4,033."
+      "title": "Dollar a bit softer",
+      "text": "The dollar index is near 102.1, down about 0.2%, and the 10-year yield is near 4.88% (Trading Economics; exact time UNVERIFIED)."
     },
     {
-      "title": "Dollar stronger",
-      "text": "The dollar index rose about 0.7% to near 102.3 and the 10-year yield is near 4.87% (Trading Economics)."
+      "title": "Hike odds still high",
+      "text": "December Fed hike odds were near 78% after Friday's 165,000 payrolls beat (NordFX); today's figure is UNVERIFIED."
     },
     {
-      "title": "Fed sounds hawkish",
-      "text": "Fed's Daly said on Friday afternoon that more rate hikes are needed, and December hike odds were about 80% on Thursday (CME, via Trading Economics); Friday's number is UNVERIFIED."
+      "title": "CPI is the test",
+      "text": "October CPI lands Tuesday 15:30 SAST with a 0.3% headline forecast; soft helps gold, hot helps sellers (GoldStockCanada)."
     },
     {
-      "title": "Still a strong week",
-      "text": "Gold is still up about 4.6% this week, so buyers have not left (150currency, Trading Economics)."
+      "title": "Big week behind",
+      "text": "Gold rose about 5% last week (NordFX), but it still sits below its 50-day and 200-day averages (GoldStockCanada, CAD chart)."
     },
     {
-      "title": "Below the averages",
-      "text": "Gold sits below its 50-day and 200-day moving averages, so the bigger trend is still down (Gold Stock Canada)."
+      "title": "Hormuz risk lingers",
+      "text": "An attack on a vessel near the Strait of Hormuz pushed Brent back toward 98 dollars late last week (NordFX); weekend news is UNVERIFIED."
     }
   ],
   "levels": [
     {
-      "price": "4,135-4,147",
+      "price": "4,200",
       "type": "resistance",
-      "note": "Thursday's high near 4,146.6 (FXEmpire, Mitrade)"
+      "note": "Top of the 4,000-4,200 range (FXEmpire, NordFX)"
+    },
+    {
+      "price": "4,135-4,148",
+      "type": "resistance",
+      "note": "FXEmpire R1 4,134.8 and last week's high 4,148 (NordFX)"
+    },
+    {
+      "price": "4,113",
+      "type": "resistance",
+      "note": "Monday's Asian high so far (Kitco)"
+    },
+    {
+      "price": "~4,103",
+      "type": "now",
+      "note": "About 4,103 at 03:32 SAST (Kitco)"
     },
     {
       "price": "4,098-4,100",
-      "type": "resistance",
-      "note": "Daily pivot 4,098 and round number (FXEmpire, earlier today)"
-    },
-    {
-      "price": "4,088",
-      "type": "resistance",
-      "note": "Kitco first resistance 4,088.5; Thursday close about 4,087.7"
-    },
-    {
-      "price": "~4,063",
-      "type": "now",
-      "note": "About 4,063 at 21:59 SAST (150currency, Trading Economics)"
-    },
-    {
-      "price": "4,033",
       "type": "support",
-      "note": "Intraday low after the jobs report (Rallies)"
+      "note": "Weekly pivot 4,098 and round number, now under price (FXEmpire)"
     },
     {
-      "price": "4,022",
+      "price": "4,070",
       "type": "support",
-      "note": "Kitco support 4,021.95 and 50% Fibonacci (FXEmpire)"
+      "note": "Friday's closing area (Kitco, Trading Economics)"
     },
     {
-      "price": "3,976-3,992",
+      "price": "4,049-4,053",
       "type": "support",
-      "note": "Kitco 3,991.6 and FXEmpire retracement low 3,976"
+      "note": "FXEmpire S1 4,049.2 and Monday's low 4,053.4 (Kitco)"
+    },
+    {
+      "price": "4,000",
+      "type": "support",
+      "note": "Key round number; below it FXEmpire sees room toward 3,600"
+    },
+    {
+      "price": "3,950",
+      "type": "support",
+      "note": "NordFX second support"
     },
     {
       "price": "3,870",
       "type": "support",
-      "note": "Main bottom 3,870; trend turns fully down below it (FXEmpire)"
+      "note": "Main bottom; trend turns fully down below it (NordFX, FXEmpire)"
     }
   ],
   "buy": {
-    "title": "Buy plan: counter-trend bounce at 4,022",
-    "entry": 4025,
-    "stop": 4008,
-    "target": 4060,
+    "title": "Buy plan: hold of the 4,098-4,100 pivot",
+    "entry": 4102,
+    "stop": 4085,
+    "target": 4145,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "4,022-4,033, after a sweep below 4,022 and a reclaim"
+        "value": "4,098-4,105, after a dip that holds the pivot"
       },
       {
         "label": "Stop",
-        "value": "Below 4,008 (under 4,022 support)"
+        "value": "Below 4,085 (under the pivot zone)"
       },
       {
         "label": "Targets",
-        "value": "4,047, then 4,060"
+        "value": "4,113, then 4,135-4,145"
       },
       {
         "label": "Cancelled if",
-        "value": "4H candle closes below 4,008"
+        "value": "1H candle closes below 4,085"
       }
     ],
     "look": [
-      "This is counter-trend. The bias is down after the jobs beat, so use half size or skip it.",
-      "A dip under 4,022 that closes back above it on the 15M: your reclaim candle.",
-      "A 1H higher low above 4,022.",
-      "The dollar index slipping back under 102.",
-      "Wait for Monday's open to settle before acting on any gap."
+      "The bigger trend is still down (below the 50 and 200-day averages), so treat this as counter-trend and use half size.",
+      "A dip into 4,098-4,100 that closes back above it on the 15M.",
+      "A 1H higher low above 4,098.",
+      "The dollar index staying under 102.3.",
+      "Take profit or tighten before CPI on Tuesday 15:30 SAST."
     ],
     "watch": [
-      "Strong jobs data and higher hike odds favour sellers. You are fighting the move.",
-      "A weekend headline (Iran, Hormuz) can gap price either way on Monday.",
-      "Buying Friday's last hour with thin liquidity and wider spreads.",
-      "Moving your stop lower when it gets close. That is how a small loss becomes a big one."
+      "High December hike odds can pull gold back under 4,098 fast.",
+      "Chasing the Asian high near 4,113 instead of waiting for the pullback.",
+      "A hot CPI print on Tuesday can wipe out the open's gains.",
+      "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection under 4,088",
-    "entry": 4080,
-    "stop": 4100,
-    "target": 4033,
+    "title": "Sell plan: rejection at 4,135-4,148",
+    "entry": 4138,
+    "stop": 4160,
+    "target": 4070,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 4,075-4,088"
+        "value": "Rejection at 4,135-4,148"
       },
       {
         "label": "Stop",
-        "value": "Above 4,100 (over the pivot)"
+        "value": "Above 4,160 (over last week's high)"
       },
       {
         "label": "Targets",
-        "value": "4,047, then 4,033 and 4,022"
+        "value": "4,100, then 4,070"
       },
       {
         "label": "Cancelled if",
-        "value": "4H candle closes above 4,100"
+        "value": "4H candle closes above 4,160"
       }
     ],
     "look": [
-      "A bounce into 4,075-4,088 that stalls with a 15M rejection wick or bearish close.",
-      "A 1H lower high under 4,088.",
-      "The dollar index holding above 102 and the 2-year yield firm.",
-      "A 1H close below 4,033 adds weight, with 4,022 next.",
-      "Hot CPI on Tuesday 15:30 SAST would support the sell case; wait for it to print."
+      "A push into 4,135-4,148 that stalls with a 15M rejection wick or bearish close.",
+      "A 1H lower high under 4,148.",
+      "The dollar index turning back up above 102.3.",
+      "A 1H close back below 4,098 adds weight, with 4,070 next.",
+      "A hot CPI on Tuesday 15:30 SAST would support the sell case; wait for it to print."
     ],
     "watch": [
-      "Gold is still up about 4.6% this week, so dip buyers can step in hard.",
-      "Selling low near 4,033-4,063 with no level to lean on.",
-      "A soft CPI on Tuesday can push gold back through 4,100.",
+      "Gold just had a 5% week, so dip buyers are active.",
+      "Selling in the middle near 4,100-4,113 with no level to lean on.",
+      "A soft CPI can push gold through 4,148 toward 4,200.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Trading Economics (gold, 6 Nov)",
+      "name": "Kitco (live gold, 8 Nov 20:32 NY time)",
+      "url": "https://www.kitco.com/charts/gold"
+    },
+    {
+      "name": "Trading Economics (gold, 9 Nov)",
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "name": "150currency (gold in USD, 6 Nov 19:59 UTC)",
-      "url": "https://www.150currency.com/"
+      "name": "NordFX (forecast for 9-13 Nov 2026)",
+      "url": "https://nordfx.com/market-news/forex-cryptocurrency-forecast-november-09-13-2026"
     },
     {
-      "name": "Gold Stock Canada (post-market summary, 6 Nov 15:59 EST)",
-      "url": "https://goldstockcanada.com/news/post-market-summary-for-precious-metals-november-6-2026-3404"
+      "name": "FXEmpire (gold weekly forecast, 6 Nov)",
+      "url": "https://www.fxempire.com/forecasts/article/gold-weekly-forecast-high-rates-leave-further-downside-risk-1643046"
     },
     {
-      "name": "Kitco (gold falls as payrolls surge 165,000, 6 Nov)",
-      "url": "https://www.kitco.com/news/article/2026-11-06/gold-falls-us-payrolls-surge-165000-strengthening-december-fed-hike-case"
-    },
-    {
-      "name": "FXEmpire (gold before NFP, 6 Nov)",
-      "url": "https://fxempire.com/forecasts/article/gold-pulls-back-before-nfp-after-its-strongest-week-in-two-months-1642913"
+      "name": "GoldStockCanada (weekly recap, 8 Nov)",
+      "url": "https://goldstockcanada.com/news/weekly-precious-metals-recap-forecast-week-of-november-2-2026-3405"
     }
   ]
 }
