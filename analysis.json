@@ -1,167 +1,167 @@
 {
-  "updated": "2026-11-09T01:37:00Z",
-  "asof": "2026-11-09T01:32:00Z",
-  "price": 4103,
+  "updated": "2026-11-09T05:40:00Z",
+  "asof": "2026-11-09T05:16:00Z",
+  "price": 4122,
   "bias": {
-    "direction": "neutral",
-    "label": "Neutral: holding above 4,098 pivot before CPI"
+    "direction": "up",
+    "label": "Leaning up above 4,100; 4,200 is the cap"
   },
   "event": "US October CPI, Tue 10 Nov 15:30 SAST (headline forecast 0.3% m/m). US PPI Fri 13 Nov 15:30 SAST.",
   "bullets": [
     {
-      "title": "Strong Monday open",
-      "text": "Spot gold was about 4,103 at 03:32 SAST, up about 0.8% from Friday's 4,070, with an Asian range of 4,053-4,113 (Kitco)."
+      "title": "Monday push higher",
+      "text": "Spot gold was about 4,122 at 07:16 SAST, up about 1.3% from Friday's 4,070, with a day range of 4,053-4,135 so far (Kitco)."
     },
     {
-      "title": "Dollar a bit softer",
-      "text": "The dollar index is near 102.1, down about 0.2%, and the 10-year yield is near 4.88% (Trading Economics; exact time UNVERIFIED)."
+      "title": "Oil eases inflation fears",
+      "text": "Brent is near 97.4 after its biggest weekly drop since 2020 on US-Iran talk progress, which eases inflation worries and helps gold (Reuters via MarketScreener, Mitrade)."
     },
     {
-      "title": "Hike odds still high",
-      "text": "December Fed hike odds were near 78% after Friday's 165,000 payrolls beat (NordFX); today's figure is UNVERIFIED."
+      "title": "Dollar slightly softer",
+      "text": "The dollar index is near 102.1 and the US yield shown is near 4.88% (Trading Economics; exact time UNVERIFIED)."
+    },
+    {
+      "title": "Hike odds very high",
+      "text": "Trading Economics puts odds of a quarter-point Fed hike before year-end near 81%, up from 71% before Friday's payrolls."
     },
     {
       "title": "CPI is the test",
-      "text": "October CPI lands Tuesday 15:30 SAST with a 0.3% headline forecast; soft helps gold, hot helps sellers (GoldStockCanada)."
+      "text": "October CPI lands Tuesday 15:30 SAST; a soft print helps gold and a hot one helps sellers (Mitrade)."
     },
     {
-      "title": "Big week behind",
-      "text": "Gold rose about 5% last week (NordFX), but it still sits below its 50-day and 200-day averages (GoldStockCanada, CAD chart)."
-    },
-    {
-      "title": "Hormuz risk lingers",
-      "text": "An attack on a vessel near the Strait of Hormuz pushed Brent back toward 98 dollars late last week (NordFX); weekend news is UNVERIFIED."
+      "title": "Still under big averages",
+      "text": "The 50 and 100-day averages sit near 4,197-4,202, so the bigger trend has not turned up yet (Mitrade weekly)."
     }
   ],
   "levels": [
     {
-      "price": "4,200",
+      "price": "4,197-4,202",
       "type": "resistance",
-      "note": "Top of the 4,000-4,200 range (FXEmpire, NordFX)"
+      "note": "50 and 100-day averages, top of the 3,870-4,200 range (Mitrade weekly)"
     },
     {
-      "price": "4,135-4,148",
+      "price": "4,145-4,157",
       "type": "resistance",
-      "note": "FXEmpire R1 4,134.8 and last week's high 4,148 (NordFX)"
+      "note": "Mitrade resistance 2, includes last week's high near 4,148"
     },
     {
-      "price": "4,113",
+      "price": "4,135",
       "type": "resistance",
-      "note": "Monday's Asian high so far (Kitco)"
+      "note": "Today's high so far (Kitco)"
     },
     {
-      "price": "~4,103",
+      "price": "~4,122",
       "type": "now",
-      "note": "About 4,103 at 03:32 SAST (Kitco)"
+      "note": "About 4,122 at 07:16 SAST (Kitco)"
     },
     {
       "price": "4,098-4,100",
       "type": "support",
-      "note": "Weekly pivot 4,098 and round number, now under price (FXEmpire)"
+      "note": "Weekly pivot 4,098 (FXEmpire) and round number"
     },
     {
-      "price": "4,070",
+      "price": "4,070-4,082",
       "type": "support",
-      "note": "Friday's closing area (Kitco, Trading Economics)"
+      "note": "Friday's close and old Mitrade resistance 4,074-4,082"
     },
     {
-      "price": "4,049-4,053",
+      "price": "4,053",
       "type": "support",
-      "note": "FXEmpire S1 4,049.2 and Monday's low 4,053.4 (Kitco)"
+      "note": "Today's low so far (Kitco)"
+    },
+    {
+      "price": "4,025-4,036",
+      "type": "support",
+      "note": "Mitrade support 1"
     },
     {
       "price": "4,000",
       "type": "support",
-      "note": "Key round number; below it FXEmpire sees room toward 3,600"
-    },
-    {
-      "price": "3,950",
-      "type": "support",
-      "note": "NordFX second support"
+      "note": "Key round number (Mitrade weekly, FXEmpire)"
     },
     {
       "price": "3,870",
       "type": "support",
-      "note": "Main bottom; trend turns fully down below it (NordFX, FXEmpire)"
+      "note": "Range bottom, 30 Oct low 3,869.85 (Mitrade weekly)"
     }
   ],
   "buy": {
-    "title": "Buy plan: hold of the 4,098-4,100 pivot",
-    "entry": 4102,
-    "stop": 4085,
-    "target": 4145,
+    "title": "Buy plan: dip that holds 4,100",
+    "entry": 4108,
+    "stop": 4088,
+    "target": 4150,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "4,098-4,105, after a dip that holds the pivot"
+        "value": "4,100-4,110, after a pullback that holds"
       },
       {
         "label": "Stop",
-        "value": "Below 4,085 (under the pivot zone)"
+        "value": "Below 4,088 (under the pivot zone)"
       },
       {
         "label": "Targets",
-        "value": "4,113, then 4,135-4,145"
+        "value": "4,135, then 4,150"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 4,085"
+        "value": "1H candle closes below 4,088"
       }
     ],
     "look": [
-      "The bigger trend is still down (below the 50 and 200-day averages), so treat this as counter-trend and use half size.",
-      "A dip into 4,098-4,100 that closes back above it on the 15M.",
+      "A dip into 4,100-4,110 that closes back up on the 15M.",
       "A 1H higher low above 4,098.",
       "The dollar index staying under 102.3.",
+      "Use half size: price is still under the 50 and 100-day averages.",
       "Take profit or tighten before CPI on Tuesday 15:30 SAST."
     ],
     "watch": [
-      "High December hike odds can pull gold back under 4,098 fast.",
-      "Chasing the Asian high near 4,113 instead of waiting for the pullback.",
-      "A hot CPI print on Tuesday can wipe out the open's gains.",
+      "Chasing above 4,130 instead of waiting for the pullback.",
+      "81% hike odds can pull gold back under 4,100 fast.",
+      "A hot CPI on Tuesday can wipe out Monday's gains.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 4,135-4,148",
-    "entry": 4138,
-    "stop": 4160,
-    "target": 4070,
+    "title": "Sell plan (counter-trend): rejection at 4,187-4,202",
+    "entry": 4190,
+    "stop": 4215,
+    "target": 4135,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 4,135-4,148"
+        "value": "Rejection at 4,187-4,202 (the averages)"
       },
       {
         "label": "Stop",
-        "value": "Above 4,160 (over last week's high)"
+        "value": "Above 4,215"
       },
       {
         "label": "Targets",
-        "value": "4,100, then 4,070"
+        "value": "4,150, then 4,135"
       },
       {
         "label": "Cancelled if",
-        "value": "4H candle closes above 4,160"
+        "value": "4H candle closes above 4,215"
       }
     ],
     "look": [
-      "A push into 4,135-4,148 that stalls with a 15M rejection wick or bearish close.",
-      "A 1H lower high under 4,148.",
-      "The dollar index turning back up above 102.3.",
-      "A 1H close back below 4,098 adds weight, with 4,070 next.",
+      "This is counter-trend to today's push, so wait for price to reach the zone first.",
+      "A 15M rejection wick or bearish close inside 4,187-4,202.",
+      "A 1H lower high under 4,202.",
+      "The dollar index turning back above 102.3.",
       "A hot CPI on Tuesday 15:30 SAST would support the sell case; wait for it to print."
     ],
     "watch": [
-      "Gold just had a 5% week, so dip buyers are active.",
-      "Selling in the middle near 4,100-4,113 with no level to lean on.",
-      "A soft CPI can push gold through 4,148 toward 4,200.",
+      "Falling oil and Iran talks are helping gold, so sellers may be early.",
+      "Selling in the middle near 4,120-4,135 with no level to lean on.",
+      "A soft CPI can push gold through 4,200.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Kitco (live gold, 8 Nov 20:32 NY time)",
+      "name": "Kitco (live gold, 9 Nov 00:16 NY time)",
       "url": "https://www.kitco.com/charts/gold"
     },
     {
@@ -169,16 +169,20 @@
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "name": "NordFX (forecast for 9-13 Nov 2026)",
-      "url": "https://nordfx.com/market-news/forex-cryptocurrency-forecast-november-09-13-2026"
+      "name": "MarketScreener / Reuters (gold edges up as softer crude tempers inflation concerns, 8 Nov)",
+      "url": "https://www.marketscreener.com/news/gold-edges-up-as-softer-crude-tempers-inflation-concerns-ce785fd2d080f22d"
+    },
+    {
+      "name": "Mitrade (gold analysis, 9 Nov)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-democrats-sweep-midterms-cpi"
+    },
+    {
+      "name": "Mitrade (weekly commodity report, 9 Nov)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/weekly/weekly-report-commodity-20261109J1105"
     },
     {
       "name": "FXEmpire (gold weekly forecast, 6 Nov)",
       "url": "https://www.fxempire.com/forecasts/article/gold-weekly-forecast-high-rates-leave-further-downside-risk-1643046"
-    },
-    {
-      "name": "GoldStockCanada (weekly recap, 8 Nov)",
-      "url": "https://goldstockcanada.com/news/weekly-precious-metals-recap-forecast-week-of-november-2-2026-3405"
     }
   ]
 }
