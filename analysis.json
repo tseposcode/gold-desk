@@ -1,101 +1,101 @@
 {
-  "updated": "2026-11-10T13:45:00Z",
-  "asof": "2026-11-10T13:40:00Z",
-  "price": 4055,
+  "updated": "2026-11-10T17:35:00Z",
+  "asof": "2026-11-10T17:30:00Z",
+  "price": 4020,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 4,079 after hot CPI"
+    "label": "Leaning down below 4,050 after hot CPI"
   },
-  "event": "US PPI, Fri 13 Nov 15:30 SAST (time UNVERIFIED).",
+  "event": "US PPI later this week (date and SAST time UNVERIFIED).",
   "bullets": [
     {
+      "title": "Selling kept going",
+      "text": "Gold was 4,019.80 at 19:30 SAST, down 119.60 (-2.89%) on the day, with a range of 4,012.70 to 4,147.40 (Kitco)."
+    },
+    {
+      "title": "Support broke",
+      "text": "Monday's low near 4,053 and the 4,030 zone from this afternoon both gave way, so they now sit overhead as resistance."
+    },
+    {
       "title": "CPI came hot",
-      "text": "October CPI rose 0.4% m/m against 0.3% expected, and core rose 0.3% against 0.2% expected; the yearly rate was not published because of missing 2025 data (Trading Economics)."
-    },
-    {
-      "title": "Gold fell further",
-      "text": "Gold was about 4,072 just before CPI at 15:24 SAST (Kitco) and Trading Economics later showed 4,049-4,057, so the exact price now is UNVERIFIED within a few dollars."
-    },
-    {
-      "title": "Big down day",
-      "text": "Gold is down roughly 80-90 (about 2%) from today's high of 4,147.40 and is now testing Monday's low near 4,053 (Kitco, Trading Economics)."
+      "text": "October CPI rose 0.4% m/m against 0.3% expected, and core rose 0.3% against 0.2% expected (Trading Economics)."
     },
     {
       "title": "Hike odds high",
-      "text": "Markets priced about 84% odds of a December Fed hike before CPI, and a hot print tends to keep those odds high (Trading Economics); the post-CPI figure is UNVERIFIED."
+      "text": "Markets price about an 84% chance of a December Fed hike, and Governor Waller said he would back a 50bp hike if inflation keeps rising (Trading Economics)."
     },
     {
-      "title": "Dollar firmer",
-      "text": "The dollar index is near 102.0, up about 0.3%, and the US 10-year yield is near 4.90% (Trading Economics, time UNVERIFIED)."
+      "title": "Dollar stronger",
+      "text": "The dollar index is near 102.36, up about 0.7%, and the US yield shown by Trading Economics is near 5.02% (which maturity is UNVERIFIED)."
     },
     {
-      "title": "Buyers underneath",
-      "text": "Central banks bought 321 tonnes in Q3, which supports dips over the longer term but does not stop a fall today (FXEmpire)."
+      "title": "Round number next",
+      "text": "4,000 is the next clear support from earlier analysis (TradingKey) and a big round number where buyers and stop runs often meet."
     }
   ],
   "levels": [
     { "price": "4,145-4,150", "type": "resistance", "note": "Today's high 4,147.40 (Kitco)" },
-    { "price": "4,100-4,106", "type": "resistance", "note": "Morning support, broken before CPI" },
-    { "price": "4,079", "type": "resistance", "note": "FXEmpire S1 4,079.30, broken; now overhead" },
-    { "price": "4,067-4,072", "type": "resistance", "note": "Pre-CPI low 4,067.80 and price 4,072 at 15:24 SAST (Kitco)" },
-    { "price": "~4,055", "type": "now", "note": "Trading Economics 4,049-4,057 after CPI (UNVERIFIED)" },
-    { "price": "4,049-4,053", "type": "support", "note": "Monday's low 4,053.40 (Kitco); FXEmpire 4,051; TE low print 4,049.21" },
-    { "price": "4,030", "type": "support", "note": "Bottom of TradingKey 4,050-4,030 zone" },
+    { "price": "4,079", "type": "resistance", "note": "FXEmpire S1 4,079.30, broken earlier today" },
+    { "price": "4,067-4,072", "type": "resistance", "note": "Pre-CPI low 4,067.80 and 4,072 at 15:24 SAST (Kitco)" },
+    { "price": "4,049-4,053", "type": "resistance", "note": "Monday's low 4,053.40, broken; now overhead" },
+    { "price": "4,030", "type": "resistance", "note": "Bottom of TradingKey 4,050-4,030 zone, broken" },
+    { "price": "~4,020", "type": "now", "note": "Kitco 4,019.80 and Trading Economics 4,020.34 at about 19:30 SAST" },
+    { "price": "4,012-4,013", "type": "support", "note": "Today's low 4,012.70 (Kitco)" },
     { "price": "4,000", "type": "support", "note": "TradingKey support 3; round number" }
   ],
   "buy": {
-    "title": "Buy plan (counter-trend): dip that holds 4,030",
-    "entry": 4033,
-    "stop": 4018,
-    "target": 4067,
+    "title": "Buy plan (counter-trend): dip that holds 4,000",
+    "entry": 4003,
+    "stop": 3990,
+    "target": 4030,
     "keys": [
-      { "label": "Buy zone", "value": "4,030-4,035, after a dip that holds 4,030" },
-      { "label": "Stop", "value": "Below 4,018 (under 4,030)" },
-      { "label": "Targets", "value": "4,050, then 4,067" },
-      { "label": "Cancelled if", "value": "1H candle closes below 4,018" }
+      { "label": "Buy zone", "value": "4,000-4,005, after a dip that holds 4,000" },
+      { "label": "Stop", "value": "Below 3,990 (under 4,000)" },
+      { "label": "Targets", "value": "4,013, then 4,030" },
+      { "label": "Cancelled if", "value": "1H candle closes below 3,990" }
     ],
     "look": [
-      "This is counter-trend after a hot CPI, so use half size.",
-      "A dip into 4,030-4,035 that closes back up on the 15M.",
-      "A 1H higher low above 4,030.",
-      "The dollar index fading back below 101.6.",
-      "No entry in the first hour after CPI while candles are wild."
+      "This is counter-trend after a near 3% drop, so use half size.",
+      "A wick under 4,000 that closes back above it on the 15M.",
+      "A 1H higher low above 4,000.",
+      "The dollar index fading back below 102.",
+      "No entry while candles are still long and fast."
     ],
     "watch": [
-      "Buying at 4,055 because it looks cheap after a big drop, with no zone and no stop.",
-      "A break of 4,030 can run to 4,000 quickly.",
-      "Fed speakers repeating hike talk can keep sellers in control.",
+      "Buying at 4,020 because it looks cheap, with no zone and no stop.",
+      "There is no confirmed support below 4,000, so a break can run fast.",
+      "Fed speakers or US PPI can add more hike talk and more selling.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 4,067-4,079",
-    "entry": 4075,
-    "stop": 4090,
-    "target": 4033,
+    "title": "Sell plan: rejection at 4,030-4,053",
+    "entry": 4048,
+    "stop": 4062,
+    "target": 4013,
     "keys": [
-      { "label": "Sell zone", "value": "Rejection at 4,067-4,079 (broken support)" },
-      { "label": "Stop", "value": "Above 4,090 (over 4,079)" },
-      { "label": "Targets", "value": "4,050, then 4,033" },
-      { "label": "Cancelled if", "value": "1H candle closes above 4,090" }
+      { "label": "Sell zone", "value": "Rejection at 4,030-4,053 (broken support)" },
+      { "label": "Stop", "value": "Above 4,062 (over 4,053)" },
+      { "label": "Targets", "value": "4,030, then 4,013" },
+      { "label": "Cancelled if", "value": "1H candle closes above 4,062" }
     ],
     "look": [
-      "A bounce into 4,067-4,079 that fails, not a sell at 4,055 on support.",
+      "A bounce into 4,030-4,053 that fails, not a sell at 4,020 near the low.",
       "A clear 15M rejection wick or bearish close inside the zone.",
-      "A 1H lower high under 4,079.",
-      "The dollar index holding near 102.0 or higher.",
-      "Take some profit at 4,050 and move the stop to entry only after that."
+      "A 1H lower high under 4,053.",
+      "The dollar index holding near 102.3 or higher.",
+      "Take some profit at 4,030 and move the stop to entry only after that."
     ],
     "watch": [
-      "Chasing the drop by selling at 4,055 straight into 4,049-4,053 support.",
-      "Short-covering after a big CPI move can spike price through 4,090.",
+      "Chasing the drop by selling at 4,020 just above the 4,013 low and 4,000.",
+      "After a near 3% fall, short-covering can spike price through 4,062.",
       "US-Iran or other headlines can bring safe-haven buying back fast.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
-    { "name": "Kitco (live gold, 10 Nov 08:24 NY time = 15:24 SAST)", "url": "https://www.kitco.com/charts/gold" },
-    { "name": "Trading Economics (gold, 10 Nov)", "url": "https://tradingeconomics.com/commodity/gold" },
+    { "name": "Kitco (live gold, 10 Nov 12:30 NY time = 19:30 SAST)", "url": "https://www.kitco.com/charts/gold" },
+    { "name": "Trading Economics (gold, DXY, Fed odds, 10 Nov)", "url": "https://tradingeconomics.com/commodity/gold" },
     { "name": "Trading Economics (US CPI October, released 10 Nov)", "url": "https://tradingeconomics.com/united-states/inflation-cpi" },
     { "name": "FXEmpire (gold forecast, 10 Nov)", "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-holds-4088-as-cpi-test-looms-can-it-break-4147-1643495" },
     { "name": "TradingKey (gold and October CPI, 10 Nov)", "url": "https://www.tradingkey.com/analysis/commodities/metal/262297583-gold-forecast-october-cpi-inflation-slowdown-4200-breakout-tradingkey" }
