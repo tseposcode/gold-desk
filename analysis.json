@@ -1,48 +1,39 @@
 {
-  "updated": "2026-11-11T13:37:00Z",
-  "asof": "2026-11-11T13:31:00Z",
-  "price": 4037.9,
+  "updated": "2026-11-11T17:43:00Z",
+  "asof": "2026-11-11T17:37:00Z",
+  "price": 4002.0,
   "bias": {
-    "direction": "neutral",
-    "label": "Neutral to soft; capped at 4,068, holding above 4,026"
+    "direction": "down",
+    "label": "Leaning down below 4,026; testing 4,000"
   },
-  "event": "US PPI on Fri 13 Nov (time UNVERIFIED, likely 15:30 SAST). No high-impact US release today (Forexuro).",
+  "event": "US PPI on Fri 13 Nov (time UNVERIFIED, likely 15:30 SAST). No high-impact US release left today (Forexuro).",
   "bullets": [
     {
-      "title": "Bounce fading",
-      "text": "Gold was 4,037.90 at 15:31 SAST, up only 6.10 (+0.15%), after a range of 4,025.80 to 4,067.90 today (Kitco)."
+      "title": "Back at 4,000",
+      "text": "Gold was 4,002 at 19:37 SAST, down 29.80 (-0.74%), and dipped to 3,997.70 after topping at 4,067.90 this morning (Kitco)."
     },
     {
-      "title": "Capped at 4,068",
-      "text": "The morning high of 4,067.90 has held all day and price has given back about 30 dollars of the bounce."
+      "title": "Supports broken",
+      "text": "This afternoon price fell through the morning low near 4,026 and Tuesday's low near 4,013, so both now sit overhead."
     },
     {
-      "title": "Dollar firmer",
-      "text": "The dollar index is up 0.43% near 102.67 and the US 10-year yield is near 4.99%, which weighs on gold (Trading Economics, 5paisa)."
+      "title": "Dollar stronger",
+      "text": "The dollar index is up 0.68% near 102.93 and the US yield Trading Economics lists is near 4.99% (tenor UNVERIFIED), which weighs on gold."
+    },
+    {
+      "title": "Hike talk grows",
+      "text": "Trading Economics says Waller floated a 50 bp hike as early as December, and its December hike odds range from 91% to 100% (sources differ, UNVERIFIED)."
     },
     {
       "title": "Hot CPI backdrop",
-      "text": "October CPI rose 0.4% m/m against 0.3% expected and core rose 0.3% against 0.2%, which dragged gold down about 2.6% on Tuesday (Mitrade)."
+      "text": "October CPI rose 0.4% m/m against 0.3% expected, which started this week's selling (Trading Economics, Mitrade)."
     },
     {
-      "title": "Hike bets high",
-      "text": "Trading Economics puts December hike odds near 91%, up from 84%, and Mitrade says a December hike is fully priced (the sources differ)."
-    },
-    {
-      "title": "Fed speakers hawkish",
-      "text": "Waller and Logan back further tightening, which keeps pressure on gold rallies (Trading Economics)."
-    },
-    {
-      "title": "Quiet calendar",
-      "text": "No high-impact US release is due today, so the next big test is Friday's PPI (Forexuro, Goodreturns)."
+      "title": "4,000 in focus",
+      "text": "Kitco headlines 'solid support at 4,000', so a clean break below it is the key test tonight."
     }
   ],
   "levels": [
-    {
-      "price": "4,145-4,157",
-      "type": "resistance",
-      "note": "Tuesday's high near 4,140-4,147 and Mitrade R2"
-    },
     {
       "price": "4,074-4,083",
       "type": "resistance",
@@ -54,19 +45,24 @@
       "note": "Today's high 4,067.90 (Kitco) and Forexuro daily pivot 4,062.75"
     },
     {
-      "price": "~4,038",
-      "type": "now",
-      "note": "Kitco bid 4,037.90 at 15:31 SAST"
-    },
-    {
       "price": "4,025-4,036",
-      "type": "support",
-      "note": "Today's low 4,025.80 (Kitco) and Mitrade S1"
+      "type": "resistance",
+      "note": "This morning's low 4,025.80 and Mitrade S1, now overhead"
     },
     {
-      "price": "4,000-4,017",
+      "price": "4,012-4,017",
+      "type": "resistance",
+      "note": "Tuesday's low 4,012.70-4,016.80 (sources differ), now overhead"
+    },
+    {
+      "price": "~4,002",
+      "type": "now",
+      "note": "Kitco bid 4,002.00 at 19:37 SAST"
+    },
+    {
+      "price": "3,997-4,000",
       "type": "support",
-      "note": "Tuesday's low 4,012.70-4,016.80 (sources differ) and the 4,000 round number"
+      "note": "Today's low 3,997.70 (Kitco) and the 4,000 round number"
     },
     {
       "price": "3,970-3,985",
@@ -80,86 +76,86 @@
     }
   ],
   "buy": {
-    "title": "Buy plan: pullback that holds 4,026-4,032",
-    "entry": 4030,
-    "stop": 4019,
-    "target": 4067,
+    "title": "Buy plan: hold at 3,972-3,985 (counter-trend)",
+    "entry": 3980,
+    "stop": 3965,
+    "target": 4012,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "4,026-4,032, after a dip that holds today's low"
+        "value": "3,972-3,985, only after a dip that holds"
       },
       {
         "label": "Stop",
-        "value": "Below 4,019 (under 4,025.80)"
+        "value": "Below 3,965 (under the 3,970 support)"
       },
       {
         "label": "Targets",
-        "value": "4,050, then 4,067"
+        "value": "4,000, then 4,012"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 4,019"
+        "value": "1H candle closes below 3,965"
       }
     ],
     "look": [
-      "This is counter-trend after Tuesday's big drop and the hike talk, so use half size.",
-      "Price is only about 10 dollars above the zone now. Wait for the dip and a 15M close back up, do not buy at 4,038.",
-      "A 1H higher low above 4,026.",
-      "The dollar index slipping back below 102.4.",
-      "Take some profit at 4,050 and move the stop to entry only after that."
+      "This is counter-trend. The bias is down, so use half size or skip it.",
+      "Price dipping into 3,972-3,985 and a 15M close back up out of the zone.",
+      "A 1H higher low inside the zone.",
+      "The dollar index slipping back below 102.7.",
+      "Take some profit at 4,000 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying early at 4,038 because the zone is close. The stop then sits too far away.",
-      "Hawkish Fed comments or Friday's US PPI can restart the selling fast.",
-      "A break of 4,019 opens 4,013 and 4,000 quickly.",
+      "Buying at 4,000 just because it is a round number. It has already broken once today.",
+      "More hawkish Fed comments or Friday's US PPI can extend the drop fast.",
+      "A 1H close under 3,965 opens 3,885-3,904.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 4,062-4,083",
-    "entry": 4075,
-    "stop": 4090,
-    "target": 4030,
+    "title": "Sell plan: rejection at 4,012-4,026",
+    "entry": 4020,
+    "stop": 4038,
+    "target": 3972,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 4,062-4,083 (pivot, today's high and R1)"
+        "value": "Rejection at 4,012-4,026 (broken support, now resistance)"
       },
       {
         "label": "Stop",
-        "value": "Above 4,090 (over 4,083)"
+        "value": "Above 4,038 (over 4,036)"
       },
       {
         "label": "Targets",
-        "value": "4,050, then 4,030"
+        "value": "3,998, then 3,972"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 4,090"
+        "value": "1H candle closes above 4,038"
       }
     ],
     "look": [
-      "Price coming back up to 4,062-4,083 and stalling again, as it did at 4,067.90 this morning.",
+      "Price bouncing back up into 4,012-4,026 and stalling there.",
       "A clear 15M rejection wick or bearish close inside the zone.",
-      "A 1H lower high under 4,083.",
-      "The dollar index holding near 102.6 or higher.",
-      "Take some profit at 4,050 and move the stop to entry only after that."
+      "A 1H lower high under 4,036.",
+      "The dollar index holding near 102.9 or higher.",
+      "Take some profit at 3,998 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling at 4,038 now because the news is bearish. That is near support, not a level.",
-      "A clean 1H close above 4,083 can squeeze price toward 4,150.",
-      "Iran headlines can bring safe-haven buying back fast.",
+      "Selling at 4,002 now, right on support. Wait for the bounce into the zone.",
+      "A 1H close back above 4,038 means the break failed, and price can squeeze to 4,062-4,068.",
+      "Safe-haven headlines can bring buyers back fast.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Kitco (live gold, 11 Nov 08:31 NY time = 15:31 SAST)",
+      "name": "Kitco (live gold, 11 Nov 12:37 NY time = 19:37 SAST)",
       "url": "https://www.kitco.com/charts/gold"
     },
     {
-      "name": "Trading Economics (gold, DXY, yields, Fed odds, 11 Nov)",
+      "name": "Trading Economics (gold, DXY, yields, Fed odds, Waller, 11 Nov)",
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
@@ -169,10 +165,6 @@
     {
       "name": "Forexuro (XAU/USD pivot levels, 11 Nov)",
       "url": "https://forexuro.com/xauusd-analysis/2026-11-11"
-    },
-    {
-      "name": "5paisa (spot gold and yields, 11 Nov)",
-      "url": "https://www.5paisa.com/blog/gold-rate-today-11-november-2026"
     },
     {
       "name": "Goodreturns (live gold blog, PPI on Friday, 11 Nov)",
