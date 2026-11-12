@@ -1,6 +1,6 @@
 # How Claude updates the US100 Desk analysis (v2)
 
-The app (`index.html`) shows whatever is in `analysis.json`. Since v2 the app covers **US100 (Nasdaq 100)** only; v1 (gold) is kept as the git tag `v1-gold`. A scheduled Claude task refreshes `analysis.json` on weekdays at about 07:00, 11:00, 15:00 and 19:00 SAST. Each run:
+The app (`index.html`) shows whatever is in `analysis.json`. Since v2 the app covers **US100 (Nasdaq 100)** only; v1 (gold) is kept on the branch `v1-gold`. A scheduled Claude task refreshes `analysis.json` on weekdays at about 07:00, 11:00, 15:00 and 19:00 SAST. Each run:
 
 1. Note the current time in UTC and SAST (UTC+2).
 2. Search the web for the latest Nasdaq 100 / US100 news and prices from today and the last 1-2 days. Cover what moves US100: big tech and chip stocks (Nvidia, Apple, Microsoft, Amazon, Meta, Alphabet, Tesla, Broadcom, AMD), their earnings, US yields, Fed expectations, the dollar, US data (CPI, NFP, PPI, retail sales, jobless claims, ISM), the VIX, and price action in Nasdaq 100 futures. Prefer dated reporting from the last 24 hours.
