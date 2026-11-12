@@ -1,74 +1,65 @@
 {
   "market": "US100",
-  "updated": "2026-11-12T11:16:00Z",
-  "asof": "2026-11-12T11:00:00Z",
-  "price": 28275,
+  "updated": "2026-11-12T13:58:00Z",
+  "asof": "2026-11-12T13:20:00Z",
+  "price": 28050,
   "newsDay": false,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 28,300 (Nvidia CEO crisis)"
+    "label": "Down while below 28,165 (Nvidia selling)"
   },
-  "event": "US jobless claims today 15:30 SAST. Cisco and Applied Materials report after the US close. Fed's Daly speaks about 20:10 SAST (time UNVERIFIED). US PPI Fri 13 Nov, 15:30 SAST.",
+  "event": "Fed's Barr speaks ~17:00 SAST, Goolsbee ~18:15 SAST. Nvidia board news can land anytime. US PPI Fri 13 Nov, 15:30 SAST.",
   "bullets": [
     {
-      "title": "Nvidia board crisis",
-      "text": "Nvidia fell about 6-7% before the open as its board weighs removing CEO Jensen Huang, and no decision has been announced yet (Reuters, Yahoo Finance)."
+      "title": "Selling deepened",
+      "text": "By 15:20 SAST Nasdaq futures were down about 1.5% and S&P futures 0.7%, as money rotated out of tech (ZeroHedge)."
     },
     {
-      "title": "Nasdaq leads lower",
-      "text": "Nasdaq 100 futures were down 0.63% at 12:26 SAST, against 0.31% for S&P 500 futures, while Dow futures were slightly up (TipRanks)."
+      "title": "Nvidia board",
+      "text": "Nvidia's board met to decide Jensen Huang's future and is reportedly looking at candidates and a temporary CEO (ZeroHedge, GFX FTs)."
     },
     {
-      "title": "Chips are split",
-      "text": "AMD rose 3.9% and Broadcom 3% before the open, while CoreWeave, Intel, Marvell and Micron fell (CNBC, Reuters)."
+      "title": "Downgrades pile up",
+      "text": "At least four firms downgraded Nvidia on fears the probe could take five months or more, with results due next week (Investrade)."
     },
     {
-      "title": "Yields at 5%",
-      "text": "The US 10-year yield rose to about 5.01% as bond trading reopened after Veterans Day, which weighs on tech valuations (CNBC)."
+      "title": "Claims a bit higher",
+      "text": "Initial jobless claims rose 9,000 and beat the 195,000 forecast, a modest rise from near 1960s lows (CNBC)."
     },
     {
-      "title": "Fed hike bets",
-      "text": "After the hot October CPI, rate futures almost fully price a Fed hike in December, with a small chance of a 50 bp move (TradingKey)."
+      "title": "Fed in focus",
+      "text": "Several Fed speakers are out today, and markets are watching for more openness to a 50bp December hike after Tuesday's hot CPI (ZeroHedge)."
     },
     {
-      "title": "Strong dollar",
-      "text": "The dollar index rose above 103, its highest level since April 2025, on the same Fed hike bets (Reuters)."
-    },
-    {
-      "title": "Earnings ahead",
-      "text": "Cisco and Applied Materials report after today's close, and Nvidia reports on 17 November (ApexVol, TokenPost)."
+      "title": "Not a trend change yet",
+      "text": "The Nasdaq was still up about 3% on the week before today, after Wednesday's CoreWeave-led rally (Options Oracle)."
     }
   ],
   "levels": [
     {
-      "price": "28,447-28,476",
+      "price": "28,695",
       "type": "resistance",
-      "note": "Yesterday's futures close 28,473 (Investing.com) inside the 5 Nov resistance zone (investingLive)"
+      "note": "Wednesday's intraday high before the Nvidia report (NQ Wizard)"
     },
     {
       "price": "28,337",
       "type": "resistance",
-      "note": "Invalidation for the short idea, above the developing value area high (investingLive)"
+      "note": "Morning invalidation for shorts (investingLive)"
     },
     {
-      "price": "28,300-28,320",
+      "price": "~28,237",
       "type": "resistance",
-      "note": "Value area high near 28,300 (investingLive) and today's high 28,320 (Investing.com; CNBC shows 28,369, so the high is UNVERIFIED)"
+      "note": "Pre-market level at -0.83% this morning (Investrade)"
     },
     {
-      "price": "~28,275",
+      "price": "28,165",
+      "type": "resistance",
+      "note": "Morning first target, now broken. Expect sellers on a retest"
+    },
+    {
+      "price": "~28,050",
       "type": "now",
-      "note": "Nasdaq futures, down about 0.7% (Investing.com, Yahoo Finance; exact time UNVERIFIED)"
-    },
-    {
-      "price": "28,232-28,254",
-      "type": "support",
-      "note": "Overnight session VWAP area (investingLive). It may have shifted since"
-    },
-    {
-      "price": "28,132-28,165",
-      "type": "support",
-      "note": "Today's low 28,132 (Investing.com, CNBC) and the first downside target 28,165 (investingLive)"
+      "note": "Rough futures level from the -1.5% move at 15:20 SAST (UNVERIFIED, estimated)"
     },
     {
       "price": "27,957",
@@ -76,150 +67,114 @@
       "note": "Second target, above an earlier session's point of control (investingLive)"
     },
     {
-      "price": "27,780-27,837",
+      "price": "27,837",
       "type": "support",
-      "note": "Third target 27,837 and the 27,780-27,813 area that buyers must hold for the recovery to survive (investingLive)"
+      "note": "Third target, ahead of the 10 Nov point of control and VWAP (investingLive)"
     }
   ],
-  "levelNote": "Levels are from December Nasdaq 100 futures (NQ). Your broker's US100 CFD follows the cash index and usually sits a fixed number of points below futures. Check the gap on your chart and shift these levels by it.",
+  "levelNote": "Levels are from December Nasdaq 100 futures (NQ). The current price is an estimate: check your own chart. Your US100 CFD is usually a fixed number of points below futures, so shift these levels by that gap.",
   "buy": {
-    "title": "Buy plan: 27,957 hold (counter-trend)",
-    "entry": 27960,
-    "stop": 27830,
-    "target": 28232,
-    "keys": [
-      {
-        "label": "Buy zone",
-        "value": "27,957, ideally as the 16:30 open sweeps your range low"
-      },
-      {
-        "label": "Stop",
-        "value": "Below 27,830 (under the 27,837 level)"
-      },
-      {
-        "label": "Targets",
-        "value": "28,165, then 28,232"
-      },
-      {
-        "label": "Cancelled if",
-        "value": "A 15M candle closes below 27,837 before you enter"
-      }
-    ],
-    "look": [
-      "This is counter-trend. The bias is down, so use half size or skip it.",
-      "The open spike sweeps your range low near 27,957 and a 5-min candle closes back inside the range.",
-      "Nvidia stops falling and AMD and Broadcom keep their gains.",
-      "Jobless claims at 15:30 come in without a big surprise and yields stop rising.",
-      "Take some profit at 28,165 and move the stop to entry only after that."
-    ],
-    "watch": [
-      "Buying the first red candle after 16:30. Wait for the sweep and the close back inside.",
-      "A board decision on Huang can land during the session and move the whole index fast.",
-      "Yields above 5% and Fed hike talk can keep pressure on tech.",
-      "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
-    ]
-  },
-  "sell": {
-    "title": "Sell plan: bounce into 28,284-28,320",
-    "entry": 28300,
-    "stop": 28345,
+    "title": "Buy plan: 27,837-27,957 flush (counter-trend)",
+    "entry": 27900,
+    "stop": 27780,
     "target": 28165,
     "keys": [
       {
-        "label": "Sell zone",
-        "value": "28,284-28,320, ideally as the open sweeps your range high"
+        "label": "Buy zone",
+        "value": "27,837-27,957, only after the open sweeps your range low"
       },
       {
         "label": "Stop",
-        "value": "Above 28,345 (over the 28,337 invalidation)"
+        "value": "Below 27,780"
       },
       {
         "label": "Targets",
-        "value": "28,165, then 27,957"
+        "value": "28,050, then 28,165"
       },
       {
         "label": "Cancelled if",
-        "value": "A 15M candle closes above 28,337"
+        "value": "A 15M candle closes below 27,780"
       }
     ],
     "look": [
-      "The 16:30 open spikes up through your range high and a 5-min candle closes back inside, near 28,284-28,320.",
-      "Nvidia stays weak after the US open.",
-      "A 15M lower high forms under 28,320.",
-      "S&P 500 futures also turn lower, so it is not only a Nasdaq move.",
-      "Take some profit at 28,165 and move the stop to entry only after that."
+      "Counter-trend against a strong down day. Half size or skip.",
+      "The 16:30 open flushes below your range low into 27,837-27,957 and a 5-min candle closes back inside.",
+      "Nvidia stops making new lows, or the board gives a clear plan.",
+      "AMD and Broadcom keep holding up, so it's not the whole chip sector.",
+      "Take some profit at 28,050 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling now at 28,275 without a sweep. Wait for the 16:30 open and the close back inside.",
-      "News that Huang stays, or a calm handover, can spark a short squeeze through 28,337 toward 28,473.",
-      "Jobless claims at 15:30 SAST can widen spreads and move price fast. Don't enter before it.",
-      "Re-entering again and again after being stopped out. One attempt, then step away."
+      "Catching a falling knife: on trend days a sweep of the low often turns into a breakout.",
+      "A Nvidia headline during the hour can add another leg down.",
+      "Barr at about 17:00 SAST sounding open to a bigger hike.",
+      "Moving your stop lower when price gets close."
+    ]
+  },
+  "sell": {
+    "title": "Sell plan: retest of 28,165 (with the trend)",
+    "entry": 28160,
+    "stop": 28245,
+    "target": 27957,
+    "keys": [
+      {
+        "label": "Sell zone",
+        "value": "28,165, ideally as the open sweeps your range high"
+      },
+      {
+        "label": "Stop",
+        "value": "Above 28,245"
+      },
+      {
+        "label": "Targets",
+        "value": "28,050, then 27,957"
+      },
+      {
+        "label": "Cancelled if",
+        "value": "A 15M candle closes above 28,245"
+      }
+    ],
+    "look": [
+      "The 16:30 open pops up through your range high into about 28,165 and a 5-min candle closes back inside. With the 4H down, that's an A+.",
+      "Nvidia still weak after the cash open.",
+      "A 5-min lower high forms under 28,165.",
+      "S&P futures also turn lower again.",
+      "Take some profit at 28,050 and move the stop to entry only after that."
+    ],
+    "watch": [
+      "Shorting the low of the day with no level to lean on. Wait for the pop.",
+      "A short squeeze if the board says Huang stays or names a clear plan.",
+      "Spreads are still wide after the 15:30 data and a big move. Check before entering.",
+      "Taking a second short after being stopped. One attempt only."
     ]
   },
   "sources": [
     {
-      "name": "Reuters via Yahoo Finance (Nasdaq futures fall on Nvidia turmoil, 12 Nov)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-fall-nvidia-turmoil-093910045.html"
+      "name": "ZeroHedge (futures at 8:20am ET, Fed speakers, Nvidia board)",
+      "url": "https://www.zerohedge.com/markets/nasdaq-futures-slide-nvidia-board-hunts-huangs-replacement-rivals-feast"
     },
     {
-      "name": "Yahoo Finance (stock market today live, 12 Nov)",
-      "url": "https://sg.finance.yahoo.com/news/live/stock-market-today-thursday-november-12-sp-500-nasdaq-dow-nvidia-invest-110027430.html"
-    },
-    {
-      "name": "TipRanks (futures at 5:26 a.m. ET, 12 Nov)",
-      "url": "https://www.tipranks.com/news/stock-market-today-nov-12-u-s-tech-stocks-fall-on-nvidia-ceo-uncertainty"
-    },
-    {
-      "name": "CNBC (Nasdaq-100 futures live updates, 12 Nov)",
+      "name": "CNBC live updates (jobless claims, 12 Nov)",
       "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html"
     },
     {
-      "name": "Investing.com (Nasdaq 100 futures quote)",
-      "url": "https://www.investing.com/indices/nq-100-futures"
+      "name": "Investrade morning preview (downgrades, pre-market level)",
+      "url": "https://investrade.com/morning-preview-november-12-2026/"
     },
     {
-      "name": "CNBC (NQ Dec '26 quote)",
-      "url": "https://www.cnbc.com/quotes/@ND.1"
+      "name": "GFX FTs (Nvidia board candidates)",
+      "url": "https://gfxfts.substack.com/p/nvidia-turmoil-drags-nasdaq-yen-nears"
     },
     {
-      "name": "investingLive (Nasdaq futures levels, 12 Nov)",
+      "name": "NQ Wizard (Wednesday high)",
+      "url": "https://thenqmarketwizard.substack.com/p/nq-trade-plan-1112-57f"
+    },
+    {
+      "name": "investingLive (morning levels)",
       "url": "https://investinglive.com/technical-analysis/nasdaq-futures-are-under-pressure-is-it-too-late-to-short/"
     },
     {
-      "name": "investingLive (27,780-27,813 support, 11 Nov)",
-      "url": "https://investinglive.com/technical-analysis/nasdaq-today-says-fold-that-short/"
-    },
-    {
-      "name": "CNBC (Treasury yields, 12 Nov)",
-      "url": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html"
-    },
-    {
-      "name": "TradingKey (PPI preview and Fed hike pricing, 12 Nov)",
-      "url": "https://www.tradingkey.com/analysis/economic/indicators/262302060-us-october-ppi-preview-fed-hike-expectations-stocks-dollar-gold-tradingkey"
-    },
-    {
-      "name": "Reuters via Regional Media News (dollar 19-month high, 12 Nov)",
-      "url": "https://www.regionalmedianews.com/news/national/business/dollar-rises-to-19-month-high-as-fed-hike-bets-grow-yen-softens/"
-    },
-    {
-      "name": "financecalendar.com (jobless claims 8:30 ET, 12 Nov)",
-      "url": "https://www.financecalendar.com/event/us-initial-jobless-claims-november-12-2026/"
-    },
-    {
-      "name": "BLS (PPI release schedule)",
-      "url": "https://www.bls.gov/schedule/news_release/ppi.htm"
-    },
-    {
-      "name": "TD Economics (week-ahead calendar, Fed speakers)",
-      "url": "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-11-06/upcoming.htm"
-    },
-    {
-      "name": "ApexVol (Cisco and AMAT earnings dates)",
-      "url": "https://apexvol.com/newsletter/this-week-in-vol-november-8-2026"
-    },
-    {
-      "name": "TokenPost (Nvidia earnings 17 Nov)",
-      "url": "https://www.tokenpost.com/news/investing/55141"
+      "name": "Options Oracle (weekly gain)",
+      "url": "https://optionsoracle.substack.com/p/nvidias-board-holds-the-markets-attention"
     }
   ]
 }
