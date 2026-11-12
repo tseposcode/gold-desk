@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-11T21:40:00Z",
-  "asof": "2026-11-11T21:33:00Z",
-  "price": 3983.9,
+  "updated": "2026-11-12T01:40:00Z",
+  "asof": "2026-11-12T01:19:00Z",
+  "price": 3997.4,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 4,000; testing today's low"
+    "label": "Leaning down below 4,017; bounce testing 4,000"
   },
-  "event": "US PPI on Fri 13 Nov (time UNVERIFIED, likely 15:30 SAST). Asia opens overnight; no confirmed high-impact US release before then.",
+  "event": "US PPI on Fri 13 Nov (time UNVERIFIED, likely 15:30 SAST). No confirmed high-impact US release today.",
   "bullets": [
     {
-      "title": "Below 4,000",
-      "text": "Gold was 3,983.90 at 23:33 SAST, down 47.90 (-1.19%), near today's low of 3,981.70 after a high of 4,067.90 (Kitco)."
+      "title": "Small bounce",
+      "text": "Gold was 3,997.40 at 03:19 SAST, up 10.40 (+0.26%) after Wednesday's low of 3,967.90 and high of 4,067.90 (Kitco)."
     },
     {
-      "title": "Round number lost",
-      "text": "The 4,000 level that Kitco called solid support earlier has now broken, and Kitco says analysts warn of more losses toward 3,900."
+      "title": "Still under 4,000",
+      "text": "Goodreturns had spot near 3,987 in early Asia trade, so price is hovering just under the broken 4,000 level."
     },
     {
-      "title": "Dollar at highs",
-      "text": "The dollar index is up 0.69% near 102.94, its highest since April 2025, and the US 10-year yield is near 4.99% (Trading Economics)."
+      "title": "Dollar near highs",
+      "text": "The dollar index is about 102.87, near its highest since April 2025, and the US yield is near 4.99% (Trading Economics; Goodreturns says 102.7-102.9)."
     },
     {
-      "title": "Hike odds jump",
-      "text": "Trading Economics says December hike odds rose to as high as 100%, with Waller floating 50 bp, though another report says 84.5% (sources differ, UNVERIFIED)."
+      "title": "December hike priced",
+      "text": "CME FedWatch odds for a December hike are cited at 100%, up from 84% before CPI, though a Nov 11 report said 91% (sources differ, UNVERIFIED)."
     },
     {
-      "title": "Hawkish Fed chorus",
-      "text": "Logan, Paulson and Bowman also sounded hawkish, with Bowman saying inflation is broadening (Yahoo Finance, Trading Economics)."
+      "title": "Hawkish Fed",
+      "text": "Waller said core inflation could justify a half-point hike as soon as December, and Paulson and Bowman also sounded hawkish (Goodreturns)."
     },
     {
-      "title": "Hot CPI backdrop",
-      "text": "October CPI rose 0.4% m/m against 0.3% expected, and core was 0.3% against 0.2%, which started this week's selling (Trading Economics)."
+      "title": "Oil and Iran",
+      "text": "Brent is near 92-93 dollars amid a US-Iran stalemate, which keeps some safe-haven and inflation risk in play (Trading Economics, Goodreturns)."
     }
   ],
   "levels": [
@@ -42,12 +42,12 @@
     {
       "price": "4,062-4,068",
       "type": "resistance",
-      "note": "Today's high 4,067.90 (Kitco) and Forexuro daily pivot 4,062.75"
+      "note": "Wednesday's high 4,067.90 (Kitco) and Forexuro pivot 4,062.75"
     },
     {
       "price": "4,025-4,036",
       "type": "resistance",
-      "note": "This morning's low 4,025.80 and Mitrade S1"
+      "note": "Wednesday morning's low 4,025.80 and Mitrade S1"
     },
     {
       "price": "4,012-4,017",
@@ -55,19 +55,19 @@
       "note": "Tuesday's low 4,012.70-4,016.80 (sources differ)"
     },
     {
-      "price": "3,997-4,000",
-      "type": "resistance",
-      "note": "The 4,000 round number, broken tonight, now overhead"
-    },
-    {
-      "price": "~3,984",
+      "price": "~3,997",
       "type": "now",
-      "note": "Kitco bid 3,983.90 at 23:33 SAST"
+      "note": "Kitco bid 3,997.40 at 03:19 SAST, right under 4,000"
     },
     {
-      "price": "3,970-3,982",
+      "price": "3,981-3,987",
       "type": "support",
-      "note": "Today's low 3,981.70 (Kitco) and Mitrade S2 area"
+      "note": "Earlier low 3,981.70 and Asia print near 3,987 (Goodreturns)"
+    },
+    {
+      "price": "3,968-3,972",
+      "type": "support",
+      "note": "Wednesday's low 3,967.90 (Kitco) and Mitrade S2 area"
     },
     {
       "price": "3,885-3,904",
@@ -79,7 +79,7 @@
     "title": "Buy plan: hold at 3,885-3,904 (counter-trend)",
     "entry": 3900,
     "stop": 3880,
-    "target": 3970,
+    "target": 3968,
     "keys": [
       {
         "label": "Buy zone",
@@ -91,7 +91,7 @@
       },
       {
         "label": "Targets",
-        "value": "3,935, then 3,970"
+        "value": "3,935, then 3,968"
       },
       {
         "label": "Cancelled if",
@@ -106,7 +106,7 @@
       "Take some profit at 3,935 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying now at 3,984 just because it is near today's low. The trend is down.",
+      "Buying now at 3,997 because of the small bounce. The trend is still down.",
       "More hawkish Fed comments or Friday's US PPI can extend the drop fast.",
       "Thin liquidity overnight in Asia can make wicks go through the zone.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
@@ -128,7 +128,7 @@
       },
       {
         "label": "Targets",
-        "value": "3,972, then 3,905"
+        "value": "3,968, then 3,905"
       },
       {
         "label": "Cancelled if",
@@ -140,10 +140,10 @@
       "A clear 15M rejection wick or bearish close inside the zone.",
       "A 1H lower high under 4,017.",
       "The dollar index holding near 102.9 or higher.",
-      "Take some profit at 3,972 and move the stop to entry only after that."
+      "Take some profit at 3,968 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling at 3,984 now, right on today's low. Wait for the bounce into the zone.",
+      "Price is already in the zone. Wait for a clear rejection candle, not just the touch.",
       "A 1H close back above 4,022 means the break failed, and price can squeeze to 4,025-4,036.",
       "Safe-haven headlines, such as the Hormuz tensions Kitco mentions, can bring buyers back fast.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
@@ -151,16 +151,16 @@
   },
   "sources": [
     {
-      "name": "Kitco (live gold, 11 Nov 16:33 NY time = 23:33 SAST)",
+      "name": "Kitco (live gold, 11 Nov 20:19 NY time = 03:19 SAST 12 Nov)",
       "url": "https://www.kitco.com/charts/gold"
     },
     {
-      "name": "Trading Economics (gold, DXY, yields, Fed odds, CPI, 11 Nov)",
-      "url": "https://tradingeconomics.com/commodity/gold"
+      "name": "Goodreturns (spot gold, DXY, Fed odds, 12 Nov 04:17 IST)",
+      "url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-12-11-2026-live-spot-gold-mcx-gold-silver-price-24k-22k-18k-gold-price-1546469.html"
     },
     {
-      "name": "Yahoo Finance (gold today, Fed speakers, 11 Nov)",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-november-11-2026-gold-prices-fall-back-as-inflation-concerns-broaden-121148323.html"
+      "name": "Trading Economics (gold, DXY, yields, Fed odds, 12 Nov)",
+      "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
       "name": "Mitrade (gold after hot CPI, levels, 11 Nov)",
