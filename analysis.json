@@ -1,174 +1,174 @@
 {
-  "updated": "2026-11-12T01:40:00Z",
-  "asof": "2026-11-12T01:19:00Z",
-  "price": 3997.4,
+  "updated": "2026-11-12T05:39:00Z",
+  "asof": "2026-11-12T05:30:00Z",
+  "price": 3972.0,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 4,017; bounce testing 4,000"
+    "label": "Leaning down below 4,000; testing 3,969 low"
   },
-  "event": "US PPI on Fri 13 Nov (time UNVERIFIED, likely 15:30 SAST). No confirmed high-impact US release today.",
+  "event": "US jobless claims today, likely 15:30 SAST (time UNVERIFIED). US PPI expected Fri 13 Nov (date and time UNVERIFIED).",
   "bullets": [
     {
-      "title": "Small bounce",
-      "text": "Gold was 3,997.40 at 03:19 SAST, up 10.40 (+0.26%) after Wednesday's low of 3,967.90 and high of 4,067.90 (Kitco)."
+      "title": "Bounce faded",
+      "text": "Gold bounced to about 3,998.71 overnight (Mitrade) but slipped back to 3,971.70-3,974.57 (Trading Economics), so 4,000 held as a ceiling."
     },
     {
-      "title": "Still under 4,000",
-      "text": "Goodreturns had spot near 3,987 in early Asia trade, so price is hovering just under the broken 4,000 level."
+      "title": "Testing the low",
+      "text": "Thursday's low so far is 3,968.82 (Mitrade), and FX Leaders reports price testing 3,969 as the dollar climbs."
     },
     {
-      "title": "Dollar near highs",
-      "text": "The dollar index is about 102.87, near its highest since April 2025, and the US yield is near 4.99% (Trading Economics; Goodreturns says 102.7-102.9)."
+      "title": "Dollar at highs",
+      "text": "The dollar index is about 102.84-102.99, a yearly high and the strongest since April 2025, and the US 10-year yield is near 5.00%."
     },
     {
       "title": "December hike priced",
-      "text": "CME FedWatch odds for a December hike are cited at 100%, up from 84% before CPI, though a Nov 11 report said 91% (sources differ, UNVERIFIED)."
+      "text": "Markets price about an 87% chance of a December Fed hike (Mitrade, Amillex), though Trading Economics says 91% (sources differ)."
     },
     {
-      "title": "Hawkish Fed",
-      "text": "Waller said core inflation could justify a half-point hike as soon as December, and Paulson and Bowman also sounded hawkish (Goodreturns)."
+      "title": "Hot inflation",
+      "text": "October core CPI rose 0.3% for a third month versus 0.2% expected, and Waller said a 50 bp December hike may be necessary."
     },
     {
-      "title": "Oil and Iran",
-      "text": "Brent is near 92-93 dollars amid a US-Iran stalemate, which keeps some safe-haven and inflation risk in play (Trading Economics, Goodreturns)."
+      "title": "Fast money left",
+      "text": "Managed-money longs fell to a 21-week low, while central banks bought 321 t in Q3 and China's PBOC added 25.8 t in October (Mitrade)."
+    },
+    {
+      "title": "Iran and oil",
+      "text": "Hormuz shipping disruptions show little sign of easing and Brent is near 90 dollars, which keeps some safe-haven demand in play (Amillex)."
     }
   ],
   "levels": [
     {
-      "price": "4,074-4,083",
+      "price": "4,050-4,068",
       "type": "resistance",
-      "note": "Mitrade R1 and the 28 Oct rebound high 4,082.89"
+      "note": "Mitrade 4,050 and Wednesday's high 4,067.90"
     },
     {
-      "price": "4,062-4,068",
+      "price": "4,000-4,017",
       "type": "resistance",
-      "note": "Wednesday's high 4,067.90 (Kitco) and Forexuro pivot 4,062.75"
+      "note": "Round number (daily close above needed) and Tuesday's low 4,012-4,017"
     },
     {
-      "price": "4,025-4,036",
+      "price": "3,987-3,999",
       "type": "resistance",
-      "note": "Wednesday morning's low 4,025.80 and Mitrade S1"
+      "note": "Wednesday's close 3,987.69 and the overnight bounce high near 3,998.71"
     },
     {
-      "price": "4,012-4,017",
-      "type": "resistance",
-      "note": "Tuesday's low 4,012.70-4,016.80 (sources differ)"
-    },
-    {
-      "price": "~3,997",
+      "price": "~3,972",
       "type": "now",
-      "note": "Kitco bid 3,997.40 at 03:19 SAST, right under 4,000"
+      "note": "Trading Economics 3,971.70-3,974.57 on 12 Nov (exact time UNVERIFIED)"
     },
     {
-      "price": "3,981-3,987",
+      "price": "3,968-3,969",
       "type": "support",
-      "note": "Earlier low 3,981.70 and Asia print near 3,987 (Goodreturns)"
+      "note": "Thursday's low 3,968.82 (Mitrade) and Wednesday's low 3,967.90"
     },
     {
-      "price": "3,968-3,972",
+      "price": "3,919",
       "type": "support",
-      "note": "Wednesday's low 3,967.90 (Kitco) and Mitrade S2 area"
+      "note": "4 Nov low (Mitrade)"
     },
     {
-      "price": "3,885-3,904",
+      "price": "3,879",
       "type": "support",
-      "note": "Mitrade S3; Kitco analysts warn of losses toward 3,900"
+      "note": "30 Oct low (Mitrade)"
+    },
+    {
+      "price": "3,850",
+      "type": "support",
+      "note": "Next level flagged by Goldman (via Mitrade)"
     }
   ],
   "buy": {
-    "title": "Buy plan: hold at 3,885-3,904 (counter-trend)",
-    "entry": 3900,
-    "stop": 3880,
+    "title": "Buy plan: hold at 3,879-3,890 (counter-trend)",
+    "entry": 3885,
+    "stop": 3865,
     "target": 3968,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,885-3,904, only after a dip that holds"
+        "value": "3,879-3,890, only after a dip that holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,880 (under the zone)"
+        "value": "Below 3,865 (under the 30 Oct low)"
       },
       {
         "label": "Targets",
-        "value": "3,935, then 3,968"
+        "value": "3,919, then 3,968"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,880"
+        "value": "1H candle closes below 3,865"
       }
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price reaching 3,885-3,904 and a 15M close back up out of the zone.",
+      "Price reaching 3,879-3,890 and a 15M close back up out of the zone.",
       "A 1H higher low inside the zone.",
       "The dollar index easing back below 102.7.",
-      "Take some profit at 3,935 and move the stop to entry only after that."
+      "Take some profit at 3,919 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying now at 3,997 because of the small bounce. The trend is still down.",
-      "More hawkish Fed comments or Friday's US PPI can extend the drop fast.",
-      "Thin liquidity overnight in Asia can make wicks go through the zone.",
+      "Buying the 3,969 low just because it is a low. The trend is still down and Goldman flags 3,850.",
+      "Strong jobless claims today or a hot PPI can push price straight through the zone.",
+      "Thin liquidity can make wicks go through the zone before it turns.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,997-4,017",
-    "entry": 4005,
-    "stop": 4022,
-    "target": 3905,
+    "title": "Sell plan: rejection at 3,987-4,000",
+    "entry": 3992,
+    "stop": 4008,
+    "target": 3920,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,997-4,017 (broken 4,000, now resistance)"
+        "value": "Rejection at 3,987-4,000 (Wednesday's close up to the round number)"
       },
       {
         "label": "Stop",
-        "value": "Above 4,022 (over 4,017)"
+        "value": "Above 4,008 (over 4,000)"
       },
       {
         "label": "Targets",
-        "value": "3,968, then 3,905"
+        "value": "3,969, then 3,920"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 4,022"
+        "value": "1H candle closes above 4,008"
       }
     ],
     "look": [
-      "Price bouncing back up to 3,997-4,017 and stalling there.",
+      "Price bouncing back up to 3,987-4,000 and stalling there.",
       "A clear 15M rejection wick or bearish close inside the zone.",
-      "A 1H lower high under 4,017.",
-      "The dollar index holding near 102.9 or higher.",
-      "Take some profit at 3,968 and move the stop to entry only after that."
+      "A 1H lower high under 4,000.",
+      "The dollar index holding near 102.85 or higher.",
+      "Take some profit at 3,969 and move the stop to entry only after that."
     ],
     "watch": [
-      "Price is already in the zone. Wait for a clear rejection candle, not just the touch.",
-      "A 1H close back above 4,022 means the break failed, and price can squeeze to 4,025-4,036.",
-      "Safe-haven headlines, such as the Hormuz tensions Kitco mentions, can bring buyers back fast.",
+      "Selling now at 3,972, right on support. Wait for the bounce into the zone instead.",
+      "A 1H close above 4,008 means sellers lost 4,000, and price can squeeze to 4,017 or 4,050.",
+      "Iran or Hormuz headlines, or talk of US-Iran talks, can move gold fast either way.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Kitco (live gold, 11 Nov 20:19 NY time = 03:19 SAST 12 Nov)",
-      "url": "https://www.kitco.com/charts/gold"
-    },
-    {
-      "name": "Goodreturns (spot gold, DXY, Fed odds, 12 Nov 04:17 IST)",
-      "url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-12-11-2026-live-spot-gold-mcx-gold-silver-price-24k-22k-18k-gold-price-1546469.html"
-    },
-    {
-      "name": "Trading Economics (gold, DXY, yields, Fed odds, 12 Nov)",
+      "name": "Trading Economics (gold, DXY, 10-year yield, Fed odds, 12 Nov)",
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "name": "Mitrade (gold after hot CPI, levels, 11 Nov)",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/hotter-cpi-plunges-gold-yields-surge"
+      "name": "Mitrade (gold below 4,000, positioning and levels, 12 Nov)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-4000-break-positions-20261112J1120"
     },
     {
-      "name": "Forexuro (XAU/USD pivot levels, 11 Nov)",
-      "url": "https://forexuro.com/xauusd-analysis/2026-11-11"
+      "name": "Amillex daily commentary (gold, dollar, Iran, 12 Nov 04:13 UTC)",
+      "url": "https://www.amillex.com/2026/11/12/amillex-daily-market-commentary-strong-dollar-pushes-gold-below-4000-irans-nuclear-stance-supports-oil/"
+    },
+    {
+      "name": "FX Leaders headline (XAU/USD tests 3,969 ahead of PPI, 12 Nov; page not readable)",
+      "url": "https://www.fxleaders.com/news/2026/11/12/gold-price-forecast-xau-usd-tests-3969-as-dollar-climbs-ahead-of-ppi/"
     }
   ]
 }
