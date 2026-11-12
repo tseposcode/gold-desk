@@ -1,181 +1,170 @@
 {
-  "market": "US100",
-  "updated": "2026-11-12T11:30:00Z",
-  "asof": "2026-11-12T10:58:00Z",
-  "price": 28281,
-  "newsDay": false,
+  "updated": "2026-11-12T09:36:00Z",
+  "asof": "2026-11-12T09:30:00Z",
+  "price": 3930.0,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 28,300 (Nvidia shock)"
+    "label": "Leaning down below 3,944; lowest since 4 Nov"
   },
-  "event": "US jobless claims today, likely 15:30 SAST (time UNVERIFIED). US PPI Fri 13 Nov, 15:30 SAST.",
+  "event": "US jobless claims today, likely 15:30 SAST (time UNVERIFIED). US PPI on Fri 13 Nov (time UNVERIFIED).",
   "bullets": [
     {
-      "title": "Nvidia shock",
-      "text": "The WSJ reported Nvidia's board is preparing to oust CEO Jensen Huang, and Nvidia fell about 7% before the US open (Reuters)."
+      "title": "Support broke",
+      "text": "Gold fell from about 3,964 at 09:20 SAST (FXEmpire) to about 3,927-3,933 (Trading Economics, time UNVERIFIED), which is under the 3,944 support."
     },
     {
-      "title": "Nasdaq hit hardest",
-      "text": "Nasdaq 100 futures fell about 0.9% against about 0.4% for S&P 500 futures, because the selling is in AI and chip names (Bloomberg, investingLive)."
+      "title": "Lowest since 4 Nov",
+      "text": "FXEmpire says gold hit its lowest level since 4 Nov after hot US inflation data and hawkish Fed comments."
     },
     {
-      "title": "Not all tech",
-      "text": "AMD and Broadcom rose after hours, while Super Micro, Oracle and CoreWeave fell with Nvidia (investingLive)."
+      "title": "Oversold, not turned",
+      "text": "FXEmpire notes the 2-hour RSI near 29, which is oversold, but price is still making lower lows."
     },
     {
-      "title": "Gives back Wednesday",
-      "text": "The drop threatens to erase Wednesday's rally, when the Nasdaq Composite rose about 1.6% on renewed AI buying (Yahoo Finance, Reuters)."
+      "title": "Dollar and yields",
+      "text": "The dollar index is about 102.90, near its highest since April 2025, and the US 10-year yield is about 4.99% (Trading Economics)."
     },
     {
-      "title": "Rates headwind",
-      "text": "Hotter-than-expected US inflation has traders betting on a bigger Fed hike in December, which weighs on tech valuations (Yahoo Finance)."
+      "title": "December hike priced",
+      "text": "Trading Economics puts December hike odds near 91% and FXEmpire says a hike is fully priced, after October core CPI rose 0.3% versus 0.2% expected."
     },
     {
-      "title": "China angle",
-      "text": "China urged the US not to use the Nvidia story to justify more chip export limits, and Alibaba and Tencent report results soon (Yahoo Finance via Bloomberg)."
+      "title": "Central banks buying",
+      "text": "Central banks bought 321 t in Q3 and China added about 25.8 t in October (FXEmpire), which can slow deep drops."
     }
   ],
   "levels": [
     {
-      "price": "28,447-28,476",
+      "price": "3,992-4,008",
       "type": "resistance",
-      "note": "Resistance zone from the 5 Nov rebound (older level, investingLive)"
+      "note": "FXEmpire 2H pivot 3,992 and daily pivot 4,008.04"
     },
     {
-      "price": "28,337",
+      "price": "3,964-3,969",
       "type": "resistance",
-      "note": "Invalidation for the short idea, above the developing value area high (investingLive)"
+      "note": "FXEmpire quote 3,964.29 at 09:20 SAST and the earlier 3,968.82 low (Mitrade)"
     },
     {
-      "price": "~28,300",
+      "price": "3,944-3,949",
       "type": "resistance",
-      "note": "Developing value area high. A reclaim above it weakens the bearish view"
+      "note": "Broken support: FXEmpire 3,944 and S1 3,948.98"
     },
     {
-      "price": "~28,281",
+      "price": "~3,930",
       "type": "now",
-      "note": "Nasdaq futures before the US open (Yahoo Finance, exact time UNVERIFIED)"
+      "note": "Trading Economics 3,927.03-3,933.28 (exact time UNVERIFIED)"
     },
     {
-      "price": "28,232-28,254",
+      "price": "3,919",
       "type": "support",
-      "note": "Session VWAP area (investingLive). Price is sitting just above it"
+      "note": "4 Nov low (Mitrade)"
     },
     {
-      "price": "28,165",
+      "price": "3,896",
       "type": "support",
-      "note": "First downside target, just above the prior session's value area low (investingLive)"
+      "note": "FXEmpire next support below 3,944"
     },
     {
-      "price": "27,957",
+      "price": "3,879",
       "type": "support",
-      "note": "Second target, above an earlier session's point of control (investingLive)"
+      "note": "30 Oct low (Mitrade)"
     },
     {
-      "price": "27,837",
+      "price": "3,813-3,850",
       "type": "support",
-      "note": "Third target, just ahead of the 10 Nov point of control and VWAP (investingLive)"
+      "note": "Goldman 3,850 (via Mitrade) and LiteFinance target zone 3,844-3,813"
     }
   ],
-  "levelNote": "Levels are from December Nasdaq 100 futures (NQ). Your broker's US100 CFD follows the cash index and usually sits a fixed number of points below futures. Check the gap on your chart and shift these levels by it.",
   "buy": {
-    "title": "Buy plan: 27,957 hold (counter-trend)",
-    "entry": 27960,
-    "stop": 27830,
-    "target": 28232,
+    "title": "Buy plan: hold at 3,879-3,896 (counter-trend)",
+    "entry": 3885,
+    "stop": 3865,
+    "target": 3944,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "27,957, ideally as the 16:30 open sweeps your range low"
+        "value": "3,879-3,896, only after a dip that holds"
       },
       {
         "label": "Stop",
-        "value": "Below 27,830 (under the 27,837 level)"
+        "value": "Below 3,865 (under the 30 Oct low)"
       },
       {
         "label": "Targets",
-        "value": "28,165, then 28,232"
+        "value": "3,919, then 3,944"
       },
       {
         "label": "Cancelled if",
-        "value": "A 15M candle closes below 27,837"
+        "value": "1H candle closes below 3,865"
       }
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "The open spike sweeps your range low near 27,957 and a 5-min candle closes back inside the range.",
-      "Nvidia stops falling and the other chip names (AMD, Broadcom) hold up.",
-      "Jobless claims at 15:30 come in without a big surprise.",
-      "Take some profit at 28,165 and move the stop to entry only after that."
+      "Price reaching 3,879-3,896 and a 15M close back up out of the zone.",
+      "A 1H higher low inside the zone.",
+      "The dollar index easing back below 102.7.",
+      "Take some profit at 3,919 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying the first red candle after 16:30. Wait for the sweep and the close back inside.",
-      "More Nvidia headlines during the session can drag the whole index lower fast.",
-      "Strong US data can add to Fed hike bets and push tech lower.",
+      "Buying now just because RSI is oversold. Oversold can stay oversold in a strong-dollar trend.",
+      "Strong jobless claims today or a hot PPI on Friday can push price straight through the zone.",
+      "LiteFinance flags 3,844-3,813 if support keeps breaking, so the zone may not hold.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: bounce into 28,284-28,300",
-    "entry": 28290,
-    "stop": 28345,
-    "target": 28165,
+    "title": "Sell plan: retest of 3,944-3,949",
+    "entry": 3945,
+    "stop": 3960,
+    "target": 3896,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "28,284-28,300, ideally as the open sweeps your range high"
+        "value": "Rejection at 3,944-3,949 (broken support from below)"
       },
       {
         "label": "Stop",
-        "value": "Above 28,345 (over the 28,337 invalidation)"
+        "value": "Above 3,960 (under the 3,964 area)"
       },
       {
         "label": "Targets",
-        "value": "28,165, then 27,957"
+        "value": "3,919, then 3,896"
       },
       {
         "label": "Cancelled if",
-        "value": "A 15M candle closes above 28,337"
+        "value": "1H candle closes above 3,960"
       }
     ],
     "look": [
-      "The 16:30 open spikes up through your range high and a 5-min candle closes back inside, near 28,284-28,300.",
-      "Nvidia stays weak after the US open.",
-      "A 15M lower high forms under 28,300.",
-      "S&P 500 futures also turn lower, so it is not only a Nasdaq move.",
-      "Take some profit at 28,165 and move the stop to entry only after that."
+      "Price bouncing back up to 3,944-3,949 and stalling there.",
+      "A clear 15M rejection wick or bearish close inside the zone.",
+      "A 1H lower high under 3,949.",
+      "The dollar index holding near 102.85 or higher.",
+      "Take some profit at 3,919 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling now at 28,281, in the middle with no level to lean on. Wait for the sweep at the open.",
-      "A sharp dip-buying rally in chips can squeeze shorts through 28,337 toward 28,447.",
-      "Jobless claims at about 15:30 SAST can widen spreads and move price fast. Don't enter before it.",
+      "Selling now at 3,930, after a big drop and near 3,919 support. Wait for the retest instead.",
+      "Oversold markets can snap back hard, so a 1H close above 3,960 can run to 3,969 or 3,992.",
+      "Jobless claims at about 15:30 SAST can move gold fast either way. Avoid entering just before it.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Reuters via Investing.com (Nasdaq futures fall on Nvidia turmoil, 12 Nov)",
-      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-fall-as-nvidia-turmoil-rattles-ai-stocks-5020761"
+      "name": "FXEmpire (gold forecast, can gold hold 3,944, 12 Nov 07:13 UTC)",
+      "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-fed-hike-bets-harden-can-gold-hold-3944-1644067"
     },
     {
-      "name": "Bloomberg (markets wrap, 12 Nov)",
-      "url": "https://bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates"
+      "name": "Trading Economics (gold, DXY, 10-year yield, Fed odds, 12 Nov)",
+      "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "name": "investingLive (Nasdaq futures levels, 12 Nov)",
-      "url": "https://investinglive.com/technical-analysis/nasdaq-futures-are-under-pressure-is-it-too-late-to-short/"
+      "name": "LiteFinance (short-term gold analysis, 12 Nov)",
+      "url": "https://www.litefinance.org/blog/analysts-opinions/short-term-analysis-for-oil-gold-and-eurusd-for-12112026/"
     },
     {
-      "name": "investingLive (futures reopen on WSJ Nvidia report)",
-      "url": "https://investinglive.com/stock-market-update/nasdaq-futures-drop-0-8-as-wsj-says-nvidia-board-is-preparing-to-oust-ceo-huang/"
-    },
-    {
-      "name": "Yahoo Finance (futures fall, China chip angle, 12 Nov)",
-      "url": "https://uk.finance.yahoo.com/news/nasdaq-futures-fall-nvidia-leadership-100447985.html"
-    },
-    {
-      "name": "investingLive (5 Nov resistance levels)",
-      "url": "https://investinglive.com/technical-analysis/nasdaq-futures-rebound-nearly-280-points-but-buyers-now-face-a-crucial-test/"
+      "name": "Mitrade (gold below 4,000, levels, 12 Nov)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-4000-break-positions-20261112J1120"
     }
   ]
 }

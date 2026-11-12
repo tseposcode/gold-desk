@@ -1,0 +1,181 @@
+{
+  "market": "US100",
+  "updated": "2026-11-12T11:30:00Z",
+  "asof": "2026-11-12T10:58:00Z",
+  "price": 28281,
+  "newsDay": false,
+  "bias": {
+    "direction": "down",
+    "label": "Leaning down below 28,300 (Nvidia shock)"
+  },
+  "event": "US jobless claims today, likely 15:30 SAST (time UNVERIFIED). US PPI Fri 13 Nov, 15:30 SAST.",
+  "bullets": [
+    {
+      "title": "Nvidia shock",
+      "text": "The WSJ reported Nvidia's board is preparing to oust CEO Jensen Huang, and Nvidia fell about 7% before the US open (Reuters)."
+    },
+    {
+      "title": "Nasdaq hit hardest",
+      "text": "Nasdaq 100 futures fell about 0.9% against about 0.4% for S&P 500 futures, because the selling is in AI and chip names (Bloomberg, investingLive)."
+    },
+    {
+      "title": "Not all tech",
+      "text": "AMD and Broadcom rose after hours, while Super Micro, Oracle and CoreWeave fell with Nvidia (investingLive)."
+    },
+    {
+      "title": "Gives back Wednesday",
+      "text": "The drop threatens to erase Wednesday's rally, when the Nasdaq Composite rose about 1.6% on renewed AI buying (Yahoo Finance, Reuters)."
+    },
+    {
+      "title": "Rates headwind",
+      "text": "Hotter-than-expected US inflation has traders betting on a bigger Fed hike in December, which weighs on tech valuations (Yahoo Finance)."
+    },
+    {
+      "title": "China angle",
+      "text": "China urged the US not to use the Nvidia story to justify more chip export limits, and Alibaba and Tencent report results soon (Yahoo Finance via Bloomberg)."
+    }
+  ],
+  "levels": [
+    {
+      "price": "28,447-28,476",
+      "type": "resistance",
+      "note": "Resistance zone from the 5 Nov rebound (older level, investingLive)"
+    },
+    {
+      "price": "28,337",
+      "type": "resistance",
+      "note": "Invalidation for the short idea, above the developing value area high (investingLive)"
+    },
+    {
+      "price": "~28,300",
+      "type": "resistance",
+      "note": "Developing value area high. A reclaim above it weakens the bearish view"
+    },
+    {
+      "price": "~28,281",
+      "type": "now",
+      "note": "Nasdaq futures before the US open (Yahoo Finance, exact time UNVERIFIED)"
+    },
+    {
+      "price": "28,232-28,254",
+      "type": "support",
+      "note": "Session VWAP area (investingLive). Price is sitting just above it"
+    },
+    {
+      "price": "28,165",
+      "type": "support",
+      "note": "First downside target, just above the prior session's value area low (investingLive)"
+    },
+    {
+      "price": "27,957",
+      "type": "support",
+      "note": "Second target, above an earlier session's point of control (investingLive)"
+    },
+    {
+      "price": "27,837",
+      "type": "support",
+      "note": "Third target, just ahead of the 10 Nov point of control and VWAP (investingLive)"
+    }
+  ],
+  "levelNote": "Levels are from December Nasdaq 100 futures (NQ). Your broker's US100 CFD follows the cash index and usually sits a fixed number of points below futures. Check the gap on your chart and shift these levels by it.",
+  "buy": {
+    "title": "Buy plan: 27,957 hold (counter-trend)",
+    "entry": 27960,
+    "stop": 27830,
+    "target": 28232,
+    "keys": [
+      {
+        "label": "Buy zone",
+        "value": "27,957, ideally as the 16:30 open sweeps your range low"
+      },
+      {
+        "label": "Stop",
+        "value": "Below 27,830 (under the 27,837 level)"
+      },
+      {
+        "label": "Targets",
+        "value": "28,165, then 28,232"
+      },
+      {
+        "label": "Cancelled if",
+        "value": "A 15M candle closes below 27,837"
+      }
+    ],
+    "look": [
+      "This is counter-trend. The bias is down, so use half size or skip it.",
+      "The open spike sweeps your range low near 27,957 and a 5-min candle closes back inside the range.",
+      "Nvidia stops falling and the other chip names (AMD, Broadcom) hold up.",
+      "Jobless claims at 15:30 come in without a big surprise.",
+      "Take some profit at 28,165 and move the stop to entry only after that."
+    ],
+    "watch": [
+      "Buying the first red candle after 16:30. Wait for the sweep and the close back inside.",
+      "More Nvidia headlines during the session can drag the whole index lower fast.",
+      "Strong US data can add to Fed hike bets and push tech lower.",
+      "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
+    ]
+  },
+  "sell": {
+    "title": "Sell plan: bounce into 28,284-28,300",
+    "entry": 28290,
+    "stop": 28345,
+    "target": 28165,
+    "keys": [
+      {
+        "label": "Sell zone",
+        "value": "28,284-28,300, ideally as the open sweeps your range high"
+      },
+      {
+        "label": "Stop",
+        "value": "Above 28,345 (over the 28,337 invalidation)"
+      },
+      {
+        "label": "Targets",
+        "value": "28,165, then 27,957"
+      },
+      {
+        "label": "Cancelled if",
+        "value": "A 15M candle closes above 28,337"
+      }
+    ],
+    "look": [
+      "The 16:30 open spikes up through your range high and a 5-min candle closes back inside, near 28,284-28,300.",
+      "Nvidia stays weak after the US open.",
+      "A 15M lower high forms under 28,300.",
+      "S&P 500 futures also turn lower, so it is not only a Nasdaq move.",
+      "Take some profit at 28,165 and move the stop to entry only after that."
+    ],
+    "watch": [
+      "Selling now at 28,281, in the middle with no level to lean on. Wait for the sweep at the open.",
+      "A sharp dip-buying rally in chips can squeeze shorts through 28,337 toward 28,447.",
+      "Jobless claims at about 15:30 SAST can widen spreads and move price fast. Don't enter before it.",
+      "Re-entering again and again after being stopped out. One attempt, then step away."
+    ]
+  },
+  "sources": [
+    {
+      "name": "Reuters via Investing.com (Nasdaq futures fall on Nvidia turmoil, 12 Nov)",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-fall-as-nvidia-turmoil-rattles-ai-stocks-5020761"
+    },
+    {
+      "name": "Bloomberg (markets wrap, 12 Nov)",
+      "url": "https://bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "name": "investingLive (Nasdaq futures levels, 12 Nov)",
+      "url": "https://investinglive.com/technical-analysis/nasdaq-futures-are-under-pressure-is-it-too-late-to-short/"
+    },
+    {
+      "name": "investingLive (futures reopen on WSJ Nvidia report)",
+      "url": "https://investinglive.com/stock-market-update/nasdaq-futures-drop-0-8-as-wsj-says-nvidia-board-is-preparing-to-oust-ceo-huang/"
+    },
+    {
+      "name": "Yahoo Finance (futures fall, China chip angle, 12 Nov)",
+      "url": "https://uk.finance.yahoo.com/news/nasdaq-futures-fall-nvidia-leadership-100447985.html"
+    },
+    {
+      "name": "investingLive (5 Nov resistance levels)",
+      "url": "https://investinglive.com/technical-analysis/nasdaq-futures-rebound-nearly-280-points-but-buyers-now-face-a-crucial-test/"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gold · Trade Desk</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Trade Desk">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#101614">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one column on phone, chart + analysis side by side on desktop; buy/sell plan opens below */
+:root{
+  --bg:#101614; --panel:#17201d; --line:#2a3631; --fg:#e8ece9; --muted:#93a39c;
+  --gold:#d4ad4a; --buy:#3fb37f; --sell:#e0604f; --warn:#e7b04a; --tab:var(--gold);
+  --display:"Fraunces",Georgia,serif; --body:"IBM Plex Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 var(--body);-webkit-tap-highlight-color:transparent;padding-top:calc(20px + env(safe-area-inset-top,0px));padding-bottom:calc(48px + env(safe-area-inset-bottom,0px));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:18px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px}
+h1{font:600 30px/1.1 var(--display);margin:0;letter-spacing:.2px}
+h1 span{color:var(--gold)}
+.asof{font:13px var(--mono);color:var(--muted)}
+h2{font:600 13px var(--body);text-transform:uppercase;letter-spacing:1.2px;color:var(--muted);margin:0 0 10px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+.top{display:grid;gap:18px;grid-template-columns:1fr}
+@media(min-width:900px){.top{grid-template-columns:1.6fr 1fr}}
+.chart{height:460px;padding:0;overflow:hidden}
+.chart .tradingview-widget-container{height:100%}
+@media(max-width:600px){.chart{height:58vh;min-height:340px} h1{font-size:26px} .btn{padding:18px}}
+.install{display:none;font-size:13px;color:var(--muted);border:1px dashed var(--line);border-radius:10px;padding:10px 12px}
+.install b{color:var(--gold)}
+@media all and (display-mode:browser){.install.ios{display:block}}
+a{color:var(--gold)}
+.refresh{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}
+.rbtn{font:600 15px var(--body);padding:10px 16px;border-radius:8px;border:1px solid var(--gold);background:transparent;color:var(--gold);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.rbtn[disabled]{opacity:.6;cursor:wait}
+.rbtn svg{width:16px;height:16px}
+.busy svg{animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.last{font:13px var(--mono);color:var(--muted)}
+.status{font-size:13px;color:var(--muted);flex-basis:100%}
+.status.err{color:var(--sell)}
+details.settings{font-size:14px}
+details.settings summary{cursor:pointer;color:var(--muted)}
+.setgrid{display:grid;gap:10px;margin-top:10px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.bias{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.pill{font:500 12px var(--mono);padding:3px 9px;border-radius:99px;border:1px solid var(--line)}
+.pill.up{color:var(--buy);border-color:color-mix(in srgb,var(--buy) 50%,transparent)}
+.pill.down{color:var(--sell);border-color:color-mix(in srgb,var(--sell) 50%,transparent)}
+.pill.neutral{color:var(--fg)}
+.pill.warn{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 50%,transparent)}
+ul{margin:0;padding-left:18px;display:grid;gap:6px}
+li{min-width:0}
+.src{font-size:12px;color:var(--muted);margin-top:12px}
+table{width:100%;border-collapse:collapse;font:13.5px var(--mono);font-variant-numeric:tabular-nums}
+td{padding:6px 4px;border-bottom:1px solid var(--line);vertical-align:top}
+td:first-child{width:96px;font-weight:500}
+tr.r td:first-child{color:var(--sell)} tr.s td:first-child{color:var(--buy)} tr.now td{color:var(--gold)}
+.choose{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.btn{font:600 18px var(--body);padding:16px;border-radius:10px;border:2px solid;background:transparent;cursor:pointer;color:var(--fg)}
+.btn.buy{border-color:var(--buy)} .btn.sell{border-color:var(--sell)}
+.btn.buy[aria-pressed=true]{background:var(--buy);color:#0b1210} .btn.sell[aria-pressed=true]{background:var(--sell);color:#140a08}
+.btn:focus-visible,input:focus-visible,button:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.plan{display:grid;gap:18px;grid-template-columns:1fr}
+@media(min-width:900px){.plan{grid-template-columns:1fr 1fr}}
+.plan h3{font:600 20px var(--display);margin:0 0 8px}
+.k{display:grid;grid-template-columns:110px 1fr;gap:4px 10px;font-size:14px}
+.k dt{color:var(--muted)} .k dd{margin:0;font-family:var(--mono);min-width:0}
+.look li::marker{color:var(--buy)} .watch li::marker{color:var(--sell)}
+.calc{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+label{display:grid;gap:4px;font-size:12px;color:var(--muted)}
+input[type=number],input[type=password],select{width:100%;min-width:0;font:16px var(--mono);-webkit-appearance:none;appearance:none;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:6px;padding:8px}
+.out{font:500 15px var(--mono);margin-top:12px;display:grid;gap:4px}
+.out b{color:var(--gold)}
+.checks{display:grid;gap:8px}
+.checks label{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--fg)}
+.checks input{margin-top:3px;accent-color:var(--gold)}
+.gate{margin-top:12px;font-weight:600}
+.gate.ok{color:var(--buy)} .gate.no{color:var(--warn)}
+.rules{border-color:color-mix(in srgb,var(--warn) 45%,var(--line))}
+.small{font-size:12.5px;color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.mini{font:500 13px var(--body);padding:8px 12px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--fg);cursor:pointer}
+.stop{color:var(--sell);font-weight:600}
+@media (prefers-reduced-motion:no-preference){.btn{transition:background .15s}}
+@media (prefers-reduced-motion:reduce){.busy svg{animation:none}}
+.tabs{display:flex;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:4px}
+.tabs a{flex:1;text-align:center;font:600 15px var(--body);padding:9px 10px;border-radius:7px;color:var(--muted);text-decoration:none}
+.tabs a[aria-current=page]{background:var(--bg);color:var(--fg);box-shadow:inset 0 -2px 0 var(--tab)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="tabs" aria-label="Markets"><a href="./?us100">US100</a><a href="gold.html" aria-current="page">Gold</a></nav>
+
+<header>
+  <h1>Gold <span>Desk</span> · XAUUSD</h1>
+  <div class="asof" id="asof"></div>
+</header>
+<div class="install" id="installTip">Add it to your Home Screen: tap <b>Share</b>, then <b>Add to Home Screen</b>. It then opens full screen like an app.</div>
+
+<section class="panel">
+  <div class="refresh">
+    <button class="rbtn" id="refreshBtn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><path d="M21 4v5h-5"/></svg><span>Refresh</span></button>
+    <span class="last" id="lastRefresh"></span>
+    <div class="status" id="refreshStatus" role="status"></div>
+  </div>
+  <p class="small" style="margin:10px 0 0">Claude updates this analysis every 4 hours on weekdays, at about 03:30, 07:30, 11:30, 15:30, 19:30 and 23:30 SAST. Refresh loads the newest one.</p>
+</section>
+
+<div class="top">
+  <section class="panel chart" aria-label="TradingView gold chart">
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget" style="height:100%;width:100%"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+      {"autosize":true,"symbol":"OANDA:XAUUSD","interval":"60","timezone":"Africa/Johannesburg","theme":"dark","style":"1","locale":"en","backgroundColor":"#17201d","allow_symbol_change":true,"hide_side_toolbar":false,"support_host":"https://www.tradingview.com"}
+      </script>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Top-down summary</h2>
+    <div class="bias" id="biasPills"></div>
+    <ul id="bullets"></ul>
+    <div class="src" id="sources"></div>
+    <div class="src">Chart not showing? <a href="https://www.tradingview.com/chart/?symbol=OANDA%3AXAUUSD" target="_blank" rel="noopener">Open XAUUSD on TradingView</a>.</div>
+  </section>
+</div>
+
+<section class="panel">
+  <h2>Key levels</h2>
+  <table id="levels"></table>
+</section>
+
+<section class="panel">
+  <h2>Your call</h2>
+  <div class="choose">
+    <button class="btn buy" id="pickBuy" aria-pressed="false">Buy</button>
+    <button class="btn sell" id="pickSell" aria-pressed="false">Sell</button>
+  </div>
+  <p class="small" id="pickHint">Pick a side to see what to look for, what to watch out for, and your size at 1% risk.</p>
+</section>
+
+<section id="planBox" hidden>
+  <div class="plan">
+    <div class="panel">
+      <h3 id="planTitle"></h3>
+      <dl class="k" id="planKeys"></dl>
+      <h2 style="margin-top:16px">Look for</h2>
+      <ul class="look" id="planLook"></ul>
+      <h2 style="margin-top:16px">Watch out for</h2>
+      <ul class="watch" id="planWatch"></ul>
+    </div>
+
+    <div style="display:grid;gap:18px">
+      <div class="panel">
+        <h2>Position size at 1% risk</h2>
+        <div class="calc">
+          <label>Account ($)<input type="number" id="acct" value="1000" min="0" step="10"></label>
+          <label>Risk %<input type="number" id="riskPct" value="1" min="0.1" max="5" step="0.1"></label>
+          <label>Entry<input type="number" id="entry" step="0.1"></label>
+          <label>Stop<input type="number" id="stop" step="0.1"></label>
+          <label>Target<input type="number" id="target" step="0.1"></label>
+        </div>
+        <div class="out" id="calcOut"></div>
+        <p class="small">Standard gold lot = 100 oz, so a $1 move = $100 per 1.00 lot. Check your broker's contract size; some use different units (UNVERIFIED for your broker).</p>
+      </div>
+
+      <div class="panel">
+        <h2>Before you click buy or sell</h2>
+        <div class="checks" id="checks"></div>
+        <div class="gate no" id="gate">Tick every box first.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="panel rules">
+  <h2>Today's discipline</h2>
+  <div class="calc">
+    <label>Daily loss limit (%)<input type="number" id="limitPct" value="2" min="0.5" max="10" step="0.5"></label>
+    <label>Max trades today<input type="number" id="maxTrades" value="2" min="1" max="10" step="1"></label>
+    <label>Win size (R)<input type="number" id="winR" value="2" min="0.1" step="0.1"></label>
+  </div>
+  <div class="row">
+    <button class="mini" id="addWin">Log a win (+R)</button>
+    <button class="mini" id="addLoss">Log a loss (−1R)</button>
+    <button class="mini" id="resetDay">Reset today</button>
+  </div>
+  <div class="out" id="dayOut"></div>
+  <p class="small">Rules: no trade in the 30 minutes before or after high-impact US news. After you hit the loss limit or max trades, close the platform. Profits are banked by stopping, not by one more trade.</p>
+</section>
+
+</div>
+
+<script>
+/* ---------- Analysis data (built-in starting version; replaced by Refresh) ---------- */
+const DEFAULT_ANALYSIS={
+  updated:"2026-11-05T07:00:00Z",
+  asof:"2026-11-05T07:00:00Z",
+  price:4135,
+  bias:{direction:"up",label:"Leaning up above 4,075"},
+  event:"US jobs report Fri 6 Nov, 15:30 SAST",
+  bullets:[
+    {title:"Dollar weak",text:"DXY near 101.3, a one-month low after Democrats won Congress. A weaker dollar helps gold."},
+    {title:"Yields eased",text:"after the vote (10-year about 4.88%), which lowers the cost of holding gold."},
+    {title:"Headwind",text:"markets price about 80% odds of a Fed hike on 8-9 Dec. That caps rallies."},
+    {title:"Big buyers",text:"central banks bought 321 t in Q3 (+42% y/y); gold ETFs at record holdings."},
+    {title:"Oil fell ~9%",text:"on US-Iran deal hopes, which cools inflation fears."},
+    {title:"Price",text:"biggest one-day jump since August on Wed (+3.5%), now at the highest since 22 Oct, testing 4,146."},
+    {title:"Friday payrolls",text:"decides it: strong jobs = dollar up, gold toward 4,000. Weak jobs = gold toward 4,225."}
+  ],
+  levels:[
+    {price:"4,225",type:"resistance",note:"Bull target / top of 4,187-4,227 resistance zone"},
+    {price:"4,212",type:"resistance",note:"Resistance (FXEmpire)"},
+    {price:"4,187",type:"resistance",note:"Bottom of the main resistance zone"},
+    {price:"4,146",type:"resistance",note:"Immediate resistance, rejected on the 4H today"},
+    {price:"~4,135",type:"now",note:"Price this morning"},
+    {price:"4,104-4,115",type:"support",note:"Old resistance, now first support (breakout retest)"},
+    {price:"4,075",type:"support",note:"Key support. A 4H close below it cancels the bullish view"},
+    {price:"4,000-4,019",type:"support",note:"Round number and Wed pivot. Bear target"},
+    {price:"3,921",type:"support",note:"Tuesday low (UNVERIFIED, from a headline only)"}
+  ],
+  buy:{
+    title:"Buy plan: with the trend",entry:4110,stop:4068,target:4225,
+    keys:[{label:"Buy zone",value:"4,104-4,115 retest, or 4,075 hold"},{label:"Stop",value:"Below 4,068 (under 4,075 support)"},{label:"Targets",value:"4,146, then 4,187, then 4,225"},{label:"Cancelled if",value:"4H candle closes below 4,075"}],
+    look:["Price pulls back into 4,104-4,115 instead of you chasing at 4,140+.","A sweep below a session low (Asia or London) that closes back above it on the 15M: your reclaim candle.","A 1H higher low at the retest, so buyers are still in control.","DXY staying weak (under about 101.5).","A clean 4H close above 4,146 opens 4,187."],
+    watch:["Friday 15:30 SAST jobs report. A strong number lifts the dollar and can drop gold fast toward 4,000.","Fed hike bets climbing above today's ~80%.","Buying into 4,146-4,187 resistance: poor reward for the risk.","Moving your stop lower when it gets close. That is how a small loss becomes a big one."]
+  },
+  sell:{
+    title:"Sell plan: against the trend",entry:4185,stop:4232,target:4075,
+    keys:[{label:"Sell zone",value:"Rejection at 4,146, or at 4,187-4,227"},{label:"Stop",value:"Above 4,232 (over the resistance zone)"},{label:"Targets",value:"4,115, then 4,075, then 4,000"},{label:"Cancelled if",value:"4H candle closes above 4,227"}],
+    look:["A sweep above a session high that closes back below it on the 15M.","A 1H lower high at resistance.","DXY bouncing back above 101.9 (its pre-election level).","A strong jobs report on Friday (above the 65k forecast).","A 4H close back below 4,075, which flips the picture bearish."],
+    watch:["This sells against the weak dollar and central-bank buying, so treat it as a counter-trend trade. Consider half size.","Selling in the middle of the range near 4,135, with no level to lean on.","A weak jobs report, which can spike gold through 4,187 toward 4,225.","Shorting just because price is 'too high'. Wait for the rejection candle."]
+  },
+  sources:[
+    {name:"FinanceFeeds",url:"https://financefeeds.com/gold-price-today-4135-thursday-before-6-november-jobs-report-dollar-near-one-month-low-bull-4225-bear-4000/"},
+    {name:"FXEmpire",url:"https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-can-gold-clear-4146-ahead-of-us-payrolls-1642640"}
+  ]
+};
+
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt=n=>Number(n).toLocaleString("en-US",{maximumFractionDigits:2});
+const store={get(k){try{return localStorage.getItem(k);}catch(e){return null;}},set(k,v){try{localStorage.setItem(k,v);}catch(e){}},del(k){try{localStorage.removeItem(k);}catch(e){}}};
+const sast=d=>new Date(d).toLocaleString("en-ZA",{timeZone:"Africa/Johannesburg",weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",hour12:false});
+
+store.set("tradeDeskTab","gold");
+let A=DEFAULT_ANALYSIS;
+try{const saved=JSON.parse(store.get("goldDeskAnalysis"));if(saved&&valid(saved))A=saved;}catch(e){}
+let side=null;
+
+function valid(a){return a&&a.market!=="US100"&&Array.isArray(a.bullets)&&Array.isArray(a.levels)&&a.buy&&a.sell&&a.bias;}
+
+function render(){
+  $("asof").textContent=`Analysis as of ${sast(A.asof)} SAST · gold near $${fmt(A.price)}`;
+  const dir=["up","down","neutral"].includes(A.bias.direction)?A.bias.direction:"neutral";
+  $("biasPills").innerHTML=`<span class="pill ${dir}">Bias: ${esc(A.bias.label)}</span>`+(A.event?`<span class="pill warn">Event risk: ${esc(A.event)}</span>`:"");
+  $("bullets").innerHTML=A.bullets.map(b=>`<li><b>${esc(b.title)}:</b> ${esc(b.text)}</li>`).join("");
+  const safe=(A.sources||[]).filter(s=>/^https?:\/\//i.test(s.url||""));
+  $("sources").innerHTML=(safe.length?`Sources: ${safe.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(", ")}. `:"")+"This is decision support, not a signal service.";
+  const cls={resistance:"r",support:"s",now:"now"};
+  $("levels").innerHTML=A.levels.map(l=>`<tr class="${cls[l.type]||""}"><td>${esc(l.price)}</td><td>${esc(l.note)}</td></tr>`).join("");
+  $("lastRefresh").textContent="Last refresh: "+sast(A.updated||A.asof)+" SAST";
+  if(side) pick(side);
+}
+
+/* ---------- Buy / sell ---------- */
+const CHECKS=["I am at a key level from the table, not in the middle.","I saw my signal candle close (sweep and reclaim or rejection).","My stop is set at the invalidation level before entry.","Reward is at least 2× the risk.","No high-impact news in the next 30 minutes.","I am under my daily loss limit and trade count."];
+function pick(s){
+  side=s;
+  $("pickBuy").setAttribute("aria-pressed",s==="buy");
+  $("pickSell").setAttribute("aria-pressed",s==="sell");
+  const p=A[s];
+  $("planTitle").textContent=p.title;
+  $("planTitle").style.color=s==="buy"?"var(--buy)":"var(--sell)";
+  $("planKeys").innerHTML=(p.keys||[]).map(k=>`<dt>${esc(k.label)}</dt><dd>${esc(k.value)}</dd>`).join("");
+  $("planLook").innerHTML=(p.look||[]).map(x=>`<li>${esc(x)}</li>`).join("");
+  $("planWatch").innerHTML=(p.watch||[]).map(x=>`<li>${esc(x)}</li>`).join("");
+  $("entry").value=p.entry;$("stop").value=p.stop;$("target").value=p.target;
+  $("checks").innerHTML=CHECKS.map((c,i)=>`<label><input type="checkbox" id="ck${i}">${c}</label>`).join("");
+  $("checks").querySelectorAll("input").forEach(el=>el.addEventListener("change",gate));
+  $("planBox").hidden=false;$("pickHint").hidden=true;
+  calc();gate();
+}
+function calc(){
+  const acct=+$("acct").value, pct=+$("riskPct").value, e=+$("entry").value, st=+$("stop").value, t=+$("target").value;
+  const risk=acct*pct/100, dist=Math.abs(e-st);
+  if(!dist){$("calcOut").innerHTML="Enter a stop different from the entry.";return;}
+  const wrongSide=(side==="buy"&&st>=e)||(side==="sell"&&st<=e);
+  const lots=Math.floor(risk/(dist*100)*100)/100;
+  const rr=t?Math.abs(t-e)/dist:0;
+  let html=`<div>Risk: <b>$${fmt(risk)}</b> over a $${fmt(dist)} stop</div><div>Size: <b>${lots.toFixed(2)} lots</b> (${fmt(lots*100)} oz)</div><div>Reward to risk: <b>${rr.toFixed(1)} R</b></div>`;
+  if(lots<0.01) html+=`<div class="stop">Too small for ${pct}% risk: even the smallest size (0.01 lot) risks $${fmt(dist)}, which is ${(dist/acct*100).toFixed(1)}% of your account. Use a tighter stop at a real level, or skip the trade.</div>`;
+  if(wrongSide) html+=`<div class="stop">Your stop is on the wrong side of the entry for a ${side}.</div>`;
+  if(rr&&rr<2) html+=`<div class="stop">Under 2R. The target is too close for this stop.</div>`;
+  $("calcOut").innerHTML=html;
+}
+function gate(){
+  const boxes=[...$("checks").querySelectorAll("input")];
+  const ok=boxes.length&&boxes.every(b=>b.checked)&&!dayLocked();
+  $("gate").className="gate "+(ok?"ok":"no");
+  $("gate").textContent=dayLocked()?"Stop for today. You hit your limit.":ok?"Checklist done. Place it in your platform, stop first.":"Tick every box first.";
+}
+["acct","riskPct","entry","stop","target"].forEach(id=>$(id).addEventListener("input",calc));
+$("pickBuy").onclick=()=>pick("buy");$("pickSell").onclick=()=>pick("sell");
+
+/* ---------- Daily tracker, kept on this phone only ---------- */
+const today=new Date().toLocaleDateString("en-CA",{timeZone:"Africa/Johannesburg"});
+let day={date:today,r:[]};
+try{const s=JSON.parse(store.get("goldDeskDay"));if(s&&s.date===today)day=s;}catch(e){}
+function saveDay(){store.set("goldDeskDay",JSON.stringify(day));}
+function dayLocked(){
+  const pct=+$("riskPct").value||1, lim=+$("limitPct").value||2, max=+$("maxTrades").value||2;
+  return -day.r.reduce((a,b)=>a+b,0)*pct>=lim||day.r.length>=max;
+}
+function showDay(){
+  const pct=+$("riskPct").value||1, total=day.r.reduce((a,b)=>a+b,0), max=+$("maxTrades").value||2;
+  $("dayOut").innerHTML=`<div>Trades today: <b>${day.r.length} of ${max}</b></div><div>Result: <b>${total>=0?"+":""}${total.toFixed(1)} R</b> (${(total*pct).toFixed(1)}% of account)</div>`+(dayLocked()?`<div class="stop">Done for today. Close the platform.</div>`:"");
+  if(side) gate();
+}
+$("addWin").onclick=()=>{day.r.push(Math.abs(parseFloat($("winR").value)||2));saveDay();showDay();};
+$("addLoss").onclick=()=>{day.r.push(-1);saveDay();showDay();};
+$("resetDay").onclick=()=>{day={date:today,r:[]};saveDay();showDay();};
+["limitPct","maxTrades","riskPct"].forEach(id=>$(id).addEventListener("input",showDay));
+
+/* ---------- Refresh: load the newest analysis Claude published ---------- */
+function setStatus(t,err){$("refreshStatus").textContent=t;$("refreshStatus").className="status"+(err?" err":"");}
+async function loadLatest(manual){
+  const btn=$("refreshBtn");
+  btn.disabled=true;btn.classList.add("busy");
+  try{
+    const res=await fetch("analysis.json?t="+Date.now(),{cache:"no-store"});
+    if(!res.ok) throw new Error();
+    const a=await res.json();
+    if(!valid(a)) throw new Error();
+    const isNew=a.updated!==A.updated;
+    A=a;store.set("goldDeskAnalysis",JSON.stringify(a));render();
+    if(manual) setStatus(isNew?"Loaded the newest analysis.":"You already have the newest analysis.");
+  }catch(e){
+    if(manual) setStatus("Couldn't load the newest analysis. Check your connection and try again.",true);
+  }finally{btn.disabled=false;btn.classList.remove("busy");}
+}
+$("refreshBtn").onclick=()=>loadLatest(true);
+
+render();showDay();loadLatest(false);
+
+/* Home-screen install tip on iPhone Safari, number keypad, offline shell */
+if(/iPhone|iPad|iPod/.test(navigator.userAgent)&&!navigator.standalone) $("installTip").classList.add("ios");
+document.querySelectorAll('input[type=number]').forEach(el=>{el.inputMode="decimal";});
+if("serviceWorker" in navigator&&location.protocol==="https:") navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
