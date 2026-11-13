@@ -1,106 +1,111 @@
 {
-  "updated": "2026-11-13T09:36:48Z",
-  "asof": "2026-11-13T07:30:00Z",
-  "price": 3894.75,
+  "updated": "2026-11-13T14:38:10Z",
+  "asof": "2026-11-13T14:19:00Z",
+  "price": 3885,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,903; Asia bounce fading"
+    "label": "Leaning down below 3,903; soft-PPI spike faded"
   },
-  "event": "US PPI (October) today, Fri 13 Nov, at 15:30 SAST (13:30 GMT per FXEmpire and 1Trader). Fed speakers Bowman and Daly later today (times UNVERIFIED).",
+  "event": "Fed's Bowman speaks today, Fri 13 Nov, at 17:50 SAST (15:50 GMT per MQL5). Gold market closes for the weekend tonight.",
   "bullets": [
     {
-      "title": "Bounce fading",
-      "text": "FXEmpire says gold rose to 3,918.59 by 07:18 SAST but stalled at 3,903, and its ticker showed 3,894.75 at 09:30 SAST."
+      "title": "PPI came in soft",
+      "text": "October PPI rose 0.3% m/m against 0.4% expected, but the yearly rate of 6.5% is the highest since November 2022 (Kitco, FinanceFeeds)."
     },
     {
-      "title": "One-year low",
-      "text": "Gold fell 2.76% on Thursday to a 13-month low near 3,852 (FXEmpire, Kitco)."
+      "title": "Spike then fade",
+      "text": "Gold jumped about 26 dollars to 3,906 right after PPI, then fell back to 3,881 within 30 minutes, with a low of 3,873 (MQL5)."
+    },
+    {
+      "title": "Still near lows",
+      "text": "Price is about 3,885, up a little on the day but close to Thursday's 13-month low of 3,852 (MQL5, Kitco)."
     },
     {
       "title": "Yields above 5%",
-      "text": "The US 10-year yield is near 5.10-5.13%, which weighs on gold (FXEmpire, 1Trader)."
-    },
-    {
-      "title": "Strong dollar",
-      "text": "The dollar index is near a 19-month high, at 102.30 (FXEmpire) or 103.20 (1Trader), so the exact level is UNVERIFIED."
+      "text": "Kitco has the US 10-year yield near 5.13% and the dollar index above 103, which keeps pressure on gold."
     },
     {
       "title": "Fed hike priced",
-      "text": "CME FedWatch shows about 87-89% odds of a December quarter-point hike, and NY Fed's Williams said more hikes are likely."
+      "text": "Before PPI, futures priced about 89% odds of a December quarter-point hike and 11% of a half-point hike (Kitco); FXStreet's half-point figure was 14.5%, so the exact odds are UNVERIFIED."
     },
     {
       "title": "Iran and oil",
-      "text": "Brent is near 96 dollars after Trump said the US does not need an Iran deal, which may give gold some safe-haven support (1Trader)."
+      "text": "Kitco cites a US naval blockade of Iran, Hormuz tension and Brent near 95.5 dollars, which can give gold sudden safe-haven lifts."
     },
     {
-      "title": "PPI at 15:30",
-      "text": "October PPI is expected at +0.4% m/m, and FXEmpire says a hot number could push gold toward 3,780."
+      "title": "Weekend gap risk",
+      "text": "Gold closes tonight for the weekend, so a trade held over Saturday and Sunday can open far from your stop on Monday."
     }
   ],
   "levels": [
     {
-      "price": "3,944-3,950",
+      "price": "3,934-3,940",
       "type": "resistance",
-      "note": "Broken support from 12 Nov (FXEmpire 3,944) and the 3,950 zone (TradingKey)"
+      "note": "Top of the 3,903-3,934 zone (Kitco) and the M15 200 SMA at 3,940 (MQL5)"
     },
     {
-      "price": "3,934",
+      "price": "3,923-3,924",
       "type": "resistance",
-      "note": "Fibonacci retracement (FXEmpire, 13 Nov)"
+      "note": "Today's Asia high and day high (MQL5 3,923; Kitco range 3,924)"
     },
     {
-      "price": "3,903",
+      "price": "3,903-3,906",
       "type": "resistance",
-      "note": "Pivot where the Asia bounce stalled (FXEmpire, 13 Nov)"
+      "note": "Pivot and the post-PPI spike high (Kitco 3,903; MQL5 3,906)"
     },
     {
-      "price": "~3,895",
+      "price": "3,886-3,893",
+      "type": "resistance",
+      "note": "London low and flat 1H averages (MQL5)"
+    },
+    {
+      "price": "~3,885",
       "type": "now",
-      "note": "FXEmpire ticker 3,894.75 at 09:30 SAST"
+      "note": "MQL5 New York session note, about an hour after PPI"
     },
     {
-      "price": "3,870",
+      "price": "3,870-3,875",
       "type": "support",
-      "note": "Lower Bollinger band, S1 (1Trader)"
+      "note": "Post-PPI low 3,873 (MQL5) and 3,870 support (TraderFactor via FinanceFeeds)"
     },
     {
-      "price": "3,851-3,852",
+      "price": "3,852",
       "type": "support",
-      "note": "Thursday's one-year low (Kitco 3,852.10; 1Trader S2 3,851)"
+      "note": "Thursday's 13-month low (Kitco, MQL5)"
     },
     {
-      "price": "3,823",
+      "price": "3,822-3,823",
       "type": "support",
-      "note": "Next support below 3,852 (FXEmpire, 13 Nov)"
+      "note": "Next support below 3,852 (Kitco 3,823; TraderFactor 3,822)"
     },
     {
-      "price": "3,794-3,800",
+      "price": "3,800",
       "type": "support",
-      "note": "1Trader S3 3,794 (127.2% extension) and the 3,800 level named by TradingKey"
+      "note": "Named if 3,850 fails (Sagar Dua via FinanceFeeds)"
     },
     {
-      "price": "3,780",
+      "price": "3,777-3,780",
       "type": "support",
-      "note": "4-hour wedge support, the hot-PPI target (FXEmpire, 13 Nov)"
+      "note": "RoboForex 3,777 (FinanceFeeds) and FXEmpire's 3,780 wedge support from this morning"
     }
   ],
   "buy": {
-    "title": "Buy plan: hold at 3,851-3,856 (counter-trend)",
+    "title": "Buy plan: hold at 3,852-3,856 (counter-trend)",
     "entry": 3855,
     "stop": 3835,
     "target": 3903,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,851-3,856, only after a dip that holds"
+        "value": "3,852-3,856, only after a dip that holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,835 (under the one-year low, above 3,823)"
+        "value": "Below 3,835 (under the 3,852 low, above 3,823)"
       },
       {
         "label": "Targets",
-        "value": "3,870, then 3,903"
+        "value": "3,873, then 3,903"
       },
       {
         "label": "Cancelled if",
@@ -109,75 +114,75 @@
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price dipping back to the 3,852 low and a 15M close back up out of the zone.",
+      "Price dipping to the 3,852 low and a 15M close back up out of the zone.",
       "A 1H higher low inside the zone, not a fast slice through it.",
-      "A soft PPI and yields easing back toward 5%.",
-      "Take some profit at 3,870 and move the stop to entry only after that."
+      "US yields easing after the soft PPI, or a calm tone from Bowman.",
+      "Take some profit at 3,873 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying just because gold has fallen a lot. The trend is still down.",
-      "A hot PPI at 15:30 SAST can push price through 3,852 toward 3,823 or 3,780.",
-      "Yields above 5% and Fed hike bets mean bounces may be small and short.",
+      "Buying just because PPI was soft. The spike already failed once at 3,906.",
+      "Bowman at 17:50 SAST can push yields up and send gold through 3,852.",
+      "Holding over the weekend. Close it before the Friday close if it is not at target.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
     "title": "Sell plan: rejection at 3,903",
     "entry": 3903,
-    "stop": 3937,
-    "target": 3823,
+    "stop": 3926,
+    "target": 3852,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,900-3,905, the pivot where the bounce stalled"
+        "value": "Rejection at 3,900-3,906, where the PPI spike stalled"
       },
       {
         "label": "Stop",
-        "value": "Above 3,937 (over the 3,934 Fibonacci level)"
+        "value": "Above 3,926 (over today's 3,924 high)"
       },
       {
         "label": "Targets",
-        "value": "3,852, then 3,823"
+        "value": "3,873, then 3,852"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,937"
+        "value": "1H candle closes above 3,926"
       }
     ],
     "look": [
-      "Price bouncing back up to 3,900-3,905 and stalling there again.",
+      "Price bouncing back up to 3,900-3,906 and stalling there again.",
       "A clear 15M rejection wick or bearish close near 3,903.",
-      "A 1H lower high under 3,934.",
-      "US yields staying above 5% and the dollar firm.",
-      "Take some profit at 3,852 and move the stop to entry only after that."
+      "A 1H lower high under 3,924.",
+      "Yields staying above 5% and the dollar above 103.",
+      "Take some profit at 3,873 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling in the middle at 3,895, just above 3,870 support. Wait for the retest of 3,903.",
-      "Iran and oil headlines can lift gold fast, so a 1H close above 3,937 can run to 3,944-3,950.",
-      "PPI at 15:30 SAST can move gold fast either way. Avoid entering in the 15 minutes before it.",
-      "Re-entering again and again after being stopped out. One attempt, then step away."
+      "Selling in the middle at 3,885, just above 3,870-3,875 support. Wait for the retest of 3,903.",
+      "Iran, Hormuz and oil headlines can lift gold fast, so a 1H close above 3,926 can run to 3,934-3,940.",
+      "Bowman at 17:50 SAST can move gold either way. Avoid entering in the 15 minutes before she speaks.",
+      "Re-entering again and again after being stopped out, or holding into the weekend. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "FXEmpire (gold bounces from one-year low, can it clear 3,903, 13 Nov 07:23 GMT)",
+      "name": "Kitco AM report (gold rebounds from 13-month low as PPI complicates Fed outlook, 13 Nov 13:57 GMT)",
+      "url": "https://www.kitco.com/news/article/2026-11-13/gold-rebounds-13-month-low-ppi-complicates-fed-outlook-kitco-am-report"
+    },
+    {
+      "name": "MQL5 (XAUUSD New York session plan, 13 Nov)",
+      "url": "https://www.mql5.com/en/blogs/post/780381"
+    },
+    {
+      "name": "FinanceFeeds (gold price today on PPI day, 13 Nov 13:34 GMT)",
+      "url": "https://financefeeds.com/gold-price-today-3888-friday-ppi-day-after-13-month-low-bull-3963-bear-3800/"
+    },
+    {
+      "name": "AK Order Flow (US PPI 13 Nov, gold before and after)",
+      "url": "https://akorderflow.com/news/2026-11-13-ppi-producer-prices/"
+    },
+    {
+      "name": "FXEmpire (gold bounces from one-year low, can it clear 3,903, 13 Nov)",
       "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-bounces-from-one-year-low-can-it-clear-3903-1644413"
-    },
-    {
-      "name": "FXEmpire (gold hits 13-month low before US PPI, 13 Nov 04:31 GMT)",
-      "url": "https://www.fxempire.com/forecasts/article/gold-and-silver-price-forecast-gold-hits-13-month-low-before-us-ppi-1644401"
-    },
-    {
-      "name": "1Trader (gold price today, levels, DXY, yields, PPI preview, 13 Nov)",
-      "url": "https://1trader.com/en/gold-price-2026-11-13/"
-    },
-    {
-      "name": "Kitco (gold spot and day range, 12 Nov 21:04 ET)",
-      "url": "https://www.kitco.com/charts/gold"
-    },
-    {
-      "name": "TradingKey (gold below 3,900, Iran, PPI preview, levels, 13 Nov)",
-      "url": "https://www.tradingkey.com/analysis/commodities/metal/262303668-gold-price-forecast-trump-no-iran-deal-below-3900-october-ppi-rebound-tradingkey"
     }
   ]
 }
