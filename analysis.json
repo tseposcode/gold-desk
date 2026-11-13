@@ -1,43 +1,43 @@
 {
-  "updated": "2026-11-12T21:45:00Z",
-  "asof": "2026-11-12T20:57:00Z",
-  "price": 3874.8,
+  "updated": "2026-11-13T01:40:51Z",
+  "asof": "2026-11-13T01:02:00Z",
+  "price": 3889.4,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,900; near one-year low"
+    "label": "Leaning down below 3,900; small bounce off one-year low"
   },
-  "event": "US PPI on Fri 13 Nov, likely 15:30 SAST (time UNVERIFIED).",
+  "event": "US PPI (October) today, Fri 13 Nov, likely 15:30 SAST (time UNVERIFIED).",
   "bullets": [
     {
-      "title": "Down nearly 3%",
-      "text": "Kitco shows gold at 3,873.80-3,875.80 at 22:57 SAST, down 113.20 (-2.84%) on the day."
+      "title": "Small Asian bounce",
+      "text": "Kitco shows gold at 3,888.40-3,890.40 at 03:02 SAST, up 12 dollars (+0.31%) after Thursday's fall."
     },
     {
-      "title": "Wide day range",
-      "text": "Kitco's day range was 3,852.10 to 4,001.20, so gold lost about 150 dollars from the top in one session."
+      "title": "Thursday's big drop",
+      "text": "Gold closed Thursday near 3,877.84, down 2.76%, after a low of about 3,852 (KuCoin/FXStreet copy)."
     },
     {
-      "title": "One-year low",
-      "text": "Yahoo Finance (GuruFocus) says spot gold touched its lowest level since October 2025 after the hot October CPI."
+      "title": "Strong dollar",
+      "text": "The dollar index closed Thursday at 103.17, its highest in about 19 months (KuCoin/FXStreet copy)."
     },
     {
-      "title": "Dollar and yields",
-      "text": "Trading Economics shows the dollar index near 103.19 and the US yield near 5.13% (tenor UNVERIFIED), both rising."
+      "title": "Yields jumped",
+      "text": "The US 10-year yield rose to 5.113% and the 2-year to 4.867% on Thursday, which weighs on gold."
     },
     {
       "title": "Fed hike priced",
-      "text": "CME FedWatch, cited by Yahoo and Trading Economics, puts a December quarter-point hike near 90-91%, with half-point odds near 10%."
+      "text": "CME FedWatch figures quoted put a December quarter-point hike near 85%, with half-point odds near 15%."
     },
     {
-      "title": "PPI next",
-      "text": "Today's jobless claims figure is UNVERIFIED, and October PPI on Friday can move gold fast."
+      "title": "PPI is today",
+      "text": "October PPI comes out today, and a hot number after Tuesday's hot CPI could push gold lower again."
     }
   ],
   "levels": [
     {
       "price": "3,944-3,949",
       "type": "resistance",
-      "note": "Broken support from earlier today: FXEmpire 3,944 and S1 3,948.98"
+      "note": "Broken support from 12 Nov: FXEmpire 3,944 and S1 3,948.98"
     },
     {
       "price": "3,919",
@@ -47,22 +47,27 @@
     {
       "price": "3,896-3,900",
       "type": "resistance",
-      "note": "FXEmpire 3,896 and the 3,900 support TD Securities flagged, now broken"
+      "note": "FXEmpire 3,896 and the 3,900 level TD Securities flagged, now broken"
+    },
+    {
+      "price": "~3,889",
+      "type": "now",
+      "note": "Kitco bid/ask 3,888.40-3,890.40 at 03:02 SAST"
     },
     {
       "price": "~3,882",
-      "type": "resistance",
+      "type": "support",
       "note": "100-week moving average per investingLive on 2 Nov (today's value UNVERIFIED)"
     },
     {
-      "price": "~3,875",
-      "type": "now",
-      "note": "Kitco bid/ask 3,873.80-3,875.80 at 22:57 SAST"
+      "price": "~3,878",
+      "type": "support",
+      "note": "Thursday close 3,877.84 (KuCoin/FXStreet copy)"
     },
     {
-      "price": "3,852-3,864",
+      "price": "3,852",
       "type": "support",
-      "note": "Today's low 3,852.10 (Kitco) and earlier low 3,864 (TradingKey)"
+      "note": "One-year low from Thursday: 3,852.10 (Kitco), 3,852.35 (KuCoin)"
     },
     {
       "price": "3,844-3,850",
@@ -72,12 +77,12 @@
     {
       "price": "3,813",
       "type": "support",
-      "note": "Bottom of LiteFinance target zone 3,844-3,813"
+      "note": "Bottom of LiteFinance target zone 3,844-3,813 (12 Nov)"
     },
     {
       "price": "3,800",
       "type": "support",
-      "note": "Next support after 3,875 (Investing.com)"
+      "note": "Next support named by Investing.com (12 Nov)"
     }
   ],
   "buy": {
@@ -96,7 +101,7 @@
       },
       {
         "label": "Targets",
-        "value": "3,873, then 3,896"
+        "value": "3,878, then 3,896"
       },
       {
         "label": "Cancelled if",
@@ -105,15 +110,15 @@
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price dipping under today's 3,852 low into 3,844-3,850 and a 15M close back up out of the zone.",
+      "Price dipping under the 3,852 low into 3,844-3,850 and a 15M close back up out of the zone.",
       "A 1H higher low inside the zone.",
       "The dollar index easing back below 103.",
-      "Take some profit at 3,873 and move the stop to entry only after that."
+      "Take some profit at 3,878 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying just because gold has fallen a lot. The trend is still down and the low keeps breaking.",
-      "A hot PPI on Friday can push price straight through 3,844 toward 3,813 or 3,800.",
-      "Yields above 5% and a firm dollar mean bounces may be small and short.",
+      "Buying just because gold has fallen a lot. The trend is still down.",
+      "A hot PPI today can push price straight through 3,844 toward 3,813 or 3,800.",
+      "Yields above 5% and a dollar at a 19-month high mean bounces may be small and short.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
@@ -121,7 +126,7 @@
     "title": "Sell plan: retest of 3,896-3,900",
     "entry": 3897,
     "stop": 3921,
-    "target": 3850,
+    "target": 3845,
     "keys": [
       {
         "label": "Sell zone",
@@ -133,7 +138,7 @@
       },
       {
         "label": "Targets",
-        "value": "3,852-3,864, then 3,850"
+        "value": "3,852, then 3,845"
       },
       {
         "label": "Cancelled if",
@@ -141,35 +146,31 @@
       }
     ],
     "look": [
-      "Price bouncing back up to 3,896-3,900 and stalling there.",
+      "Price bouncing from about 3,889 up to 3,896-3,900 and stalling there.",
       "A clear 15M rejection wick or bearish close near 3,900.",
       "A 1H lower high under 3,919.",
       "The dollar index holding near 103 or higher.",
-      "Take some profit at 3,864 and move the stop to entry only after that."
+      "Take some profit at 3,852 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling now at 3,875, just above today's 3,852 low after a near 3% drop. Wait for the retest instead.",
+      "Selling in the middle at 3,889. Wait for the retest of 3,896-3,900 instead.",
       "Oversold markets can snap back hard, so a 1H close above 3,921 can run to 3,944-3,949.",
-      "PPI on Friday (about 15:30 SAST, UNVERIFIED) can move gold fast either way. Avoid entering just before it.",
+      "PPI today (about 15:30 SAST, UNVERIFIED) can move gold fast either way. Avoid entering just before it.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Kitco (gold spot, day range, 12 Nov 15:57 ET)",
+      "name": "Kitco (gold spot, day range, 12 Nov 20:02 ET)",
       "url": "https://www.kitco.com/charts/gold"
     },
     {
-      "name": "Trading Economics (gold, DXY, yields, Fed odds, 12 Nov)",
-      "url": "https://tradingeconomics.com/commodity/gold"
+      "name": "KuCoin / FXStreet copy (gold one-year low, DXY, yields, Fed odds, 13 Nov Asia)",
+      "url": "https://www.kucoin.com/news/flash/gold-hits-one-year-low-as-ai-and-geopolitical-concerns-weigh-on-markets"
     },
     {
-      "name": "Yahoo Finance / GuruFocus (gold plunges on Fed hike fears, 12 Nov)",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-prices-plunge-fed-rate-194427220.html"
-    },
-    {
-      "name": "TradingKey (gold drops 3% below 3,900, 12 Nov)",
-      "url": "https://www.tradingkey.com/analysis/commodities/metal/262302970-gold-drop-3-percent-below-3900-what-reasons-prices-to-fall-tradingkey"
+      "name": "Yahoo Finance (gold below 4,000, Friday PPI preview)",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-drops-below-4-000-112247388.html"
     },
     {
       "name": "FXEmpire (gold forecast, can gold hold 3,944, 12 Nov)",
