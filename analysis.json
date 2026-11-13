@@ -1,107 +1,111 @@
 {
-  "updated": "2026-11-13T01:40:51Z",
-  "asof": "2026-11-13T01:02:00Z",
-  "price": 3889.4,
+  "updated": "2026-11-13T05:36:30Z",
+  "asof": "2026-11-13T02:04:00Z",
+  "price": 3910.9,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,900; small bounce off one-year low"
+    "label": "Leaning down below 3,930; bounce off one-year low"
   },
   "event": "US PPI (October) today, Fri 13 Nov, likely 15:30 SAST (time UNVERIFIED).",
   "bullets": [
     {
-      "title": "Small Asian bounce",
-      "text": "Kitco shows gold at 3,888.40-3,890.40 at 03:02 SAST, up 12 dollars (+0.31%) after Thursday's fall."
+      "title": "Bounce in Asia",
+      "text": "Kitco showed gold at 3,909.90-3,911.90 at 04:04 SAST, about 33 dollars up after Thursday's drop."
     },
     {
       "title": "Thursday's big drop",
-      "text": "Gold closed Thursday near 3,877.84, down 2.76%, after a low of about 3,852 (KuCoin/FXStreet copy)."
+      "text": "Gold closed Thursday near 3,877, down 2.76%, after a one-year low near 3,852 (TradingKey)."
     },
     {
-      "title": "Strong dollar",
-      "text": "The dollar index closed Thursday at 103.17, its highest in about 19 months (KuCoin/FXStreet copy)."
+      "title": "Still a down week",
+      "text": "Reuters copy says gold is down about 4.4% this week, so the bounce is small against the trend."
     },
     {
-      "title": "Yields jumped",
-      "text": "The US 10-year yield rose to 5.113% and the 2-year to 4.867% on Thursday, which weighs on gold."
+      "title": "Yields above 5%",
+      "text": "The US 10-year yield climbed above 5.1% and the dollar strengthened, which weighs on gold (Mitrade)."
     },
     {
       "title": "Fed hike priced",
-      "text": "CME FedWatch figures quoted put a December quarter-point hike near 85%, with half-point odds near 15%."
+      "text": "CME FedWatch shows about 85% odds of a December quarter-point hike and about 14.5% for a half point."
+    },
+    {
+      "title": "Iran and oil risk",
+      "text": "Trump said the US no longer needs an Iran deal and oil jumped, which may give gold some safe-haven support."
     },
     {
       "title": "PPI is today",
-      "text": "October PPI comes out today, and a hot number after Tuesday's hot CPI could push gold lower again."
+      "text": "October PPI is expected at +0.4% m/m, and a hot number after Tuesday's hot CPI could push gold lower again."
     }
   ],
   "levels": [
+    {
+      "price": "3,950-3,970",
+      "type": "resistance",
+      "note": "Resistance zone named by TradingKey (13 Nov)"
+    },
     {
       "price": "3,944-3,949",
       "type": "resistance",
       "note": "Broken support from 12 Nov: FXEmpire 3,944 and S1 3,948.98"
     },
     {
-      "price": "3,919",
+      "price": "3,930",
       "type": "resistance",
-      "note": "4 Nov low (Mitrade), broken"
+      "note": "First level to reclaim per TradingKey (13 Nov)"
+    },
+    {
+      "price": "~3,911",
+      "type": "now",
+      "note": "Kitco bid/ask 3,909.90-3,911.90 at 04:04 SAST; TradingKey says near 3,910"
     },
     {
       "price": "3,896-3,900",
-      "type": "resistance",
-      "note": "FXEmpire 3,896 and the 3,900 level TD Securities flagged, now broken"
-    },
-    {
-      "price": "~3,889",
-      "type": "now",
-      "note": "Kitco bid/ask 3,888.40-3,890.40 at 03:02 SAST"
-    },
-    {
-      "price": "~3,882",
       "type": "support",
-      "note": "100-week moving average per investingLive on 2 Nov (today's value UNVERIFIED)"
+      "note": "FXEmpire 3,896 and Mitrade 3,900 pivot, now being retested from above"
     },
     {
-      "price": "~3,878",
+      "price": "~3,877",
       "type": "support",
-      "note": "Thursday close 3,877.84 (KuCoin/FXStreet copy)"
+      "note": "Thursday close 3,877.41 (TradingKey)"
+    },
+    {
+      "price": "3,870",
+      "type": "support",
+      "note": "30 Oct low 3,870.10, broken on Thursday (TradingKey)"
     },
     {
       "price": "3,852",
       "type": "support",
-      "note": "One-year low from Thursday: 3,852.10 (Kitco), 3,852.35 (KuCoin)"
+      "note": "One-year low from Thursday: 3,852.10 (Kitco), 3,852.27 (TradingKey)"
     },
     {
       "price": "3,844-3,850",
       "type": "support",
-      "note": "Goldman 3,850 (via Mitrade) and LiteFinance zone top 3,844"
-    },
-    {
-      "price": "3,813",
-      "type": "support",
-      "note": "Bottom of LiteFinance target zone 3,844-3,813 (12 Nov)"
+      "note": "0.786 Fib near 3,850 (TradingKey), Mitrade 3,850, LiteFinance zone top 3,844"
     },
     {
       "price": "3,800",
       "type": "support",
-      "note": "Next support named by Investing.com (12 Nov)"
+      "note": "Next support named by TradingKey, Mitrade and Investing.com"
     }
   ],
   "buy": {
-    "title": "Buy plan: hold at 3,844-3,850 (counter-trend)",
-    "entry": 3848,
+    "title": "Buy plan: hold at 3,844-3,852 (counter-trend)",
+    "entry": 3850,
     "stop": 3828,
     "target": 3896,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,844-3,850, only after a dip that holds"
+        "value": "3,844-3,852, only after a dip that holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,828 (under the zone, above 3,813)"
+        "value": "Below 3,828 (under the zone, above 3,800)"
       },
       {
         "label": "Targets",
-        "value": "3,878, then 3,896"
+        "value": "3,877, then 3,896"
       },
       {
         "label": "Cancelled if",
@@ -110,75 +114,75 @@
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price dipping under the 3,852 low into 3,844-3,850 and a 15M close back up out of the zone.",
-      "A 1H higher low inside the zone.",
-      "The dollar index easing back below 103.",
-      "Take some profit at 3,878 and move the stop to entry only after that."
+      "Price dipping back to the 3,852 low and a 15M close back up out of the zone.",
+      "A 1H higher low inside the zone, not a fast slice through it.",
+      "Yields and the dollar easing after PPI.",
+      "Take some profit at 3,877 and move the stop to entry only after that."
     ],
     "watch": [
       "Buying just because gold has fallen a lot. The trend is still down.",
-      "A hot PPI today can push price straight through 3,844 toward 3,813 or 3,800.",
-      "Yields above 5% and a dollar at a 19-month high mean bounces may be small and short.",
+      "A hot PPI today can push price straight through 3,844 toward 3,800.",
+      "Yields above 5% and Fed hike bets mean bounces may be small and short.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: retest of 3,896-3,900",
-    "entry": 3897,
-    "stop": 3921,
-    "target": 3845,
+    "title": "Sell plan: rejection at 3,930",
+    "entry": 3928,
+    "stop": 3952,
+    "target": 3878,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,896-3,900 (broken support, from below)"
+        "value": "Rejection at 3,925-3,930, under the broken 3,944 level"
       },
       {
         "label": "Stop",
-        "value": "Above 3,921 (over the 3,919 level)"
+        "value": "Above 3,952 (over the 3,944-3,949 zone)"
       },
       {
         "label": "Targets",
-        "value": "3,852, then 3,845"
+        "value": "3,900, then 3,878"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,921"
+        "value": "1H candle closes above 3,952"
       }
     ],
     "look": [
-      "Price bouncing from about 3,889 up to 3,896-3,900 and stalling there.",
-      "A clear 15M rejection wick or bearish close near 3,900.",
-      "A 1H lower high under 3,919.",
-      "The dollar index holding near 103 or higher.",
-      "Take some profit at 3,852 and move the stop to entry only after that."
+      "Price extending the bounce up to 3,925-3,930 and stalling there.",
+      "A clear 15M rejection wick or bearish close near 3,930.",
+      "A 1H lower high under 3,944.",
+      "US yields staying above 5% and the dollar firm.",
+      "Take some profit at 3,900 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling in the middle at 3,889. Wait for the retest of 3,896-3,900 instead.",
-      "Oversold markets can snap back hard, so a 1H close above 3,921 can run to 3,944-3,949.",
+      "Selling in the middle at 3,910. Wait for 3,930 or a clean break back under 3,896.",
+      "Iran and oil headlines can lift gold fast, so a 1H close above 3,952 can run to 3,970 or 4,000.",
       "PPI today (about 15:30 SAST, UNVERIFIED) can move gold fast either way. Avoid entering just before it.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Kitco (gold spot, day range, 12 Nov 20:02 ET)",
+      "name": "Kitco (gold spot, 12 Nov 21:04 ET)",
       "url": "https://www.kitco.com/charts/gold"
     },
     {
-      "name": "KuCoin / FXStreet copy (gold one-year low, DXY, yields, Fed odds, 13 Nov Asia)",
-      "url": "https://www.kucoin.com/news/flash/gold-hits-one-year-low-as-ai-and-geopolitical-concerns-weigh-on-markets"
+      "name": "TradingKey (gold below 3,900, Iran, PPI preview, levels, 13 Nov)",
+      "url": "https://www.tradingkey.com/analysis/commodities/metal/262303668-gold-price-forecast-trump-no-iran-deal-below-3900-october-ppi-rebound-tradingkey"
     },
     {
-      "name": "Yahoo Finance (gold below 4,000, Friday PPI preview)",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-drops-below-4-000-112247388.html"
+      "name": "Mitrade (market news Australia, 13 Nov)",
+      "url": "https://www.mitrade.com/au/insights/daily-market-outlook/news-today/market-news-today-australia-2026-11-13"
+    },
+    {
+      "name": "Economic Times via fvbb (gold heads for weekly loss, FedWatch, 13 Nov)",
+      "url": "https://fvbb.com/ns/gold-inches-higher-but-heads-for-weekly-loss/330345"
     },
     {
       "name": "FXEmpire (gold forecast, can gold hold 3,944, 12 Nov)",
       "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-fed-hike-bets-harden-can-gold-hold-3944-1644067"
-    },
-    {
-      "name": "Mitrade (gold below 4,000, levels, 12 Nov)",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-4000-break-positions-20261112J1120"
     },
     {
       "name": "LiteFinance (short-term gold analysis, 12 Nov)",
@@ -187,10 +191,6 @@
     {
       "name": "Investing.com (gold forecast, levels, 12 Nov)",
       "url": "https://uk.investing.com/analysis/gbpusd-gold-forecast-2-trades-to-watch-200629425"
-    },
-    {
-      "name": "investingLive (gold chart, 100-week MA, 2 Nov)",
-      "url": "https://investinglive.com/technical-analysis/chart-of-the-day-gold-is-in-trouble-and-things-could-get-a-whole-lot-uglier/"
     }
   ]
 }
