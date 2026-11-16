@@ -1,178 +1,186 @@
 {
-  "updated": "2026-11-16T05:36:54Z",
-  "asof": "2026-11-16T05:35:00Z",
-  "price": 3866,
+  "updated": "2026-11-16T09:37:47Z",
+  "asof": "2026-11-16T06:30:00Z",
+  "price": 3849.64,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,903"
+    "label": "Leaning down below 3,870; testing the 3,850 low"
   },
-  "event": "US retail sales, Tuesday 17 Nov 15:30 SAST. Then the Fed's October minutes, Wednesday 18 Nov 21:00 SAST. Fed Chair Warsh comments also due this week (time UNVERIFIED).",
+  "event": "Fed Chair Warsh speaks today, Mon 16 Nov, at 19:00 SAST (12:00 ET, Fed calendar). Before that: Empire State 15:30 SAST and Fed's Williams 16:05 SAST. FOMC minutes Wed 18 Nov at 21:00 SAST.",
   "bullets": [
     {
-      "title": "Drifting lower",
-      "text": "Gold is about 3,866 at 07:35 SAST, down from a 3,886 open, after a failed push to about 3,901-3,906 and a low of 3,860 (xauad; exact high UNVERIFIED)."
+      "title": "Asia gains faded",
+      "text": "Gold was up at 3,892 at 02:50 SAST (Reuters) but slid to about 3,845-3,850 by 08:30 SAST (TokenPost, FXEmpire)."
     },
     {
-      "title": "Bad week behind",
-      "text": "Gold fell about 4.7% last week, its biggest weekly drop since early June, from a 4,149 high to a 3,852 low (TradingKey, Kitco)."
+      "title": "Weekly loss",
+      "text": "Gold fell about 4.5-4.7% last week to a one-year low, and FXLeaders says it has slipped below 3,851 today."
+    },
+    {
+      "title": "Fed hike priced",
+      "text": "Reuters says CME FedWatch shows about 94% odds of a December quarter-point hike and 6% for a half-point."
     },
     {
       "title": "Yields and dollar",
-      "text": "The US 10-year is near 5.15% and the dollar stays firm, which weighs on gold (Mitrade)."
+      "text": "The US 10-year closed Friday near 5.15% and the dollar index is near 18-month highs, around 103 (exact level UNVERIFIED)."
     },
     {
-      "title": "December hike priced",
-      "text": "Markets price about 90% odds of a quarter-point Fed hike in December and about 10% for a half point (Rallies, TradingKey)."
+      "title": "Warsh at 19:00",
+      "text": "A hawkish Warsh could push yields up and gold toward 3,800, while a cautious tone could give some relief (FXEmpire, KCM Trade)."
     },
     {
-      "title": "Fed sounds hawkish",
-      "text": "Fed speakers say inflation is running too hot, and traders wait for Chair Warsh and Wednesday's minutes (Rallies)."
-    },
-    {
-      "title": "Oil and Iran",
-      "text": "Hormuz tensions keep Brent near 96 dollars, a risk that can spark sudden gold spikes (Mitrade)."
-    },
-    {
-      "title": "Silver weaker too",
-      "text": "Spot silver fell about 2.8% to 47.38, so the whole metals complex is under pressure (Rallies)."
+      "title": "Iran and oil",
+      "text": "Reuters reports Iran firing drones at US bases in Bahrain, which can lift gold fast, but higher oil also feeds inflation and hike bets."
     }
   ],
   "levels": [
     {
-      "price": "3,957-3,972",
+      "price": "3,934",
       "type": "resistance",
-      "note": "Mitrade resistance 2 and FXEmpire R1 pivot (3,970)"
+      "note": "Second resistance (FXEmpire, 16 Nov)"
     },
     {
-      "price": "3,920-3,930",
+      "price": "3,903-3,920",
       "type": "resistance",
-      "note": "Friday's 3,924 post-PPI high, Mitrade resistance 1 and TradingKey first rebound target"
+      "note": "FXEmpire pivot 3,903; TradingKey rebound target 3,920"
     },
     {
-      "price": "3,900-3,906",
+      "price": "3,867-3,870",
       "type": "resistance",
-      "note": "Round number and today's high (xauad shows 3,901 and 3,906; exact high UNVERIFIED)"
+      "note": "Broken Oct 30 low 3,870 (TradingKey) and where gold traded in Asia today"
     },
     {
-      "price": "~3,866",
+      "price": "~3,850",
       "type": "now",
-      "note": "xauad spot at 07:35 SAST Monday"
+      "note": "FXEmpire widget 3,849.64 at 08:30 SAST, right on the 3,850-3,852 low"
     },
     {
-      "price": "3,860",
+      "price": "3,823",
       "type": "support",
-      "note": "Today's low so far (xauad)"
+      "note": "Next support below 3,852 (FXEmpire, 16 Nov)"
     },
     {
-      "price": "3,850-3,855",
+      "price": "3,800",
       "type": "support",
-      "note": "Last week's 3,852 low and the 0.786 Fib at 3,850 (TradingKey, Kitco, Mitrade)"
+      "note": "Round number and FXEmpire downside target if Warsh is hawkish"
     },
     {
-      "price": "3,815-3,835",
+      "price": "3,760",
       "type": "support",
-      "note": "Mitrade support 2, with the FXEmpire S1 pivot at 3,822 inside it"
+      "note": "4-hour broadening wedge support (FXEmpire, 16 Nov)"
     },
     {
-      "price": "3,780-3,800",
+      "price": "3,565",
       "type": "support",
-      "note": "Mitrade support 3 and the FinanceFeeds bear target of 3,800"
+      "note": "1.0 Fibonacci, TradingKey's target if 3,850 breaks (far away, a big-picture level)"
     }
   ],
   "buy": {
-    "title": "Buy plan: hold at 3,850-3,856 (counter-trend)",
-    "entry": 3855,
-    "stop": 3835,
+    "title": "Buy plan: hold at 3,823 (counter-trend)",
+    "entry": 3825,
+    "stop": 3795,
     "target": 3903,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,850-3,856, only after a dip that holds"
+        "value": "3,820-3,830, only after a dip that holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,835 (under the 3,850 Fib, top of the 3,815-3,835 zone)"
+        "value": "Below 3,795 (under the 3,800 round number)"
       },
       {
         "label": "Targets",
-        "value": "3,866, then 3,903"
+        "value": "3,850-3,852, then 3,903"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,835"
+        "value": "1H candle closes below 3,795"
       }
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price dipping to 3,850-3,856 and a 15M close back up out of the zone.",
+      "Price dipping to 3,823 and a 15M close back up out of the zone.",
       "A 1H higher low inside the zone, not a fast slice through it.",
-      "Softer yields or a weaker dollar at the same time.",
-      "Take some profit at 3,866 and move the stop to entry only after that."
+      "A cautious Warsh and US yields easing back toward 5%.",
+      "Take some profit at 3,852 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying just because price looks cheap. Yields are above 5% and a Fed hike is priced in.",
-      "A break of 3,850 opens a deeper fall, with TradingKey naming 3,565 as the next Fib target.",
-      "A strong retail sales number on Tuesday at 15:30 SAST can slice through support fast.",
+      "Buying just because gold looks cheap. It is at a one-year low and the trend is down.",
+      "A hawkish Warsh at 19:00 SAST can push price through 3,800 toward 3,760.",
+      "Fed hike odds near 94% mean bounces may be small and short.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,903",
-    "entry": 3903,
-    "stop": 3926,
-    "target": 3852,
+    "title": "Sell plan: rejection at 3,867-3,870",
+    "entry": 3868,
+    "stop": 3895,
+    "target": 3800,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,900-3,906, where this morning's push failed"
+        "value": "Rejection at 3,865-3,870, the broken Oct 30 low"
       },
       {
         "label": "Stop",
-        "value": "Above 3,926 (over Friday's 3,924 high)"
+        "value": "Above 3,895 (over today's 3,892 Asia high)"
       },
       {
         "label": "Targets",
-        "value": "3,866, then 3,852"
+        "value": "3,823, then 3,800"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,926"
+        "value": "1H candle closes above 3,895"
       }
     ],
     "look": [
-      "Price bouncing back up to 3,900-3,906 and stalling there again.",
-      "A clear 15M rejection wick or bearish close near 3,903.",
-      "A 1H lower high under 3,924.",
-      "Yields staying near 5.15% and the dollar firm.",
-      "Take some profit at 3,866 and move the stop to entry only after that."
+      "Price bouncing back up to 3,865-3,870 and stalling there.",
+      "A clear 15M rejection wick or bearish close near 3,870.",
+      "A 1H lower high under 3,892.",
+      "US yields staying above 5% and the dollar firm.",
+      "Take some profit at 3,823 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling in the middle at 3,866, just above 3,850-3,860 support. Wait for the retest of 3,903.",
-      "Iran and Hormuz headlines can lift gold fast through 3,926.",
-      "A weak retail sales number, dovish Warsh comments or soft Fed minutes can squeeze shorts.",
+      "Selling right at 3,850 support. Wait for the retest of 3,870 instead of chasing.",
+      "Iran headlines can lift gold fast, so a 1H close above 3,895 can run to 3,903-3,920.",
+      "Warsh at 19:00 SAST can move gold fast either way. Avoid entering in the 15 minutes before he speaks.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "xauad (XAU/USD spot, 16 Nov 05:35 UTC)",
-      "url": "https://xauad.com/gold-price-today.html"
+      "name": "FXEmpire (gold near one-year low, can it hold 3,852, 16 Nov 06:30 GMT)",
+      "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-near-one-year-low-can-it-hold-3852-1644760"
     },
     {
-      "name": "TradingKey (weekly drop and Fib levels, 16 Nov)",
+      "name": "FXEmpire (strong dollar puts key support at risk, 16 Nov 03:30 GMT)",
+      "url": "https://www.fxempire.com/forecasts/article/gold-and-silver-price-forecast-strong-dollar-puts-key-support-at-risk-1644743"
+    },
+    {
+      "name": "Business Recorder / Reuters (gold edges higher, awaits Warsh, 16 Nov)",
+      "url": "https://www.brecorder.com/news/40449130/gold-edges-higher-as-investors-await-warsh-remarks-for-rate-signals"
+    },
+    {
+      "name": "TokenPost (gold falls 1% to 3,844.65, 16 Nov 05:50 UTC)",
+      "url": "https://www.tokenpost.com/news/investing/58083"
+    },
+    {
+      "name": "TradingKey (gold down nearly 5% last week, levels, 16 Nov)",
       "url": "https://www.tradingkey.com/analysis/commodities/metal/262306236-gold-price-plunges-5pct-one-year-low-ppi-cooling-rebound-test-tradingkey"
     },
     {
-      "name": "Mitrade (levels, yields and oil, 16 Nov)",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-weekly-loss-yields-fed-tightening"
+      "name": "FXLeaders (gold slips below 3,851 ahead of Warsh, 16 Nov; headline only)",
+      "url": "https://www.fxleaders.com/news/2026/11/16/gold-price-forecast-xau-usd-slips-below-3851-ahead-of-warsh-speech/"
     },
     {
-      "name": "Rallies (Fed odds and Warsh, date UNVERIFIED)",
-      "url": "https://rallies.ai/news/gold-dips-on-firmer-dollar-ahead-of-warsh-comments-6322e88cb1ca7e2a"
+      "name": "Federal Reserve calendar, November 2026",
+      "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
     },
     {
-      "name": "Kitco weekly survey (13 Nov)",
-      "url": "https://www.kitco.com/news/article/2026-11-13/wall-street-bears-abound-after-inflation-sours-fed-outlook-main-street"
+      "name": "ThriveInMarkets economic calendar, 16-20 Nov 2026",
+      "url": "https://thriveinmarkets.com/calendar/2026-11-16/"
     }
   ]
 }
