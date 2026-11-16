@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-16T17:37:22Z",
-  "asof": "2026-11-16T16:16:00Z",
-  "price": 3866.85,
+  "updated": "2026-11-16T21:36:27Z",
+  "asof": "2026-11-16T21:31:00Z",
+  "price": 3852.6,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,903; holding above 3,852 for now"
+    "label": "Leaning down below 3,880; sitting on 3,852 support"
   },
-  "event": "Fed's Hammack speaks tonight, Mon 16 Nov, at 21:15 SAST (Saxo). US retail sales Tue 17 Nov (15:30 SAST, time UNVERIFIED) and Nvidia earnings Tue after the US close. FOMC minutes Wed 18 Nov at 21:00 SAST.",
+  "event": "US retail sales Tue 17 Nov at 15:30 SAST (time UNVERIFIED) and Nvidia earnings Tue after the US close. FOMC minutes Wed 18 Nov at 21:00 SAST.",
   "bullets": [
     {
-      "title": "Flat near lows",
-      "text": "Gold was near 3,867 late on Monday (Trading Economics, time UNVERIFIED), down about 0.4% on the day and close to its lowest since September-October 2025."
+      "title": "Closed near lows",
+      "text": "Spot gold was 3,852.60 at 23:31 SAST, down 0.79% on the day (Kitco)."
     },
     {
-      "title": "Today's low unclear",
-      "text": "Reports give today's low as 3,832 (Bullion Trading Center) or 3,852 (Trading Economics), so treat the exact low as UNVERIFIED."
-    },
-    {
-      "title": "Warsh said little",
-      "text": "A headline says Warsh did not talk about rates in his AI speech at 19:00 SAST, so the hawkish risk did not hit (Investinglive headline only, UNVERIFIED)."
+      "title": "Day's range",
+      "text": "Monday's range was 3,832.20 to 3,902.30, so the 3,832 low from earlier reports is now confirmed (Kitco)."
     },
     {
       "title": "Fed hike priced",
-      "text": "Markets price about 90-94% odds of a December quarter-point hike, with the rest on a half-point (CME via Reuters, Trading Economics)."
+      "text": "Markets price about 92% odds of a December quarter-point hike and 8% of a half-point (CME via Trading Economics)."
     },
     {
       "title": "Yields and dollar",
-      "text": "The US 10-year is near 5.14% and the dollar index near 103.5, close to its highest since April 2025 (Trading Economics, Saxo)."
+      "text": "The US 10-year is near 5.13% and the dollar index near 103.6, close to a 19-20 month high (Trading Economics)."
     },
     {
-      "title": "Hormuz risk",
-      "text": "Iran's Guards say tankers hit mines in Hormuz and Brent is near 96 dollars, which can lift gold on fear but also lifts hike bets (Bullion Trading Center, Saxo)."
+      "title": "Fed speakers hawkish",
+      "text": "Schmid and Daly said inflation is still too high; what Hammack said tonight is UNVERIFIED because no report was found."
+    },
+    {
+      "title": "Risk-off, oil lower",
+      "text": "US stocks fell about 1.8% on a tech selloff and crude fell about 3.7%, which did not help gold (Trading Economics)."
     },
     {
       "title": "Tuesday data",
@@ -51,22 +51,22 @@
     {
       "price": "3,892-3,903",
       "type": "resistance",
-      "note": "Today's Asia high 3,892.42 at 02:50 SAST (Reuters) and FXEmpire pivot 3,903"
+      "note": "Monday high 3,902.30 (Kitco); Asia high 3,892.42 (Reuters); FXEmpire pivot 3,903"
     },
     {
-      "price": "~3,867",
+      "price": "3,867-3,880",
+      "type": "resistance",
+      "note": "Late-day hold near 3,867 (Trading Economics) and the 3,880 break Trading Economics reported"
+    },
+    {
+      "price": "~3,853",
       "type": "now",
-      "note": "Trading Economics 3,866.85 late Monday (time UNVERIFIED)"
-    },
-    {
-      "price": "3,852-3,855",
-      "type": "support",
-      "note": "Trading Economics low 3,852; RoboForex 3,852.51; Mitrade 3,855"
+      "note": "Kitco 3,852.60 at 23:31 SAST, on top of the 3,852-3,855 support"
     },
     {
       "price": "3,830-3,833",
       "type": "support",
-      "note": "SocGen target 3,830; 52-week low 3,832.55 (FXEmpire); reported low 3,832 (UNVERIFIED)"
+      "note": "Monday low 3,832.20 (Kitco), about a 13-month low; SocGen target 3,830"
     },
     {
       "price": "3,800",
@@ -80,107 +80,103 @@
     }
   ],
   "buy": {
-    "title": "Buy plan: hold at 3,852 (counter-trend)",
-    "entry": 3856,
-    "stop": 3826,
-    "target": 3920,
+    "title": "Buy plan: hold at 3,832 (counter-trend)",
+    "entry": 3838,
+    "stop": 3818,
+    "target": 3880,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,852-3,860, only after a retest that holds"
+        "value": "3,832-3,840, only after a sweep of the low that holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,826 (under the 3,830-3,833 lows)"
+        "value": "Below 3,818 (under Monday's 3,832.20 low)"
       },
       {
         "label": "Targets",
-        "value": "3,892-3,903, then 3,920"
+        "value": "3,867, then 3,880"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,826"
+        "value": "1H candle closes below 3,818"
       }
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price coming back to 3,852-3,860 and a 15M close back up out of the zone.",
-      "A 1H higher low above 3,852.",
-      "The 10-year yield easing back toward 5% and a soft retail sales number on Tuesday.",
-      "Take some profit at 3,892-3,903 and move the stop to entry only after that."
+      "A quick dip under 3,832 that snaps back, then a 15M close back above 3,840.",
+      "A 1H higher low above 3,832.",
+      "The 10-year yield easing back toward 5% or a soft retail sales number on Tuesday.",
+      "Take some profit at 3,867 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying because gold looks cheap. It is near a 13-14 month low and the trend is down.",
-      "A strong retail sales number at 15:30 SAST Tuesday can break 3,852 and run to 3,830 or 3,800.",
-      "Hike odds near 90% mean bounces may be small and short.",
+      "Buying because gold looks cheap. It is at a 13-month low and the trend is down.",
+      "A strong retail sales number at 15:30 SAST Tuesday can break 3,832 and run to 3,800.",
+      "Hike odds near 92% mean bounces may be small and short.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,892-3,903",
-    "entry": 3895,
-    "stop": 3925,
-    "target": 3832,
+    "title": "Sell plan: rejection at 3,867-3,880",
+    "entry": 3875,
+    "stop": 3906,
+    "target": 3800,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,892-3,903, the Asia high and pivot"
+        "value": "Rejection at 3,867-3,880, the old support now overhead"
       },
       {
         "label": "Stop",
-        "value": "Above 3,925 (over RoboForex's 3,922 level)"
+        "value": "Above 3,906 (over Monday's 3,902.30 high)"
       },
       {
         "label": "Targets",
-        "value": "3,852-3,855, then 3,832"
+        "value": "3,832, then 3,800"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,925"
+        "value": "1H candle closes above 3,906"
       }
     ],
     "look": [
-      "Price pushing up into 3,892-3,903 and stalling there.",
-      "A clear 15M rejection wick or bearish close under 3,903.",
-      "A 1H lower high under 3,903.",
-      "US yields staying above 5% and the dollar firm near 103.5.",
-      "Take some profit at 3,855 and move the stop to entry only after that."
+      "Price bouncing up into 3,867-3,880 and stalling there.",
+      "A clear 15M rejection wick or bearish close under 3,867.",
+      "A 1H lower high under 3,880.",
+      "US yields staying above 5% and the dollar firm near 103.6.",
+      "Take some profit at 3,832 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling now at 3,867 in the middle of the range. Wait for 3,892-3,903 instead of chasing.",
-      "Hormuz headlines can lift gold fast, and a 1H close above 3,925 opens 3,947-3,972.",
+      "Selling now at 3,853 right on support. Wait for the bounce to 3,867-3,880 instead of chasing.",
+      "Hormuz or other war headlines can lift gold fast, and a 1H close above 3,906 opens 3,920-3,934.",
       "Retail sales at 15:30 SAST Tuesday and Nvidia after the US close can move gold fast. Avoid entering in the 15 minutes before the data.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Trading Economics gold (3,866.85, 10-year 5.14%, DXY 103.49, 16 Nov)",
+      "name": "Kitco gold chart (3,852.60 at 16:31 NY, range 3,832.20-3,902.30, 16 Nov)",
+      "url": "https://www.kitco.com/charts/gold"
+    },
+    {
+      "name": "Trading Economics gold (hike odds, 10-year 5.13%, DXY 103.59, 16 Nov)",
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "name": "Trading and Investment News (gold near 14-month low, 16 Nov 16:16 UTC)",
-      "url": "https://www.tradingandinvestmentnews.co.uk/gold-price-fed-warsh/"
+      "name": "Yahoo Finance via Biztoc (gold at lowest in over a year, 16 Nov)",
+      "url": "https://biztoc.com/x/e3b33fe408294346"
     },
     {
-      "name": "Bullion Trading Center (low 3,832, weekly pivots, 16 Nov)",
+      "name": "Bullion Trading Center (weekly pivots, retail sales forecast, 16 Nov)",
       "url": "https://bulliontradingcenter.com/news_feed/gold-hits-over-one-year-low-ahead-of-warshs-speech/"
     },
     {
-      "name": "Saxo Market Quick Take, 16 Nov 2026",
-      "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---fed-chair-warsh-to-speak-today---16-november-2026-16112026"
-    },
-    {
-      "name": "MarketScreener / Reuters (gold dips on firmer dollar, 16 Nov)",
+      "name": "MarketScreener / Reuters (Asia high 3,892.42, 16 Nov)",
       "url": "https://www.marketscreener.com/news/gold-dips-on-firmer-dollar-ahead-of-warsh-comments-ce785edede8af721"
     },
     {
       "name": "ad-hoc-news (SocGen levels 3,830, 3,800, 16 Nov)",
       "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/gold-s-rate-math-collides-with-warsh-s-ai-calculus/70521616"
-    },
-    {
-      "name": "Investinglive headline: Warsh doesn't talk monetary policy in AI speech (page not readable)",
-      "url": "https://investinglive.com/central-banks/fed-s-warsh-doesn-t-talk-about-monetary-policy-in-a-speech-on-ai/"
     },
     {
       "name": "FXEmpire gold price page",
