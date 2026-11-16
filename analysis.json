@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-13T21:40:00Z",
-  "asof": "2026-11-13T21:35:00Z",
-  "price": 3873,
+  "updated": "2026-11-16T01:45:00Z",
+  "asof": "2026-11-16T01:35:00Z",
+  "price": 3871,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,903 into Monday"
+    "label": "Leaning down below 3,903"
   },
-  "event": "Gold closes for the weekend around midnight SAST tonight and reopens Monday around 01:00 SAST. Next week's high-impact data times are UNVERIFIED, so check the calendar before trading.",
+  "event": "US retail sales, Tuesday 17 Nov 15:30 SAST. Then the Fed's October minutes, Wednesday 18 Nov 21:00 SAST.",
   "bullets": [
     {
-      "title": "Weak weekly close",
-      "text": "Gold is about 3,873 at 23:35 SAST, roughly flat to slightly down on the day, after the post-PPI spike to about 3,923 faded (xauad, Kitco)."
+      "title": "Quiet Monday open",
+      "text": "Gold is about 3,871 at 03:35 SAST, after opening near 3,886 and dipping to 3,860 in early Asia trade (xauad, single source)."
     },
     {
-      "title": "Worst week since June",
-      "text": "Rallies.ai reports gold down about 4.5% this week, its steepest weekly drop since early June, after Thursday's 13-month low of 3,852."
-    },
-    {
-      "title": "Day range",
-      "text": "Today's range was about 3,866 to 3,924 (Kitco 3,867.40 to 3,924.00; xauad 3,865.72 to 3,923.14)."
+      "title": "Bad week behind",
+      "text": "Gold fell about 4.5-5% last week, from a 4,149 Monday high to a 3,852 Thursday low (Kitco, FinanceFeeds)."
     },
     {
       "title": "Yields and dollar",
-      "text": "Trading Economics shows US yields near 5.15% (tenor UNVERIFIED, likely the 10-year) and the dollar index near 103.4, both a weight on gold."
+      "text": "The US 10-year is near 5.15% and the dollar index near 103.4, close to a 19-month high, which weighs on gold (FinanceFeeds)."
+    },
+    {
+      "title": "Real yields rising",
+      "text": "The 10-year real yield rose from 2.63% to 2.86% between 6 and 12 Nov, which makes gold less attractive (FXEmpire)."
     },
     {
       "title": "December hike priced",
-      "text": "Futures price roughly 85-91% odds of a quarter-point December hike after PPI; the sources disagree, so the exact figure is UNVERIFIED."
+      "text": "Futures price about 90% odds of a quarter-point Fed hike on 9 Dec (CME FedWatch via FinanceFeeds)."
     },
     {
-      "title": "PPI was tame",
-      "text": "October PPI rose 0.3%, below the 0.4% forecast, but that did not cool hike bets for long (Rallies.ai, Trading Economics)."
+      "title": "Analysts lean bearish",
+      "text": "In Kitco's survey, 10 of 13 Wall Street analysts expect lower gold this week, while retail voters are split."
     },
     {
-      "title": "Weekend gap risk",
-      "text": "Trump said the US no longer needs an Iran deal and Brent is near 96 dollars, so weekend headlines can gap gold at Monday's open."
+      "title": "Busy data week",
+      "text": "Retail sales Tuesday, Fed minutes Wednesday and jobless claims Thursday can each move gold fast."
     }
   ],
   "levels": [
     {
+      "price": "3,970",
+      "type": "resistance",
+      "note": "FXEmpire R1 pivot level"
+    },
+    {
       "price": "3,934-3,940",
       "type": "resistance",
-      "note": "Top of the 3,903-3,934 zone (Kitco) and the M15 200 SMA at 3,940 (MQL5)"
+      "note": "Top of the post-PPI zone (Kitco) and the M15 200 SMA from Friday (MQL5)"
     },
     {
       "price": "3,920-3,924",
       "type": "resistance",
-      "note": "Friday's post-PPI high (Kitco 3,924; xauad 3,923)"
+      "note": "Friday's post-PPI spike high (Kitco)"
     },
     {
       "price": "3,900-3,906",
       "type": "resistance",
-      "note": "Round number and the post-PPI pivot 3,903-3,906 (Kitco, MQL5)"
+      "note": "Round number, Friday pivot and today's early high of 3,901-3,906 (xauad; exact high UNVERIFIED)"
     },
     {
-      "price": "~3,873",
+      "price": "~3,871",
       "type": "now",
-      "note": "xauad and Kitco spot near the Friday close, 23:09-23:35 SAST"
+      "note": "xauad spot at 03:35 SAST Monday"
     },
     {
-      "price": "3,865-3,867",
+      "price": "3,860",
       "type": "support",
-      "note": "Friday's low (Kitco 3,867.40; xauad 3,865.72)"
+      "note": "Monday's early low (xauad)"
     },
     {
       "price": "3,852",
       "type": "support",
-      "note": "Thursday's 13-month low (Kitco, MQL5)"
+      "note": "Thursday's 2026 low, the key weekly support (Kitco, FinanceFeeds, FXEmpire)"
     },
     {
-      "price": "3,822-3,823",
+      "price": "3,822",
       "type": "support",
-      "note": "Next support below 3,852 (Kitco 3,823; TraderFactor 3,822)"
+      "note": "FXEmpire S1 pivot and TraderFactor support"
     },
     {
       "price": "3,800",
       "type": "support",
-      "note": "Level analysts eye if 4,000 support stays broken (Kitco headline; FinanceFeeds)"
-    },
-    {
-      "price": "3,777-3,780",
-      "type": "support",
-      "note": "RoboForex 3,777 (FinanceFeeds) and FXEmpire's 3,780 wedge support"
+      "note": "FinanceFeeds bear target for the week"
     }
   ],
   "buy": {
@@ -90,34 +90,22 @@
     "stop": 3835,
     "target": 3903,
     "keys": [
-      {
-        "label": "Buy zone",
-        "value": "3,852-3,856, only after a dip that holds"
-      },
-      {
-        "label": "Stop",
-        "value": "Below 3,835 (under the 3,852 low, above 3,823)"
-      },
-      {
-        "label": "Targets",
-        "value": "3,867, then 3,903"
-      },
-      {
-        "label": "Cancelled if",
-        "value": "1H candle closes below 3,835"
-      }
+      { "label": "Buy zone", "value": "3,852-3,856, only after a dip that holds" },
+      { "label": "Stop", "value": "Below 3,835 (under the 3,852 low, above 3,822)" },
+      { "label": "Targets", "value": "3,871, then 3,903" },
+      { "label": "Cancelled if", "value": "1H candle closes below 3,835" }
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
       "Price dipping to the 3,852 low and a 15M close back up out of the zone.",
       "A 1H higher low inside the zone, not a fast slice through it.",
-      "Wait for Monday's first hour to settle. Do not buy the opening gap.",
-      "Take some profit at 3,867 and move the stop to entry only after that."
+      "Softer yields or a weaker dollar at the same time.",
+      "Take some profit at 3,871 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying just because price looks cheap. The week fell about 4.5% and yields are above 5%.",
-      "A Monday gap below 3,852 can skip your entry and your stop.",
-      "Thin liquidity in the first hours of Monday's Asia session can spike through 3,852.",
+      "Buying just because price looks cheap. Yields are above 5% and a Fed hike is priced in.",
+      "A strong retail sales number on Tuesday at 15:30 SAST can break 3,852 fast.",
+      "Thin Asia-session liquidity can spike through 3,852 and hit your stop.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
@@ -127,65 +115,30 @@
     "stop": 3926,
     "target": 3852,
     "keys": [
-      {
-        "label": "Sell zone",
-        "value": "Rejection at 3,900-3,906, where the PPI spike stalled"
-      },
-      {
-        "label": "Stop",
-        "value": "Above 3,926 (over today's 3,924 high)"
-      },
-      {
-        "label": "Targets",
-        "value": "3,867, then 3,852"
-      },
-      {
-        "label": "Cancelled if",
-        "value": "1H candle closes above 3,926"
-      }
+      { "label": "Sell zone", "value": "Rejection at 3,900-3,906, where today's open bounce stalled" },
+      { "label": "Stop", "value": "Above 3,926 (over Friday's 3,924 high)" },
+      { "label": "Targets", "value": "3,860, then 3,852" },
+      { "label": "Cancelled if", "value": "1H candle closes above 3,926" }
     ],
     "look": [
       "Price bouncing back up to 3,900-3,906 and stalling there again.",
       "A clear 15M rejection wick or bearish close near 3,903.",
       "A 1H lower high under 3,924.",
       "Yields staying above 5% and the dollar above 103.",
-      "Take some profit at 3,867 and move the stop to entry only after that."
+      "Take some profit at 3,860 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling in the middle at 3,873, right on top of 3,865-3,867 support. Wait for the retest of 3,903.",
-      "Iran and oil headlines over the weekend can lift gold fast, so a 1H close above 3,926 can run to 3,934-3,940.",
-      "Chasing a Monday gap down. If price opens far below 3,865, wait for a retest instead.",
+      "Selling in the middle at 3,871, just above 3,860 support. Wait for the retest of 3,903.",
+      "Iran and oil headlines (Brent near 96 dollars) can lift gold fast through 3,926.",
+      "A weak retail sales number or dovish Fed minutes can squeeze shorts.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
-    {
-      "name": "xauad (XAU/USD spot, 13 Nov 21:35 UTC)",
-      "url": "https://xauad.com/gold-price-today.html"
-    },
-    {
-      "name": "Kitco gold chart (quote 16:09 EST and day range, 13 Nov)",
-      "url": "https://www.kitco.com/charts/gold"
-    },
-    {
-      "name": "Rallies.ai (rate-hike bets keep gold on track for worst week in four months, 13 Nov)",
-      "url": "https://rallies.ai/news/rate-hike-bets-keep-gold-on-track-for-worst-week-in-four-months-386e365eb2205dc4"
-    },
-    {
-      "name": "Trading Economics (gold, yields, DXY, oil, Fed odds)",
-      "url": "https://tradingeconomics.com/commodity/gold"
-    },
-    {
-      "name": "Kitco AM report (gold rebounds from 13-month low, 13 Nov)",
-      "url": "https://www.kitco.com/news/article/2026-11-13/gold-rebounds-13-month-low-ppi-complicates-fed-outlook-kitco-am-report"
-    },
-    {
-      "name": "MQL5 (XAUUSD New York session plan, 13 Nov)",
-      "url": "https://www.mql5.com/en/blogs/post/780381"
-    },
-    {
-      "name": "FinanceFeeds (gold price today on PPI day, 13 Nov)",
-      "url": "https://financefeeds.com/gold-price-today-3888-friday-ppi-day-after-13-month-low-bull-3963-bear-3800/"
-    }
+    { "name": "xauad (XAU/USD spot, 16 Nov 01:35 UTC)", "url": "https://xauad.com/gold-price-today.html" },
+    { "name": "FinanceFeeds (week ahead, 14 Nov)", "url": "https://financefeeds.com/gold-price-today-3879-saturday-week-ahead-fomc-minutes-retail-sales-bull-4000-bear-3800/" },
+    { "name": "FXEmpire (3,850 weekly support and real yields, 13 Nov)", "url": "https://www.fxempire.com/forecasts/article/golds-3850-weekly-support-matters-as-real-yields-climb-to-2-86-1644571" },
+    { "name": "Kitco weekly survey (13 Nov)", "url": "https://www.kitco.com/news/article/2026-11-13/wall-street-bears-abound-after-inflation-sours-fed-outlook-main-street" },
+    { "name": "Motley Fool AU (oil and gold, 16 Nov)", "url": "https://www.fool.com.au/2026/11/16/5-things-to-watch-on-the-asx-200-on-monday-16-november-2026/" }
   ]
 }
