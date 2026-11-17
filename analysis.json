@@ -1,87 +1,82 @@
 {
-  "updated": "2026-11-17T13:40:00Z",
-  "asof": "2026-11-17T12:57:00Z",
-  "price": 3858.0,
+  "updated": "2026-11-17T17:45:00Z",
+  "asof": "2026-11-17T14:06:00Z",
+  "price": 3845.26,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,888; testing 3,841-3,856 support"
+    "label": "Leaning down below 3,888; sitting on 3,830-3,843 support"
   },
-  "event": "FOMC minutes Wed 18 Nov at 21:00 SAST (time UNVERIFIED). October retail sales came out today at 15:30 SAST.",
+  "event": "FOMC minutes Wed 18 Nov at 21:00 SAST (Kitco: 2 p.m. EST).",
   "bullets": [
     {
-      "title": "Gave back gains",
-      "text": "Kitco showed spot gold at 3,858.00 bid at 14:57 SAST, up only 2.50 on the day, after an early high of 3,887.60."
+      "title": "Slipped after data",
+      "text": "Kitco had spot gold at 3,845.26 at 16:06 SAST, near the session low, after it hit 3,887.60 earlier in the day."
     },
     {
-      "title": "Retail sales in line",
-      "text": "Forex Fundamentals lists October retail sales at +0.2%, matching the forecast, after +0.8% (single source, so UNVERIFIED); gold's reaction after 15:30 SAST is not yet confirmed."
+      "title": "Retail sales mixed",
+      "text": "October retail sales rose 0.2% as expected, but the core group rose 0.6% against 0.4% forecast, which supports more Fed hikes (Kitco, Trading Economics)."
     },
     {
-      "title": "Prices disagree",
-      "text": "Trading Economics showed 3,854-3,857 at an unstated time, so the exact price is UNVERIFIED within about 3,854-3,860."
-    },
-    {
-      "title": "Near 13-month low",
-      "text": "Gold is still close to Monday's 3,832 low, its lowest since about October 2025 (TradingKey, FXEmpire)."
+      "title": "Price unconfirmed now",
+      "text": "No price newer than 16:06 SAST was confirmed; Trading Economics showed about 3,869 at an unstated time, so the live price is UNVERIFIED."
     },
     {
       "title": "Hike nearly priced",
-      "text": "Markets price about 95.7% odds of a December quarter-point hike, with the rest on a half-point hike (Centrino, RoboForex)."
+      "text": "Kitco cites 96.6% odds of a December quarter-point hike; Trading Economics shows about 93%, so the exact figure differs by source."
     },
     {
-      "title": "Dollar and yields",
-      "text": "The dollar index is about 103.66, a 19-month high, and the US 10-year yield about 5.12%, which keeps pressure on gold (Trading Economics, Centrino)."
+      "title": "Dollar eased slightly",
+      "text": "The dollar index slipped about 0.13% to 103.42 from a 19-month high and the 10-year yield is near 5.10%, still a headwind for gold (Trading Economics)."
+    },
+    {
+      "title": "Near one-year low",
+      "text": "Gold is just above Monday's low near 3,830-3,833, its weakest since about September-October 2025."
     },
     {
       "title": "FOMC minutes next",
-      "text": "Wednesday's FOMC minutes at 21:00 SAST (UNVERIFIED) can move gold fast if they sound more hawkish."
+      "text": "Wednesday's FOMC minutes at 21:00 SAST can move gold fast if they sound more hawkish."
     }
   ],
   "levels": [
     {
-      "price": "4,000-4,034",
-      "type": "resistance",
-      "note": "Round number; Mitrade resistance 4,018-4,034; FXEmpire 4,027.90"
-    },
-    {
       "price": "3,915-3,934",
       "type": "resistance",
-      "note": "RoboForex 3,915; Mitrade 3,920-3,930; TradingKey 3,920 where the last bounce stalled"
+      "note": "Kitco R2 3,922; RoboForex 3,915; Mitrade 3,920-3,930"
     },
     {
-      "price": "3,898-3,903",
+      "price": "3,898-3,906",
       "type": "resistance",
-      "note": "FXEmpire R1 3,898.61; Monday high 3,902.30 (Kitco); TradingKey 3,900"
+      "note": "Monday high 3,902.30; Gold Compass 3,901-3,906"
     },
     {
-      "price": "3,887-3,888",
+      "price": "3,887-3,891",
       "type": "resistance",
-      "note": "Today's high 3,887.60 (Kitco); FXEmpire pivot 3,888"
+      "note": "Today's high 3,887.60; Kitco R1 3,888; Gold Compass 3,887-3,891"
     },
     {
-      "price": "~3,858",
+      "price": "3,856-3,865",
+      "type": "resistance",
+      "note": "Monday close 3,856.46; Gold Compass 3,858-3,865 now overhead"
+    },
+    {
+      "price": "~3,845",
       "type": "now",
-      "note": "Kitco 3,858.00 bid at 14:57 SAST"
-    },
-    {
-      "price": "3,850-3,856",
-      "type": "support",
-      "note": "TradingKey main support 3,850; Monday close 3,856.46"
+      "note": "Kitco 3,845.26 at 16:06 SAST (live price UNVERIFIED)"
     },
     {
       "price": "3,841-3,843",
       "type": "support",
-      "note": "RoboForex support 3,841; today's low 3,842.80 (Kitco)"
+      "note": "RoboForex 3,841; today's low 3,842.80 before the data (Kitco chart)"
     },
     {
-      "price": "3,830-3,832",
+      "price": "3,830-3,833",
       "type": "support",
-      "note": "Monday low 3,832.20; FXEmpire S1 3,829.70"
+      "note": "Kitco S1 3,832; Monday low about 3,830-3,833 (sources differ)"
     },
     {
       "price": "3,800-3,805",
       "type": "support",
-      "note": "Round number; TradingKey 3,800; FXEmpire 3,805"
+      "note": "Kitco S2 3,805; round number 3,800"
     },
     {
       "price": "3,780-3,800",
@@ -90,51 +85,51 @@
     }
   ],
   "buy": {
-    "title": "Buy plan: hold at 3,841-3,856 (counter-trend)",
-    "entry": 3848,
-    "stop": 3826,
-    "target": 3898,
+    "title": "Buy plan: hold at 3,830-3,843 (counter-trend)",
+    "entry": 3840,
+    "stop": 3822,
+    "target": 3887,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,841-3,856, only if the dip holds"
+        "value": "3,830-3,843, only if the dip holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,826 (under Monday's 3,832 low and S1 3,829.70)"
+        "value": "Below 3,822 (under the 3,830-3,832 low and Kitco S1)"
       },
       {
         "label": "Targets",
-        "value": "3,870, then 3,888, then 3,898"
+        "value": "3,858, then 3,870, then 3,887"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,826"
+        "value": "1H candle closes below 3,822"
       }
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price holding 3,841-3,856, then a 15M close back above 3,860.",
-      "A 1H higher low above today's 3,842.80 low.",
-      "The dollar easing back from 103.66 and yields slipping after the retail sales data.",
+      "Price holding 3,830-3,843, then a 15M close back above 3,858.",
+      "A 1H higher low above Monday's 3,830 area.",
+      "The dollar easing further from 103.4 and the 10-year yield slipping under 5.1%.",
       "Take some profit at 3,870 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying before the dip shows it holds. Wait for the 15M close above 3,860.",
-      "A break of 3,832 can run quickly to 3,800.",
-      "Hike odds near 96% mean bounces may be small and short.",
+      "Buying before the dip shows it holds. Wait for the 15M close above 3,858.",
+      "A 1H close under 3,830 can run quickly to 3,805-3,800.",
+      "Strong core sales and hike odds above 90% mean bounces may be small and short.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,887-3,903",
-    "entry": 3895,
+    "title": "Sell plan: rejection at 3,887-3,906",
+    "entry": 3890,
     "stop": 3912,
-    "target": 3850,
+    "target": 3845,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,887-3,903, under Monday's high"
+        "value": "Rejection at 3,887-3,906, under Monday's high"
       },
       {
         "label": "Stop",
@@ -142,7 +137,7 @@
       },
       {
         "label": "Targets",
-        "value": "3,870, then 3,856, then 3,850"
+        "value": "3,870, then 3,858, then 3,845"
       },
       {
         "label": "Cancelled if",
@@ -150,14 +145,14 @@
       }
     ],
     "look": [
-      "Price bouncing back up into 3,887-3,903 and stalling there.",
+      "Price bouncing back up into 3,887-3,906 and stalling there.",
       "A clear 15M rejection wick or bearish close back under 3,887.",
-      "A 1H lower high under 3,903.",
-      "The 10-year yield staying above 5.1% and the dollar firm near 103.66.",
+      "A 1H lower high under 3,906.",
+      "The 10-year yield holding near 5.1% and the dollar firm above 103.",
       "Take some profit at 3,870 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling at 3,858 right on support. That is chasing; wait for a bounce to 3,887-3,903.",
+      "Selling at 3,845 right on support. That is chasing; wait for a bounce to 3,887-3,906.",
       "A 1H close above 3,912 opens 3,915-3,934.",
       "FOMC minutes on Wednesday at 21:00 SAST can move gold fast. Avoid entering in the 15 minutes before.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
@@ -165,32 +160,32 @@
   },
   "sources": [
     {
-      "name": "Kitco gold chart (3,858.00 bid at 07:57 NY 17 Nov, range 3,842.80-3,887.60)",
+      "name": "Kitco AM Report 17 Nov (3,845.26, hike odds 96.6%, levels 3,888/3,922 and 3,832/3,805, minutes 2 p.m. EST)",
+      "url": "https://www.kitco.com/news/article/2026-11-17/gold-trades-near-one-year-low-us-retail-sales-slow-kitco-am-report"
+    },
+    {
+      "name": "Kitco: Gold drops to 3,848 after October retail sales (17 Nov)",
+      "url": "https://www.kitco.com/news/article/2026-11-17/gold-price-drops-3848oz-after-october-retail-sales-rise-02-core-rises-06"
+    },
+    {
+      "name": "Kitco gold chart (day range 3,842.80-3,887.60 at 07:57 NY)",
       "url": "https://www.kitco.com/charts/gold"
     },
     {
-      "name": "Trading Economics gold (3,854-3,857, DXY 103.66, 10Y 5.124%, 17 Nov)",
+      "name": "Trading Economics gold (about 3,869 untimed, DXY 103.42, yield 5.10%, 17 Nov)",
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "name": "Forex Fundamentals: US retail sales 17 Nov 2026 (actual 0.2%)",
-      "url": "https://forexfundamentals.com/economic-calendar/us-retail-sales/2026-11-17"
+      "name": "Trading Economics US retail sales (Oct +0.2%, control group +0.6%)",
+      "url": "https://tradingeconomics.com/united-states/retail-sales"
     },
     {
-      "name": "Centrino Capital market news 17 Nov (DXY 103.66, hike odds 95.7%)",
-      "url": "https://centrinocapital.com/insights/market-news-2026-11-17"
+      "name": "Gold Compass Daily 17 Nov (levels)",
+      "url": "https://goldcompassdaily.com/xau-usd-gold-3878-eyes-us-retail-sales-as-rebound-stalls/"
     },
     {
       "name": "RoboForex XAUUSD forecast 17 Nov (support 3,841, resistance 3,915)",
       "url": "https://roboforex.com/beginners/analytics/forex-forecast/gold/xau-usd-gold-forecast-2026-11-17/"
-    },
-    {
-      "name": "FXEmpire: Gold hovers near one-year low on Fed hike bets (17 Nov)",
-      "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-hovers-near-one-year-low-on-fed-hike-bets-can-3832-hold-1645052"
-    },
-    {
-      "name": "TradingKey: Gold holds 3,850 support, retail sales preview (17 Nov)",
-      "url": "https://www.tradingkey.com/analysis/commodities/metal/262308200-gold-price-forecast-3850-support-oct-retail-sales-4000-rebound-tradingkey"
     },
     {
       "name": "Mitrade gold analysis 17 Nov (levels)",
