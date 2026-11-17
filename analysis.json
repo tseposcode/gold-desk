@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-17T17:45:00Z",
-  "asof": "2026-11-17T14:06:00Z",
-  "price": 3845.26,
+  "updated": "2026-11-17T21:40:00Z",
+  "asof": "2026-11-17T19:47:00Z",
+  "price": 3849.02,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,888; sitting on 3,830-3,843 support"
+    "label": "Leaning down below 3,888; holding above 3,830-3,843 support"
   },
   "event": "FOMC minutes Wed 18 Nov at 21:00 SAST (Kitco: 2 p.m. EST).",
   "bullets": [
     {
-      "title": "Slipped after data",
-      "text": "Kitco had spot gold at 3,845.26 at 16:06 SAST, near the session low, after it hit 3,887.60 earlier in the day."
+      "title": "Quiet into close",
+      "text": "Goldprice.com had spot gold at 3,849.02 at 21:47 SAST, down 0.24% on the day, after a 3,842.80-3,887.60 range (Kitco)."
     },
     {
-      "title": "Retail sales mixed",
-      "text": "October retail sales rose 0.2% as expected, but the core group rose 0.6% against 0.4% forecast, which supports more Fed hikes (Kitco, Trading Economics)."
-    },
-    {
-      "title": "Price unconfirmed now",
-      "text": "No price newer than 16:06 SAST was confirmed; Trading Economics showed about 3,869 at an unstated time, so the live price is UNVERIFIED."
+      "title": "Bounce faded",
+      "text": "The early push to 3,887.60 failed, and price spent the afternoon just above the 3,843 support after the retail sales data."
     },
     {
       "title": "Hike nearly priced",
-      "text": "Kitco cites 96.6% odds of a December quarter-point hike; Trading Economics shows about 93%, so the exact figure differs by source."
+      "text": "Trading Economics cites 93% odds of a December quarter-point hike from CME FedWatch; Kitco earlier cited 96.6%, so sources differ."
     },
     {
-      "title": "Dollar eased slightly",
-      "text": "The dollar index slipped about 0.13% to 103.42 from a 19-month high and the 10-year yield is near 5.10%, still a headwind for gold (Trading Economics)."
+      "title": "Dollar near highs",
+      "text": "The dollar index is near 103.5, close to a 19-month high, and US yields are about 5.11% (tenor UNVERIFIED), still a headwind for gold."
+    },
+    {
+      "title": "Fed speakers hawkish",
+      "text": "Trading Economics reports Musalem backing multiple hikes and Hammack favouring gradual hikes, which keeps pressure on gold."
     },
     {
       "title": "Near one-year low",
-      "text": "Gold is just above Monday's low near 3,830-3,833, its weakest since about September-October 2025."
+      "text": "Monday's low near 3,830 is gold's weakest in over a year, so a break there could speed up selling."
     },
     {
       "title": "FOMC minutes next",
@@ -59,14 +59,14 @@
       "note": "Monday close 3,856.46; Gold Compass 3,858-3,865 now overhead"
     },
     {
-      "price": "~3,845",
+      "price": "~3,849",
       "type": "now",
-      "note": "Kitco 3,845.26 at 16:06 SAST (live price UNVERIFIED)"
+      "note": "Goldprice.com 3,849.02 at 21:47 SAST"
     },
     {
       "price": "3,841-3,843",
       "type": "support",
-      "note": "RoboForex 3,841; today's low 3,842.80 before the data (Kitco chart)"
+      "note": "RoboForex 3,841; today's low 3,842.80 (Kitco)"
     },
     {
       "price": "3,830-3,833",
@@ -152,7 +152,7 @@
       "Take some profit at 3,870 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling at 3,845 right on support. That is chasing; wait for a bounce to 3,887-3,906.",
+      "Selling at 3,849 right on support. That is chasing; wait for a bounce to 3,887-3,906.",
       "A 1H close above 3,912 opens 3,915-3,934.",
       "FOMC minutes on Wednesday at 21:00 SAST can move gold fast. Avoid entering in the 15 minutes before.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
@@ -160,24 +160,24 @@
   },
   "sources": [
     {
-      "name": "Kitco AM Report 17 Nov (3,845.26, hike odds 96.6%, levels 3,888/3,922 and 3,832/3,805, minutes 2 p.m. EST)",
+      "name": "Goldprice.com gold today (3,849.02 at 2:47 p.m. ET, 17 Nov)",
+      "url": "https://goldprice.com/gold-price-today"
+    },
+    {
+      "name": "Kitco spot prices (day range 3,842.80-3,887.60, 17 Nov)",
+      "url": "https://www.kitco.com/price/precious-metals"
+    },
+    {
+      "name": "Trading Economics gold (DXY 103.53, hike odds 93%, Fed speakers, 17 Nov)",
+      "url": "https://tradingeconomics.com/commodity/gold"
+    },
+    {
+      "name": "Kitco AM Report 17 Nov (hike odds 96.6%, levels 3,888/3,922 and 3,832/3,805, minutes 2 p.m. EST)",
       "url": "https://www.kitco.com/news/article/2026-11-17/gold-trades-near-one-year-low-us-retail-sales-slow-kitco-am-report"
     },
     {
       "name": "Kitco: Gold drops to 3,848 after October retail sales (17 Nov)",
       "url": "https://www.kitco.com/news/article/2026-11-17/gold-price-drops-3848oz-after-october-retail-sales-rise-02-core-rises-06"
-    },
-    {
-      "name": "Kitco gold chart (day range 3,842.80-3,887.60 at 07:57 NY)",
-      "url": "https://www.kitco.com/charts/gold"
-    },
-    {
-      "name": "Trading Economics gold (about 3,869 untimed, DXY 103.42, yield 5.10%, 17 Nov)",
-      "url": "https://tradingeconomics.com/commodity/gold"
-    },
-    {
-      "name": "Trading Economics US retail sales (Oct +0.2%, control group +0.6%)",
-      "url": "https://tradingeconomics.com/united-states/retail-sales"
     },
     {
       "name": "Gold Compass Daily 17 Nov (levels)",
