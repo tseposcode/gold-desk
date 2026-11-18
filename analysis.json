@@ -1,32 +1,32 @@
 {
-  "updated": "2026-11-18T05:36:00Z",
-  "asof": "2026-11-18T05:00:00Z",
-  "price": 3794.46,
+  "updated": "2026-11-18T09:45:00Z",
+  "asof": "2026-11-18T09:30:00Z",
+  "price": 3767.72,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,800-3,835; broke 3,800"
+    "label": "Leaning down below 3,800; testing 3,750-3,770"
   },
   "event": "FOMC minutes today, Wed 18 Nov, at 21:00 SAST. US housing starts also today (time UNVERIFIED, usually 15:30 SAST).",
   "bullets": [
     {
-      "title": "Below 3,800",
-      "text": "Gold is about 3,790-3,794, down roughly 1.4% on the day and under 3,800 for the first time in over a year (quote time UNVERIFIED)."
+      "title": "Slide deepens",
+      "text": "Gold is about 3,768, down roughly 2.1% on the day and well under 3,800 (quote time UNVERIFIED, asof is approximate)."
     },
     {
-      "title": "More support broke",
-      "text": "The 3,815-3,835 zone that caught the Asian dip has given way, so it now acts as resistance on any bounce."
+      "title": "At support now",
+      "text": "Price has reached the 3,750-3,770 support zone, after 3,780-3,800 gave way this morning."
     },
     {
       "title": "Hike nearly priced",
-      "text": "December quarter-point hike odds are about 94-96% across sources, which keeps pressure on gold."
+      "text": "December quarter-point hike odds are about 94-96%, and several Fed speakers back more tightening."
     },
     {
       "title": "Dollar and yields",
-      "text": "The dollar index is about 103.6 near its highs, while the 10-year yield eased slightly to about 5.09-5.10%."
+      "text": "The dollar index is firmer at about 103.85, and the 10-year yield is about 5.10%."
     },
     {
-      "title": "Gulf tension",
-      "text": "Strikes around Bahrain and Qeshm Island and a near halt in Hormuz shipping lift oil, which feeds hike fears more than safe-haven buying."
+      "title": "Gulf and oil",
+      "text": "Iran and Hormuz strikes keep Brent near 92-93, which feeds inflation and hike fears more than safe-haven buying."
     },
     {
       "title": "Minutes tonight",
@@ -35,39 +35,34 @@
   ],
   "levels": [
     {
-      "price": "3,888-3,898",
-      "type": "resistance",
-      "note": "Mitrade resistance; Tuesday high about 3,888-3,892"
-    },
-    {
       "price": "3,850-3,855",
       "type": "resistance",
-      "note": "Mitrade resistance; Tuesday close 3,849.49 (Trading Economics)"
+      "note": "Mitrade resistance; Tuesday close about 3,849-3,853"
     },
     {
       "price": "3,815-3,835",
       "type": "resistance",
-      "note": "Mitrade support zone, broken this morning"
+      "note": "Broken Mitrade support zone"
     },
     {
       "price": "3,800",
       "type": "resistance",
-      "note": "Round number, now just overhead"
+      "note": "Round number; TradingKey says it must be reclaimed"
     },
     {
-      "price": "~3,794",
+      "price": "~3,784",
+      "type": "resistance",
+      "note": "Earlier low today (TradingKey), now overhead"
+    },
+    {
+      "price": "~3,768",
       "type": "now",
-      "note": "Trading Economics 3,790-3,794; Mitrade ticker 3,794.30 (times UNVERIFIED)"
-    },
-    {
-      "price": "3,780",
-      "type": "support",
-      "note": "Bottom of Mitrade's 17 Nov 3,780-3,800 zone"
+      "note": "Trading Economics 3,766-3,768, down 2.1% (time UNVERIFIED)"
     },
     {
       "price": "3,750-3,770",
       "type": "support",
-      "note": "Mitrade support"
+      "note": "Mitrade support zone, being tested now"
     },
     {
       "price": "~3,730",
@@ -81,99 +76,95 @@
     }
   ],
   "buy": {
-    "title": "Buy plan: hold at 3,750-3,770 (counter-trend)",
-    "entry": 3760,
-    "stop": 3742,
-    "target": 3800,
+    "title": "Buy plan: hold at 3,730-3,750 (counter-trend)",
+    "entry": 3735,
+    "stop": 3718,
+    "target": 3780,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,750-3,770, only if the dip holds"
+        "value": "3,730-3,750, only if the dip holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,742 (under the 3,750 zone)"
+        "value": "Below 3,718 (under the 3,730 support)"
       },
       {
         "label": "Targets",
-        "value": "3,780, then 3,794, then 3,800"
+        "value": "3,750, then 3,768, then 3,780"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,742"
+        "value": "1H candle closes below 3,718"
       }
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price dipping into 3,750-3,770 and holding, not slicing through.",
-      "A 15M close back above 3,770 after the dip.",
-      "The dollar easing from 103.6 and yields slipping under 5.08%.",
-      "Take some profit at 3,780 and move the stop to entry only after that."
+      "Price dipping into 3,730-3,750 and holding, not slicing through.",
+      "A 15M close back above 3,750 after the dip.",
+      "The dollar easing from about 103.85 and the 10-year slipping under 5.08%.",
+      "Take some profit at 3,768 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying a falling price before it shows a hold. Wait for the 15M close above 3,770.",
-      "A 1H close under 3,742 can run toward 3,730, then 3,680-3,700.",
+      "Buying a falling price before it shows a hold. Wait for the 15M close above 3,750.",
+      "A 1H close under 3,718 can run toward 3,680-3,700.",
       "Hawkish FOMC minutes at 21:00 SAST or Gulf headlines can break support fast. Avoid entering in the 15 minutes before the minutes.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,800-3,835",
-    "entry": 3815,
-    "stop": 3838,
-    "target": 3760,
+    "title": "Sell plan: rejection at 3,784-3,800",
+    "entry": 3795,
+    "stop": 3818,
+    "target": 3732,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,800-3,835, the broken support"
+        "value": "Rejection at 3,784-3,800, the broken levels"
       },
       {
         "label": "Stop",
-        "value": "Above 3,838 (over the 3,835 zone)"
+        "value": "Above 3,818 (over 3,815, the bottom of the old zone)"
       },
       {
         "label": "Targets",
-        "value": "3,794, then 3,780, then 3,760"
+        "value": "3,768, then 3,750, then 3,732"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,838"
+        "value": "1H candle closes above 3,818"
       }
     ],
     "look": [
-      "Price bouncing back up into 3,800-3,835 and stalling there.",
-      "A clear 15M rejection wick or bearish close back under 3,800.",
-      "A 1H lower high under 3,835.",
-      "The dollar firm near 103.6 and yields near 5.1%.",
-      "Take some profit at 3,780 and move the stop to entry only after that."
+      "Price bouncing back up into 3,784-3,800 and stalling there.",
+      "A clear 15M rejection wick or bearish close back under 3,784.",
+      "A 1H lower high under 3,800.",
+      "The dollar firm near 103.85 and yields near 5.1%.",
+      "Take some profit at 3,750 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling at 3,790 after a 1.4% drop. That is chasing; wait for a bounce to 3,800-3,835.",
-      "A 1H close above 3,838 opens 3,850-3,855.",
+      "Selling at 3,768 after a 2% drop and right on support. That is chasing; wait for a bounce to 3,784-3,800.",
+      "A 1H close above 3,818 opens 3,835, then 3,850-3,855.",
       "FOMC minutes at 21:00 SAST can cause a sharp spike either way. Avoid entering in the 15 minutes before.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Trading Economics gold (3,790-3,794, prev close 3,849.49, DXY 103.62, 10-year 5.089, hike odds ~96%, 18 Nov)",
+      "name": "Trading Economics gold (3,767.72, -2.12%, DXY 103.85, 10-year 5.099%, hike odds ~96%, 18 Nov)",
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "name": "Mitrade gold analysis (3,818.67 morning test, levels, 94% hike odds, Hormuz and Gulf strikes, 18 Nov)",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz"
+      "name": "TradingKey: gold near 1.5-year low below 3,800 (low 3,784, 18 Nov)",
+      "url": "https://www.tradingkey.com/analysis/commodities/metal/262310424-metal-gold-xau-price-3800-3500-cpi-ppi-fed-oil-tradingkey"
     },
     {
-      "name": "Rallies.ai: Gold hits over one-year low ahead of Fed minutes (18 Nov)",
-      "url": "https://rallies.ai/news/gold-hits-over-one-year-low-ahead-of-fed-minutes-0c10709e7f513cec"
+      "name": "Mitrade gold analysis (levels, 94% hike odds, Hormuz and Gulf strikes, 18 Nov)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz"
     },
     {
       "name": "LiteFinance gold forecast (levels, 17 Nov)",
       "url": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly/"
-    },
-    {
-      "name": "HDFC Sky: Indian gold rates fall Rs 2,780 (18 Nov)",
-      "url": "https://hdfcsky.com/news/gold-rate-today-18-november-2026-check-gold-price-of-24k-22k-18k-in-mumbai-kolkata-delhi-other-indian-cities-as-24k-rate-falls-rs2780-per-10-gm"
     }
   ]
 }
