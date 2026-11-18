@@ -1,73 +1,73 @@
 {
-  "updated": "2026-11-18T17:37:00Z",
-  "asof": "2026-11-18T16:27:00Z",
-  "price": 3743.65,
+  "updated": "2026-11-18T21:37:00Z",
+  "asof": "2026-11-18T19:43:00Z",
+  "price": 3720.2,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,770; 3,750 support has broken"
+    "label": "Leaning down below 3,745; hawkish Fed minutes pushed gold to a new low"
   },
-  "event": "FOMC minutes tonight, Wed 18 Nov, at 21:00 SAST. Next Fed decision 8-9 Dec.",
+  "event": "No confirmed high-impact event found for Thu 19 Nov (UNVERIFIED). Next Fed decision 8-9 Dec.",
   "bullets": [
     {
-      "title": "New low today",
-      "text": "Spot gold is about 3,744, down about 2.7% on the day, after breaking the 3,750-3,770 support from this morning (spot quote time UNVERIFIED)."
+      "title": "New 14-month low",
+      "text": "Spot gold traded about 3,720 after the Fed minutes, down more than 3% on the day and the lowest since September 2025."
     },
     {
-      "title": "Futures low 3,741",
-      "text": "December COMEX futures hit a session low of 3,740.80 and traded at 3,746 at 18:27 SAST, down about 3.1%."
+      "title": "Minutes were hawkish",
+      "text": "Some Fed officials argued for a quarter-point hike in October, and a couple raised a bigger hike."
+    },
+    {
+      "title": "Inflation is the worry",
+      "text": "Most officials see upside risks to inflation from energy prices and supply limits, so markets still expect a hike by year-end."
     },
     {
       "title": "Hike nearly priced",
-      "text": "Odds of a December quarter-point Fed hike are about 95-97%, with a small chance of a half-point move."
+      "text": "Before the minutes, odds of a December quarter-point hike were about 95-96%; odds after the minutes are UNVERIFIED."
     },
     {
       "title": "Dollar still firm",
-      "text": "The dollar index is about 103.8-103.9, near a 19-month high, while the 10-year yield eased to about 5.06-5.07%."
+      "text": "The dollar index is about 103.8, near a 19-month high, and the 10-year yield is about 5.07% (quote time UNVERIFIED)."
     },
     {
       "title": "Big weekly drop",
-      "text": "Gold is down about 8.6% in a week and is at its lowest since September 2025, so bounces can be sharp."
-    },
-    {
-      "title": "Minutes at 21:00",
-      "text": "The October FOMC minutes at 21:00 SAST can move gold fast either way, so stand aside around them."
+      "text": "Gold has lost more than 8% in a week, so sharp bounces can happen even in a downtrend."
     }
   ],
   "levels": [
     {
-      "price": "3,815-3,835",
-      "type": "resistance",
-      "note": "Broken Mitrade support zone"
-    },
-    {
-      "price": "3,800",
-      "type": "resistance",
-      "note": "Round number; FXEmpire pivot near 3,802"
-    },
-    {
       "price": "~3,781-3,784",
       "type": "resistance",
-      "note": "FXEmpire support from this morning and earlier low, now overhead"
+      "note": "Earlier FXEmpire support, now overhead"
     },
     {
       "price": "3,760-3,770",
       "type": "resistance",
-      "note": "Broken support (Mitrade zone, IG pivot S1 near 3,760)"
+      "note": "Broken support from this morning (Mitrade zone, IG pivot S1 near 3,760)"
     },
     {
-      "price": "~3,744",
-      "type": "now",
-      "note": "Trading Economics 3,743.65, down about 2.75% (time UNVERIFIED)"
-    },
-    {
-      "price": "~3,741",
-      "type": "support",
-      "note": "Session low 3,740.80 on December futures (futures, not spot)"
+      "price": "~3,741-3,746",
+      "type": "resistance",
+      "note": "Afternoon low before the minutes (futures low 3,740.80)"
     },
     {
       "price": "~3,730",
+      "type": "resistance",
+      "note": "LiteFinance support 3,729.82, now broken"
+    },
+    {
+      "price": "~3,720",
+      "type": "now",
+      "note": "Kitco last trade 3,720.20 after the minutes (about 21:43 SAST)"
+    },
+    {
+      "price": "~3,719.5",
       "type": "support",
-      "note": "LiteFinance support 3,729.82 (from 17 Nov)"
+      "note": "Session low 3,719.55 so far (Finimize)"
+    },
+    {
+      "price": "~3,708",
+      "type": "support",
+      "note": "FXEmpire 61.8% level 3,707.82, the next target they named"
     },
     {
       "price": "3,680-3,700",
@@ -75,105 +75,113 @@
       "note": "Mitrade support"
     },
     {
-      "price": "3,640",
+      "price": "3,628-3,640",
       "type": "support",
-      "note": "IG monthly pivot S2"
+      "note": "FXEmpire long-term bottom 3,627.96 and IG monthly pivot S2 near 3,640"
     }
   ],
   "buy": {
-    "title": "Buy plan: hold at 3,680-3,700 (counter-trend)",
-    "entry": 3695,
-    "stop": 3672,
-    "target": 3744,
+    "title": "Buy plan: hold at 3,628-3,640 (counter-trend)",
+    "entry": 3640,
+    "stop": 3615,
+    "target": 3700,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,680-3,700, only if the dip holds"
+        "value": "3,628-3,640, only if the dip holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,672 (under the 3,680 support)"
+        "value": "Below 3,615 (under the 3,628 bottom)"
       },
       {
         "label": "Targets",
-        "value": "3,730, then 3,744"
+        "value": "3,680, then 3,700"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,672"
+        "value": "1H candle closes below 3,615"
       }
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price dipping into 3,680-3,700 and holding, not slicing through.",
-      "A 15M close back above 3,700 after the dip.",
-      "The dollar easing from about 103.9 after the minutes.",
-      "Take some profit at 3,730 and move the stop to entry only after that."
+      "Price reaching 3,628-3,640 and holding there, not slicing through.",
+      "A 15M close back above 3,640 after the dip.",
+      "The dollar easing back from about 103.8.",
+      "Take some profit at 3,680 and move the stop to entry only after that."
     ],
     "watch": [
-      "Catching a falling knife. Do not buy at 3,740 just because it fell a lot; wait for the zone and a hold.",
-      "A 1H close under 3,672 opens 3,640.",
-      "Hawkish FOMC minutes at 21:00 SAST can break support fast. Do not enter in the 15 minutes before or after.",
+      "Catching a falling knife. Do not buy at 3,720 just because gold fell 3% today; wait for the zone and a hold.",
+      "A 1H close under 3,615 means the bottom failed. Step aside.",
+      "Hawkish Fed speakers or strong US data can push the dollar and yields higher and break support fast.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,760-3,770",
-    "entry": 3762,
-    "stop": 3786,
-    "target": 3700,
+    "title": "Sell plan: rejection at 3,741-3,746",
+    "entry": 3745,
+    "stop": 3772,
+    "target": 3690,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,760-3,770, the broken support"
+        "value": "Rejection at 3,741-3,746, the afternoon low"
       },
       {
         "label": "Stop",
-        "value": "Above 3,786 (over the 3,781-3,784 area)"
+        "value": "Above 3,772 (over the 3,760-3,770 zone)"
       },
       {
         "label": "Targets",
-        "value": "3,741, then 3,730, then 3,700"
+        "value": "3,720, then 3,708, then 3,690"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,786"
+        "value": "1H candle closes above 3,772"
       }
     ],
     "look": [
-      "Price bouncing back up into 3,760-3,770 and stalling there.",
-      "A clear 15M rejection wick or bearish close back under 3,760.",
-      "A 1H lower high under 3,770.",
-      "The dollar holding near 103.8-103.9.",
-      "Take some profit at 3,730 and move the stop to entry only after that."
+      "Price bouncing back up into 3,741-3,746 and stalling there.",
+      "A clear 15M rejection wick or bearish close back under 3,740.",
+      "A 1H lower high under 3,760.",
+      "The dollar holding near 103.8 and the 10-year yield near 5.07%.",
+      "Take some profit at 3,720 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling at 3,744 near the day's low after a 2.7% drop. That is chasing; wait for a bounce into 3,760-3,770.",
-      "A 1H close above 3,786 opens 3,800, then 3,815-3,835.",
-      "The FOMC minutes at 21:00 SAST can spike price either way. Do not enter in the 15 minutes before or after.",
+      "Selling at 3,720 at the day's low after a 3% drop. That is chasing; wait for a bounce into 3,741-3,746.",
+      "A 1H close above 3,772 opens 3,781-3,784, then 3,800.",
+      "Thin late-night and Asian trading can spike price both ways. Use the stop and smaller size.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Trading Economics gold (3,743.65, -2.75%, DXY 103.80, 10-year 5.06%, hike odds ~95%, 18 Nov)",
+      "name": "Kitco: gold under pressure as Fed minutes show focus on inflation (3,720.20, 18 Nov 14:43 ET)",
+      "url": "https://www.kitco.com/news/article/2026-11-18/gold-prices-remain-under-pressure-fed-minutes-show-central-bank-committed"
+    },
+    {
+      "name": "Finimize: gold hits more-than-one-year low after Fed minutes (low 3,719.55, 18 Nov 20:10 UTC)",
+      "url": "https://finimize.com/content/gold-hit-a-more-than-one-year-low-after-fed-minutes"
+    },
+    {
+      "name": "Seeking Alpha: some Fed officials argued for a hike in October (18 Nov 14:12 ET)",
+      "url": "https://seekingalpha.com/news/4674356-some-fed-officials-argued-for-hike-in-october-fomc-minutes"
+    },
+    {
+      "name": "Trading Economics gold (about 3,726, -3.2%, DXY 103.81, 10-year 5.07%, 18 Nov)",
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "name": "CryptoTicker: gold futures drop 3% to 3,746 (low 3,740.80, DXY 103.88, 10-year 5.07%, 18 Nov 16:55 UTC)",
-      "url": "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin/"
+      "name": "5paisa: gold at one-year low before minutes (95.7% December hike odds, 18 Nov)",
+      "url": "https://www.5paisa.com/blog/gold-one-year-low-markets-await-fed-minutes-november-18-2026"
     },
     {
-      "name": "FXEmpire: gold breaks to a 14-month low ahead of Fed minutes (levels, 95.7% hike odds, minutes 19:00 GMT, 18 Nov)",
-      "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-breaks-to-a-14-month-low-ahead-of-fed-minutes-can-3781-hold-1645349"
+      "name": "FXEmpire: strong dollar and hawkish Fed drive fresh selling (levels 3,707.82 and 3,627.96, 18 Nov)",
+      "url": "https://www.fxempire.com/forecasts/article/gold-news-strong-dollar-and-hawkish-fed-outlook-drive-fresh-selling-1645378"
     },
     {
       "name": "Mitrade gold analysis (levels, 18 Nov)",
       "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz"
-    },
-    {
-      "name": "FXEmpire gold page (1-week -8.57%, 18 Nov)",
-      "url": "https://www.fxempire.com/commodities/gold"
     },
     {
       "name": "LiteFinance gold forecast (levels, 17 Nov)",
