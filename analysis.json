@@ -1,32 +1,32 @@
 {
-  "updated": "2026-11-18T09:45:00Z",
-  "asof": "2026-11-18T09:30:00Z",
-  "price": 3767.72,
+  "updated": "2026-11-18T13:40:00Z",
+  "asof": "2026-11-18T13:30:00Z",
+  "price": 3768.68,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,800; testing 3,750-3,770"
+    "label": "Leaning down below 3,800; holding 3,760-3,770 for now"
   },
-  "event": "FOMC minutes today, Wed 18 Nov, at 21:00 SAST. US housing starts also today (time UNVERIFIED, usually 15:30 SAST).",
+  "event": "FOMC minutes tonight, Wed 18 Nov, at 21:00 SAST. US housing starts today (time UNVERIFIED, usually 15:30 SAST).",
   "bullets": [
     {
-      "title": "Slide deepens",
-      "text": "Gold is about 3,768, down roughly 2.1% on the day and well under 3,800 (quote time UNVERIFIED, asof is approximate)."
+      "title": "Still under 3,800",
+      "text": "Gold is about 3,766-3,771, down roughly 2.0-2.2% on the day and at its lowest since September 2025 (quote time UNVERIFIED, asof is approximate)."
     },
     {
-      "title": "At support now",
-      "text": "Price has reached the 3,750-3,770 support zone, after 3,780-3,800 gave way this morning."
+      "title": "Support holding so far",
+      "text": "Price is sitting on the 3,750-3,770 zone, which matches IG's monthly pivot support near 3,760."
     },
     {
       "title": "Hike nearly priced",
-      "text": "December quarter-point hike odds are about 94-96%, and several Fed speakers back more tightening."
+      "text": "December quarter-point hike odds are about 94-96%, and Fed speakers such as Musalem back more tightening."
     },
     {
       "title": "Dollar and yields",
-      "text": "The dollar index is firmer at about 103.85, and the 10-year yield is about 5.10%."
+      "text": "The dollar index is firm at about 103.77, and the 10-year yield is about 5.12%."
     },
     {
-      "title": "Gulf and oil",
-      "text": "Iran and Hormuz strikes keep Brent near 92-93, which feeds inflation and hike fears more than safe-haven buying."
+      "title": "Oil and risk",
+      "text": "Brent near 93 on Hormuz tension feeds inflation and hike fears more than safe-haven buying, and stocks are selling off."
     },
     {
       "title": "Minutes tonight",
@@ -40,6 +40,11 @@
       "note": "Mitrade resistance; Tuesday close about 3,849-3,853"
     },
     {
+      "price": "3,830",
+      "type": "resistance",
+      "note": "IG: a daily close above here would turn the picture up"
+    },
+    {
       "price": "3,815-3,835",
       "type": "resistance",
       "note": "Broken Mitrade support zone"
@@ -47,7 +52,7 @@
     {
       "price": "3,800",
       "type": "resistance",
-      "note": "Round number; TradingKey says it must be reclaimed"
+      "note": "Round number; IG and TradingKey say it must be reclaimed"
     },
     {
       "price": "~3,784",
@@ -57,12 +62,12 @@
     {
       "price": "~3,768",
       "type": "now",
-      "note": "Trading Economics 3,766-3,768, down 2.1% (time UNVERIFIED)"
+      "note": "Trading Economics 3,766-3,771, down about 2.1% (time UNVERIFIED)"
     },
     {
       "price": "3,750-3,770",
       "type": "support",
-      "note": "Mitrade support zone, being tested now"
+      "note": "Mitrade zone; IG monthly pivot S1 near 3,760"
     },
     {
       "price": "~3,730",
@@ -73,6 +78,11 @@
       "price": "3,680-3,700",
       "type": "support",
       "note": "Mitrade support"
+    },
+    {
+      "price": "3,640",
+      "type": "support",
+      "note": "IG monthly pivot S2, target if 3,760 breaks on a daily close"
     }
   ],
   "buy": {
@@ -102,7 +112,7 @@
       "This is counter-trend. The bias is down, so use half size or skip it.",
       "Price dipping into 3,730-3,750 and holding, not slicing through.",
       "A 15M close back above 3,750 after the dip.",
-      "The dollar easing from about 103.85 and the 10-year slipping under 5.08%.",
+      "The dollar easing from about 103.77 and the 10-year slipping under 5.08%.",
       "Take some profit at 3,768 and move the stop to entry only after that."
     ],
     "watch": [
@@ -139,11 +149,11 @@
       "Price bouncing back up into 3,784-3,800 and stalling there.",
       "A clear 15M rejection wick or bearish close back under 3,784.",
       "A 1H lower high under 3,800.",
-      "The dollar firm near 103.85 and yields near 5.1%.",
+      "The dollar firm near 103.77 and yields near 5.1%.",
       "Take some profit at 3,750 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling at 3,768 after a 2% drop and right on support. That is chasing; wait for a bounce to 3,784-3,800.",
+      "Selling at 3,768 right on support after a 2% drop. That is chasing; wait for a bounce to 3,784-3,800, or a daily close under 3,760.",
       "A 1H close above 3,818 opens 3,835, then 3,850-3,855.",
       "FOMC minutes at 21:00 SAST can cause a sharp spike either way. Avoid entering in the 15 minutes before.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
@@ -151,16 +161,20 @@
   },
   "sources": [
     {
-      "name": "Trading Economics gold (3,767.72, -2.12%, DXY 103.85, 10-year 5.099%, hike odds ~96%, 18 Nov)",
+      "name": "Trading Economics gold (3,765.86-3,771.39, about -2.1%, DXY 103.77, 10-year 5.119%, hike odds ~96%, 18 Nov)",
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "name": "TradingKey: gold near 1.5-year low below 3,800 (low 3,784, 18 Nov)",
-      "url": "https://www.tradingkey.com/analysis/commodities/metal/262310424-metal-gold-xau-price-3800-3500-cpi-ppi-fed-oil-tradingkey"
+      "name": "IG: gold below 3,800 as selling deepens (pivots 3,760 and 3,640, 18 Nov 12:32 UTC)",
+      "url": "https://www.ig.com/en-ch/news-and-trade-ideas/gold-price-below-3800-dollar-pressure-261118"
     },
     {
-      "name": "Mitrade gold analysis (levels, 94% hike odds, Hormuz and Gulf strikes, 18 Nov)",
+      "name": "Mitrade gold analysis (levels, 94% hike odds, Brent 93.14, 18 Nov)",
       "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz"
+    },
+    {
+      "name": "FXEmpire gold (3,784.31 at 04:38 UTC, -2.03%, 18 Nov)",
+      "url": "https://www.fxempire.com/commodities/gold"
     },
     {
       "name": "LiteFinance gold forecast (levels, 17 Nov)",
