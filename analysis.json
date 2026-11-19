@@ -1,77 +1,77 @@
 {
-  "updated": "2026-11-19T05:36:00Z",
-  "asof": "2026-11-19T04:45:00Z",
-  "price": 3724,
+  "updated": "2026-11-19T09:45:00Z",
+  "asof": "2026-11-19T08:46:00Z",
+  "price": 3740,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,750; dipped under 3,700 in Asia, then bounced"
+    "label": "Leaning down below 3,760-3,770; bouncing off the 3,693 yearly low"
   },
-  "event": "US jobless claims and Philly Fed index Thu 19 Nov 15:30 SAST, then Fed Hammack 15:50 SAST (Finviz calendar).",
+  "event": "US jobless claims and Philly Fed index Thu 19 Nov 15:30 SAST, then Fed Hammack 15:50 SAST (Finviz calendar, checked on the earlier run today).",
   "bullets": [
     {
-      "title": "New low in Asia",
-      "text": "Gold broke under 3,700 early on Thursday, with a print of 3,697.45 and a low near 3,693.5 (exact low and time UNVERIFIED)."
+      "title": "Yearly low at 3,693",
+      "text": "Gold fell to about 3,693 in Asia on Thursday, its lowest since September 2025 (Reuters 3,693.13, FXStreet 3,693.50)."
     },
     {
-      "title": "Bounce back to 3,724",
-      "text": "FXEmpire showed spot near 3,723.84 at 06:45 SAST, so buyers stepped in under the round number."
+      "title": "Bounce in Europe",
+      "text": "FXStreet says gold is up about 0.4% near 3,740 in European trade, around 10:45 SAST (time inferred from the page, UNVERIFIED)."
     },
     {
-      "title": "Hawkish Fed minutes",
-      "text": "Wednesday's minutes showed some officials wanted a hike, and gold fell about 3.3% on the day."
+      "title": "Dollar near 104",
+      "text": "The dollar index hit a fresh 19-month high near 104.00, which keeps pressure on gold."
     },
     {
-      "title": "Hike odds near 95%",
-      "text": "Mitrade says odds of a quarter-point hike on 8-9 December rose to about 95%, with some talk of a half-point move."
+      "title": "Hike odds near 90%",
+      "text": "CME FedWatch shows about a 90% chance of a quarter-point hike in December and about 10% for a half point (Reuters)."
     },
     {
-      "title": "Strong dollar, high yields",
-      "text": "The dollar index hit about 103.8, its highest since April 2025, and the 10-year yield was near 5.07% (Mitrade; not checked live, UNVERIFIED)."
+      "title": "Banks stay bearish",
+      "text": "Societe Generale sees 3,870-3,900 as resistance and 3,625, then 3,480-3,440, as downside targets."
+    },
+    {
+      "title": "Oversold but trending",
+      "text": "Daily RSI is near 31, so sharp bounces can happen even though the trend is down."
     },
     {
       "title": "Busy US afternoon",
       "text": "Jobless claims and the Philly Fed index land at 15:30 SAST, with Fed speakers after, so expect fast moves."
-    },
-    {
-      "title": "Stretched but trending",
-      "text": "Gold is down about 7.8% in a week, so sharp bounces can happen inside the downtrend."
     }
   ],
   "levels": [
     {
+      "price": "3,870-3,900",
+      "type": "resistance",
+      "note": "October trough, Societe Generale resistance zone"
+    },
+    {
       "price": "3,833-3,852",
       "type": "resistance",
-      "note": "Mitrade resistance 2"
+      "note": "Mitrade resistance 2 (from the earlier run)"
     },
     {
       "price": "3,781-3,797",
       "type": "resistance",
-      "note": "Mitrade resistance 1 (3,787-3,797) and FXEmpire's 3,781"
+      "note": "Mitrade resistance 1 and FXEmpire's 3,781"
     },
     {
       "price": "~3,760-3,770",
       "type": "resistance",
-      "note": "Bollinger lower band near 3,770 on 18 Nov (Mitrade; current value UNVERIFIED)"
+      "note": "Bollinger lower band area from 18 Nov (current value UNVERIFIED)"
     },
     {
-      "price": "3,741-3,750",
-      "type": "resistance",
-      "note": "Early Thursday high area (Kitco 3,741.70, Mitrade 3,744.37) and Mitrade's 3,750 test level"
-    },
-    {
-      "price": "~3,724",
+      "price": "~3,735-3,740",
       "type": "now",
-      "note": "FXEmpire quote 3,723.84 at 06:45 SAST"
+      "note": "FXStreet via Mitrade, European session 19 Nov"
     },
     {
-      "price": "~3,719-3,720",
+      "price": "~3,719-3,723",
       "type": "support",
-      "note": "Wednesday's low 3,719.10, already broken once in Asia"
+      "note": "Wednesday's low 3,719.10 and the 06:52 SAST Reuters price 3,722.84"
     },
     {
       "price": "~3,693-3,700",
       "type": "support",
-      "note": "Round number and Thursday's Asian low near 3,693.5 (UNVERIFIED)"
+      "note": "Round number and Thursday's yearly low 3,693.13-3,693.50"
     },
     {
       "price": "~3,680",
@@ -79,66 +79,66 @@
       "note": "Bottom of Mitrade support 1 (3,680-3,700)"
     },
     {
-      "price": "3,628-3,650",
+      "price": "3,625-3,650",
       "type": "support",
-      "note": "Mitrade support 2 (3,630-3,650) and FXEmpire long-term bottom 3,627.96"
+      "note": "Societe Generale target 3,625 and Mitrade support 2 (3,630-3,650)"
     },
     {
-      "price": "~3,600",
+      "price": "3,440-3,480",
       "type": "support",
-      "note": "Mitrade support 3"
+      "note": "Societe Generale's next downside objective"
     }
   ],
   "buy": {
-    "title": "Buy plan: hold at 3,630-3,650 (counter-trend)",
-    "entry": 3650,
-    "stop": 3622,
-    "target": 3719,
+    "title": "Buy plan: retest and hold of 3,693-3,700 (counter-trend)",
+    "entry": 3698,
+    "stop": 3684,
+    "target": 3740,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,630-3,650, only if the dip holds"
+        "value": "3,693-3,700, only if the yearly low holds on a retest"
       },
       {
         "label": "Stop",
-        "value": "Below 3,622 (under the 3,628 bottom)"
+        "value": "Below 3,684 (under the 3,693 low)"
       },
       {
         "label": "Targets",
-        "value": "3,680, then 3,700, then 3,719"
+        "value": "3,720, then 3,740"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,622"
+        "value": "1H candle closes below 3,684"
       }
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price reaching 3,630-3,650 and holding there, not slicing through.",
-      "A 15M close back above 3,650 after the dip.",
-      "The dollar easing back from its 19-month high.",
-      "Take some profit at 3,680 and move the stop to entry only after that."
+      "Price dipping back to 3,693-3,700 and holding, not slicing through.",
+      "A 15M close back above 3,700 after the dip, ideally a higher low.",
+      "The dollar easing back from 104.",
+      "Take some profit at 3,720 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying the bounce at 3,724 in the middle of nowhere. Wait for the zone and a hold.",
-      "A 1H close under 3,622 means the bottom failed. Step aside; 3,600 is next.",
-      "Strong jobless claims or Philly Fed data at 15:30 SAST, or hawkish Fed speakers, can break support fast.",
+      "Buying now at 3,740, in the middle of the range. Wait for the zone and a hold.",
+      "A 1H close under 3,684 means the low failed. Step aside; 3,625-3,650 is next.",
+      "Strong jobless claims or Philly Fed data at 15:30 SAST, or hawkish Fed speakers, can break the low fast.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,741-3,750",
-    "entry": 3745,
-    "stop": 3773,
+    "title": "Sell plan: rejection at 3,760-3,770",
+    "entry": 3762,
+    "stop": 3802,
     "target": 3680,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,741-3,750, the early Thursday high area"
+        "value": "Rejection at 3,760-3,770, under the 3,781-3,797 resistance"
       },
       {
         "label": "Stop",
-        "value": "Above 3,773 (over the 3,760-3,770 zone)"
+        "value": "Above 3,802 (over 3,797 and the 3,800 round number)"
       },
       {
         "label": "Targets",
@@ -146,42 +146,42 @@
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,773"
+        "value": "1H candle closes above 3,802"
       }
     ],
     "look": [
-      "Price bouncing from about 3,724 into 3,741-3,750 and stalling there.",
-      "A clear 15M rejection wick or bearish close back under 3,740.",
-      "A 1H lower high under 3,760.",
-      "The dollar holding near 103.8 after the minutes.",
+      "The bounce from 3,693 stalling at 3,760-3,770.",
+      "A clear 15M rejection wick or a bearish close back under 3,755.",
+      "A 1H lower high under 3,781.",
+      "The dollar holding near 104.",
       "Take some profit at 3,720 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling at 3,724 right after a bounce off 3,700. Wait for the move into 3,741-3,750 and a rejection.",
-      "The bounce from under 3,700 shows buyers there. A 1H close above 3,773 opens 3,781-3,797.",
+      "Selling at 3,740 right after a bounce off the low. Wait for the move into 3,760-3,770 and a rejection.",
+      "Gold is oversold (RSI near 31), so the bounce can run. A 1H close above 3,802 opens 3,833-3,852.",
       "Jobless claims and Philly Fed at 15:30 SAST can spike price both ways. Do not enter in the minutes before or after.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Mitrade gold analysis, 19 Nov (3,744.37 morning, low 3,719.10, levels, DXY 103.82, 95% hike odds)",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-breaks-14-low-hawkish-fed-minutes"
+      "name": "FXStreet via Mitrade: XAU/USD regains ground below $3,700 (19 Nov, ~3,735-3,740, low 3,693.50, DXY near 104, SocGen levels)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/fxstreet-XAUUSDXAGUSDUSDOLLARF-202611191646"
     },
     {
-      "name": "FXEmpire gold quote (3,723.84 at 04:45 UTC, 52-week low 3,693.53, 19 Nov)",
+      "name": "Reuters via Business Recorder: gold holds near 14-month low (3,722.84 at 04:52 UTC, low 3,693.13, 90% hike odds)",
+      "url": "https://www.brecorder.com/news/40449691"
+    },
+    {
+      "name": "FXEmpire gold quote (3,737.60 at 05:37 UTC, 19 Nov)",
       "url": "https://www.fxempire.com/commodities/gold"
     },
     {
-      "name": "Phemex: spot gold falls below 3,700 to 3,697.45 (19 Nov)",
-      "url": "https://phemex.com/news/article/spot-gold-drops-below-3700-key-level-104138"
+      "name": "Mitrade gold analysis, 19 Nov (resistance and support zones)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-breaks-14-low-hawkish-fed-minutes"
     },
     {
-      "name": "FXStreet headline: $3,700 breached, gold sellers extend control (19 Nov; page not readable)",
-      "url": "https://www.fxstreet.com/analysis/3-700-breached-gold-sellers-extend-control-on-hawkish-fed-outlook-202611190357"
-    },
-    {
-      "name": "Kitco spot prices (bid 3,741.70 at 02:34 UTC 19 Nov, day low 3,719.10)",
+      "name": "Kitco spot prices (day low 3,719.10 on 18 Nov)",
       "url": "https://www.kitco.com/price/precious-metals"
     },
     {
