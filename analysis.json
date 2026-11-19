@@ -1,40 +1,40 @@
 {
-  "updated": "2026-11-19T09:45:00Z",
-  "asof": "2026-11-19T08:46:00Z",
-  "price": 3740,
+  "updated": "2026-11-19T13:38:00Z",
+  "asof": "2026-11-19T13:15:00Z",
+  "price": 3717,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,760-3,770; bouncing off the 3,693 yearly low"
+    "label": "Leaning down below 3,760; holding just above the 3,693 yearly low"
   },
-  "event": "US jobless claims and Philly Fed index Thu 19 Nov 15:30 SAST, then Fed Hammack 15:50 SAST (Finviz calendar, checked on the earlier run today).",
+  "event": "US jobless claims and Philly Fed index Thu 19 Nov 15:30 SAST (just released, results not confirmed on this run, UNVERIFIED), then Fed Hammack 15:50 SAST.",
   "bullets": [
     {
-      "title": "Yearly low at 3,693",
-      "text": "Gold fell to about 3,693 in Asia on Thursday, its lowest since September 2025 (Reuters 3,693.13, FXStreet 3,693.50)."
+      "title": "Bounce faded",
+      "text": "Gold rose to 3,759.10 in Europe but slipped back to about 3,717 by 15:15 SAST (Kitco)."
     },
     {
-      "title": "Bounce in Europe",
-      "text": "FXStreet says gold is up about 0.4% near 3,740 in European trade, around 10:45 SAST (time inferred from the page, UNVERIFIED)."
+      "title": "Yearly low holds",
+      "text": "Today's low is 3,693.10, the lowest since September 2025, and it has held so far."
     },
     {
-      "title": "Dollar near 104",
-      "text": "The dollar index hit a fresh 19-month high near 104.00, which keeps pressure on gold."
+      "title": "Dollar near highs",
+      "text": "The dollar index is near 103.7, close to a 19-month high (Trading Economics, time not shown)."
     },
     {
       "title": "Hike odds near 90%",
-      "text": "CME FedWatch shows about a 90% chance of a quarter-point hike in December and about 10% for a half point (Reuters)."
+      "text": "Markets price about a 90% chance of a quarter-point Fed hike in December and about 10% for a half point."
     },
     {
-      "title": "Banks stay bearish",
-      "text": "Societe Generale sees 3,870-3,900 as resistance and 3,625, then 3,480-3,440, as downside targets."
+      "title": "Hawkish Fed minutes",
+      "text": "The October minutes showed nearly all policymakers backed more hikes, which keeps pressure on gold."
+    },
+    {
+      "title": "Data just out",
+      "text": "Jobless claims and Philly Fed came out at 15:30 SAST; this run could not confirm the numbers, so check them before trading."
     },
     {
       "title": "Oversold but trending",
-      "text": "Daily RSI is near 31, so sharp bounces can happen even though the trend is down."
-    },
-    {
-      "title": "Busy US afternoon",
-      "text": "Jobless claims and the Philly Fed index land at 15:30 SAST, with Fed speakers after, so expect fast moves."
+      "text": "Daily RSI was near 31 earlier today, so sharp bounces can happen inside the downtrend."
     }
   ],
   "levels": [
@@ -46,7 +46,7 @@
     {
       "price": "3,833-3,852",
       "type": "resistance",
-      "note": "Mitrade resistance 2 (from the earlier run)"
+      "note": "Mitrade resistance 2"
     },
     {
       "price": "3,781-3,797",
@@ -54,24 +54,24 @@
       "note": "Mitrade resistance 1 and FXEmpire's 3,781"
     },
     {
-      "price": "~3,760-3,770",
+      "price": "~3,755-3,760",
       "type": "resistance",
-      "note": "Bollinger lower band area from 18 Nov (current value UNVERIFIED)"
+      "note": "Today's high 3,759.10 (Kitco)"
     },
     {
-      "price": "~3,735-3,740",
+      "price": "~3,737-3,740",
+      "type": "resistance",
+      "note": "European bounce area from earlier today"
+    },
+    {
+      "price": "~3,717",
       "type": "now",
-      "note": "FXStreet via Mitrade, European session 19 Nov"
-    },
-    {
-      "price": "~3,719-3,723",
-      "type": "support",
-      "note": "Wednesday's low 3,719.10 and the 06:52 SAST Reuters price 3,722.84"
+      "note": "Kitco bid 3,717.20 at 15:15 SAST"
     },
     {
       "price": "~3,693-3,700",
       "type": "support",
-      "note": "Round number and Thursday's yearly low 3,693.13-3,693.50"
+      "note": "Round number and today's yearly low 3,693.10"
     },
     {
       "price": "~3,680",
@@ -81,7 +81,7 @@
     {
       "price": "3,625-3,650",
       "type": "support",
-      "note": "Societe Generale target 3,625 and Mitrade support 2 (3,630-3,650)"
+      "note": "Societe Generale target 3,625 and Mitrade support 2"
     },
     {
       "price": "3,440-3,480",
@@ -105,7 +105,7 @@
       },
       {
         "label": "Targets",
-        "value": "3,720, then 3,740"
+        "value": "3,717, then 3,740"
       },
       {
         "label": "Cancelled if",
@@ -114,78 +114,82 @@
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "Price dipping back to 3,693-3,700 and holding, not slicing through.",
+      "Price dipping to 3,693-3,700 and holding, not slicing through.",
       "A 15M close back above 3,700 after the dip, ideally a higher low.",
-      "The dollar easing back from 104.",
-      "Take some profit at 3,720 and move the stop to entry only after that."
+      "The dollar easing back from its highs after the US data.",
+      "Take some profit at 3,717 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying now at 3,740, in the middle of the range. Wait for the zone and a hold.",
+      "Buying at 3,717 in the middle of the range. Wait for the zone and a hold.",
       "A 1H close under 3,684 means the low failed. Step aside; 3,625-3,650 is next.",
-      "Strong jobless claims or Philly Fed data at 15:30 SAST, or hawkish Fed speakers, can break the low fast.",
+      "Strong US data or hawkish words from Fed Hammack at 15:50 SAST can break the low fast.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,760-3,770",
-    "entry": 3762,
-    "stop": 3802,
-    "target": 3680,
+    "title": "Sell plan: rejection at 3,737-3,760",
+    "entry": 3745,
+    "stop": 3765,
+    "target": 3700,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,760-3,770, under the 3,781-3,797 resistance"
+        "value": "Rejection at 3,737-3,760, under today's 3,759 high"
       },
       {
         "label": "Stop",
-        "value": "Above 3,802 (over 3,797 and the 3,800 round number)"
+        "value": "Above 3,765 (over today's high)"
       },
       {
         "label": "Targets",
-        "value": "3,720, then 3,700, then 3,680"
+        "value": "3,717, then 3,700"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,802"
+        "value": "1H candle closes above 3,765"
       }
     ],
     "look": [
-      "The bounce from 3,693 stalling at 3,760-3,770.",
-      "A clear 15M rejection wick or a bearish close back under 3,755.",
-      "A 1H lower high under 3,781.",
-      "The dollar holding near 104.",
-      "Take some profit at 3,720 and move the stop to entry only after that."
+      "A bounce back into 3,737-3,760 that stalls.",
+      "A clear 15M rejection wick or a bearish close back under 3,737.",
+      "A 1H lower high under today's 3,759 high.",
+      "The dollar holding near its 19-month high.",
+      "Take some profit at 3,717 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling at 3,740 right after a bounce off the low. Wait for the move into 3,760-3,770 and a rejection.",
-      "Gold is oversold (RSI near 31), so the bounce can run. A 1H close above 3,802 opens 3,833-3,852.",
-      "Jobless claims and Philly Fed at 15:30 SAST can spike price both ways. Do not enter in the minutes before or after.",
+      "Selling at 3,717, right above the yearly low. There is little room left; wait for a bounce.",
+      "Gold is oversold, so bounces can run. A 1H close above 3,765 opens 3,781-3,797.",
+      "The 15:30 SAST data and Fed Hammack at 15:50 SAST can spike price both ways. Do not enter in the minutes around them.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "FXStreet via Mitrade: XAU/USD regains ground below $3,700 (19 Nov, ~3,735-3,740, low 3,693.50, DXY near 104, SocGen levels)",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/fxstreet-XAUUSDXAGUSDUSDOLLARF-202611191646"
+      "name": "Kitco gold chart (3,717.20 bid at 8:15 a.m. ET, day range 3,693.10-3,759.10, 19 Nov)",
+      "url": "https://www.kitco.com/charts/gold"
     },
     {
-      "name": "Reuters via Business Recorder: gold holds near 14-month low (3,722.84 at 04:52 UTC, low 3,693.13, 90% hike odds)",
-      "url": "https://www.brecorder.com/news/40449691"
+      "name": "Trading Economics gold (about 3,713-3,714, DXY 103.73, 90% hike odds, 19 Nov)",
+      "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
-      "name": "FXEmpire gold quote (3,737.60 at 05:37 UTC, 19 Nov)",
+      "name": "FXEmpire gold quote (3,737.60 at 05:37 UTC, 19 Nov; 3,781 level)",
       "url": "https://www.fxempire.com/commodities/gold"
     },
     {
-      "name": "Mitrade gold analysis, 19 Nov (resistance and support zones)",
+      "name": "Kitco: gold under pressure as Fed minutes show commitment to cooling inflation (18 Nov)",
+      "url": "https://www.kitco.com/news/article/2026-11-18/gold-prices-remain-under-pressure-fed-minutes-show-central-bank-committed"
+    },
+    {
+      "name": "Mitrade gold analysis, 19 Nov (resistance and support zones, from earlier run)",
       "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-breaks-14-low-hawkish-fed-minutes"
     },
     {
-      "name": "Kitco spot prices (day low 3,719.10 on 18 Nov)",
-      "url": "https://www.kitco.com/price/precious-metals"
+      "name": "FXStreet via Mitrade: SocGen levels, RSI near 31 (19 Nov, from earlier run)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/fxstreet-XAUUSDXAGUSDUSDOLLARF-202611191646"
     },
     {
-      "name": "Finviz economic calendar, week of 16 Nov (Thursday US data and Fed speakers)",
+      "name": "Finviz economic calendar, week of 16 Nov",
       "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
     }
   ]
