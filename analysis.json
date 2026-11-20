@@ -1,16 +1,16 @@
 {
-  "updated": "2026-11-20T17:45:00Z",
+  "updated": "2026-11-20T21:40:00Z",
   "asof": "2026-11-20T15:00:00Z",
   "price": 3568.65,
   "bias": {
     "direction": "down",
     "label": "Leaning down below 3,600; holding above 3,514"
   },
-  "event": "Weekly close tonight; market reopens Monday about 01:00 SAST (time UNVERIFIED). Next week's US data times UNVERIFIED. Fed decision 9 Dec.",
+  "event": "Weekly close tonight; gold reopens Monday morning SAST (exact time UNVERIFIED). Mon 23 Nov 16:45 SAST: US flash PMI. US PCE inflation due next week (day and time UNVERIFIED). Fed decision 9 Dec.",
   "bullets": [
     {
-      "title": "Flat after data",
-      "text": "Gold traded near 3,568.65 at 17:00 SAST, mid-range after the final Michigan sentiment data; no later price confirmed (UNVERIFIED)."
+      "title": "Weak into close",
+      "text": "Gold traded near 3,568.65 at 17:00 SAST; a later report put it at about 3,558, but its time and the weekly close are UNVERIFIED."
     },
     {
       "title": "Data in line",
@@ -22,11 +22,11 @@
     },
     {
       "title": "Fed hike priced",
-      "text": "Markets fully price a quarter-point Fed hike on 9 December, and Waller said a half-point move should be considered."
+      "text": "CME FedWatch shows about a 99% chance of a quarter-point Fed hike on 9 December, up from about 90% on Thursday."
     },
     {
       "title": "Dollar still strong",
-      "text": "The dollar is near a 19-month high and heading for a fourth weekly gain, while the 10-year yield slipped back below 5%."
+      "text": "The dollar is near a 19-month high, while the 10-year yield eased to about 4.94% on Friday afternoon."
     },
     {
       "title": "Sold for cash",
@@ -54,9 +54,9 @@
       "note": "Round number, broken today"
     },
     {
-      "price": "~3,569",
+      "price": "~3,558-3,569",
       "type": "now",
-      "note": "Kitco 3,568.65 at 17:00 SAST; later price UNVERIFIED"
+      "note": "Kitco 3,568.65 at 17:00 SAST; USAGOLD report ~3,558 (time UNVERIFIED)"
     },
     {
       "price": "~3,545",
@@ -117,7 +117,7 @@
     "watch": [
       "Buying in the middle near 3,569. That is not a level; wait for the retest.",
       "A 1H close under 3,500 opens 3,475, then 3,421-3,447. Step aside.",
-      "Monday's open after the weekend can gap. Do not hold a fresh counter-trend trade over the weekend.",
+      "The market reopens Monday after the weekend and can gap. Do not hold a fresh counter-trend trade into Monday's open; wait for the first hour.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
@@ -153,7 +153,7 @@
     ],
     "watch": [
       "Selling now near 3,569, in the middle of the range. Wait for 3,600.",
-      "Gold is very oversold and short-covering into the weekly close can run fast. A 1H close above 3,625 opens 3,650.",
+      "Gold is very oversold, and a Monday bounce from short-covering can run fast. A 1H close above 3,625 opens 3,650.",
       "Fed or geopolitical headlines can spike gold in minutes. Do not chase news candles.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
@@ -182,6 +182,18 @@
     {
       "name": "FXEmpire: can 3,518 hold? (20 Nov; 3,421 and 3,311 levels)",
       "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-heads-for-worst-week-in-eight-months-can-3518-hold-1645958"
+    },
+    {
+      "name": "USAGOLD: gold slides to 3,558, worst week since March (20 Nov)",
+      "url": "https://www.usagold.com/daily-precious-metals-market-report-november-20-2026/"
+    },
+    {
+      "name": "FinanceFeeds: gold near 3,560 after 14-month low, Fed hike odds 99% (20 Nov 19:28 UTC)",
+      "url": "https://financefeeds.com/gold-price-near-3560-after-hitting-14-month-low-as-fed-hike-odds-reach-99/"
+    },
+    {
+      "name": "ANC: gold's worst week since March (20 Nov 16:20 UTC; yields, FedWatch, next-week PMI)",
+      "url": "https://ancstockinvestments.com/blog/2026/11/20/gold-price-this-week-worst-drop-since-march/"
     }
   ]
 }
