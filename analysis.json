@@ -1,58 +1,62 @@
 {
-  "updated": "2026-11-20T13:40:00Z",
-  "asof": "2026-11-20T12:50:00Z",
-  "price": 3570,
+  "updated": "2026-11-20T17:45:00Z",
+  "asof": "2026-11-20T15:00:00Z",
+  "price": 3568.65,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,600; bounced off 3,514"
+    "label": "Leaning down below 3,600; holding above 3,514"
   },
-  "event": "US Michigan consumer sentiment and inflation expectations (final, Nov), Fri 20 Nov 17:00 SAST. Fed's Cook speaks Friday (time UNVERIFIED). Weekly close tonight.",
+  "event": "Weekly close tonight; market reopens Monday about 01:00 SAST (time UNVERIFIED). Next week's US data times UNVERIFIED. Fed decision 9 Dec.",
   "bullets": [
     {
-      "title": "Bounce off lows",
-      "text": "Gold hit 3,513.54 in Asian trade, its lowest since September 2025, and was back near 3,570 at about 14:50 SAST."
+      "title": "Flat after data",
+      "text": "Gold traded near 3,568.65 at 17:00 SAST, mid-range after the final Michigan sentiment data; no later price confirmed (UNVERIFIED)."
+    },
+    {
+      "title": "Data in line",
+      "text": "Michigan sentiment came in at 51.5 as expected, and year-ahead inflation expectations fell from 4.7% to 3.7%."
     },
     {
       "title": "Worst week since March",
-      "text": "Gold is still down about 8% this week from about 3,872 on Monday."
+      "text": "Gold touched 3,513.54, its lowest since September 2025, and is down about 8% this week."
     },
     {
       "title": "Fed hike priced",
-      "text": "CME FedWatch shows about 99% odds of a quarter-point Fed hike on 9 December, and Fed speakers Paulson and Goolsbee sound hawkish."
+      "text": "Markets fully price a quarter-point Fed hike on 9 December, and Waller said a half-point move should be considered."
     },
     {
-      "title": "Yields eased",
-      "text": "The US 10-year yield is reported below 5% and down this week, which helps the bounce a little (exact level UNVERIFIED)."
+      "title": "Dollar still strong",
+      "text": "The dollar is near a 19-month high and heading for a fourth weekly gain, while the 10-year yield slipped back below 5%."
     },
     {
-      "title": "Forced selling",
-      "text": "US stocks fell about 6% this week, and some funds sold gold to cover losses, while Indian and Chinese bargain buying cushioned the drop."
+      "title": "Sold for cash",
+      "text": "Stocks are falling hard (VIX near 30), and funds are selling gold to raise cash, so it is not behaving as a safe haven right now."
     },
     {
       "title": "Very oversold",
-      "text": "Daily RSI is near 25 and price is far below every moving average, so sharp bounces can happen inside the downtrend."
+      "text": "RSI is deeply oversold on the 1H and daily charts, so sharp bounces can happen inside the downtrend."
     }
   ],
   "levels": [
     {
-      "price": "3,700-3,714",
+      "price": "3,685-3,714",
       "type": "resistance",
-      "note": "FXStreet 3,700; FXEmpire R1 3,713.95"
+      "note": "Mitrade R2 3,685-3,700; FXEmpire R1 3,713.95"
     },
     {
-      "price": "~3,650",
+      "price": "3,625-3,650",
       "type": "resistance",
-      "note": "FXEmpire pivot 3,652; Thursday's close area 3,651"
+      "note": "Mitrade R1; Thursday close area 3,625-3,651; FXEmpire pivot 3,652"
     },
     {
       "price": "~3,600",
       "type": "resistance",
-      "note": "Round number; FXStreet first resistance"
+      "note": "Round number, broken today"
     },
     {
-      "price": "~3,570",
+      "price": "~3,569",
       "type": "now",
-      "note": "FXStreet via FinanceFeeds, about 14:50 SAST; FXEmpire 3,570.87 at 11:46 SAST"
+      "note": "Kitco 3,568.65 at 17:00 SAST; later price UNVERIFIED"
     },
     {
       "price": "~3,545",
@@ -60,19 +64,19 @@
       "note": "FXEmpire S1 3,545.63"
     },
     {
-      "price": "3,500-3,514",
+      "price": "3,500-3,520",
       "type": "support",
-      "note": "Friday low 3,513.54 and round 3,500"
+      "note": "Friday low 3,513.54; Mitrade S2 3,500-3,520"
     },
     {
-      "price": "~3,475",
+      "price": "3,450-3,475",
       "type": "support",
-      "note": "1Trader S2 (from this morning's run)"
+      "note": "Mitrade S3; 1Trader S2 ~3,475"
     },
     {
-      "price": "3,421-3,447",
+      "price": "~3,421",
       "type": "support",
-      "note": "1Trader S3 3,447; FXEmpire 3,421 if 3,518 breaks"
+      "note": "FXEmpire target if 3,518 breaks"
     },
     {
       "price": "~3,311",
@@ -107,13 +111,13 @@
       "This is counter-trend. The bias is down, so use half size or skip it.",
       "A slow retest of 3,514-3,520 with long lower wicks, not a fast drop.",
       "A higher low on the 15M chart and a close back above 3,530.",
-      "The 10-year yield and the dollar easing after the 17:00 SAST data.",
+      "The dollar easing and the 10-year yield staying below 5%.",
       "Take some profit at 3,545 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying in the middle at 3,570. That is not a level; wait for the retest.",
+      "Buying in the middle near 3,569. That is not a level; wait for the retest.",
       "A 1H close under 3,500 opens 3,475, then 3,421-3,447. Step aside.",
-      "The Michigan data at 17:00 SAST and Fed's Cook can whip price both ways.",
+      "Monday's open after the weekend can gap. Do not hold a fresh counter-trend trade over the weekend.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
@@ -144,36 +148,40 @@
       "The bounce runs into 3,595-3,600 and stalls under the round number.",
       "A clear 15M rejection wick or a bearish close back under 3,590.",
       "A 1H lower high under 3,600.",
-      "The dollar and yields firming after the 17:00 SAST data.",
+      "The dollar firming and yields rising back above 5%.",
       "Take some profit at 3,545 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling now at 3,570, in the middle of the range. Wait for 3,600.",
-      "Gold is very oversold and Friday short-covering before the weekly close can run fast. A 1H close above 3,625 opens 3,650.",
+      "Selling now near 3,569, in the middle of the range. Wait for 3,600.",
+      "Gold is very oversold and short-covering into the weekly close can run fast. A 1H close above 3,625 opens 3,650.",
       "Fed or geopolitical headlines can spike gold in minutes. Do not chase news candles.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "FinanceFeeds: gold near 3,570, worst week since March (updated 20 Nov 13:15 GMT; low, FedWatch, levels, events)",
-      "url": "https://financefeeds.com/gold-price-today-3570-friday-worst-week-since-march-fed-hike-bets-bull-3700-bear-3500/"
+      "name": "Kitco: gold near 3,568 after final Consumer Sentiment 51.5 (20 Nov 15:00 UTC)",
+      "url": "https://www.kitco.com/news/article/2026-11-20/gold-price-trades-near-3568oz-after-final-consumer-sentiment-rises-515"
     },
     {
-      "name": "FXEmpire: gold slides toward stronger support zone (20 Nov 09:46 UTC; 3,570.87, S1/pivot/R1)",
+      "name": "Kitco: gold sold first in a dollar squeeze (20 Nov 14:54 UTC; low 3,513.70, Fed, yields, dollar)",
+      "url": "https://www.kitco.com/news/article/2026-11-20/gold-sold-first-dollar-squeeze-and-jeff-currie-says-real-test-comes-later"
+    },
+    {
+      "name": "Mitrade: gold slides below 3,600 (20 Nov; support/resistance table)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-below-3600-fed-pressure"
+    },
+    {
+      "name": "Cryptometer (Reuters figures): gold below 3,540, weekly loss near 9% (20 Nov 11:08 UTC)",
+      "url": "https://www.cryptometer.io/news/gold-falls-below-3540-as-weekly-loss-nears-9/"
+    },
+    {
+      "name": "FXEmpire: gold slides toward stronger support zone (20 Nov; S1/pivot/R1)",
       "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-price-forecast-gold-slides-toward-stronger-support-zone-1645988"
     },
     {
-      "name": "FXEmpire: gold heads for worst week, can 3,518 hold? (20 Nov; 3,518 and 3,421 levels)",
+      "name": "FXEmpire: can 3,518 hold? (20 Nov; 3,421 and 3,311 levels)",
       "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-heads-for-worst-week-in-eight-months-can-3518-hold-1645958"
-    },
-    {
-      "name": "1Trader: gold price today 20 Nov (S2/S3 levels)",
-      "url": "https://1trader.com/en/gold-price-2026-11-20/"
-    },
-    {
-      "name": "Trading Economics: gold news stream (19 Nov close near 3,651; Fed hike odds)",
-      "url": "https://tradingeconomics.com/commodity/gold/news/601169"
     }
   ]
 }
