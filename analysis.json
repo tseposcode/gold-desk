@@ -1,82 +1,63 @@
 {
-  "updated": "2026-11-19T21:40:00Z",
-  "asof": "2026-11-19T21:07:00Z",
-  "price": 3659,
+  "updated": "2026-11-20T01:40:00Z",
+  "asof": "2026-11-19T23:34:00Z",
+  "price": 3621,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,678; new yearly low at 3,656.70"
+    "label": "Leaning down below 3,650; new low at 3,620.40"
   },
   "event": "US Michigan consumer sentiment (final, Nov) Fri 20 Nov 17:00 SAST (time UNVERIFIED).",
   "bullets": [
     {
-      "title": "Another new low",
-      "text": "Gold kept falling into the US close, touched 3,656.70 and sat near 3,659 at 23:07 SAST, down about 1.75% on the day (Kitco)."
+      "title": "Fresh low overnight",
+      "text": "Gold slid further after the US close and sat at 3,621.40 bid at 01:34 SAST, just above a new day low of 3,620.40 (Kitco)."
+    },
+    {
+      "title": "Big Thursday drop",
+      "text": "Thursday ran from a 3,759.10 high to the low, about 140 dollars, as Kitco's PM report said gold fell below 3,650."
     },
     {
       "title": "Hawkish Fed",
-      "text": "After the Fed minutes, markets price about a 90-95% chance of a quarter-point hike at the 8-9 December meeting, and Waller has floated a half point."
+      "text": "Markets price a high chance of a quarter-point hike at the 8-9 December Fed meeting, which keeps pressure on gold (exact odds UNVERIFIED today)."
     },
     {
-      "title": "Dollar and yields high",
-      "text": "The dollar index is near 103.9, its highest since April 2025, and the US 10-year yield is near 5.05% (Trading Economics)."
+      "title": "Dollar and yields",
+      "text": "The dollar index and US 10-year yield were near their highs on Thursday (about 103.9 and 5.05%); no fresh reading found for this morning (UNVERIFIED)."
     },
     {
-      "title": "Weak data ignored",
-      "text": "The Philly Fed index fell to a six-month low, but gold kept dropping because rate-hike fears outweigh it."
+      "title": "Banks still positive",
+      "text": "Morgan Stanley named gold its top commodity pick for 2027 and UBS called it resilient, but that is a long-term view, not a reason to buy today."
     },
     {
-      "title": "Hormuz not helping",
-      "text": "Iran and Strait of Hormuz headlines escalated, but they did not lift gold today, though sudden spikes are still possible (details UNVERIFIED)."
-    },
-    {
-      "title": "Silver hit too",
-      "text": "Silver fell about 5% to near 44.93, which shows broad selling in metals (Mitrade)."
-    },
-    {
-      "title": "Stretched trend",
-      "text": "One Kitco analyst sees room down to 3,500, but the move is oversold, so sharp bounces into old lows are likely."
+      "title": "Oversold, thin hours",
+      "text": "Price is stretched after a fast fall and Asian hours are quiet, so sudden bounces of 20-40 dollars are possible."
     }
   ],
   "levels": [
     {
-      "price": "3,750-3,759",
-      "type": "resistance",
-      "note": "Kitco resistance 3,755 and today's high 3,759.10"
-    },
-    {
-      "price": "~3,734",
-      "type": "resistance",
-      "note": "Asian-session bounce high (approximate, from earlier run)"
-    },
-    {
-      "price": "~3,707",
-      "type": "resistance",
-      "note": "Old Kitco support, broken this morning"
-    },
-    {
       "price": "~3,686-3,693",
       "type": "resistance",
-      "note": "This morning's low and the 18:38 SAST price area"
+      "note": "Thursday morning's low area"
     },
     {
       "price": "~3,669-3,678",
       "type": "resistance",
-      "note": "The 3,668.80 afternoon low and Kitco's 3,678, now broken"
+      "note": "Thursday afternoon low 3,668.80 and Kitco's 3,678"
     },
     {
-      "price": "~3,659",
+      "price": "3,650-3,659",
+      "type": "resistance",
+      "note": "Old support zone and late-Thursday price area, now broken"
+    },
+    {
+      "price": "~3,630",
+      "type": "resistance",
+      "note": "Bottom of the broken 3,630-3,650 Mitrade zone"
+    },
+    {
+      "price": "~3,621",
       "type": "now",
-      "note": "Kitco bid 3,658.90 at 23:07 SAST; day low 3,656.70"
-    },
-    {
-      "price": "3,630-3,650",
-      "type": "support",
-      "note": "Mitrade support zone and ANC's 3,650"
-    },
-    {
-      "price": "~3,625",
-      "type": "support",
-      "note": "Societe Generale target (from earlier run)"
+      "note": "Kitco bid 3,621.40 at 01:34 SAST; low 3,620.40"
     },
     {
       "price": "~3,600",
@@ -86,90 +67,90 @@
     {
       "price": "~3,500",
       "type": "support",
-      "note": "Downside target named in a Kitco analyst piece (Razaqzada)"
+      "note": "Downside target in a Kitco analyst piece (Razaqzada)"
     }
   ],
   "buy": {
-    "title": "Buy plan: hold of 3,630-3,650 (counter-trend)",
-    "entry": 3640,
-    "stop": 3620,
-    "target": 3686,
+    "title": "Buy plan: hold of 3,600 (counter-trend)",
+    "entry": 3605,
+    "stop": 3588,
+    "target": 3650,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,630-3,650, only if it holds on a test"
+        "value": "3,600-3,610, only if it holds on a test"
       },
       {
         "label": "Stop",
-        "value": "Below 3,620 (under the 3,625 target)"
+        "value": "Below 3,588 (under the round number)"
       },
       {
         "label": "Targets",
-        "value": "3,669-3,678, then 3,686"
+        "value": "3,630, then 3,650"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,620"
+        "value": "1H candle closes below 3,590"
       }
     ],
     "look": [
       "This is counter-trend. The bias is down, so use half size or skip it.",
-      "A drop into 3,630-3,650 that slows down and holds, not one that slices through.",
-      "A 15M close back above 3,650 with a higher low.",
+      "A drop into 3,600 that slows down and holds, not one that slices through.",
+      "A 15M close back above 3,610 with a higher low.",
       "The dollar and the 10-year yield easing back from their highs.",
-      "Take some profit at 3,669-3,678 and move the stop to entry only after that."
+      "Take some profit at 3,630 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying at 3,659 just because it looks cheap. Wait for the zone and a hold.",
-      "A 1H close under 3,620 means the support failed. Step aside; 3,600 is next.",
-      "Fed speakers backing a December hike or a half point can push gold lower fast.",
+      "Buying at 3,621 just because it looks cheap. Wait for the zone and a hold.",
+      "A 1H close under 3,590 means 3,600 failed. Step aside; the next named level is far lower.",
+      "Fed speakers backing a December hike can push gold lower fast.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,669-3,678",
-    "entry": 3672,
-    "stop": 3690,
-    "target": 3630,
+    "title": "Sell plan: rejection at 3,650-3,659",
+    "entry": 3652,
+    "stop": 3672,
+    "target": 3600,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,669-3,678, the broken lows"
+        "value": "Rejection at 3,650-3,659, the broken support"
       },
       {
         "label": "Stop",
-        "value": "Above 3,690 (over the broken zone)"
+        "value": "Above 3,672 (over the 3,669 low)"
       },
       {
         "label": "Targets",
-        "value": "3,650, then 3,630"
+        "value": "3,621, then 3,600"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,690"
+        "value": "1H candle closes above 3,672"
       }
     ],
     "look": [
-      "A bounce back into 3,669-3,678 that stalls under the old lows.",
-      "A clear 15M rejection wick or a bearish close back under 3,669.",
-      "A 1H lower high under 3,690.",
+      "A bounce back into 3,650-3,659 that stalls under the old support.",
+      "A clear 15M rejection wick or a bearish close back under 3,650.",
+      "A 1H lower high under 3,672.",
       "The dollar and the 10-year yield staying near their highs.",
-      "Take some profit at 3,650 and move the stop to entry only after that."
+      "Take some profit at 3,621 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling at 3,659, right on the new low. Little room is left; wait for a bounce.",
-      "Gold is oversold, so bounces can run. A 1H close above 3,690 opens 3,707.",
-      "Hormuz headlines can spike gold up in minutes. Do not chase news candles.",
+      "Selling at 3,621, right on the new low. Little room is left; wait for a bounce.",
+      "Gold is oversold, so bounces can run. A 1H close above 3,672 opens 3,686-3,693.",
+      "Geopolitical headlines can spike gold up in minutes. Do not chase news candles.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Kitco gold chart (3,658.90 bid at 4:07 p.m. ET, day range 3,656.70-3,759.10, 19 Nov)",
+      "name": "Kitco gold chart (3,621.40 bid at 6:34 p.m. ET 19 Nov, range 3,620.40-3,759.10; headlines incl. Morgan Stanley, UBS, Razaqzada)",
       "url": "https://www.kitco.com/charts/gold"
     },
     {
-      "name": "Trading Economics gold (about 3,650, DXY 103.93, US yield 5.05%, Fed pricing, 19 Nov)",
+      "name": "Trading Economics gold (DXY 103.93, US yield 5.05%, Fed pricing, 19 Nov, from earlier run)",
       "url": "https://tradingeconomics.com/commodity/gold"
     },
     {
@@ -177,20 +158,12 @@
       "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-breaks-14-low-hawkish-fed-minutes"
     },
     {
+      "name": "Yahoo Finance: gold prices today, 19 Nov 2026",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-november-19-2026-gold-price-opened-at-the-lowest-level-in-14-months-122258391.html"
+    },
+    {
       "name": "Kitco: gold remains under pressure as Philly Fed survey drops to six-month low (19 Nov)",
       "url": "https://www.kitco.com/news/article/2026-11-19/gold-remains-under-pressure-philly-fed-survey-drops-six-month-low"
-    },
-    {
-      "name": "Kitco: gold struggles near 3,700 despite weaker Philly Fed, renewed Hormuz tensions (19 Nov)",
-      "url": "https://www.kitco.com/news/article/2026-11-19/gold-struggles-near-3700-despite-weaker-philly-fed-renewed-hormuz-tensions"
-    },
-    {
-      "name": "ANC Stock Investments: gold near 14-month low after Fed minutes (19 Nov, from earlier run)",
-      "url": "https://ancstockinvestments.com/blog/2026/11/19/gold-price-today-14-month-low-fed-minutes/"
-    },
-    {
-      "name": "Mitrade/FXStreet: SocGen levels (19 Nov, from earlier run)",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/fxstreet-XAUUSDXAGUSDUSDOLLARF-202611191646"
     }
   ]
 }
