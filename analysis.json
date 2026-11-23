@@ -1,182 +1,178 @@
 {
-  "updated": "2026-11-23T01:50:00Z",
-  "asof": "2026-11-23T01:09:00Z",
-  "price": 3550,
+  "updated": "2026-11-23T05:35:53Z",
+  "asof": "2026-11-23T05:00:00Z",
+  "price": 3604,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,600; bounce off 3,500 in play"
+    "label": "Bounce to 3,600; still leaning down below 3,650"
   },
-  "event": "Mon 23 Nov 16:45 SAST: US flash PMI. Tue 24 Nov: US consumer confidence (time UNVERIFIED). Wed 25 Nov 15:30 SAST: US PCE, GDP, durable goods, jobless claims; 21:00 SAST Beige Book. Thu 26 Nov: US Thanksgiving, thin trade. Fed decision 9 Dec.",
+  "event": "Mon 23 Nov 16:45 SAST: US flash PMI, plus Chicago Fed index and Fed speakers. Wed 25 Nov 15:30 SAST: US PCE, GDP, durable goods, jobless claims. Thu 26 Nov: US Thanksgiving, thin trade. Fed decision 9 Dec.",
   "bullets": [
     {
-      "title": "Early Monday bounce",
-      "text": "FXStreet reported gold back above 3,550 in early Asian trade (about 03:09 SAST), on safe-haven buying over AI-stock worries; the exact price is UNVERIFIED."
+      "title": "Strong Monday bounce",
+      "text": "Mitrade put spot gold near 3,604 on Monday morning, up from Friday's 3,538 close; the exact time of that price is UNVERIFIED."
     },
     {
-      "title": "Brutal last week",
-      "text": "Gold closed Friday near 3,538-3,539, down about 9% on the week, after a low near 3,503."
+      "title": "Stocks in correction",
+      "text": "The S&P 500 fell 3.7% and the Nasdaq 5.3% last week on AI-stock selling, which is now pulling some money into gold."
     },
     {
-      "title": "Fed hike priced",
-      "text": "CME FedWatch shows about a 99% chance of a quarter-point Fed hike on 9 December."
+      "title": "Yields easing",
+      "text": "The US 10-year yield slipped to about 4.94%, which lowers the cost of holding gold."
     },
     {
-      "title": "Dollar still strong",
-      "text": "The dollar is near a 19-month high after a fourth weekly gain, which keeps pressure on gold."
+      "title": "Fed hike still priced",
+      "text": "CME FedWatch shows about a 93% chance of a quarter-point hike on 9 December, down from about 99%, so talk of a bigger hike is fading."
     },
     {
-      "title": "Analysts lean lower",
-      "text": "Kitco's weekly survey has 9 of 15 Wall Street analysts bearish, with 3,430-3,450 named as the next area if 3,500 breaks."
+      "title": "Trend still down",
+      "text": "Gold lost about 9% last week, and 3,630-3,650 is the first real ceiling, so this bounce has not changed the bigger trend yet."
     },
     {
-      "title": "Big data Wednesday",
-      "text": "PCE inflation, GDP and durable goods all land Wednesday at 15:30 SAST, before the US holiday thins the market."
-    },
-    {
-      "title": "Very oversold",
-      "text": "After a 9% week, sharp bounces can happen inside the downtrend, so do not chase either side."
+      "title": "Data-heavy week",
+      "text": "Flash PMI is tonight at 16:45 SAST, and PCE and GDP land Wednesday at 15:30 SAST before the US holiday."
     }
   ],
   "levels": [
     {
-      "price": "3,700-3,723",
+      "price": "3,685-3,700",
       "type": "resistance",
-      "note": "FXEmpire R1 3,713.95; NordFX 3,723; Kitco bull target 3,700"
+      "note": "Mitrade R2; Kitco bull target 3,700"
     },
     {
-      "price": "3,596-3,600",
+      "price": "3,630-3,650",
       "type": "resistance",
-      "note": "Kitco 3,597; NordFX 3,600; Dominion 4H rejection 3,596"
+      "note": "Mitrade R1; FX678 says 3,630 not yet passed; 50% retrace 3,640"
     },
     {
-      "price": "~3,566",
+      "price": "~3,618",
       "type": "resistance",
-      "note": "Dominion first buy target"
+      "note": "FX678 38.2% retracement"
     },
     {
-      "price": "~3,550",
+      "price": "~3,604",
       "type": "now",
-      "note": "FXStreet headline: back above 3,550, 23 Nov ~03:09 SAST (exact price UNVERIFIED)"
+      "note": "Mitrade spot gold, Monday 23 Nov morning"
     },
     {
-      "price": "3,536-3,546",
+      "price": "3,570-3,590",
       "type": "support",
-      "note": "Friday close 3,538-3,539; Dominion buy trigger 3,536; FXEmpire S1 3,545.63"
+      "note": "Mitrade S1; FX678 23.6% retrace 3,590 and lower Bollinger 3,570"
     },
     {
-      "price": "3,500-3,503",
+      "price": "3,536-3,550",
       "type": "support",
-      "note": "Friday low ~3,503; round 3,500; Dominion sell trigger below 3,503"
+      "note": "Friday close 3,538; FX678 3,550-3,570 must hold"
+    },
+    {
+      "price": "3,500-3,520",
+      "type": "support",
+      "note": "Mitrade S2; Friday low 3,502.93; round 3,500"
     },
     {
       "price": "3,450-3,475",
       "type": "support",
-      "note": "Dominion targets 3,475 and 3,450; NordFX S2 3,450"
+      "note": "Mitrade S3; Dominion targets 3,475 and 3,450"
     },
     {
       "price": "3,400-3,430",
       "type": "support",
       "note": "Kitco bear target 3,430; NordFX S3 3,400"
-    },
-    {
-      "price": "~3,300",
-      "type": "support",
-      "note": "FXEmpire next zone if 3,500 fails; long-term average near 3,322"
     }
   ],
   "buy": {
-    "title": "Buy plan: retest and hold of 3,500-3,510 (counter-trend)",
-    "entry": 3505,
-    "stop": 3485,
-    "target": 3566,
+    "title": "Buy plan: pullback hold at 3,570-3,590 (counter-trend)",
+    "entry": 3578,
+    "stop": 3555,
+    "target": 3635,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,500-3,510, only if a retest of Friday's low holds"
+        "value": "3,570-3,590, only if a pullback holds there"
       },
       {
         "label": "Stop",
-        "value": "Below 3,485"
+        "value": "Below 3,555"
       },
       {
         "label": "Targets",
-        "value": "3,536, then 3,566"
+        "value": "3,604, then 3,618, then 3,635"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,495"
+        "value": "1H candle closes below 3,560"
       }
     ],
     "look": [
-      "This is counter-trend. The bias is down, so use half size or skip it.",
-      "A slow retest of 3,500-3,510 with long lower wicks, not a fast drop.",
-      "A higher low on the 15M chart and a close back above 3,520.",
-      "The dollar easing after the 16:45 SAST PMI data.",
-      "Take some profit at 3,536 and move the stop to entry only after that."
+      "This is counter-trend. The bigger bias is down, so use half size or skip it.",
+      "A slow dip into 3,570-3,590 with long lower wicks, not a fast drop.",
+      "A higher low on the 15M chart and a close back above 3,595.",
+      "Yields and the dollar staying soft after the 16:45 SAST PMI.",
+      "Take some profit at 3,618 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying the Asian bounce near 3,550. That is the middle, not a level.",
-      "A 1H close under 3,495 opens 3,475, then 3,450. Step aside.",
-      "Wednesday 15:30 SAST data (PCE, GDP) can swing gold fast. Do not hold a fresh trade into it.",
+      "Buying now near 3,604 after a big jump. That is chasing, not a level.",
+      "A 1H close under 3,560 opens 3,538, then 3,500. Step aside.",
+      "Strong PMI data tonight can lift the dollar and knock gold back fast.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,595-3,600",
-    "entry": 3595,
-    "stop": 3625,
-    "target": 3505,
+    "title": "Sell plan: rejection at 3,630-3,650",
+    "entry": 3640,
+    "stop": 3665,
+    "target": 3580,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,595-3,600, the round number"
+        "value": "Rejection at 3,630-3,650, the first real ceiling"
       },
       {
         "label": "Stop",
-        "value": "Above 3,625"
+        "value": "Above 3,665"
       },
       {
         "label": "Targets",
-        "value": "3,566, then 3,536, then 3,505"
+        "value": "3,604, then 3,580"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,625"
+        "value": "1H candle closes above 3,665"
       }
     ],
     "look": [
-      "The bounce runs into 3,595-3,600 and stalls under the round number.",
-      "A clear 15M rejection wick or a bearish close back under 3,590.",
-      "A 1H lower high under 3,600.",
-      "The dollar firming after the PMI data.",
-      "Take some profit at 3,536 and move the stop to entry only after that."
+      "The bounce runs into 3,630-3,650 and stalls there.",
+      "A clear 15M rejection wick or a bearish close back under 3,625.",
+      "A 1H lower high under 3,650.",
+      "The dollar or yields firming after the PMI data.",
+      "Take some profit at 3,604 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling now near 3,550, in the middle. Wait for 3,600.",
-      "Gold is very oversold, and AI-stock fear is bringing back safe-haven buying. A 1H close above 3,625 opens 3,700.",
-      "Fed or geopolitical headlines can spike gold in minutes. Do not chase news candles.",
+      "Selling now near 3,604, in the middle. Wait for 3,630-3,650.",
+      "Stock-market fear can keep pushing money into gold. A 1H close above 3,665 opens 3,700.",
+      "Fed speakers and PMI headlines can spike gold in minutes. Do not chase news candles.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "FXStreet: gold recovers above 3,550 as AI trade concern spurs safe-haven flows (23 Nov ~01:09 UTC; headline only, page not readable)",
-      "url": "https://www.fxstreet.com/news/gold-recovers-above-3-550-as-ai-trade-concern-spurs-safe-haven-flows-202611230109"
+      "name": "Mitrade: gold rebounds above 3,600 on stock correction (23 Nov)",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-rebounds-above-3600-stock-correction"
     },
     {
-      "name": "FinanceFeeds: gold 3,538, week ahead, Kitco survey and Fed odds (22 Nov 13:30 UTC)",
+      "name": "KuCoin / FX678: gold rebounds to 3,600 amid AI trading concerns (23 Nov)",
+      "url": "https://www.kucoin.com/news/flash/gold-rebounds-to-3600-amid-ai-trading-concerns-awaiting-pressure-test"
+    },
+    {
+      "name": "FinanceFeeds: gold 3,538, week ahead, Kitco survey (22 Nov)",
       "url": "https://financefeeds.com/gold-price-today-3538-sunday-week-ahead-thanksgiving-december-fed-hike-odds-bull-3700-bear-3430/"
     },
     {
-      "name": "NordFX: forecast 23-27 Nov (Friday close, levels, calendar)",
+      "name": "NordFX: forecast 23-27 Nov",
       "url": "https://nordfx.com/market-news/forex-cryptocurrency-forecast-november-23-27-2026"
     },
     {
-      "name": "FXEmpire: gold weekly forecast, 3,500 at risk (20 Nov 17:27 UTC)",
-      "url": "https://www.fxempire.com/forecasts/article/gold-weekly-forecast-3500-at-risk-as-real-yields-stay-high-1646189"
-    },
-    {
-      "name": "Dominion Markets: XAUUSD 1H analysis for 23 Nov (22 Nov 17:46 UTC)",
+      "name": "Dominion Markets: XAUUSD 1H analysis for 23 Nov",
       "url": "https://www.dominionmarkets.com/marketanalysis/2026/11/22/xauusd-technical-analysis-23rd-november-2026-1h-chart/"
     }
   ]
