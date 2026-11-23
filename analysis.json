@@ -1,40 +1,40 @@
 {
-  "updated": "2026-11-23T13:45:00Z",
+  "updated": "2026-11-23T17:45:00Z",
   "asof": "2026-11-23T12:40:00Z",
   "price": 3620,
   "bias": {
     "direction": "down",
-    "label": "Holding the bounce under 3,630-3,650; still leaning down below 3,650"
+    "label": "Still under 3,630-3,650 after soft US PMI; leaning down below 3,650"
   },
-  "event": "Mon 23 Nov 16:45 SAST: US flash PMI and Fed speakers. Wed 25 Nov 15:30 SAST: US core PCE, GDP, durable goods, jobless claims (FOMC minutes also due Wed, time UNVERIFIED). Thu 26 Nov: US Thanksgiving, thin trade. Fed decision 9 Dec.",
+  "event": "Wed 25 Nov 15:30 SAST: US core PCE, GDP, durable goods, jobless claims (FOMC minutes time UNVERIFIED). Thu 26 Nov: US Thanksgiving, thin trade. Fed decision 9 Dec.",
   "bullets": [
     {
-      "title": "Bounce holding",
-      "text": "December gold futures were near 3,620 at about 14:40 SAST, up about 3% on the day; the exact spot price at this hour is UNVERIFIED, last confirmed near 3,625 at 09:43 SAST."
+      "title": "No fresh price",
+      "text": "The latest price I could confirm is December futures near 3,620 at about 14:40 SAST; the price after the 16:45 SAST PMI is UNVERIFIED, so check the live chart."
     },
     {
       "title": "Ceiling not broken",
-      "text": "Today's high so far is about 3,629-3,641, so price is still stuck under the 3,630-3,650 zone."
+      "text": "Today's high so far is about 3,630-3,641, so price is still stuck under the 3,630-3,650 zone."
     },
     {
-      "title": "Hike bets still high",
-      "text": "CME FedWatch shows about 93-96% odds of a December hike (sources differ), a little lower than last week's near 100%."
+      "title": "US PMI softer",
+      "text": "US flash services PMI fell to 54.7 from 56.1, below forecasts near 55.5-55.7, and the composite fell to a four-month low of 54.6."
     },
     {
-      "title": "Dollar mixed",
-      "text": "The dollar index was near 103.6-103.7 this morning and bounced after weak Eurozone and UK PMI data (latest level UNVERIFIED)."
+      "title": "Dollar held up",
+      "text": "The dollar kept its gains against the pound after the PMI, so the soft data did not knock the dollar much (DXY level UNVERIFIED)."
     },
     {
-      "title": "Yields under 5%",
-      "text": "The US 10-year yield is near 4.9%, down from about 5.05-5.07% midweek, which is helping gold bounce."
+      "title": "Hike bets high",
+      "text": "CME FedWatch showed about 93% odds of a December hike on Monday, down from about 99% on Friday."
     },
     {
       "title": "Trend still down",
       "text": "Gold lost about 9% last week and touched about 3,503, so one strong day has not changed the bigger downtrend yet."
     },
     {
-      "title": "PMI tonight",
-      "text": "US flash PMI is at 16:45 SAST, about an hour after this update, so expect fast moves around then."
+      "title": "PCE on Wednesday",
+      "text": "The big data this week is US core PCE and GDP on Wednesday at 15:30 SAST, before the Thanksgiving holiday thins trading."
     }
   ],
   "levels": [
@@ -51,12 +51,12 @@
     {
       "price": "3,630-3,650",
       "type": "resistance",
-      "note": "Today's high about 3,629-3,641; Mitrade resistance #1"
+      "note": "Today's high about 3,630-3,641; Mitrade resistance #1"
     },
     {
       "price": "~3,620",
       "type": "now",
-      "note": "Dec futures near 3,620 at about 14:40 SAST (spot UNVERIFIED)"
+      "note": "Dec futures near 3,620 at about 14:40 SAST; post-PMI price UNVERIFIED"
     },
     {
       "price": "3,570-3,601",
@@ -111,13 +111,13 @@
       "This is counter-trend. The bigger bias is down, so use half size or skip it.",
       "A slow dip into 3,580-3,601 with long lower wicks, not a fast drop.",
       "A higher low on the 15M chart and a close back above 3,605.",
-      "The dollar and yields staying soft after the 16:45 SAST PMI.",
+      "The dollar and yields staying soft after the weak services PMI.",
       "Take some profit at 3,620-3,635 and move the stop to entry only after that."
     ],
     "watch": [
       "Buying now near 3,620 after a 3% jump. That is chasing, not a level.",
       "A 1H close under 3,570 opens 3,552, then 3,500-3,520. Step aside.",
-      "Strong US PMI data at 16:45 SAST can lift the dollar and knock gold back fast.",
+      "Fed speakers sounding hawkish can lift the dollar and knock gold back fast.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
@@ -148,28 +148,24 @@
       "Price pushes into 3,630-3,650 and stalls under today's high.",
       "A clear 15M rejection wick or a bearish close back under 3,630.",
       "A 1H lower high under 3,650.",
-      "The dollar or yields firming after the 16:45 SAST PMI.",
+      "The dollar or yields firming, as the dollar held its gains after the PMI.",
       "Take some profit at 3,620 and move the stop to entry only after that."
     ],
     "watch": [
       "Selling now near 3,620, in the middle. Wait for 3,630-3,650.",
       "Softer Fed hike bets can keep lifting gold. A 1H close above 3,670 opens 3,685, then 3,700.",
-      "PMI and Fed speaker headlines can spike gold in minutes. Do not chase news candles.",
+      "Fed speaker headlines and Wednesday's PCE can spike gold in minutes. Do not chase news candles.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Yahoo Finance: gold prices today, 23 Nov (12:24 UTC)",
-      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-november-23-2026-gold-prices-opened-at-lowest-point-since-9225-122415220.html"
+      "name": "Trading and Investment News: gold rebounds above 3,600 (23 Nov)",
+      "url": "https://www.tradingandinvestmentnews.co.uk/gold-price-rebound-3600/"
     },
     {
-      "name": "ANC Stock Investments: gold rebounds above 3,600 (23 Nov)",
-      "url": "https://ancstockinvestments.com/blog/2026/11/23/gold-price-rebounds-above-3600-after-weekly-crash/"
-    },
-    {
-      "name": "CryptoTicker: gold jumps 3% to 3,625 (23 Nov)",
-      "url": "https://cryptoticker.io/en/crypto-news-gold-price-jumps-3-percent-bitcoin/"
+      "name": "Startup Fortune: gold jumps more than 2% (23 Nov)",
+      "url": "https://startupfortune.com/gold-jumps-more-than-2-as-dollars-rally-pauses-after-its-worst-week-in-eight-months/"
     },
     {
       "name": "Mitrade: gold rebounds above 3,600 (23 Nov)",
@@ -180,8 +176,16 @@
       "url": "https://tradingeconomics.com/commodity/gold/news/601617"
     },
     {
-      "name": "FXStreet: DXY bounces as Eurozone, UK PMI disappoint (headline only, 23 Nov)",
-      "url": "https://www.fxstreet.com/news/us-dollar-index-dxy-bounces-up-as-eurozone-uk-business-activity-data-disappoints-202611231157"
+      "name": "Pound Sterling Live: dollar after US flash PMI (23 Nov, 15:29 UTC)",
+      "url": "https://www.poundsterlinglive.com/usd/23919-pound-to-dollar-rate-us-flash-pmi-november-fed"
+    },
+    {
+      "name": "QNC News: US flash PMI slips to 54.6 (23 Nov)",
+      "url": "https://qncnews.com/2026/11/23/us-flash-pmi-slips-to-54-6-in-november-as-business-activity-growth-hits-four-month-low/"
+    },
+    {
+      "name": "Yahoo Finance: gold prices today, 23 Nov",
+      "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-november-23-2026-gold-prices-opened-at-lowest-point-since-9225-122415220.html"
     }
   ]
 }
