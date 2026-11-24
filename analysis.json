@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-24T05:36:00Z",
-  "asof": "2026-11-24T03:20:00Z",
-  "price": 3665,
+  "updated": "2026-11-24T09:36:00Z",
+  "asof": "2026-11-24T07:40:00Z",
+  "price": 3622,
   "bias": {
-    "direction": "neutral",
-    "label": "Neutral near 3,665; range 3,572-3,700, bigger trend still down"
+    "direction": "down",
+    "label": "Leaning down below 3,651; range 3,575-3,700, bigger trend down"
   },
-  "event": "Wed 25 Nov 15:30 SAST: US October PCE inflation and Q3 GDP (2nd estimate). Thu 26 Nov: US Thanksgiving, markets shut; Fri short session. Fed decision 9 Dec.",
+  "event": "Today 17:00 SAST: US consumer confidence. Wed 25 Nov 15:30 SAST: US October PCE inflation and Q3 GDP. Thu 26 Nov: Thanksgiving, US markets shut. Fed decision 9 Dec.",
   "bullets": [
     {
-      "title": "Bounce holding",
-      "text": "Mitrade says gold rose to around 3,665 this morning, while FXStreet had it near 3,635 earlier in Asia, so the live price is UNVERIFIED but inside 3,635-3,666."
+      "title": "Bounce fading",
+      "text": "Reuters (via ANC) had spot gold down 0.3% at 3,619.95 at 08:35 SAST, and a live quote near 3,622 at 09:40 SAST (UNVERIFIED single source)."
     },
     {
-      "title": "Big Monday rally",
-      "text": "TradingNEWS had spot up almost 4% on Monday to about 3,678, with a high near 3,685, after Friday's 14-month low near 3,503."
-    },
-    {
-      "title": "Selling pressure eased",
-      "text": "Reports say margin-call selling faded after Nvidia brought back its CEO and stocks bounced, which let gold recover."
+      "title": "Rejected at 3,651",
+      "text": "Gold rose to about 3,645-3,651 in early Asia but was pushed back, after Monday's rally stalled under 3,700."
     },
     {
       "title": "Hike still expected",
-      "text": "Markets still price a 25 bp Fed hike on 9 December (about 92-95% by different sources), and the 50 bp bets have faded."
+      "text": "CME FedWatch shows about 93.5-96% odds of a 25 bp Fed hike on 9 December, with 50 bp bets small."
     },
     {
-      "title": "Dollar and yields",
-      "text": "The dollar index was near 104.3, a 19-month high, and the 10-year yield near 4.92-4.94% on Monday; no fresh reading today (UNVERIFIED)."
+      "title": "Strong dollar",
+      "text": "The dollar index is near 104.3, close to a 19-month high, and the 10-year yield is near 4.92-4.95%."
+    },
+    {
+      "title": "Margin selling eased",
+      "text": "Monday's stock rebound after Nvidia brought back its CEO cut forced gold selling, but that support is fading today."
     },
     {
       "title": "Trend still down",
-      "text": "Gold lost about 9% last week and is still far below the 100-day average near 4,175, so this is a bounce inside a downtrend."
+      "text": "Gold is far below its 50-day average near 4,064 with RSI near 33, so rallies are bounces inside a downtrend."
     },
     {
       "title": "PCE on Wednesday",
@@ -39,149 +39,149 @@
   ],
   "levels": [
     {
-      "price": "3,830-3,840",
+      "price": "3,746-3,766",
       "type": "resistance",
-      "note": "Mitrade resistance #3; opens only after a clean break of 3,766"
+      "note": "Mitrade resistance #2"
     },
     {
-      "price": "3,746-3,780",
+      "price": "3,685-3,700",
       "type": "resistance",
-      "note": "Mitrade resistance #2; 22 Sep 2025 high near 3,780 (InvestingCube)"
+      "note": "Monday's high 3,685 (futures 3,691); Mitrade key supply zone; round 3,700"
     },
     {
-      "price": "3,685-3,709",
+      "price": "3,645-3,651",
       "type": "resistance",
-      "note": "Monday's high 3,685 (TradingNEWS); Mitrade resistance #1 3,685-3,700; round 3,700"
+      "note": "Today's early-Asia high, rejected at 3,651 (FX Leaders)"
     },
     {
-      "price": "~3,665",
+      "price": "~3,622",
       "type": "now",
-      "note": "Mitrade morning report, about 05:20 SAST; exact live price UNVERIFIED"
+      "note": "Live quote about 09:40 SAST (ANC/Swissquote); UNVERIFIED single source"
     },
     {
-      "price": "3,650",
+      "price": "3,620-3,630",
       "type": "support",
-      "note": "Monday's breakout level (TradingNEWS); first floor"
+      "note": "Mitrade earlier higher low; price is testing it now"
     },
     {
-      "price": "3,628",
+      "price": "3,572-3,591",
       "type": "support",
-      "note": "Daily pivot for 24 Nov (KuCoin/FX678)"
+      "note": "Mitrade support #1; 1trader S1 3,585 (lower Bollinger Band)"
     },
     {
-      "price": "3,572-3,601",
+      "price": "3,540",
       "type": "support",
-      "note": "Mitrade support #1 3,572-3,591; InvestingCube 3,601; round 3,600"
+      "note": "1trader S2"
     },
     {
       "price": "3,500-3,520",
       "type": "support",
-      "note": "Friday's 14-month low near 3,503; Mitrade support #2; round 3,500"
+      "note": "Friday's 14-month spot low 3,513.54 (Reuters); Mitrade main base; round 3,500"
     },
     {
       "price": "3,450-3,485",
       "type": "support",
-      "note": "Mitrade support #3; InvestingCube 3,440 just below"
+      "note": "Mitrade support #3"
     }
   ],
   "buy": {
-    "title": "Buy plan: dip holds at 3,575-3,600 (counter-trend to the weekly downtrend)",
-    "entry": 3590,
-    "stop": 3565,
-    "target": 3650,
+    "title": "Buy plan: dip holds at 3,575-3,590 (counter-trend)",
+    "entry": 3585,
+    "stop": 3560,
+    "target": 3645,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,575-3,600, only if a dip into support and round 3,600 holds"
+        "value": "3,575-3,590, only if support holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,565"
+        "value": "Below 3,560"
       },
       {
         "label": "Targets",
-        "value": "3,628, then 3,650"
+        "value": "3,620, then 3,645"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,570"
+        "value": "1H candle closes below 3,565"
       }
     ],
     "look": [
-      "This is against the weekly downtrend, so use half size or skip it.",
-      "A slow dip into 3,575-3,600 with long lower wicks, not a fast drop.",
-      "A higher low on the 15M chart and a close back above 3,605.",
+      "This is against the main downtrend, so use half size or skip it.",
+      "A slow dip into 3,575-3,590 with long lower wicks, not a fast drop.",
+      "A higher low on the 15M chart and a close back above 3,595.",
       "The dollar and yields easing, not climbing.",
-      "Take some profit at 3,628 and move the stop to entry only after that."
+      "Take some profit at 3,620 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying now near 3,665 after a 4% jump. That is chasing, not a level.",
-      "A 1H close under 3,570 opens 3,500-3,520. Step aside.",
+      "Buying now near 3,622 in the middle of the range. That is not a level.",
+      "A 1H close under 3,565 opens 3,500-3,540. Step aside.",
       "PCE at 15:30 SAST Wednesday can flip gold in minutes. Do not trade the news candle.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,685-3,709",
-    "entry": 3695,
-    "stop": 3720,
-    "target": 3630,
+    "title": "Sell plan: rejection at 3,685-3,700 (with the trend)",
+    "entry": 3685,
+    "stop": 3710,
+    "target": 3625,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,685-3,709, Monday's high and round 3,700"
+        "value": "Rejection at 3,685-3,700, Monday's high and round 3,700"
       },
       {
         "label": "Stop",
-        "value": "Above 3,720"
+        "value": "Above 3,710"
       },
       {
         "label": "Targets",
-        "value": "3,650, then 3,630"
+        "value": "3,650, then 3,625"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,720"
+        "value": "1H candle closes above 3,710"
       }
     ],
     "look": [
-      "Price pushes into 3,685-3,709 and stalls, a second failure at Monday's high.",
+      "Price pushes back into 3,685-3,700 and stalls, a second failure at Monday's high.",
       "A clear 15M rejection wick or a bearish close back under 3,685.",
-      "A 1H lower high under 3,710.",
+      "A 1H lower high under 3,700.",
       "The dollar or yields firming.",
       "Take some profit at 3,650 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling now near 3,665, between levels. Wait for 3,685-3,709.",
-      "A 1H close above 3,720 opens 3,746-3,780. Do not fight it.",
-      "A soft PCE number can spike gold up fast. Do not chase news candles.",
+      "Selling now near 3,622, right on support. Wait for the zone.",
+      "A 1H close above 3,710 opens 3,746-3,766. Do not fight it.",
+      "Weak consumer confidence today or a soft PCE can spike gold up fast. Do not chase news candles.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
+      "name": "ANC (Reuters): gold slips ahead of US PCE data (24 Nov)",
+      "url": "https://ancstockinvestments.com/blog/2026/11/24/gold-price-slips-ahead-of-us-pce-data/"
+    },
+    {
+      "name": "FX Leaders: XAU/USD rejected at 3,651 ahead of PCE (24 Nov, headline only)",
+      "url": "https://www.fxleaders.com/news/2026/11/24/gold-price-forecast-xau-usd-rejected-at-3651-ahead-of-pce-inflation/"
+    },
+    {
+      "name": "SANA (Reuters): gold edges higher as investors await US inflation data (24 Nov)",
+      "url": "https://sana.sy/en/economic/2361360/"
+    },
+    {
+      "name": "1trader: gold price today 24 Nov 2026",
+      "url": "https://1trader.com/en/gold-price-2026-11-24/"
+    },
+    {
       "name": "Mitrade: gold rebounds on Nvidia, PMI; Natixis warns (24 Nov)",
       "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-rebounds-nvidia-pmi-natixis-warns"
     },
     {
-      "name": "TradingNEWS: XAU/USD rips 4% to 3,678 off 14-month low (23 Nov)",
-      "url": "https://www.tradingnews.com/news/gold-xau-usd-rips-4-to-3678-off-14-month-low-as-margin-selling-ends-4000-usd-target-in-sight"
-    },
-    {
-      "name": "Business Recorder (Reuters): gold climbs 2% as dollar rally pauses (23-24 Nov)",
-      "url": "https://www.brecorder.com/news/40450440/gold-climbs-2pc-as-dollar-rally-pauses"
-    },
-    {
-      "name": "FXStreet: gold rebounds above 3,600 as Nvidia CEO returns (23-24 Nov)",
-      "url": "https://www.fxstreet.com/news/gold-rebounds-above-3-600-as-ceo-nvidia-returns-markets-trim-fed-hike-202611232326"
-    },
-    {
-      "name": "KuCoin/FX678: commodity pivot levels for 24 Nov",
-      "url": "https://www.kucoin.com/news/flash/commodity-support-and-resistance-levels-for-gold-silver-oil-and-agricultural-futures-on-2026-11-24"
-    },
-    {
-      "name": "InvestingCube: gold relief rally ahead of PCE (23 Nov)",
-      "url": "https://www.investingcube.com/commodities/gold-xau-usd-relief-rally-ahead-of-pce-price-index-data/"
+      "name": "Goodreturns: gold live updates 24 Nov",
+      "url": "https://www.goodreturns.in/news/gold-rates-silver-rates-today-24-11-2026-live-spot-gold-mcx-gold-silver-price-24k-22k-18k-gold-price-1549215.html"
     }
   ]
 }
