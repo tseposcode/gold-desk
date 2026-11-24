@@ -1,82 +1,77 @@
 {
-  "updated": "2026-11-24T13:40:00Z",
-  "asof": "2026-11-24T07:40:00Z",
-  "price": 3620,
+  "updated": "2026-11-24T17:40:00Z",
+  "asof": "2026-11-24T16:26:00Z",
+  "price": 3563,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,651-3,680; range 3,540-3,700, bigger trend down"
+    "label": "Leaning down below 3,595-3,607; bigger trend down"
   },
-  "event": "Today 17:00 SAST: US consumer confidence. Wed 25 Nov 15:30 SAST: US October PCE inflation and Q3 GDP. Thu 26 Nov: Thanksgiving, US markets shut. Fri 27 Nov: early US close. Fed decision 9 Dec.",
+  "event": "Wed 25 Nov 15:30 SAST: US October PCE inflation, durable goods and Q3 GDP. Wed 21:00 SAST: Fed Beige Book. Thu 26 Nov: Thanksgiving, US markets shut. Fed decision Wed 9 Dec.",
   "bullets": [
     {
-      "title": "Bounce stalled",
-      "text": "Kitco had spot gold at 3,619.30, down 0.4%, at 08:43 SAST, and no newer quote was found by 15:40 SAST (UNVERIFIED for now)."
+      "title": "Broke 3,600",
+      "text": "Anadolu had spot gold at 3,563.10, down about 2% on the day, in a report stamped 19:26 (time zone not stated, so the exact time is UNVERIFIED)."
     },
     {
-      "title": "Sold from highs",
-      "text": "Gold reached about 3,651-3,679 in early Asia (sources differ) and was pushed back to a 3,613 low."
+      "title": "Strong US data",
+      "text": "US consumer confidence jumped to 103.3 from 91.9 at 17:00 SAST, far above the 92.4 expected, and gold fell through 3,600 after it."
     },
     {
       "title": "Hike still expected",
-      "text": "CME FedWatch shows about 93-95% odds of a 25 bp Fed hike on 9 December, with 50 bp near 5%."
+      "text": "Markets price about 95% odds of a 25 bp Fed hike on 9 December, which keeps pressure on gold."
     },
     {
-      "title": "Strong dollar",
-      "text": "The dollar index rose about 0.5% to near 104.35 on Monday, close to its highest since April 2025."
+      "title": "Dollar and yields",
+      "text": "The dollar is near its strongest since April 2025 and the US 10-year yield is near 4.9%, both bad for gold."
     },
     {
-      "title": "Trend still down",
-      "text": "Gold is near a 14-month low and far below its 50-day average, so rallies are bounces inside a downtrend."
+      "title": "Morning rally failed",
+      "text": "Gold was sold from 3,679 in Asia, so today's whole bounce has been given back."
     },
     {
-      "title": "Confidence at 17:00",
-      "text": "US consumer confidence at 17:00 SAST today can move gold, so avoid entries in the minutes around it."
+      "title": "Lows close by",
+      "text": "Monday's low 3,539.80 and Friday's 14-month low 3,513.54 are the next floors below price."
     },
     {
       "title": "PCE on Wednesday",
-      "text": "PCE and GDP at 15:30 SAST Wednesday are the big test, and Thanksgiving on Thursday will thin trading."
+      "text": "PCE at 15:30 SAST Wednesday is the big test, and Thanksgiving on Thursday will thin trading."
     }
   ],
   "levels": [
     {
-      "price": "3,746-3,766",
+      "price": "3,697-3,700",
       "type": "resistance",
-      "note": "Mitrade resistance #2"
+      "note": "Kitco upside target; round 3,700"
     },
     {
-      "price": "3,685-3,700",
+      "price": "3,651-3,679",
       "type": "resistance",
-      "note": "Monday's high area; Kitco overnight high 3,679; round 3,700 (FinanceFeeds bull line)"
+      "note": "Today's high 3,679; Kitco resistance 3,651 and 3,674"
     },
     {
-      "price": "3,645-3,651",
+      "price": "3,595-3,607",
       "type": "resistance",
-      "note": "Early-Asia rejection at 3,651 (FX Leaders)"
+      "note": "Broken support, now resistance: Kitco support 3,595 and round 3,600"
     },
     {
-      "price": "~3,620",
+      "price": "~3,563",
       "type": "now",
-      "note": "Kitco 3,619.30 at 08:43 SAST; later quote not found (UNVERIFIED)"
-    },
-    {
-      "price": "3,600-3,613",
-      "type": "support",
-      "note": "Today's low 3,613 (Kitco); bottom of the 3,600-3,680 base; round 3,600"
-    },
-    {
-      "price": "3,572-3,591",
-      "type": "support",
-      "note": "Mitrade support #1; 1trader S1 3,585"
+      "note": "Anadolu 3,563.10, down 1.98%; exact time UNVERIFIED"
     },
     {
       "price": "3,540",
       "type": "support",
-      "note": "Monday's low 3,539.80 (FinanceFeeds bear line); 1trader S2"
+      "note": "Monday's low 3,539.80"
     },
     {
-      "price": "3,500-3,520",
+      "price": "3,503-3,514",
       "type": "support",
-      "note": "Friday's 14-month low 3,513.54 (Reuters); round 3,500"
+      "note": "Friday's 14-month low 3,513.54 (Reuters); Kitco support 3,503"
+    },
+    {
+      "price": "3,500",
+      "type": "support",
+      "note": "Round number (Coinpaper retest level)"
     },
     {
       "price": "3,450-3,485",
@@ -85,107 +80,107 @@
     }
   ],
   "buy": {
-    "title": "Buy plan: dip holds at 3,575-3,590 (counter-trend)",
-    "entry": 3585,
-    "stop": 3560,
-    "target": 3645,
+    "title": "Buy plan: dip holds at 3,505-3,515 (counter-trend)",
+    "entry": 3512,
+    "stop": 3490,
+    "target": 3560,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,575-3,590, only if support holds"
+        "value": "3,505-3,515, Friday's 14-month low, only if it holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,560"
+        "value": "Below 3,490"
       },
       {
         "label": "Targets",
-        "value": "3,620, then 3,645"
+        "value": "3,540, then 3,560"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,565"
+        "value": "1H candle closes below 3,495"
       }
     ],
     "look": [
       "This is against the main downtrend, so use half size or skip it.",
-      "A slow dip into 3,575-3,590 with long lower wicks, not a fast drop.",
-      "A higher low on the 15M chart and a close back above 3,595.",
+      "A slow test of 3,505-3,515 with long lower wicks, not a fast flush.",
+      "A higher low on the 15M chart and a close back above 3,520.",
       "The dollar and yields easing, not climbing.",
-      "Take some profit at 3,620 and move the stop to entry only after that."
+      "Take some profit at 3,540 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying now near 3,620 in the middle of the range. That is not a level.",
-      "A 1H close under 3,565 opens 3,500-3,540. Step aside.",
-      "PCE at 15:30 SAST Wednesday can flip gold in minutes. Do not trade the news candle.",
+      "Buying now near 3,563 just because it fell a lot. That is not a level.",
+      "A 1H close under 3,495 means a new 14-month low and opens 3,450-3,485. Step aside.",
+      "PCE at 15:30 SAST Wednesday can move gold fast. Do not trade the news candle.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rejection at 3,685-3,700 (with the trend)",
-    "entry": 3685,
-    "stop": 3710,
-    "target": 3625,
+    "title": "Sell plan: retest fails at 3,595-3,607 (with the trend)",
+    "entry": 3598,
+    "stop": 3618,
+    "target": 3545,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,685-3,700, below Monday's high and round 3,700"
+        "value": "Rejection at 3,595-3,607, the broken 3,600 support"
       },
       {
         "label": "Stop",
-        "value": "Above 3,710"
+        "value": "Above 3,618"
       },
       {
         "label": "Targets",
-        "value": "3,650, then 3,625"
+        "value": "3,565, then 3,545"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,710"
+        "value": "1H candle closes above 3,615"
       }
     ],
     "look": [
-      "Price pushes back into 3,685-3,700 and stalls, a second failure at Monday's high.",
-      "A clear 15M rejection wick or a bearish close back under 3,685.",
-      "A 1H lower high under 3,700.",
+      "Price bounces back up into 3,595-3,607 and stalls under 3,600.",
+      "A clear 15M rejection wick or a bearish close back under 3,595.",
+      "A 1H lower high under 3,610.",
       "The dollar or yields firming.",
-      "Take some profit at 3,650 and move the stop to entry only after that."
+      "Take some profit at 3,565 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling now near 3,620, right above today's 3,613 low. Wait for the zone.",
-      "A 1H close above 3,710 opens 3,746-3,766. Do not fight it.",
-      "Weak consumer confidence today or a soft PCE can spike gold up fast. Do not chase news candles.",
+      "Selling now near 3,563 after a 2% drop, close to Monday's 3,540 low. Wait for the retest.",
+      "A 1H close above 3,615 puts gold back in the range and opens 3,651. Do not fight it.",
+      "A soft PCE on Wednesday can spike gold up fast. Do not chase news candles.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "FinanceFeeds: gold 3,619, rebound stalls before PCE (24 Nov)",
-      "url": "https://financefeeds.com/gold-price-today-3619-tuesday-rebound-stalls-pce-wednesday-bull-3700-bear-3540/"
+      "name": "Kitco: gold tests 3,600 support as US consumer confidence jumps (24 Nov)",
+      "url": "https://www.kitco.com/news/article/2026-11-24/gold-price-testing-support-near-3600-us-consumer-confidence-sees-sharp-rise"
     },
     {
-      "name": "Trading and Investment News: gold holds near 3,645 after surge (24 Nov)",
-      "url": "https://www.tradingandinvestmentnews.co.uk/gold-price-today-4-percent/"
+      "name": "Kitco AM Report: gold struggles to extend rebound on Fed hike bets (24 Nov)",
+      "url": "https://www.kitco.com/news/article/2026-11-24/gold-struggles-extend-rebound-fed-rate-hike-bets-pressure-silver-kitco-am"
     },
     {
-      "name": "MarketScreener (Reuters): gold ticks up on bargain buying (24 Nov)",
-      "url": "https://www.marketscreener.com/news/gold-ticks-up-on-bargain-buying-us-inflation-data-awaited-ce7851dade8ff526"
+      "name": "StockAnalysis: US consumer confidence jumps to 103.3 (24 Nov)",
+      "url": "https://stockanalysis.com/news/consumer-confidence-jumps-november-2026/"
     },
     {
-      "name": "FX Leaders: XAU/USD rejected at 3,651 ahead of PCE (24 Nov, headline only)",
-      "url": "https://www.fxleaders.com/news/2026/11/24/gold-price-forecast-xau-usd-rejected-at-3651-ahead-of-pce-inflation/"
+      "name": "UA.news (Anadolu): gold falls below 3,600 (24 Nov)",
+      "url": "https://ua.news/en/dovkolo-svitu/zoloto-vpalo-nizhche-3600-sriblo-podeshevshalo-na-5-3-anadolu-agency"
     },
     {
-      "name": "ANC (Reuters): gold slips ahead of US PCE data (24 Nov)",
-      "url": "https://ancstockinvestments.com/blog/2026/11/24/gold-price-slips-ahead-of-us-pce-data/"
+      "name": "Phemex (PANews): spot gold slips below 3,600 (24 Nov)",
+      "url": "https://phemex.com/news/article/spot-gold-slips-below-3600-as-buyers-retreat-104710"
     },
     {
-      "name": "Mitrade: gold rebounds on Nvidia, PMI (24 Nov)",
+      "name": "KuCoin (Coinpaper): gold drops toward 3,600 ahead of PCE (24 Nov)",
+      "url": "https://www.kucoin.com/news/flash/gold-price-drops-toward-3-600-ahead-of-us-inflation-data"
+    },
+    {
+      "name": "Mitrade: gold analysis (24 Nov)",
       "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-rebounds-nvidia-pmi-natixis-warns"
-    },
-    {
-      "name": "1trader: gold price today 24 Nov 2026",
-      "url": "https://1trader.com/en/gold-price-2026-11-24/"
     }
   ]
 }
