@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T17:40:00Z",
+  "updated": "2026-11-24T21:40:00Z",
   "asof": "2026-11-24T16:26:00Z",
   "price": 3563,
   "bias": {
@@ -10,7 +10,7 @@
   "bullets": [
     {
       "title": "Broke 3,600",
-      "text": "Anadolu had spot gold at 3,563.10, down about 2% on the day, in a report stamped 19:26 (time zone not stated, so the exact time is UNVERIFIED)."
+      "text": "The latest price found is Anadolu's 3,563.10, down about 2% on the day; no later quote or New York close was found, so the current price is UNVERIFIED."
     },
     {
       "title": "Strong US data",
@@ -22,7 +22,7 @@
     },
     {
       "title": "Dollar and yields",
-      "text": "The dollar is near its strongest since April 2025 and the US 10-year yield is near 4.9%, both bad for gold."
+      "text": "The dollar is near a 19-month high and the US 10-year yield was 4.92% on Monday, both bad for gold."
     },
     {
       "title": "Morning rally failed",
@@ -56,7 +56,7 @@
     {
       "price": "~3,563",
       "type": "now",
-      "note": "Anadolu 3,563.10, down 1.98%; exact time UNVERIFIED"
+      "note": "Anadolu 3,563.10, down 1.98%; latest found, time UNVERIFIED"
     },
     {
       "price": "3,540",
@@ -154,6 +154,18 @@
     ]
   },
   "sources": [
+    {
+      "name": "FinanceFeeds: gold rebound stalls a day before PCE (24 Nov)",
+      "url": "https://financefeeds.com/gold-price-today-3619-tuesday-rebound-stalls-pce-wednesday-bull-3700-bear-3540/"
+    },
+    {
+      "name": "Coinpaper: could US inflation data trigger another selloff? (24 Nov)",
+      "url": "https://coinpaper.com/39354/gold-price-forecast-could-us-inflation-data-trigger-another-selloff"
+    },
+    {
+      "name": "Rallies.ai: gold falls 2% on hawkish Fed bets (24 Nov)",
+      "url": "https://rallies.ai/news/gold-falls-2-on-hawkish-fed-bets-us-inflation-data-in-focus-9b723d9ec460c714"
+    },
     {
       "name": "Kitco: gold tests 3,600 support as US consumer confidence jumps (24 Nov)",
       "url": "https://www.kitco.com/news/article/2026-11-24/gold-price-testing-support-near-3600-us-consumer-confidence-sees-sharp-rise"
