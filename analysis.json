@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-24T21:40:00Z",
-  "asof": "2026-11-24T16:26:00Z",
-  "price": 3563,
+  "updated": "2026-11-25T01:45:00Z",
+  "asof": "2026-11-25T00:00:00Z",
+  "price": 3564,
   "bias": {
     "direction": "down",
     "label": "Leaning down below 3,595-3,607; bigger trend down"
@@ -9,54 +9,55 @@
   "event": "Wed 25 Nov 15:30 SAST: US October PCE inflation, durable goods and Q3 GDP. Wed 21:00 SAST: Fed Beige Book. Thu 26 Nov: Thanksgiving, US markets shut. Fed decision Wed 9 Dec.",
   "bullets": [
     {
-      "title": "Broke 3,600",
-      "text": "The latest price found is Anadolu's 3,563.10, down about 2% on the day; no later quote or New York close was found, so the current price is UNVERIFIED."
+      "title": "Quiet in Asia",
+      "text": "Gold was about 3,564 in early Asian trade on Wednesday, a small bounce after Tuesday closed at 3,555.82; the exact quote time is UNVERIFIED."
     },
     {
-      "title": "Strong US data",
-      "text": "US consumer confidence jumped to 103.3 from 91.9 at 17:00 SAST, far above the 92.4 expected, and gold fell through 3,600 after it."
+      "title": "Big Tuesday drop",
+      "text": "Gold fell about 2.2% on Tuesday after strong US consumer confidence, and silver fell over 5%."
     },
     {
-      "title": "Hike still expected",
-      "text": "Markets price about 95% odds of a 25 bp Fed hike on 9 December, which keeps pressure on gold."
+      "title": "Hike nearly priced",
+      "text": "CME FedWatch shows about 97% odds of a 25 bp Fed hike on 9 December and roughly 66-70% odds of one more by January."
     },
     {
-      "title": "Dollar and yields",
-      "text": "The dollar is near a 19-month high and the US 10-year yield was 4.92% on Monday, both bad for gold."
+      "title": "Dollar eased slightly",
+      "text": "The dollar index slipped 0.48% to 103.82 on Tuesday but stays near a 20-month high, so it is still a headwind."
     },
     {
-      "title": "Morning rally failed",
-      "text": "Gold was sold from 3,679 in Asia, so today's whole bounce has been given back."
+      "title": "Key floor below",
+      "text": "FXEmpire says a sustained break under 3,527 (50% of the long-term range) would open deeper losses."
     },
     {
-      "title": "Lows close by",
-      "text": "Monday's low 3,539.80 and Friday's 14-month low 3,513.54 are the next floors below price."
-    },
-    {
-      "title": "PCE on Wednesday",
-      "text": "PCE at 15:30 SAST Wednesday is the big test, and Thanksgiving on Thursday will thin trading."
+      "title": "PCE today",
+      "text": "PCE, GDP and durable goods at 15:30 SAST are today's big test, and Thanksgiving on Thursday will thin trading."
     }
   ],
   "levels": [
     {
-      "price": "3,697-3,700",
+      "price": "3,695-3,700",
       "type": "resistance",
-      "note": "Kitco upside target; round 3,700"
+      "note": "FXEmpire R1 3,694.90; round 3,700"
     },
     {
       "price": "3,651-3,679",
       "type": "resistance",
-      "note": "Today's high 3,679; Kitco resistance 3,651 and 3,674"
+      "note": "Tuesday's high 3,679 (prior run); rejection at 3,651"
     },
     {
       "price": "3,595-3,607",
       "type": "resistance",
-      "note": "Broken support, now resistance: Kitco support 3,595 and round 3,600"
+      "note": "Broken support, now resistance: round 3,600"
     },
     {
-      "price": "~3,563",
+      "price": "~3,564",
       "type": "now",
-      "note": "Anadolu 3,563.10, down 1.98%; latest found, time UNVERIFIED"
+      "note": "Early Asia Wednesday 3,564.40 (KuCoin/FXStreet); time UNVERIFIED"
+    },
+    {
+      "price": "3,550-3,556",
+      "type": "support",
+      "note": "Tuesday close 3,555.82; 3,550 test level"
     },
     {
       "price": "3,540",
@@ -64,14 +65,14 @@
       "note": "Monday's low 3,539.80"
     },
     {
-      "price": "3,503-3,514",
+      "price": "3,527",
       "type": "support",
-      "note": "Friday's 14-month low 3,513.54 (Reuters); Kitco support 3,503"
+      "note": "FXEmpire 50% level 3,526.83"
     },
     {
-      "price": "3,500",
+      "price": "3,503-3,514",
       "type": "support",
-      "note": "Round number (Coinpaper retest level)"
+      "note": "Friday's 14-month low 3,513.54 (Reuters); FXEmpire lists last week's low as 3,502.99"
     },
     {
       "price": "3,450-3,485",
@@ -104,15 +105,15 @@
     ],
     "look": [
       "This is against the main downtrend, so use half size or skip it.",
-      "A slow test of 3,505-3,515 with long lower wicks, not a fast flush.",
+      "A slow test of 3,505-3,515 with long lower wicks, not a fast flush through 3,527.",
       "A higher low on the 15M chart and a close back above 3,520.",
       "The dollar and yields easing, not climbing.",
       "Take some profit at 3,540 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying now near 3,563 just because it fell a lot. That is not a level.",
+      "Buying now near 3,564 just because it fell a lot. That is not a level.",
       "A 1H close under 3,495 means a new 14-month low and opens 3,450-3,485. Step aside.",
-      "PCE at 15:30 SAST Wednesday can move gold fast. Do not trade the news candle.",
+      "PCE at 15:30 SAST today can move gold fast. Do not trade the news candle.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
@@ -147,48 +148,36 @@
       "Take some profit at 3,565 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling now near 3,563 after a 2% drop, close to Monday's 3,540 low. Wait for the retest.",
+      "Selling now near 3,564, just above Tuesday's 3,556 close and 3,540 low. Wait for the retest.",
       "A 1H close above 3,615 puts gold back in the range and opens 3,651. Do not fight it.",
-      "A soft PCE on Wednesday can spike gold up fast. Do not chase news candles.",
+      "A soft PCE at 15:30 SAST today can spike gold up fast. Do not chase news candles.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
+      "name": "KuCoin (FXStreet): gold tests 3,550 on Fed hike bets (24-25 Nov)",
+      "url": "https://www.kucoin.com/news/flash/gold-tests-3550-level-amid-fed-hike-expectations-oil-hits-3-month-low"
+    },
+    {
+      "name": "FXEmpire: rebound fades as strong dollar and Fed hike bets weigh (24 Nov)",
+      "url": "https://www.fxempire.com/forecasts/article/gold-news-rebound-fades-as-strong-dollar-and-fed-hike-expectations-weigh-1646833"
+    },
+    {
+      "name": "FXStreet: gold falls to near 3,550 ahead of PCE (24 Nov, headline only)",
+      "url": "https://www.fxstreet.com/news/gold-falls-to-near-3-550-ahead-of-us-pce-inflation-data-202611242321"
+    },
+    {
+      "name": "FX Leaders: XAU/USD rejected at 3,651 ahead of PCE (24 Nov, headline only)",
+      "url": "https://www.fxleaders.com/news/2026/11/24/gold-price-forecast-xau-usd-rejected-at-3651-ahead-of-pce-inflation/"
+    },
+    {
       "name": "FinanceFeeds: gold rebound stalls a day before PCE (24 Nov)",
       "url": "https://financefeeds.com/gold-price-today-3619-tuesday-rebound-stalls-pce-wednesday-bull-3700-bear-3540/"
     },
     {
-      "name": "Coinpaper: could US inflation data trigger another selloff? (24 Nov)",
-      "url": "https://coinpaper.com/39354/gold-price-forecast-could-us-inflation-data-trigger-another-selloff"
-    },
-    {
-      "name": "Rallies.ai: gold falls 2% on hawkish Fed bets (24 Nov)",
-      "url": "https://rallies.ai/news/gold-falls-2-on-hawkish-fed-bets-us-inflation-data-in-focus-9b723d9ec460c714"
-    },
-    {
       "name": "Kitco: gold tests 3,600 support as US consumer confidence jumps (24 Nov)",
       "url": "https://www.kitco.com/news/article/2026-11-24/gold-price-testing-support-near-3600-us-consumer-confidence-sees-sharp-rise"
-    },
-    {
-      "name": "Kitco AM Report: gold struggles to extend rebound on Fed hike bets (24 Nov)",
-      "url": "https://www.kitco.com/news/article/2026-11-24/gold-struggles-extend-rebound-fed-rate-hike-bets-pressure-silver-kitco-am"
-    },
-    {
-      "name": "StockAnalysis: US consumer confidence jumps to 103.3 (24 Nov)",
-      "url": "https://stockanalysis.com/news/consumer-confidence-jumps-november-2026/"
-    },
-    {
-      "name": "UA.news (Anadolu): gold falls below 3,600 (24 Nov)",
-      "url": "https://ua.news/en/dovkolo-svitu/zoloto-vpalo-nizhche-3600-sriblo-podeshevshalo-na-5-3-anadolu-agency"
-    },
-    {
-      "name": "Phemex (PANews): spot gold slips below 3,600 (24 Nov)",
-      "url": "https://phemex.com/news/article/spot-gold-slips-below-3600-as-buyers-retreat-104710"
-    },
-    {
-      "name": "KuCoin (Coinpaper): gold drops toward 3,600 ahead of PCE (24 Nov)",
-      "url": "https://www.kucoin.com/news/flash/gold-price-drops-toward-3-600-ahead-of-us-inflation-data"
     },
     {
       "name": "Mitrade: gold analysis (24 Nov)",
