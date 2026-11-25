@@ -1,178 +1,178 @@
 {
-  "updated": "2026-11-25T05:45:00Z",
-  "asof": "2026-11-25T03:00:00Z",
-  "price": 3540,
+  "updated": "2026-11-25T09:37:00Z",
+  "asof": "2026-11-25T07:47:00Z",
+  "price": 3527,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,583-3,600; bigger trend down"
+    "label": "Leaning down below 3,550-3,560; bigger trend down"
   },
-  "event": "Today (Wed 25 Nov) 15:30 SAST: US October PCE inflation, durable goods and Q3 GDP. 21:00 SAST: Fed Beige Book. Thu 26 Nov: Thanksgiving, US markets shut. Fed decision Wed 9 Dec.",
+  "event": "Today (Wed 25 Nov) 15:30 SAST: US October PCE inflation, personal income and spending, and Q3 GDP. Thu 26 Nov: Thanksgiving, US markets shut. Fed decision Wed 9 Dec.",
   "bullets": [
     {
-      "title": "Near weekly low",
-      "text": "Gold traded near 3,540 this morning in Asia, close to Monday's 3,539.80 low; the exact quote time is UNVERIFIED."
+      "title": "New 15-month low",
+      "text": "Gold slipped to about 3,527 by 09:47 SAST after an intraday low near 3,512, the lowest since September 2025."
     },
     {
-      "title": "Rebound erased",
-      "text": "A tech-stock selloff and a firm dollar pushed gold back under 3,593 and 3,550 after Tuesday's 2.2% drop."
+      "title": "Hike almost certain",
+      "text": "CME FedWatch prices a 96.4% chance of a 25 bp Fed hike on 9 December, up from 95% a day earlier."
     },
     {
-      "title": "Hike nearly priced",
-      "text": "Markets price about a 95% chance of a 25 bp Fed hike on 9 December, which keeps pressure on gold."
+      "title": "Strong dollar",
+      "text": "The dollar index is near 104, close to a 19-20 month high, and the US 10-year yield is near 4.90% (UNVERIFIED, untimed quote)."
     },
     {
-      "title": "Dollar and yields",
-      "text": "The dollar index is near 103.8 and the US 10-year yield is near 4.90%, both still high for gold (UNVERIFIED, one source)."
+      "title": "Margins raised",
+      "text": "CME raised gold futures margins from 5% to 6% after Tuesday's close, which can force more selling."
     },
     {
-      "title": "Oversold short term",
-      "text": "The 1-hour RSI is near 28, so a quick bounce is possible even inside the downtrend (UNVERIFIED, one source)."
+      "title": "Oversold readings",
+      "text": "RSI is near 29-32 on the charts analysts cite, so a sharp bounce is possible even inside the downtrend."
     },
     {
-      "title": "PCE today",
-      "text": "PCE, GDP and durable goods at 15:30 SAST are today's big test, and Thanksgiving on Thursday will thin trading."
+      "title": "PCE is the test",
+      "text": "Core PCE is expected at +0.3% m/m and 3.2% y/y at 15:30 SAST; a hot number could break 3,500, a soft one could spark a bounce."
+    },
+    {
+      "title": "Risks in background",
+      "text": "Ship attacks near the Strait of Hormuz and new US tariff plans are in the news but have not stopped the slide."
     }
   ],
   "levels": [
     {
-      "price": "3,679-3,694",
+      "price": "3,679-3,691",
       "type": "resistance",
-      "note": "Tuesday's failed high 3,679; FXEmpire R1 3,694.90"
+      "note": "Recent swing high: 3,679 Tuesday, about 3,691 on 23 Nov"
     },
     {
-      "price": "3,583-3,607",
+      "price": "3,637-3,653",
       "type": "resistance",
-      "note": "Broken support, now resistance; round 3,600 (Mitrade 1H zone 3,583-3,600)"
+      "note": "FXEmpire R1 3,637.59; FXStreet resistance 3,653"
     },
     {
-      "price": "3,550-3,556",
+      "price": "3,592-3,600",
       "type": "resistance",
-      "note": "Tuesday close about 3,552-3,556; first hurdle for a bounce"
+      "note": "FXEmpire pivot 3,592.11 and round 3,600"
     },
     {
-      "price": "~3,540",
+      "price": "3,550-3,560",
+      "type": "resistance",
+      "note": "Tuesday close 3,556.16 and the Asia-session range; first hurdle for a bounce"
+    },
+    {
+      "price": "~3,527",
       "type": "now",
-      "note": "Mitrade 3,540.08 this morning; time UNVERIFIED"
+      "note": "Swissquote about 3,527 at 09:47 SAST (via ANC)"
     },
     {
-      "price": "3,527",
+      "price": "3,512-3,514",
       "type": "support",
-      "note": "FXEmpire 50% level 3,526.83"
+      "note": "Today's intraday low 3,512; earlier 15-month low 3,513.54"
     },
     {
-      "price": "3,503-3,520",
+      "price": "3,500-3,506",
       "type": "support",
-      "note": "14-month low base: Reuters 3,513.54; FXEmpire 3,502.99"
+      "note": "Round 3,500; FXEmpire support 3,503 and S1 3,505.74"
     },
     {
-      "price": "3,440-3,460",
+      "price": "3,431",
       "type": "support",
-      "note": "Mitrade next support below 3,500"
-    },
-    {
-      "price": "3,380-3,400",
-      "type": "support",
-      "note": "Mitrade deeper support"
+      "note": "FXEmpire next support below 3,500"
     }
   ],
   "buy": {
-    "title": "Buy plan: dip holds at 3,505-3,515 (counter-trend)",
-    "entry": 3512,
-    "stop": 3490,
-    "target": 3560,
+    "title": "Buy plan: 3,500-3,506 holds (counter-trend)",
+    "entry": 3505,
+    "stop": 3485,
+    "target": 3550,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,505-3,515, the 14-month low base, only if it holds"
+        "value": "3,500-3,506, the round number, only if it holds"
       },
       {
         "label": "Stop",
-        "value": "Below 3,490"
+        "value": "Below 3,485"
       },
       {
         "label": "Targets",
-        "value": "3,540, then 3,560"
+        "value": "3,527, then 3,550"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,495"
+        "value": "1H candle closes below 3,490"
       }
     ],
     "look": [
       "This is against the main downtrend, so use half size or skip it.",
-      "A slow test of 3,505-3,515 with long lower wicks, not a fast flush through 3,500.",
-      "A higher low on the 15M chart and a close back above 3,520.",
+      "A slow test of 3,500-3,506 with long lower wicks, not a fast flush through 3,500.",
+      "A higher low on the 15M chart and a close back above 3,514.",
       "The dollar and yields easing after PCE, not climbing.",
-      "Take some profit at 3,540 and move the stop to entry only after that."
+      "Take some profit at 3,527 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying now near 3,540 just because it looks oversold. That is not a level.",
-      "A 1H close under 3,495 means a new 14-month low and opens 3,440-3,460. Step aside.",
-      "PCE at 15:30 SAST today can move gold fast. Do not trade the news candle.",
+      "Buying now near 3,527 just because RSI is oversold. That is not a level.",
+      "A 1H close under 3,490 opens the way to 3,431. Step aside.",
+      "PCE at 15:30 SAST can move gold 30-50 points fast. Do not trade the news candle.",
       "Moving your stop lower when price gets close. That is how a small loss becomes a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: retest fails at 3,583-3,600 (with the trend)",
-    "entry": 3590,
-    "stop": 3612,
-    "target": 3545,
+    "title": "Sell plan: bounce fails at 3,550-3,560 (with the trend)",
+    "entry": 3555,
+    "stop": 3572,
+    "target": 3512,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,583-3,600, the broken 3,600 support"
+        "value": "Rejection at 3,550-3,560, Tuesday's close area"
       },
       {
         "label": "Stop",
-        "value": "Above 3,612"
+        "value": "Above 3,572"
       },
       {
         "label": "Targets",
-        "value": "3,560, then 3,545"
+        "value": "3,527, then 3,512"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,610"
+        "value": "1H candle closes above 3,570"
       }
     ],
     "look": [
-      "Price bounces back up into 3,583-3,600 and stalls under 3,600.",
-      "A clear 15M rejection wick or a bearish close back under 3,583.",
-      "A 1H lower high under 3,605.",
+      "Price bounces back up into 3,550-3,560 and stalls there.",
+      "A clear 15M rejection wick or a bearish close back under 3,550.",
+      "A 1H lower high under 3,565.",
       "The dollar or yields firming.",
-      "Take some profit at 3,560 and move the stop to entry only after that."
+      "Take some profit at 3,527 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling now near 3,540, right on Monday's low and with RSI oversold. Wait for the retest.",
-      "A 1H close above 3,610 puts gold back in the range and opens 3,679. Do not fight it.",
-      "A soft PCE at 15:30 SAST today can spike gold up fast. Do not chase news candles.",
+      "Selling now near 3,527, just above the lows and with RSI oversold. Wait for the bounce.",
+      "A 1H close above 3,570 opens 3,592-3,600. Do not fight it.",
+      "A soft PCE at 15:30 SAST can spike gold up fast. Do not chase news candles.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Mitrade: gold tumbles, BCA exits before PCE (25 Nov)",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-tumbles-bca-exits-before-pce"
+      "name": "ANC: gold falls toward 3,500 as CME margin hike and Fed bets weigh (25 Nov)",
+      "url": "https://ancstockinvestments.com/blog/2026/11/25/gold-price-falls-toward-3500/"
     },
     {
-      "name": "FXStreet: gold holds near weekly low as Fed hike bets and geopolitics lift USD (25 Nov, headline only)",
-      "url": "https://www.fxstreet.com/news/gold-struggles-near-weekly-low-as-fed-bets-and-geopolitics-support-usd-ahead-of-us-pce-202611250414"
+      "name": "FXEmpire: gold slips again as Fed hike bets firm, can 3,503 hold? (25 Nov)",
+      "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-slips-again-as-fed-hike-bets-firm-can-3503-hold-1647067"
     },
     {
-      "name": "FX Leaders: XAU/USD slips below 3,593 as tech selloff erases rebound (25 Nov, headline only)",
-      "url": "https://www.fxleaders.com/news/2026/11/25/gold-price-forecast-xau-usd-slips-below-3593-as-tech-selloff-erases-rebound/"
+      "name": "TradingKey: gold hovers near 15-month low ahead of PCE (25 Nov)",
+      "url": "https://www.tradingkey.com/analysis/commodities/metal/262321662-gold-hovers-near-15-month-low-ahead-us-pce-3500-test-tradingkey"
     },
     {
-      "name": "FXStreet: gold falls to near 3,550 ahead of PCE (24 Nov, headline only)",
-      "url": "https://www.fxstreet.com/news/gold-falls-to-near-3-550-ahead-of-us-pce-inflation-data-202611242321"
+      "name": "Yahoo Finance (Investing.com): gold holds near 15-month lows on Fed hike bets (24-25 Nov)",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-15-mth-032814171.html"
     },
     {
-      "name": "FXEmpire: rebound fades as strong dollar and Fed hike bets weigh (24 Nov)",
-      "url": "https://www.fxempire.com/forecasts/article/gold-news-rebound-fades-as-strong-dollar-and-fed-hike-expectations-weigh-1646833"
-    },
-    {
-      "name": "KuCoin (FXStreet): gold tests 3,550 on Fed hike bets (24-25 Nov)",
-      "url": "https://www.kucoin.com/news/flash/gold-tests-3550-level-amid-fed-hike-expectations-oil-hits-3-month-low"
+      "name": "Mitrade AU: gold falls below 3,600 as chip stocks slide and tariff concerns return (25 Nov)",
+      "url": "https://mitrade.com/au/insights/daily-market-outlook/news-today/market-news-today-australia-25-nov-2026"
     }
   ]
 }
