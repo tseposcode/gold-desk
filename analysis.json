@@ -1,108 +1,108 @@
 {
-  "updated": "2026-11-25T17:40:00Z",
-  "asof": "2026-11-25T14:32:00Z",
-  "price": 3477,
+  "updated": "2026-11-25T21:40:00Z",
+  "asof": "2026-11-25T17:06:00Z",
+  "price": 3446,
   "bias": {
     "direction": "down",
-    "label": "Leaning down below 3,500; broken support now resistance"
+    "label": "Leaning down below 3,500; 3,400 is the next big test"
   },
-  "event": "Thu 26 Nov: Thanksgiving, US markets shut, thin trade. Fri 27 Nov: US stocks close early. Next big event: Fed decision Wed 9 Dec, 21:00 SAST.",
+  "event": "Thu 26 Nov: Thanksgiving, US markets shut, thin trade. Fri 27 Nov: US stocks close early. Mon 30 Nov: COMEX December first notice day. Fri 4 Dec: US jobs report (15:30 SAST, UNVERIFIED). Fed decision Wed 9 Dec, 21:00 SAST.",
   "bullets": [
     {
-      "title": "Broke below 3,500",
-      "text": "COMEX December gold was 3,477.20, down 2.38%, at 16:32 SAST, and one report put spot as low as 3,454 (spot time UNVERIFIED)."
+      "title": "Fresh 15-month low",
+      "text": "Spot gold fell to about 3,446, down 3.1%, by late US morning, its lowest since September 2025 (exact time UNVERIFIED)."
     },
     {
       "title": "Hot US data",
-      "text": "October PCE was 3.8% y/y and core 3.3% (up from 3.1%), and Q3 GDP was revised up to 4.3%; the core forecast is UNVERIFIED."
+      "text": "Core PCE rose to 3.3% y/y against 3.2% expected, and Q3 GDP was revised up to 4.3%."
     },
     {
-      "title": "Hike still priced",
-      "text": "After the data, CME FedWatch showed about 96% odds of a 25 bp Fed hike on 9 December."
+      "title": "Hike nearly certain",
+      "text": "Markets price about 96-98% odds of a 25 bp Fed hike on 9 December, and about 60% for another in January (sources differ)."
     },
     {
-      "title": "Dollar and yields",
-      "text": "The dollar index was near 103.9 and the US 10-year yield about 4.9% this morning; levels after the data are UNVERIFIED."
+      "title": "Dollar near highs",
+      "text": "The dollar index traded around 103.5-104 near its 20-month high, while the US 10-year yield eased to about 4.84%."
     },
     {
-      "title": "Cash selling",
-      "text": "Falling tech stocks are pushing traders to sell gold for cash, and gold ETFs are seeing outflows."
+      "title": "Forced selling",
+      "text": "A tech stock selloff, margin calls and a CME margin rise on gold futures (5% to 6%) are pushing traders to sell gold for cash."
     },
     {
-      "title": "Oversold, still falling",
-      "text": "RSI is near 25-28, so sharp bounces can happen, but COMEX gold is down about 13% this month."
+      "title": "Flows mixed",
+      "text": "Gold ETFs lost about 20 tonnes last week, but central banks keep buying, with China adding for a 24th month in October."
     },
     {
       "title": "Thin holiday trade",
-      "text": "With US markets shut on Thursday, moves can be jumpy and spreads wide."
+      "text": "One report says gold bounced off support late in the day (size UNVERIFIED), and with US markets shut Thursday moves can be jumpy."
     }
   ],
   "levels": [
-    { "price": "3,583-3,600", "type": "resistance", "note": "Mitrade resistance and round 3,600" },
-    { "price": "3,546-3,552", "type": "resistance", "note": "Spot trading area this morning (Mitrade)" },
-    { "price": "3,500-3,506", "type": "resistance", "note": "Broken support: round 3,500 and last week's 3,502 low" },
-    { "price": "~3,484", "type": "resistance", "note": "CoinGape 4H swing low, now just above price" },
-    { "price": "~3,477", "type": "now", "note": "COMEX Dec futures 3,477.20 at 16:32 SAST (spot UNVERIFIED)" },
-    { "price": "3,440-3,460", "type": "support", "note": "Mitrade and CoinGape 3,450; reported spot low near 3,454 (UNVERIFIED)" },
+    { "price": "~3,634", "type": "resistance", "note": "Cap on Tuesday's bounce (TradingNEWS)" },
+    { "price": "3,556-3,562", "type": "resistance", "note": "Tuesday's spot settle 3,556 and Dec futures settle 3,561.90" },
+    { "price": "3,500-3,515", "type": "resistance", "note": "Broken support: round 3,500 and the 20 Nov low 3,513.54" },
+    { "price": "3,470-3,484", "type": "resistance", "note": "Price at 15:00 SAST (3,470) and the CoinGape 4H swing low (3,484)" },
+    { "price": "~3,446", "type": "now", "note": "Spot 3,446.06 late US morning (exact time UNVERIFIED; may have bounced since)" },
     { "price": "~3,431", "type": "support", "note": "FXEmpire support from earlier today" },
-    { "price": "3,380-3,400", "type": "support", "note": "Mitrade third support and CoinGape 3,400" }
+    { "price": "~3,400", "type": "support", "note": "Round number with no recent price history (TradingNEWS); RoboForex test level" },
+    { "price": "3,350-3,380", "type": "support", "note": "TradingNEWS next floor; RoboForex downside target 3,375" }
   ],
   "buy": {
-    "title": "Buy plan: 3,440-3,460 holds (counter-trend)",
-    "entry": 3450,
-    "stop": 3428,
-    "target": 3500,
+    "title": "Buy plan: 3,400 holds (counter-trend)",
+    "entry": 3405,
+    "stop": 3378,
+    "target": 3470,
     "keys": [
-      { "label": "Buy zone", "value": "3,440-3,460, only after a clear hold" },
-      { "label": "Stop", "value": "Below 3,428" },
-      { "label": "Targets", "value": "3,484, then 3,500" },
-      { "label": "Cancelled if", "value": "1H candle closes below 3,431" }
+      { "label": "Buy zone", "value": "3,400-3,410, only after a clear hold" },
+      { "label": "Stop", "value": "Below 3,378" },
+      { "label": "Targets", "value": "3,446, then 3,470" },
+      { "label": "Cancelled if", "value": "1H candle closes below 3,390" }
     ],
     "look": [
       "This is against the main downtrend, so use half size or skip it.",
-      "A slow test of 3,440-3,460 with long lower wicks, not a fast flush through it.",
-      "A higher low on the 15M chart and a close back above 3,460.",
+      "A slow test of 3,400 with long lower wicks, not a fast flush through it.",
+      "A higher low on the 15M chart and a close back above 3,410.",
       "The dollar and yields easing.",
-      "Take some profit at 3,484 and move the stop to entry only after that."
+      "Take some profit at 3,446 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying just because RSI is oversold. Wait for the level to hold.",
-      "A 1H close under 3,431 opens 3,380-3,400. Step aside.",
+      "Buying just because price is down a lot. Wait for 3,400 to hold.",
+      "A 1H close under 3,390 opens 3,350-3,380. Step aside.",
       "Thin Thanksgiving trade can spike price through stops. Keep size small.",
       "Moving your stop lower when price gets close. That turns a small loss into a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: retest of 3,500 fails (with the trend)",
-    "entry": 3500,
-    "stop": 3520,
-    "target": 3440,
+    "title": "Sell plan: bounce into 3,470-3,484 fails (with the trend)",
+    "entry": 3475,
+    "stop": 3495,
+    "target": 3405,
     "keys": [
-      { "label": "Sell zone", "value": "Rejection at 3,500-3,506, the broken support" },
-      { "label": "Stop", "value": "Above 3,520" },
-      { "label": "Targets", "value": "3,460, then 3,440" },
-      { "label": "Cancelled if", "value": "1H candle closes above 3,520" }
+      { "label": "Sell zone", "value": "Rejection at 3,470-3,484" },
+      { "label": "Stop", "value": "Above 3,495" },
+      { "label": "Targets", "value": "3,431, then 3,405" },
+      { "label": "Cancelled if", "value": "1H candle closes above 3,500" }
     ],
     "look": [
-      "Price bounces back up into 3,500-3,506 and stalls there.",
-      "A clear 15M rejection wick or a bearish close back under 3,500.",
-      "A 1H lower high under 3,510.",
+      "Price bounces back up into 3,470-3,484 and stalls there.",
+      "A clear 15M rejection wick or a bearish close back under 3,470.",
+      "A 1H lower high under 3,490.",
       "The dollar or yields firming.",
-      "Take some profit at 3,460 and move the stop to entry only after that."
+      "Take some profit at 3,431 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling low at 3,450-3,477 into support with RSI oversold. Wait for the bounce.",
-      "A 1H close above 3,520 opens 3,546-3,552. Do not fight it.",
-      "Fed or trade headlines can reverse price fast in thin holiday trade.",
+      "Selling low near 3,431-3,446 after a 3% drop. Wait for the bounce.",
+      "A 1H close above 3,500 opens 3,515 and 3,556. Do not fight it.",
+      "Fed, tariff or Hormuz headlines can reverse price fast in thin holiday trade.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
-    { "name": "Upstox: gold price tracker, COMEX gold down 2.4% as PCE hits 3.8% (25 Nov, 20:02 IST)", "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-25-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-us-pce-inflation-data-in-focus-check-silver-prices-today/liveblog-203915/" },
-    { "name": "TradingKey: gold falls below 3,500 after GDP and PCE (25 Nov)", "url": "https://www.tradingkey.com/analysis/commodities/metal/262322306-gold-drop-3500-gdp-pce-fed-rate-hike-what-reasons-prices-to-fall-tradingkey" },
-    { "name": "Mitrade: gold tumbles as BCA exits before PCE (25 Nov)", "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-tumbles-bca-exits-before-pce" },
-    { "name": "CoinGape: XAU/USD hits 15-month low of 3,500 (25 Nov)", "url": "https://coingape.com/markets/gold-price-prediction-as-xau-usd-hits-a-15-month-low-of-3500-after-us-pce-inflation-data/" },
-    { "name": "Roic.ai: gold slides as dollar strengthens (25 Nov, 14:03 SAST)", "url": "https://www.roic.ai/news/gold-slides-nearly-1-as-dollar-strengthens-fed-rate-expectations-weigh-11-25-2026" },
-    { "name": "FXEmpire: can 3,503 hold? (25 Nov)", "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-slips-again-as-fed-hike-bets-firm-can-3503-hold-1647067" }
+    { "name": "TradingNEWS: XAU/USD breaks 3,500 to 3,446 as real yields rise (25 Nov)", "url": "https://www.tradingnews.com/news/gold-xau-usd-breaks-3500-to-3446-as-real-yields-rise-22bp-3650-usd-rebound-target-hinges-on-3400" },
+    { "name": "ANC: gold price falls toward 3,500 before US PCE (25 Nov, 09:52 SAST)", "url": "https://ancstockinvestments.com/blog/2026/11/25/gold-price-falls-toward-3500/" },
+    { "name": "RoboForex: XAU/USD forecast for 25 Nov", "url": "https://roboforex.com/beginners/analytics/forex-forecast/gold/xau-usd-gold-forecast-2026-11-25/" },
+    { "name": "Trading Economics: gold news stream (25 Nov)", "url": "https://tradingeconomics.com/commodity/gold/news/596513" },
+    { "name": "FXEmpire: gold price page and headlines (25 Nov)", "url": "https://www.fxempire.com/commodities/gold" },
+    { "name": "FX Leaders: XAU/USD rebounds off support despite strong GDP and PCE (25 Nov, headline only)", "url": "https://www.fxleaders.com/news/2026/11/25/gold-price-forecast-xau-usd-rebounds-off-support-despite-strong-gdp-and-pce-inflation/" }
   ]
 }
