@@ -1,126 +1,122 @@
 {
-  "updated": "2026-11-26T13:40:00Z",
-  "asof": "2026-11-26T08:05:00Z",
-  "price": 3580,
+  "updated": "2026-11-26T17:45:00Z",
+  "asof": "2026-11-26T14:00:00Z",
+  "price": 3571,
   "bias": {
     "direction": "neutral",
-    "label": "Bounce testing 3,591-3,600; downtrend holds below 3,651"
+    "label": "Stalling under 3,583-3,600; downtrend holds below 3,651"
   },
-  "event": "Thu 26 Nov: Thanksgiving, US stock and bond markets shut, thin trade. Fri 27 Nov: US half-day. Mon 30 Nov: COMEX December first notice day (UNVERIFIED). Fri 4 Dec: US jobs report (15:30 SAST, UNVERIFIED). Fed decision Wed 9 Dec, 21:00 SAST.",
+  "event": "Fri 27 Nov: US half-day, thin trade. Sun 29 Nov: OPEC+ meeting. Fri 4 Dec: US jobs report (15:30 SAST, UNVERIFIED). Fed decision Wed 9 Dec, 21:00 SAST, with a hike widely expected.",
   "bullets": [
     {
-      "title": "V-shaped bounce",
-      "text": "Gold bounced from about 3,426 on Wednesday back toward 3,580 by 10:05 SAST today (ATFX, IC Markets)."
+      "title": "Bounce is stalling",
+      "text": "Spot gold was about 3,571 at 16:00 SAST, down 0.3% on the day, after failing to hold a push toward 3,600 (Brisk Markets, citing Reuters)."
     },
     {
-      "title": "Testing 3,600",
-      "text": "An FXStreet headline at about 15:05 SAST says gold is rebounding toward 3,600, but the exact live price is UNVERIFIED."
+      "title": "Wednesday's low",
+      "text": "Gold hit about 3,446 on Wednesday after hot PCE data, its lowest since August 2025, then bounced (Brisk Markets); some reports put the low nearer 3,426, so the exact low is UNVERIFIED."
     },
     {
-      "title": "Hike largely priced",
-      "text": "A Fed hike on 9 December is largely priced in after hot PCE data, which keeps the bigger trend down (ATFX, IC Markets)."
+      "title": "Hike fully priced",
+      "text": "CME FedWatch shows about 94-96% odds of a 0.25% Fed hike on 9 December, which keeps the bigger trend down (Mitrade)."
     },
     {
-      "title": "Softer dollar, yields",
-      "text": "The dollar index eased to about 103.7 and US yields dipped, which gave gold room to bounce (ATFX)."
+      "title": "Yields eased slightly",
+      "text": "The US 10-year yield slipped toward 4.84%, which gave gold some room to bounce (Mitrade)."
     },
     {
-      "title": "Tariffs and oil",
-      "text": "New US tariff proposals on 14 economies and oil jumping after attacks on Saudi facilities add safe-haven support (ATFX)."
-    },
-    {
-      "title": "Analysts still bearish",
-      "text": "ATFX calls gold cautiously bearish and IC Markets strongly bearish for the next 24 hours."
+      "title": "Tariffs and Middle East",
+      "text": "New US tariff proposals on China and other partners and Middle East tension give limited safe-haven support (GoodReturns, Brisk Markets)."
     },
     {
       "title": "Thin holiday trade",
-      "text": "US stock and bond markets are shut for Thanksgiving, so breakouts are less reliable and can snap back."
+      "text": "US markets were shut today and reopen for a half-day on Friday, so moves can be jumpy and breakouts less reliable."
     }
   ],
   "levels": [
     {
-      "price": "3,675-3,697",
+      "price": "3,679-3,697",
       "type": "resistance",
-      "note": "ATFX resistance 3,675 and the next target band if 3,651 breaks"
+      "note": "Mitrade resistance 3,679-3,694 and the next target band if 3,651 breaks"
     },
     {
       "price": "3,635-3,651",
       "type": "resistance",
-      "note": "Main cap: Tuesday's high and FXEmpire R1 levels"
+      "note": "Main cap: Tuesday's high area and Brisk Markets 3,650"
     },
     {
-      "price": "3,591-3,605",
+      "price": "3,583-3,605",
       "type": "resistance",
-      "note": "ATFX 3,591, round 3,600 and the falling trendline"
+      "note": "Mitrade resistance 3,583-3,600 and the round 3,600 the bounce failed at"
     },
     {
-      "price": "~3,580",
+      "price": "~3,571",
       "type": "now",
-      "note": "Near 3,580 at 10:05 SAST (IC Markets); may be nearer 3,600 now (UNVERIFIED)"
+      "note": "About 3,571 at 16:00 SAST (Brisk Markets, citing Reuters); price at 19:45 SAST UNVERIFIED"
     },
     {
       "price": "3,548-3,556",
       "type": "support",
-      "note": "Wednesday close 3,548 (Rio Times) and Tuesday's settle 3,556"
+      "note": "Wednesday close area and Tuesday's settle"
     },
     {
-      "price": "3,503-3,531",
+      "price": "3,500-3,531",
       "type": "support",
-      "note": "ATFX 3,504, FXEmpire pivot 3,531 and round 3,500"
+      "note": "Mitrade support 3,500-3,520 and round 3,500 (GoodReturns, Brisk Markets)"
     },
     {
-      "price": "3,417-3,440",
+      "price": "3,425-3,460",
       "type": "support",
-      "note": "Wednesday's 15-month low near 3,426 and ATFX support 3,417"
+      "note": "Wednesday's low zone, 15-month low (Brisk Markets, Mitrade)"
     },
     {
-      "price": "3,331-3,380",
+      "price": "3,380-3,400",
       "type": "support",
-      "note": "ATFX 3,331 and Mitrade 3,380 if the low breaks"
+      "note": "Mitrade support 3,380-3,400 and round 3,400 if the low breaks"
     }
   ],
   "buy": {
-    "title": "Buy plan: dip to 3,503-3,531 holds (counter-trend)",
-    "entry": 3520,
-    "stop": 3495,
-    "target": 3595,
+    "title": "Buy plan: dip to 3,500-3,531 holds (counter-trend)",
+    "entry": 3515,
+    "stop": 3492,
+    "target": 3580,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,503-3,531, only after a clear hold"
+        "value": "3,500-3,531, only after a clear hold"
       },
       {
         "label": "Stop",
-        "value": "Below 3,495"
+        "value": "Below 3,492"
       },
       {
         "label": "Targets",
-        "value": "3,556, then 3,595"
+        "value": "3,548, then 3,580"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,500"
+        "value": "1H candle closes below 3,495"
       }
     ],
     "look": [
       "This is against the bigger downtrend, so use half size or skip it.",
-      "A slow pullback into 3,503-3,531 with long lower wicks, not a fast drop through it.",
+      "A slow pullback into 3,500-3,531 with long lower wicks, not a fast drop through it.",
       "A higher low on the 15M chart and a close back above 3,535.",
-      "Tariff or safe-haven headlines giving gold support.",
-      "Take some profit at 3,556 and move the stop to entry only after that."
+      "Yields or the dollar easing again, or safe-haven headlines.",
+      "Take some profit at 3,548 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying right under 3,591-3,600 now. Wait for the pullback.",
-      "A 1H close under 3,500 opens 3,440-3,472. Step aside.",
-      "Thin Thanksgiving trade can spike price through stops. Keep size small.",
+      "Buying right under 3,583-3,600 now. Wait for the pullback.",
+      "A 1H close under 3,495 opens 3,425-3,460. Step aside.",
+      "Friday's half-day trade can spike price through stops. Keep size small.",
       "Moving your stop lower when price gets close. That turns a small loss into a big one."
     ]
   },
   "sell": {
     "title": "Sell plan: rally fails at 3,635-3,651 (with the main trend)",
-    "entry": 3635,
+    "entry": 3640,
     "stop": 3660,
-    "target": 3556,
+    "target": 3583,
     "keys": [
       {
         "label": "Sell zone",
@@ -132,7 +128,7 @@
       },
       {
         "label": "Targets",
-        "value": "3,595, then 3,556"
+        "value": "3,605, then 3,583"
       },
       {
         "label": "Cancelled if",
@@ -143,40 +139,32 @@
       "Price pushes up into 3,635-3,651 and stalls there.",
       "A clear 15M rejection wick or a bearish close back under 3,625.",
       "A 1H lower high under 3,651.",
-      "The dollar or yields firming again on Friday.",
-      "Take some profit at 3,595 and move the stop to entry only after that."
+      "The dollar or yields firming again when US markets reopen on Friday.",
+      "Take some profit at 3,605 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling in the middle near 3,560-3,600. Wait for the test of resistance.",
-      "A 1H close above 3,660 means the bounce is stronger and 3,697 is next. Do not fight it.",
-      "Fed, tariff or stock market headlines can move price fast in thin holiday trade.",
+      "Selling in the middle near 3,550-3,590. Wait for the test of resistance.",
+      "A 1H close above 3,660 means the bounce is stronger and 3,679-3,697 is next. Do not fight it.",
+      "Fed, tariff or Middle East headlines can move price fast in thin holiday trade.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "ATFX: gold stages a V-shaped rebound as Thanksgiving liquidity thins (26 Nov, 04:00 SAST)",
-      "url": "https://www.atfxcapital.com/en/analysis/market-news/20261126-daily-market-highlight"
-    },
-    {
-      "name": "IC Markets: Europe fundamental forecast (26 Nov, 10:05 SAST)",
-      "url": "https://www.ic.com/blog/europe-fundamental-forecast-26-november-2026-ic/"
-    },
-    {
-      "name": "FXStreet: gold rebounds toward 3,600 after a 15-month low near 3,427 (26 Nov, headline only)",
-      "url": "https://www.fxstreet.com/analysis/gold-rebounds-toward-3-600-after-a-15-month-low-near-3-427-202611261305"
-    },
-    {
-      "name": "FXEmpire: hot PCE keeps Fed hikes in play, can 3,595 hold? (26 Nov)",
-      "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-hot-pce-keeps-fed-hikes-in-play-can-3595-hold-1647429"
+      "name": "Brisk Markets: gold's fragile recovery faces fresh Fed risks (26 Nov, 19:05 SAST)",
+      "url": "https://www.briskmarkets.com/blog/gold-price-volatility-fragile-recovery-faces-fresh-fed-risks/"
     },
     {
       "name": "Mitrade: gold rebounds ahead of Thanksgiving on strong GDP (26 Nov)",
       "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-rebounds-ahead-thanksgiving-strong-gdp"
     },
     {
-      "name": "Rio Times: gold slips to 3,548 as Fed rate rise looms (25 Nov)",
-      "url": "https://www.riotimesonline.com/gold-silver-precious-metals-wednesday-november-25-2026"
+      "name": "GoodReturns: gold and silver live updates (26 Nov, updated 07:53 SAST)",
+      "url": "https://www.goodreturns.in/news/gold-rate-india-silver-rate-today-26-11-2026-live-comex-silver-price-mcx-gold-24k-22k-18k-gold-price-1549751.html"
+    },
+    {
+      "name": "FX Leaders: XAU/USD tests 3,600 on Thanksgiving short covering (26 Nov, headline only)",
+      "url": "https://www.fxleaders.com/news/2026/11/26/gold-price-forecast-xau-usd-tests-3600-on-thanksgiving-short-covering/"
     }
   ]
 }
