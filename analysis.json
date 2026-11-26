@@ -1,113 +1,101 @@
 {
-  "updated": "2026-11-26T17:45:00Z",
-  "asof": "2026-11-26T14:00:00Z",
-  "price": 3571,
+  "updated": "2026-11-26T21:40:00Z",
+  "asof": "2026-11-26T19:15:00Z",
+  "price": 3568,
   "bias": {
     "direction": "neutral",
-    "label": "Stalling under 3,583-3,600; downtrend holds below 3,651"
+    "label": "Stuck at 3,560-3,580 under 3,600; downtrend holds below 3,651"
   },
-  "event": "Fri 27 Nov: US half-day, thin trade. Sun 29 Nov: OPEC+ meeting. Fri 4 Dec: US jobs report (15:30 SAST, UNVERIFIED). Fed decision Wed 9 Dec, 21:00 SAST, with a hike widely expected.",
+  "event": "Fri 27 Nov: US half-day (stocks close 20:00 SAST), thin trade. Sun 29 Nov: OPEC+ meeting. Mon 30 Nov: month end. Fri 4 Dec: US jobs report (15:30 SAST, UNVERIFIED). Fed decision Wed 9 Dec, 21:00 SAST, with a hike almost fully priced.",
   "bullets": [
     {
-      "title": "Bounce is stalling",
-      "text": "Spot gold was about 3,571 at 16:00 SAST, down 0.3% on the day, after failing to hold a push toward 3,600 (Brisk Markets, citing Reuters)."
+      "title": "Flat into the night",
+      "text": "Spot gold was about 3,568 late on Thursday, down about 0.6% on the day, after failing to hold above 3,600 earlier (TipRanks, updated 21:15 SAST)."
     },
     {
-      "title": "Wednesday's low",
-      "text": "Gold hit about 3,446 on Wednesday after hot PCE data, its lowest since August 2025, then bounced (Brisk Markets); some reports put the low nearer 3,426, so the exact low is UNVERIFIED."
+      "title": "15-month low held",
+      "text": "Wednesday's low was 3,445.89, the lowest since August 2025, and Thursday's range was about 3,561-3,603 by the morning (FinanceFeeds, citing CNBC)."
     },
     {
-      "title": "Hike fully priced",
-      "text": "CME FedWatch shows about 94-96% odds of a 0.25% Fed hike on 9 December, which keeps the bigger trend down (Mitrade)."
+      "title": "Hike almost certain",
+      "text": "Hot core PCE of 3.3% and Q3 GDP revised up to 4.3% left December hike odds at about 97-99% (TipRanks, The Library citing Kitco)."
     },
     {
-      "title": "Yields eased slightly",
-      "text": "The US 10-year yield slipped toward 4.84%, which gave gold some room to bounce (Mitrade)."
+      "title": "Dollar and yields firm",
+      "text": "The dollar index was about 103.8 and the US 10-year near 4.85% at Wednesday's close, which caps gold's bounces (The Library)."
     },
     {
-      "title": "Tariffs and Middle East",
-      "text": "New US tariff proposals on China and other partners and Middle East tension give limited safe-haven support (GoodReturns, Brisk Markets)."
+      "title": "Banks split",
+      "text": "HSBC warns gold could fall below 3,400 toward 3,000 if stocks drop again, while TD Securities says it is too early to call a bottom (TipRanks)."
     },
     {
       "title": "Thin holiday trade",
-      "text": "US markets were shut today and reopen for a half-day on Friday, so moves can be jumpy and breakouts less reliable."
+      "text": "US markets reopen only for a half-day on Friday, so moves can be jumpy and breakouts less reliable."
     }
   ],
   "levels": [
     {
       "price": "3,679-3,697",
       "type": "resistance",
-      "note": "Mitrade resistance 3,679-3,694 and the next target band if 3,651 breaks"
+      "note": "Monday's high 3,689 (TipRanks) and the FinanceFeeds bull level 3,697"
     },
     {
       "price": "3,635-3,651",
       "type": "resistance",
-      "note": "Main cap: Tuesday's high area and Brisk Markets 3,650"
+      "note": "Main cap: top of the 3,503-3,651 range and the falling trendline since 17 Nov (FinanceFeeds)"
     },
     {
-      "price": "3,583-3,605",
+      "price": "3,595-3,605",
       "type": "resistance",
-      "note": "Mitrade resistance 3,583-3,600 and the round 3,600 the bounce failed at"
+      "note": "FXEmpire pivot 3,595 and Thursday's high 3,603 where the bounce failed (FinanceFeeds)"
     },
     {
-      "price": "~3,571",
+      "price": "~3,568",
       "type": "now",
-      "note": "About 3,571 at 16:00 SAST (Brisk Markets, citing Reuters); price at 19:45 SAST UNVERIFIED"
+      "note": "About 3,568 late Thursday (TipRanks); price at 23:40 SAST UNVERIFIED"
     },
     {
-      "price": "3,548-3,556",
+      "price": "3,535-3,561",
       "type": "support",
-      "note": "Wednesday close area and Tuesday's settle"
+      "note": "Thursday's low area 3,561 and Wednesday's COMEX settle 3,534.70 (FinanceFeeds, The Library)"
     },
     {
-      "price": "3,500-3,531",
+      "price": "3,500-3,503",
       "type": "support",
-      "note": "Mitrade support 3,500-3,520 and round 3,500 (GoodReturns, Brisk Markets)"
+      "note": "Round 3,500 (Pepperstone, TipRanks) and the bottom of the FinanceFeeds base range"
     },
     {
-      "price": "3,425-3,460",
+      "price": "3,440-3,450",
       "type": "support",
-      "note": "Wednesday's low zone, 15-month low (Brisk Markets, Mitrade)"
+      "note": "Wednesday's 15-month low 3,445.89 (FinanceFeeds, TipRanks)"
     },
     {
       "price": "3,380-3,400",
       "type": "support",
-      "note": "Mitrade support 3,380-3,400 and round 3,400 if the low breaks"
+      "note": "Round 3,400, the HSBC warning level if the low breaks"
     }
   ],
   "buy": {
-    "title": "Buy plan: dip to 3,500-3,531 holds (counter-trend)",
-    "entry": 3515,
-    "stop": 3492,
-    "target": 3580,
+    "title": "Buy plan: dip to 3,500-3,535 holds (counter-trend)",
+    "entry": 3510,
+    "stop": 3488,
+    "target": 3560,
     "keys": [
-      {
-        "label": "Buy zone",
-        "value": "3,500-3,531, only after a clear hold"
-      },
-      {
-        "label": "Stop",
-        "value": "Below 3,492"
-      },
-      {
-        "label": "Targets",
-        "value": "3,548, then 3,580"
-      },
-      {
-        "label": "Cancelled if",
-        "value": "1H candle closes below 3,495"
-      }
+      { "label": "Buy zone", "value": "3,500-3,535, only after a clear hold" },
+      { "label": "Stop", "value": "Below 3,488" },
+      { "label": "Targets", "value": "3,535, then 3,560" },
+      { "label": "Cancelled if", "value": "1H candle closes below 3,490" }
     ],
     "look": [
       "This is against the bigger downtrend, so use half size or skip it.",
-      "A slow pullback into 3,500-3,531 with long lower wicks, not a fast drop through it.",
-      "A higher low on the 15M chart and a close back above 3,535.",
-      "Yields or the dollar easing again, or safe-haven headlines.",
-      "Take some profit at 3,548 and move the stop to entry only after that."
+      "A slow pullback into 3,500-3,535 with long lower wicks, not a fast drop through it.",
+      "A higher low on the 15M chart and a close back above 3,520.",
+      "Yields or the dollar easing, or safe-haven headlines.",
+      "Take some profit at 3,535 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying right under 3,583-3,600 now. Wait for the pullback.",
-      "A 1H close under 3,495 opens 3,425-3,460. Step aside.",
+      "Buying right under 3,595-3,605 now. Wait for the pullback.",
+      "A 1H close under 3,490 opens the 3,446 low. Step aside.",
       "Friday's half-day trade can spike price through stops. Keep size small.",
       "Moving your stop lower when price gets close. That turns a small loss into a big one."
     ]
@@ -116,34 +104,22 @@
     "title": "Sell plan: rally fails at 3,635-3,651 (with the main trend)",
     "entry": 3640,
     "stop": 3660,
-    "target": 3583,
+    "target": 3600,
     "keys": [
-      {
-        "label": "Sell zone",
-        "value": "Rejection at 3,635-3,651"
-      },
-      {
-        "label": "Stop",
-        "value": "Above 3,660"
-      },
-      {
-        "label": "Targets",
-        "value": "3,605, then 3,583"
-      },
-      {
-        "label": "Cancelled if",
-        "value": "1H candle closes above 3,660"
-      }
+      { "label": "Sell zone", "value": "Rejection at 3,635-3,651" },
+      { "label": "Stop", "value": "Above 3,660" },
+      { "label": "Targets", "value": "3,600, then 3,568" },
+      { "label": "Cancelled if", "value": "1H candle closes above 3,660" }
     ],
     "look": [
       "Price pushes up into 3,635-3,651 and stalls there.",
       "A clear 15M rejection wick or a bearish close back under 3,625.",
-      "A 1H lower high under 3,651.",
-      "The dollar or yields firming again when US markets reopen on Friday.",
-      "Take some profit at 3,605 and move the stop to entry only after that."
+      "A 1H lower high under the falling trendline near 3,651.",
+      "The dollar or yields firming again on Friday.",
+      "Take some profit at 3,600 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling in the middle near 3,550-3,590. Wait for the test of resistance.",
+      "Selling in the middle near 3,560-3,590. Wait for the test of resistance.",
       "A 1H close above 3,660 means the bounce is stronger and 3,679-3,697 is next. Do not fight it.",
       "Fed, tariff or Middle East headlines can move price fast in thin holiday trade.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
@@ -151,20 +127,20 @@
   },
   "sources": [
     {
-      "name": "Brisk Markets: gold's fragile recovery faces fresh Fed risks (26 Nov, 19:05 SAST)",
-      "url": "https://www.briskmarkets.com/blog/gold-price-volatility-fragile-recovery-faces-fresh-fed-risks/"
+      "name": "TipRanks: gold slips to 3,568 as core PCE locks in Fed hike bets (26 Nov, updated 21:15 SAST)",
+      "url": "https://www.tipranks.com/news/gold-slips-to-3568-as-3-3-core-pce-locks-in-fed-hike-bets-and-hsbc-warns-of-drop-to-3000"
     },
     {
-      "name": "Mitrade: gold rebounds ahead of Thanksgiving on strong GDP (26 Nov)",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-rebounds-ahead-thanksgiving-strong-gdp"
+      "name": "The Library: precious metals daily briefing (26 Nov, 17:13 SAST)",
+      "url": "https://thelibraryestate.com/precious-metals-daily-briefing-gold-steadies-near-one-year-lows-in-thin-thanksgiving-trade-as-fed-hike-bets-hold-nov-26-2026/"
     },
     {
-      "name": "GoodReturns: gold and silver live updates (26 Nov, updated 07:53 SAST)",
-      "url": "https://www.goodreturns.in/news/gold-rate-india-silver-rate-today-26-11-2026-live-comex-silver-price-mcx-gold-24k-22k-18k-gold-price-1549751.html"
+      "name": "FinanceFeeds: gold price today 3,565, holiday bounce from 15-month low (26 Nov, 09:00 SAST)",
+      "url": "https://financefeeds.com/gold-price-today-3565-thursday-holiday-bounce-from-15-month-low-bull-3697-bear-3446/"
     },
     {
-      "name": "FX Leaders: XAU/USD tests 3,600 on Thanksgiving short covering (26 Nov, headline only)",
-      "url": "https://www.fxleaders.com/news/2026/11/26/gold-price-forecast-xau-usd-tests-3600-on-thanksgiving-short-covering/"
+      "name": "USAGOLD: daily precious metals report (26 Nov, 15:44 SAST)",
+      "url": "https://www.usagold.com/daily-precious-metals-market-report-november-26-2026/"
     }
   ]
 }
