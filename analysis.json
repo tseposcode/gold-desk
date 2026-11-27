@@ -1,191 +1,187 @@
 {
-  "updated": "2026-11-27T13:45:00Z",
-  "asof": "2026-11-27T12:29:00Z",
-  "price": 3685,
+  "updated": "2026-11-27T17:36:00Z",
+  "asof": "2026-11-27T16:05:00Z",
+  "price": 3623,
   "bias": {
-    "direction": "neutral",
-    "label": "Pressing the 3,697-3,706 cap; a 1H close above opens 3,738-3,798"
+    "direction": "down",
+    "label": "Rejected at 3,685-3,697; leaning down while under 3,640"
   },
-  "event": "Today, Fri 27 Nov: US half-day after Thanksgiving, thin trade into the close. Mon 30 Nov: month end. Tue 1 Dec: US ISM manufacturing and JOLTS (about 17:00 SAST, time UNVERIFIED). Thu 3 Dec: ISM services. Fri 4 Dec: US jobs report, 15:30 SAST. Fed decision Wed 9 Dec, with a 25 bp hike widely expected.",
+  "event": "Today, Fri 27 Nov: US half-day, thin trade, then the weekend, so Monday can open with a gap. Mon 30 Nov: month end. Tue 1 Dec: US ISM manufacturing and JOLTS (about 17:00 SAST, time UNVERIFIED). Fri 4 Dec: US jobs report, 15:30 SAST. Fed decision Wed 9 Dec (one source says 16 Dec, date UNVERIFIED), with a 25 bp hike about 96% priced.",
   "bullets": [
     {
-      "title": "Rally extended",
-      "text": "COMEX December gold was 3,688 at 14:29 SAST, up about 3.9% with a day high of 3,697.70 (Upstox), after spot hit 3,670.69 at 10:35 SAST (Reuters via Rallies)."
+      "title": "Rally faded",
+      "text": "Spot gold topped near 3,685 (COMEX futures 3,697.70) this afternoon, then pared gains to 3,622.71 by 18:05 SAST, still up about 1.6% on the day (Rallies, FXBrokerTrust, Upstox)."
     },
     {
-      "title": "Weekly gain, monthly loss",
-      "text": "Spot is up about 3% on the week after Wednesday's low near 3,426, but gold is still heading for a third monthly fall (Ancstock, Longbridge)."
+      "title": "First weekly gain",
+      "text": "Gold is heading for its first weekly rise in three weeks, about 2.5%, after Wednesday's 15-month low near 3,426 (Rallies)."
     },
     {
-      "title": "Dollar has paused",
-      "text": "The dollar index was about 103.73, off Monday's peak of 104.53, which gives gold some room (Upstox, Ancstock)."
+      "title": "Fed hike priced",
+      "text": "Rate futures show about a 96% chance of a 25 bp hike in December and about 64% for another by January, after core PCE of 3.3% (Investing.com)."
     },
     {
-      "title": "Hike still priced",
-      "text": "CME FedWatch shows about a 96% chance of a December hike after core PCE of 3.3%, and the US 10-year yield is near 4.85%, so the main pressure on gold is still there."
+      "title": "Dollar and yields",
+      "text": "The dollar index is near 103.8, just off a 20-month high, and the US 10-year yield is near 4.93% (UNVERIFIED, untimed quote), which keeps pressure on gold."
     },
     {
-      "title": "Relief, not reversal",
-      "text": "The bounce is tied to a pause in forced selling after the AI stock slump, and HSBC warns more stock losses could push gold below 3,400."
+      "title": "Short-covering bounce",
+      "text": "Analysts call the move short-covering and bargain buying, and say rallies toward 3,750-3,800 could attract sellers (Zain Vawda via IUX)."
     },
     {
-      "title": "Physical demand firm",
-      "text": "China's gold imports via Hong Kong hit their highest since April in October, and UBS says central banks are still buying."
-    },
-    {
-      "title": "At the big test",
-      "text": "Price is now inside the 3,689-3,706 resistance zone while RoboForex still calls the daily trend bearish, so this is where the bounce breaks out or fails."
+      "title": "Trend still down",
+      "text": "Price is below the 21-day average near 3,833 with RSI about 39, so the daily trend is still bearish (TMGM)."
     }
   ],
   "levels": [
     {
-      "price": "3,738-3,798",
+      "price": "3,738-3,800",
       "type": "resistance",
-      "note": "Mitrade zone 3,738-3,788, RHB resistance 3,750 and RoboForex weekly level 3,798.70"
+      "note": "Mitrade zone 3,738-3,788 and the 3,750-3,800 area where analysts expect sellers"
     },
     {
-      "price": "3,697-3,706",
+      "price": "3,685-3,706",
       "type": "resistance",
-      "note": "Today's futures high 3,697.70, FXEmpire target 3,697 and the 38.2% Fibonacci level 3,706"
-    },
-    {
-      "price": "~3,685",
-      "type": "now",
-      "note": "COMEX futures 3,688 at 14:29 SAST (Upstox); live spot price UNVERIFIED"
+      "note": "Today's spot high 3,685.11, futures high 3,697.70, pivot R2 3,703 and the 38.2% Fibonacci level 3,706"
     },
     {
       "price": "3,664-3,671",
-      "type": "support",
-      "note": "RoboForex level 3,663.80 and the 10:35 SAST spot print 3,670.69; first support if the cap holds"
+      "type": "resistance",
+      "note": "Short averages near 3,668 (FXBrokerTrust) and this morning's 3,670 spot print"
     },
     {
-      "price": "3,651",
-      "type": "support",
-      "note": "This morning's Fibonacci cap (FXEmpire), now broken and acting as support until it fails"
+      "price": "3,631-3,640",
+      "type": "resistance",
+      "note": "Pivot R1 3,636 and the afternoon session low 3,631.58, now overhead"
+    },
+    {
+      "price": "~3,623",
+      "type": "now",
+      "note": "Spot 3,622.71 at 18:05 SAST (Rallies); later price UNVERIFIED"
     },
     {
       "price": "3,600-3,606",
       "type": "support",
-      "note": "23.6% Fibonacci level 3,600, StoneX breakout level 3,606 and Ancstock support 3,600"
+      "note": "23.6% Fibonacci level 3,600, StoneX breakout level 3,606 and the round number"
     },
     {
-      "price": "3,565-3,567",
+      "price": "3,558-3,567",
       "type": "support",
-      "note": "FinanceFeeds bear level 3,567 and Thursday's close near 3,565"
+      "note": "Today's spot low 3,557.80 and Thursday's close near 3,565"
     },
     {
       "price": "3,500-3,529",
       "type": "support",
-      "note": "RoboForex zone 3,500-3,528.90 and Mitrade 3,504-3,524; the 3,500 round number"
+      "note": "RoboForex zone 3,500-3,528.90 and TMGM support 3,500"
     },
     {
       "price": "3,426-3,446",
       "type": "support",
-      "note": "This week's low, 3,426.41 (RoboForex) to 3,445.89 spot (FinanceFeeds) on 25 Nov"
+      "note": "Wednesday's 15-month low, 3,426.35 (Rallies)"
     }
   ],
   "buy": {
-    "title": "Buy plan: pullback to 3,651-3,671 holds (counter-trend)",
-    "entry": 3658,
-    "stop": 3640,
-    "target": 3697,
+    "title": "Buy plan: 3,600-3,606 holds (counter-trend)",
+    "entry": 3605,
+    "stop": 3590,
+    "target": 3637,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,651-3,671, only after a clear hold"
+        "value": "3,600-3,606, only after a clear hold"
       },
       {
         "label": "Stop",
-        "value": "Below 3,640, under the old 3,651 cap"
+        "value": "Below 3,590, under the round number"
       },
       {
         "label": "Targets",
-        "value": "3,685, then 3,697"
+        "value": "3,623, then 3,637"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,645"
+        "value": "1H candle closes below 3,595"
       }
     ],
     "look": [
-      "This is against the bigger daily downtrend, so use half size or skip it.",
-      "A slow pullback into 3,651-3,671 with long lower wicks, not a fast drop through it.",
-      "A higher low on the 15M chart and a close back above 3,675.",
-      "The dollar index staying under 103.80 and US yields not rising.",
-      "Take some profit at 3,685 and move the stop to entry only after that."
+      "This is against the daily downtrend and today's rejection, so use half size or skip it.",
+      "A slow dip into 3,600-3,606 with long lower wicks, not a fast drop through it.",
+      "A higher low on the 15M chart and a close back above 3,612.",
+      "The dollar index staying under 103.9 and US yields not rising.",
+      "Take some profit at 3,623 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying now at 3,685, right under resistance. Wait for the pullback or a clean 1H close above 3,706.",
-      "A 1H close under 3,645 means the breakout has failed and 3,600-3,606 is next. Step aside.",
-      "The US half-day close can bring sharp moves in thin trade. Keep size small.",
+      "Buying in thin Friday or Monday-open trade. A weekend gap can jump straight past your stop.",
+      "A 1H close under 3,595 means 3,558-3,567 is next. Step aside.",
+      "Strong US data on Tuesday or hawkish Fed talk can push gold lower fast.",
       "Moving your stop lower when price gets close. That turns a small loss into a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rally fails at 3,697-3,706 (with the main trend)",
-    "entry": 3700,
-    "stop": 3718,
-    "target": 3655,
+    "title": "Sell plan: retest of 3,631-3,640 fails (with the main trend)",
+    "entry": 3635,
+    "stop": 3652,
+    "target": 3600,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,697-3,706"
+        "value": "Rejection at 3,631-3,640"
       },
       {
         "label": "Stop",
-        "value": "Above 3,718, over the 3,706 Fibonacci level"
+        "value": "Above 3,652"
       },
       {
         "label": "Targets",
-        "value": "3,671, then 3,655"
+        "value": "3,606, then 3,600 (3,567 if it breaks)"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,712"
+        "value": "1H candle closes above 3,648"
       }
     ],
     "look": [
-      "Price pushes into 3,697-3,706 and stalls near today's 3,697.70 high.",
-      "A clear 15M rejection wick or a bearish close back under 3,685.",
-      "A 1H lower high under 3,706 with momentum fading.",
+      "Price bounces back into 3,631-3,640 and stalls there.",
+      "A clear 15M rejection wick or a bearish close back under 3,625.",
+      "A 1H lower high under 3,640 with momentum fading.",
       "The dollar or US yields firming again, which fits the Fed hike pricing.",
-      "Take some profit at 3,671 and move the stop to entry only after that."
+      "Take some profit at 3,606 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling into strength before any rejection shows. Wait for the wick or the close back under 3,685.",
-      "A 1H close above 3,712 means the bounce is stronger and 3,738-3,798 is next. Do not fight it.",
-      "Fed, tariff or Middle East headlines can move price fast in thin holiday trade.",
+      "Chasing the drop at the current price, right above 3,600 support. Wait for the retest.",
+      "A 1H close above 3,648 means buyers are back and 3,664-3,671 is next. Do not fight it.",
+      "Holding a trade over the weekend. Headlines on the Fed, tariffs or the Middle East can gap price at Monday's open.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "Upstox: gold price tracker, COMEX gold live blog (27 Nov, to 15:33 SAST)",
+      "name": "Rallies: gold pares gains as Fed-hike risks linger (27 Nov, 11:05 ET)",
+      "url": "https://rallies.ai/news/gold-pares-gains-as-fed-hike-risks-linger-eyes-first-weekly-rise-in-three-weeks-c5ae88b10eebf1ce"
+    },
+    {
+      "name": "FXBrokerTrust: gold rebounds above 3,660 (27 Nov)",
+      "url": "https://www.fxbrokertrust.com/insights/gold-rebounds-above-3660-as-markets-reassess-december-fed-decision-and-payrolls"
+    },
+    {
+      "name": "Upstox: gold price tracker, COMEX gold live blog (27 Nov, to 15:36 SAST)",
       "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-27-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-gold-prices-today-bullion-market-silver-prices-today/liveblog-204059/"
     },
     {
-      "name": "Rallies: gold gains nearly 3% as dollar rally stalls (27 Nov, Reuters 10:35 SAST)",
-      "url": "https://rallies.ai/news/gold-gains-nearly-3-as-dollar-rally-stalls-equities-stabilise-8005550c83a35ffa"
+      "name": "Investing.com: gold jumps 3% after 15-month low (27 Nov)",
+      "url": "https://www.investing.com/news/commodities-news/gold-steadies-near-15month-low-as-fed-hike-bets-offset-techled-rally-5052805"
     },
     {
-      "name": "Ancstock: gold heads for weekly gain after one-year low (27 Nov, 09:58 SAST)",
-      "url": "https://ancstockinvestments.com/blog/2026/11/27/gold-heads-for-weekly-gain-after-one-year-low/"
+      "name": "IUX: gold pares gains, heads for first weekly rise (27 Nov, 16:54 SAST)",
+      "url": "https://www.iux24.com/news/gold-pares-gains-as-fed-hike-risks-linger-but-heads-for-first-weekly-rise-in-three-weeks-20261127/"
     },
     {
-      "name": "RoboForex: gold weekly forecast, 30 Nov to 4 Dec (27 Nov, 10:10 SAST)",
+      "name": "TMGM: gold rebounds from 15-month low but Fed risks linger (27 Nov)",
+      "url": "https://www.tmgm.com/en-eu/analysis/market-news/article/gold-rebounds-from-15-month-low-but-fed-risks-linger-202611271147"
+    },
+    {
+      "name": "RoboForex: gold weekly forecast, 30 Nov to 4 Dec (27 Nov)",
       "url": "https://roboforex.com/beginners/analytics/forex-forecast/gold/xau-usd-gold-weekly-forecast-2026-11-27/"
-    },
-    {
-      "name": "Trading and Investment News: gold eyes a weekly gain (27 Nov)",
-      "url": "https://www.tradingandinvestmentnews.co.uk/gold-price-rate-hike-weekly-gain/"
-    },
-    {
-      "name": "Mitrade: gold price analysis, 27 Nov 2026",
-      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-dips-holiday-trading-recession-fears"
-    },
-    {
-      "name": "Longbridge: gold rebounds sharply after one-year low (27 Nov)",
-      "url": "https://longbridge.com/en/news/306995310"
     }
   ]
 }
