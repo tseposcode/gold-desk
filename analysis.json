@@ -1,173 +1,178 @@
 {
-  "updated": "2026-11-27T01:45:00Z",
-  "asof": "2026-11-26T23:37:00Z",
-  "price": 3565,
+  "updated": "2026-11-27T05:45:00Z",
+  "asof": "2026-11-27T05:06:00Z",
+  "price": 3636,
   "bias": {
     "direction": "neutral",
-    "label": "Flat at 3,550-3,580 under 3,600; downtrend holds below 3,651"
+    "label": "Sharp bounce into the 3,640-3,651 cap; downtrend holds below 3,651"
   },
-  "event": "Today, Fri 27 Nov: US half-day (stocks close 20:00 SAST), thin trade. Sun 29 Nov: OPEC+ meeting. Mon 30 Nov: month end. Fri 4 Dec: US jobs report (15:30 SAST, UNVERIFIED). Fed decision Wed 9 Dec, 21:00 SAST, with a hike widely expected.",
+  "event": "Today, Fri 27 Nov: US half-day (stocks close 20:00 SAST), thin trade. Sun 29 Nov: OPEC+ meeting. Mon 30 Nov: month end. Fri 4 Dec: US jobs report (15:30 SAST, UNVERIFIED). Fed decision Wed 9 Dec, 21:00 SAST, with a 25 bp hike widely expected.",
   "bullets": [
     {
-      "title": "Quiet Asian open",
-      "text": "Spot gold was around 3,565 early in Friday's Asian session (01:37 SAST), little changed after slipping toward 3,550 overnight (FXStreet via TMGM)."
+      "title": "Fast Asian rally",
+      "text": "Spot gold jumped about 2.8% to 3,636 by about 07:06 SAST, back above 3,600 for the first time since Thursday's failed attempt (Mettis Global; quote time UNVERIFIED)."
     },
     {
-      "title": "Bounce still capped",
-      "text": "Thursday's attempt above 3,600 failed and price ended near 3,568, down about 0.6% on the day (TipRanks)."
+      "title": "Softer dollar",
+      "text": "The US dollar slipped in a risk-on Asian session, which gave gold room to bounce from its 15-month low (FXStreet via TMGM)."
     },
     {
-      "title": "Hike next month",
-      "text": "Markets expect the Fed to raise rates in December and again in early 2027, which keeps the dollar firm and gold heavy (FXStreet)."
+      "title": "Hike still coming",
+      "text": "Markets still price a Fed hike on 9 December, about 99% per Mitrade, after core PCE at 3.3% and Q3 GDP revised to 4.3%, so the bigger pressure on gold has not gone."
     },
     {
-      "title": "Near oversold",
-      "text": "The daily RSI is about 31, close to oversold, so sharp short bounces are possible even inside the downtrend (FXStreet)."
+      "title": "Running hot short-term",
+      "text": "The 1H RSI was about 68, near overbought, so a pullback toward 3,600 is possible before any further push (FXStreet via TMGM)."
     },
     {
-      "title": "Tariff headlines",
-      "text": "New US tariff moves on China, the EU, Mexico and Japan add headline risk in both directions (FXStreet, citing WSJ)."
+      "title": "Into old resistance",
+      "text": "Price is now testing 3,640-3,651, the top of this week's range and the falling trendline since 17 Nov, where the bigger downtrend gets decided."
     },
     {
       "title": "Thin holiday trade",
-      "text": "US markets open only for a half-day today, so moves can be jumpy and breakouts less reliable."
+      "text": "US markets are open only for a half-day today, so moves can be jumpy and breakouts less reliable."
     }
   ],
   "levels": [
     {
-      "price": "3,679-3,697",
+      "price": "3,738-3,792",
       "type": "resistance",
-      "note": "Monday's high 3,689 (TipRanks) and the FinanceFeeds bull level 3,697"
+      "note": "Mitrade resistance 3,738-3,788 and the 50% Fibonacci level 3,792 (FXStreet via TMGM)"
     },
     {
-      "price": "3,635-3,651",
+      "price": "3,673-3,706",
       "type": "resistance",
-      "note": "Main cap: top of the 3,503-3,651 range and the falling trendline since 17 Nov (FinanceFeeds)"
+      "note": "Monday's high 3,689, Mitrade zone 3,673-3,693 and the 38.2% Fibonacci level 3,706; StoneX wedge target 3,690"
     },
     {
-      "price": "3,595-3,605",
+      "price": "3,640-3,651",
       "type": "resistance",
-      "note": "FXEmpire pivot 3,595 and Thursday's high 3,603 where the bounce failed (FinanceFeeds)"
+      "note": "Top of the 3,503-3,651 range and the falling trendline since 17 Nov (FinanceFeeds, 26 Nov)"
     },
     {
-      "price": "~3,565",
+      "price": "~3,636",
       "type": "now",
-      "note": "Around 3,565 early Friday Asia (FXStreet); live price at 03:45 SAST UNVERIFIED"
+      "note": "3,636.44, up 2.79% (Mettis Global, about 07:06 SAST); live price at 07:45 SAST UNVERIFIED"
     },
     {
-      "price": "3,535-3,561",
+      "price": "3,600-3,606",
       "type": "support",
-      "note": "Thursday's low area 3,561 and Wednesday's COMEX settle 3,534.70 (FinanceFeeds, The Library)"
+      "note": "23.6% Fibonacci level 3,600 (FXStreet) and the StoneX wedge breakout level 3,606, old resistance now being tested as support"
     },
     {
-      "price": "3,500-3,503",
+      "price": "3,583",
       "type": "support",
-      "note": "Round 3,500 (Pepperstone, TipRanks) and the bottom of the FinanceFeeds base range"
+      "note": "100-period SMA on the 1H chart; a break below it cancels today's bounce (FXStreet via TMGM)"
     },
     {
-      "price": "3,440-3,450",
+      "price": "3,550-3,565",
       "type": "support",
-      "note": "Wednesday's 15-month low 3,445.89 (FinanceFeeds, TipRanks)"
+      "note": "Bottom of Thursday's holiday range and Thursday's close near 3,565 (Mitrade)"
     },
     {
-      "price": "3,380-3,400",
+      "price": "3,504-3,524",
       "type": "support",
-      "note": "Round 3,400, the HSBC warning level if the low breaks"
+      "note": "Base of this week's V-shaped rebound and the round 3,500 (Mitrade)"
+    },
+    {
+      "price": "3,425-3,446",
+      "type": "support",
+      "note": "This week's 15-month low area near 3,446 (Mitrade, FinanceFeeds)"
     }
   ],
   "buy": {
-    "title": "Buy plan: dip to 3,500-3,535 holds (counter-trend)",
-    "entry": 3510,
-    "stop": 3488,
-    "target": 3560,
+    "title": "Buy plan: pullback to 3,600-3,606 holds (counter-trend)",
+    "entry": 3605,
+    "stop": 3580,
+    "target": 3655,
     "keys": [
       {
         "label": "Buy zone",
-        "value": "3,500-3,535, only after a clear hold"
+        "value": "3,600-3,606, only after a clear hold"
       },
       {
         "label": "Stop",
-        "value": "Below 3,488"
+        "value": "Below 3,580, under the 100-hour SMA"
       },
       {
         "label": "Targets",
-        "value": "3,535, then 3,560"
+        "value": "3,640, then 3,655"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes below 3,490"
+        "value": "1H candle closes below 3,583"
       }
     ],
     "look": [
-      "This is against the bigger downtrend, so use half size or skip it.",
-      "A slow pullback into 3,500-3,535 with long lower wicks, not a fast drop through it.",
-      "A higher low on the 15M chart and a close back above 3,520.",
-      "Yields or the dollar easing, or safe-haven headlines.",
-      "Take some profit at 3,535 and move the stop to entry only after that."
+      "This is still against the bigger downtrend, so use half size or skip it.",
+      "A slow pullback into 3,600-3,606 with long lower wicks, not a fast drop through it.",
+      "A higher low on the 15M chart and a close back above 3,615.",
+      "The dollar staying soft through the London session.",
+      "Take some profit at 3,640 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying right under 3,595-3,605 now. Wait for the pullback.",
-      "A 1H close under 3,490 opens the 3,446 low. Step aside.",
+      "Chasing the rally now at 3,630-3,640, right under resistance. Wait for the pullback.",
+      "A 1H close under 3,583 means the bounce has failed and 3,550 is next. Step aside.",
       "Today's half-day US trade can spike price through stops. Keep size small.",
       "Moving your stop lower when price gets close. That turns a small loss into a big one."
     ]
   },
   "sell": {
-    "title": "Sell plan: rally fails at 3,635-3,651 (with the main trend)",
-    "entry": 3640,
-    "stop": 3660,
+    "title": "Sell plan: rally fails at 3,673-3,690 (with the main trend)",
+    "entry": 3675,
+    "stop": 3712,
     "target": 3600,
     "keys": [
       {
         "label": "Sell zone",
-        "value": "Rejection at 3,635-3,651"
+        "value": "Rejection at 3,673-3,690"
       },
       {
         "label": "Stop",
-        "value": "Above 3,660"
+        "value": "Above 3,712, over the 3,706 Fibonacci level"
       },
       {
         "label": "Targets",
-        "value": "3,600, then 3,568"
+        "value": "3,640, then 3,600"
       },
       {
         "label": "Cancelled if",
-        "value": "1H candle closes above 3,660"
+        "value": "1H candle closes above 3,710"
       }
     ],
     "look": [
-      "Price pushes up into 3,635-3,651 and stalls there.",
-      "A clear 15M rejection wick or a bearish close back under 3,625.",
-      "A 1H lower high under the falling trendline near 3,651.",
-      "The dollar or yields firming again today.",
-      "Take some profit at 3,600 and move the stop to entry only after that."
+      "Price pushes up into 3,673-3,690 and stalls near Monday's high 3,689.",
+      "A clear 15M rejection wick or a bearish close back under 3,665.",
+      "A 1H lower high under 3,706 with RSI turning down from overbought.",
+      "The dollar or US yields firming again later today.",
+      "Take some profit at 3,640 and move the stop to entry only after that."
     ],
     "watch": [
-      "Selling in the middle near 3,550-3,590. Wait for the test of resistance.",
-      "A 1H close above 3,660 means the bounce is stronger and 3,679-3,697 is next. Do not fight it.",
+      "Selling too early at 3,636-3,651 while the bounce still has momentum. Wait for the test of 3,673-3,690.",
+      "A 1H close above 3,710 means the bounce is stronger and 3,738-3,792 is next. Do not fight it.",
       "Fed, tariff or Middle East headlines can move price fast in thin holiday trade.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
   "sources": [
     {
-      "name": "FXStreet via TMGM: gold declines to near 3,550 amid hawkish Fed expectations (27 Nov, 01:37 SAST)",
-      "url": "https://www.tmgm.com/en/analysis/market-news/article/gold-declines-to-near-3-550-amid-hawkish-fed-expectations-202611262337"
+      "name": "Mettis Global: gold rebounds to 3,636 as selling pressure eases (27 Nov, 07:14 SAST)",
+      "url": "https://mettisglobal.news/Gold-rebounds-to-3636-as-selling-pressure-eases-65283"
     },
     {
-      "name": "Mitrade: same FXStreet report (27 Nov)",
-      "url": "https://www.mitrade.com/au/insights/news/live-news/article-2-2280978-20261127"
+      "name": "FXStreet via TMGM: gold extends recovery above 3,600 on weaker USD (27 Nov)",
+      "url": "https://www.tmgm.com/en-eu/analysis/market-news/article/gold-extends-recovery-above-3-600-on-weaker-usd-fed-bets-warrant-caution-for-bulls-202611270432"
     },
     {
-      "name": "TipRanks: gold slips to 3,568 as core PCE locks in Fed hike bets (26 Nov, updated 21:15 SAST)",
-      "url": "https://www.tipranks.com/news/gold-slips-to-3568-as-3-3-core-pce-locks-in-fed-hike-bets-and-hsbc-warns-of-drop-to-3000"
+      "name": "Mitrade: gold price analysis, 27 Nov 2026",
+      "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-dips-holiday-trading-recession-fears"
     },
     {
-      "name": "The Library: precious metals daily briefing (26 Nov, 17:13 SAST)",
-      "url": "https://thelibraryestate.com/precious-metals-daily-briefing-gold-steadies-near-one-year-lows-in-thin-thanksgiving-trade-as-fed-hike-bets-hold-nov-26-2026/"
+      "name": "UNN: gold stabilizes at 3,567 after 15-month low (27 Nov)",
+      "url": "https://unn.ua/en/news/gold-stabilizes-at-dollar3567-per-ounce-after-falling-to-a-15-month-low"
     },
     {
-      "name": "FinanceFeeds: gold price today 3,565, holiday bounce from 15-month low (26 Nov, 09:00 SAST)",
+      "name": "FinanceFeeds: gold price today, range and trendline levels (26 Nov)",
       "url": "https://financefeeds.com/gold-price-today-3565-thursday-holiday-bounce-from-15-month-low-bull-3697-bear-3446/"
     }
   ]
