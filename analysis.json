@@ -1,28 +1,28 @@
 {
-  "updated": "2026-11-27T17:36:00Z",
+  "updated": "2026-11-27T21:40:00Z",
   "asof": "2026-11-27T16:05:00Z",
   "price": 3623,
   "bias": {
     "direction": "down",
-    "label": "Rejected at 3,685-3,697; leaning down while under 3,640"
+    "label": "Rejected at 3,685-3,697; leaning down while under 3,640 into Monday"
   },
-  "event": "Today, Fri 27 Nov: US half-day, thin trade, then the weekend, so Monday can open with a gap. Mon 30 Nov: month end. Tue 1 Dec: US ISM manufacturing and JOLTS (about 17:00 SAST, time UNVERIFIED). Fri 4 Dec: US jobs report, 15:30 SAST. Fed decision Wed 9 Dec (one source says 16 Dec, date UNVERIFIED), with a 25 bp hike about 96% priced.",
+  "event": "Gold is closed or closing for the weekend. Mon 30 Nov: month end, and the open can gap. Tue 1 Dec: US ISM manufacturing and JOLTS, 17:00 SAST. Wed 2 Dec: ADP jobs, 15:15 SAST. Thu 3 Dec: ISM services, 17:00 SAST. Fri 4 Dec: US jobs report, 15:30 SAST. Fed decision Wed 9 Dec (meeting 8-9 Dec), with a 25 bp hike about 95-99% priced.",
   "bullets": [
     {
       "title": "Rally faded",
-      "text": "Spot gold topped near 3,685 (COMEX futures 3,697.70) this afternoon, then pared gains to 3,622.71 by 18:05 SAST, still up about 1.6% on the day (Rallies, FXBrokerTrust, Upstox)."
+      "text": "Spot gold topped near 3,685 (futures 3,693.90) on Friday, then pared gains to 3,622.71 by 18:05 SAST; no later price or Friday close was found, so the close is UNVERIFIED."
     },
     {
       "title": "First weekly gain",
-      "text": "Gold is heading for its first weekly rise in three weeks, about 2.5%, after Wednesday's 15-month low near 3,426 (Rallies)."
+      "text": "Gold is set for its first weekly rise in three weeks, about 3%, after Wednesday's 15-month low near 3,426 (Kitco/Reuters)."
     },
     {
       "title": "Fed hike priced",
-      "text": "Rate futures show about a 96% chance of a 25 bp hike in December and about 64% for another by January, after core PCE of 3.3% (Investing.com)."
+      "text": "Futures show a 95-99% chance of a 25 bp hike on 9 Dec and about 64-66% for more in January, after core PCE of 3.3% and Q3 GDP revised to 4.3%."
     },
     {
       "title": "Dollar and yields",
-      "text": "The dollar index is near 103.8, just off a 20-month high, and the US 10-year yield is near 4.93% (UNVERIFIED, untimed quote), which keeps pressure on gold."
+      "text": "The dollar index is near 103.7-103.8, just off Monday's 20-month high of 104.53, and the US 10-year yield was 4.918% on Friday morning (FinanceFeeds, CNBC)."
     },
     {
       "title": "Short-covering bounce",
@@ -31,6 +31,10 @@
     {
       "title": "Trend still down",
       "text": "Price is below the 21-day average near 3,833 with RSI about 39, so the daily trend is still bearish (TMGM)."
+    },
+    {
+      "title": "Busy week ahead",
+      "text": "US ISM, JOLTS, ADP and the Friday jobs report come before the Fed, so expect bigger swings from Tuesday."
     }
   ],
   "levels": [
@@ -57,7 +61,7 @@
     {
       "price": "~3,623",
       "type": "now",
-      "note": "Spot 3,622.71 at 18:05 SAST (Rallies); later price UNVERIFIED"
+      "note": "Spot 3,622.71 at 18:05 SAST (Rallies); Friday close UNVERIFIED"
     },
     {
       "price": "3,600-3,606",
@@ -111,7 +115,7 @@
       "Take some profit at 3,623 and move the stop to entry only after that."
     ],
     "watch": [
-      "Buying in thin Friday or Monday-open trade. A weekend gap can jump straight past your stop.",
+      "Buying at Monday's open. A weekend gap can jump straight past your stop, so wait for the first hour to settle.",
       "A 1H close under 3,595 means 3,558-3,567 is next. Step aside.",
       "Strong US data on Tuesday or hawkish Fed talk can push gold lower fast.",
       "Moving your stop lower when price gets close. That turns a small loss into a big one."
@@ -150,7 +154,7 @@
     "watch": [
       "Chasing the drop at the current price, right above 3,600 support. Wait for the retest.",
       "A 1H close above 3,648 means buyers are back and 3,664-3,671 is next. Do not fight it.",
-      "Holding a trade over the weekend. Headlines on the Fed, tariffs or the Middle East can gap price at Monday's open.",
+      "Selling straight into Monday's open. Weekend headlines on the Fed, tariffs or the Middle East can gap price; wait for the retest.",
       "Re-entering again and again after being stopped out. One attempt, then step away."
     ]
   },
@@ -168,20 +172,28 @@
       "url": "https://upstox.com/news/market-news/commodities/gold-price-tracker-nov-27-mcx-gold-prices-mcx-silver-rates-comex-gold-comex-silver-gold-prices-today-bullion-market-silver-prices-today/liveblog-204059/"
     },
     {
-      "name": "Investing.com: gold jumps 3% after 15-month low (27 Nov)",
-      "url": "https://www.investing.com/news/commodities-news/gold-steadies-near-15month-low-as-fed-hike-bets-offset-techled-rally-5052805"
-    },
-    {
-      "name": "IUX: gold pares gains, heads for first weekly rise (27 Nov, 16:54 SAST)",
-      "url": "https://www.iux24.com/news/gold-pares-gains-as-fed-hike-risks-linger-but-heads-for-first-weekly-rise-in-three-weeks-20261127/"
-    },
-    {
       "name": "TMGM: gold rebounds from 15-month low but Fed risks linger (27 Nov)",
       "url": "https://www.tmgm.com/en-eu/analysis/market-news/article/gold-rebounds-from-15-month-low-but-fed-risks-linger-202611271147"
     },
     {
       "name": "RoboForex: gold weekly forecast, 30 Nov to 4 Dec (27 Nov)",
       "url": "https://roboforex.com/beginners/analytics/forex-forecast/gold/xau-usd-gold-weekly-forecast-2026-11-27/"
+    },
+    {
+      "name": "Kitco (Reuters): gold pares gains as Fed-hike risks linger (27 Nov, 15:03)",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-11-27/gold-pares-gains-fed-hike-risks-linger-eyes-first-weekly-rise-three"
+    },
+    {
+      "name": "FinanceFeeds: gold price today 3,650, rebound from 15-month low (27 Nov)",
+      "url": "https://financefeeds.com/gold-price-today-3650-friday-rebound-from-15-month-low-silver-up-6-percent-bull-3742-bear-3567/"
+    },
+    {
+      "name": "GSI Exchange: gold rebounds above 3,600, week ahead calendar (27 Nov)",
+      "url": "https://gsiexchange.com/gold-rebounds-above-3-600-after-a-wild-week/"
+    },
+    {
+      "name": "ANC: gold heads for weekly gain after one-year low (27 Nov)",
+      "url": "https://ancstockinvestments.com/blog/2026/11/27/gold-heads-for-weekly-gain-after-one-year-low/"
     }
   ]
 }
